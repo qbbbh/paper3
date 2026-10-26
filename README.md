@@ -1,5 +1,7 @@
 # Paper3：V2V RF/VLC 科研审查与可复现实验
 
+仓库：https://github.com/qbbbh/paper3 （用户确认公开）。
+
 这是待审查的开发快照，不是已完成论文或已证明正确的算法。先读 `MODEL_SPEC.md`、`PROJECT_STATUS.md` 和 `reviews/20261026_mean_chance_review.md`。
 
 ## 阅读顺序
