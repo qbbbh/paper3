@@ -110,6 +110,8 @@
     "SUMO_10_50_100车_建筑公园_20261023/n50/buildings.npz": "b0c3e25ae59789d25f3a2c3dc691ee085880ceee9ad179a13bf3b4c8f66b8f02",
     "SUMO_10_50_100车_建筑公园_20261023/n50/mobility.npz": "26018d5b1d82faee71adc1830635d38c3ef6ed405ec8c7e1ae8823101de1c1bb",
     "SUMO_10_50_100车_建筑公园_20261023/n50/scenario.json": "0555817d8720ee08ce24e559894c1c4dff5112f3658c6bc79ccbf7481471e62b",
-    "tools/verify_snapshot.py": "0bbcea69478f1099d80a1db14d1f35261016db37ed759883f8aeae715a317767"
+    "tools/verify_snapshot.py": "0bbcea69478f1099d80a1db14d1f35261016db37ed759883f8aeae715a317767",
+    "plans/三图一表与CRLB说明_20261026.md": "e2b9ab25feb30d5f0b276109a22af4ce28d308e95b48fe0f9a85b25ab2f3287d",
+    "reviews/energy_metric_recompute_20261026.json": "98cce6dba911e33adaeaa314fd0db0d87e83ba18a27ed1e03802b8f9cdec4adf"
   }
 }
