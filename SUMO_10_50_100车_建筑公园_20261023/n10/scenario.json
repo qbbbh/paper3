@@ -1,0 +1,25 @@
+{
+  "width": 80.0,
+  "height": 80.0,
+  "columns": 3,
+  "rows": 3,
+  "parks": [
+    [
+      1,
+      0
+    ]
+  ],
+  "vehicles": 10,
+  "seed": 20261019,
+  "route_seed": 20261029,
+  "warmup_s": 30.0,
+  "duration_s": 100.0,
+  "step_s": 0.1,
+  "vehicle_length_m": 4.5,
+  "vehicle_width_m": 1.8,
+  "vehicle_height_m": 1.5,
+  "speed_limit_mps": 8.3333333333,
+  "min_gap_m": 2.5,
+  "full_buffer_communication": "not simulated here",
+  "route_policy": "seeded long closed-network walk, straight weight 3 vs turn weight 1; no immediate U-turn; no TraCI vehicle control"
+}
