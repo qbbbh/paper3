@@ -1,0 +1,85 @@
+{
+  "scientific_source_sha256": "95960f5a4b0c23c974ebc48fd7d799a8e7f45f9c58f366531cc723eede4a4925",
+  "audits": [
+    {
+      "directory": "E:\\博士\\课题论文\\第3篇-修改版\\GitHub_Paper3\\paper3-v2v-vlc-rf\\resource_allocation\\n10\\results\\n10_cont_q1_100b_cand_fair_20261026",
+      "success": true,
+      "blocks": 100,
+      "linkblocks": 500,
+      "failedchecks": [],
+      "source": {
+        "recorded": "95960f5a4b0c23c974ebc48fd7d799a8e7f45f9c58f366531cc723eede4a4925",
+        "current": "95960f5a4b0c23c974ebc48fd7d799a8e7f45f9c58f366531cc723eede4a4925",
+        "matches": true
+      }
+    },
+    {
+      "directory": "E:\\博士\\课题论文\\第3篇-修改版\\GitHub_Paper3\\paper3-v2v-vlc-rf\\resource_allocation\\n10\\results\\n10_cont_q1_100b_cand_mean32_v2_20261026",
+      "success": true,
+      "blocks": 100,
+      "linkblocks": 500,
+      "failedchecks": [],
+      "source": {
+        "recorded": "95960f5a4b0c23c974ebc48fd7d799a8e7f45f9c58f366531cc723eede4a4925",
+        "current": "95960f5a4b0c23c974ebc48fd7d799a8e7f45f9c58f366531cc723eede4a4925",
+        "matches": true
+      }
+    },
+    {
+      "directory": "E:\\博士\\课题论文\\第3篇-修改版\\GitHub_Paper3\\paper3-v2v-vlc-rf\\resource_allocation\\n10\\results\\n10_cont_q1_100b_joint_fair_20261026",
+      "success": true,
+      "blocks": 100,
+      "linkblocks": 500,
+      "failedchecks": [],
+      "source": {
+        "recorded": "95960f5a4b0c23c974ebc48fd7d799a8e7f45f9c58f366531cc723eede4a4925",
+        "current": "95960f5a4b0c23c974ebc48fd7d799a8e7f45f9c58f366531cc723eede4a4925",
+        "matches": true
+      }
+    },
+    {
+      "directory": "E:\\博士\\课题论文\\第3篇-修改版\\GitHub_Paper3\\paper3-v2v-vlc-rf\\resource_allocation\\n10\\results\\n10_cont_q1_100b_joint_mean32_v2_20261026",
+      "success": true,
+      "blocks": 100,
+      "linkblocks": 500,
+      "failedchecks": [],
+      "source": {
+        "recorded": "95960f5a4b0c23c974ebc48fd7d799a8e7f45f9c58f366531cc723eede4a4925",
+        "current": "95960f5a4b0c23c974ebc48fd7d799a8e7f45f9c58f366531cc723eede4a4925",
+        "matches": true
+      }
+    }
+  ],
+  "material_copy_hash_failures": [],
+  "csv_roundtrip": [
+    {
+      "n": 10,
+      "frames": 1001,
+      "vehicle_time_rows": 10010,
+      "roundtrip_exact": true,
+      "mismatches": []
+    },
+    {
+      "n": 50,
+      "frames": 1001,
+      "vehicle_time_rows": 50050,
+      "roundtrip_exact": true,
+      "mismatches": []
+    },
+    {
+      "n": 100,
+      "frames": 1001,
+      "vehicle_time_rows": 100100,
+      "roundtrip_exact": true,
+      "mismatches": []
+    }
+  ],
+  "entry_link_failures": [],
+  "tests": {
+    "passed": 156,
+    "seconds": 26.08,
+    "interpreter": "Python environment with torch 2.0.0+cpu and numpy 1.24.3",
+    "initial_environment_error": "default D:/anaconda Python lacked torch; no dependency or scientific source changed"
+  },
+  "new_scientific_simulations": 0
+}

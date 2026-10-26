@@ -1,0 +1,38 @@
+{
+  "source_sha256": "95960f5a4b0c23c974ebc48fd7d799a8e7f45f9c58f366531cc723eede4a4925",
+  "audits": [
+    {
+      "run": "n10_cont_q1_100b_cand_fair_20261026",
+      "success": true,
+      "blocks": 100,
+      "linkblocks": 500,
+      "failedchecks": []
+    },
+    {
+      "run": "n10_cont_q1_100b_cand_mean32_v2_20261026",
+      "success": true,
+      "blocks": 100,
+      "linkblocks": 500,
+      "failedchecks": []
+    },
+    {
+      "run": "n10_cont_q1_100b_joint_fair_20261026",
+      "success": true,
+      "blocks": 100,
+      "linkblocks": 500,
+      "failedchecks": []
+    },
+    {
+      "run": "n10_cont_q1_100b_joint_mean32_v2_20261026",
+      "success": true,
+      "blocks": 100,
+      "linkblocks": 500,
+      "failedchecks": []
+    }
+  ],
+  "tests": {
+    "initial": "155 passed, 1 failed because packaged geometry fixture was missing",
+    "repair": "copied original reference/geometry_expected.npz without changing code",
+    "recheck": "the sole failed test passed; 156 tests now individually verified"
+  }
+}

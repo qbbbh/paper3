@@ -1,0 +1,32 @@
+[
+  {
+    "n": 50,
+    "run": "n50_mlp_eval",
+    "source_sha256": "58dbfa5aa038e2c0e0746e9426472f9098b6a48af6abab3c801c3788468cbad2",
+    "status": "historical only; current model not revalidated"
+  },
+  {
+    "n": 50,
+    "run": "n50_credit_v3",
+    "source_sha256": "db0a564c8986792407e9d27a552d47bd9bcc33175505c1b1b1ea1b57b0561ed3",
+    "status": "historical only; current model not revalidated"
+  },
+  {
+    "n": 100,
+    "run": "n100_hg_eval",
+    "source_sha256": "58dbfa5aa038e2c0e0746e9426472f9098b6a48af6abab3c801c3788468cbad2",
+    "status": "historical only; current model not revalidated"
+  },
+  {
+    "n": 100,
+    "run": "n100_hg2_eval",
+    "source_sha256": "58dbfa5aa038e2c0e0746e9426472f9098b6a48af6abab3c801c3788468cbad2",
+    "status": "historical only; current model not revalidated"
+  },
+  {
+    "n": 100,
+    "run": "n100_hg2_credit_v3",
+    "source_sha256": "db0a564c8986792407e9d27a552d47bd9bcc33175505c1b1b1ea1b57b0561ed3",
+    "status": "historical only; current model not revalidated"
+  }
+]

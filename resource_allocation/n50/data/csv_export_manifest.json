@@ -1,0 +1,167 @@
+{
+  "n": 50,
+  "frames": 1001,
+  "vehicle_time_rows": 50050,
+  "csv_chunks": [
+    "mobility_rows_000000_001999.csv",
+    "mobility_rows_002000_003999.csv",
+    "mobility_rows_004000_005999.csv",
+    "mobility_rows_006000_007999.csv",
+    "mobility_rows_008000_009999.csv",
+    "mobility_rows_010000_011999.csv",
+    "mobility_rows_012000_013999.csv",
+    "mobility_rows_014000_015999.csv",
+    "mobility_rows_016000_017999.csv",
+    "mobility_rows_018000_019999.csv",
+    "mobility_rows_020000_021999.csv",
+    "mobility_rows_022000_023999.csv",
+    "mobility_rows_024000_025999.csv",
+    "mobility_rows_026000_027999.csv",
+    "mobility_rows_028000_029999.csv",
+    "mobility_rows_030000_031999.csv",
+    "mobility_rows_032000_033999.csv",
+    "mobility_rows_034000_035999.csv",
+    "mobility_rows_036000_037999.csv",
+    "mobility_rows_038000_039999.csv",
+    "mobility_rows_040000_041999.csv",
+    "mobility_rows_042000_043999.csv",
+    "mobility_rows_044000_045999.csv",
+    "mobility_rows_046000_047999.csv",
+    "mobility_rows_048000_049999.csv",
+    "mobility_rows_050000_050049.csv"
+  ],
+  "original_sha256": {
+    "mobility.npz": "26018d5b1d82faee71adc1830635d38c3ef6ed405ec8c7e1ae8823101de1c1bb",
+    "buildings.npz": "b0c3e25ae59789d25f3a2c3dc691ee085880ceee9ad179a13bf3b4c8f66b8f02"
+  },
+  "arrays": {
+    "time_s": {
+      "shape": [
+        1001
+      ],
+      "dtype": "float64"
+    },
+    "simulation_time_s": {
+      "shape": [
+        1001
+      ],
+      "dtype": "float64"
+    },
+    "vehicle_ids": {
+      "shape": [
+        50
+      ],
+      "dtype": "<U6"
+    },
+    "front_xy_m": {
+      "shape": [
+        1001,
+        50,
+        2
+      ],
+      "dtype": "float64"
+    },
+    "center_xy_m": {
+      "shape": [
+        1001,
+        50,
+        2
+      ],
+      "dtype": "float64"
+    },
+    "rear_xy_m": {
+      "shape": [
+        1001,
+        50,
+        2
+      ],
+      "dtype": "float64"
+    },
+    "heading_rad": {
+      "shape": [
+        1001,
+        50
+      ],
+      "dtype": "float64"
+    },
+    "speed_mps": {
+      "shape": [
+        1001,
+        50
+      ],
+      "dtype": "float64"
+    },
+    "acceleration_mps2": {
+      "shape": [
+        1001,
+        50
+      ],
+      "dtype": "float64"
+    },
+    "lane_id": {
+      "shape": [
+        1001,
+        50
+      ],
+      "dtype": "<U64"
+    },
+    "lane_position_m": {
+      "shape": [
+        1001,
+        50
+      ],
+      "dtype": "float64"
+    },
+    "vehicle_length_m": {
+      "shape": [
+        50
+      ],
+      "dtype": "float64"
+    },
+    "vehicle_width_m": {
+      "shape": [
+        50
+      ],
+      "dtype": "float64"
+    },
+    "vehicle_height_m": {
+      "shape": [
+        50
+      ],
+      "dtype": "float64"
+    }
+  },
+  "csv_sha256": {
+    "buildings.csv": "54c7aaf139b8107ae43480052d0b1ad7ac3d97508904ecd50e95ad79169e0065",
+    "mobility_preview.csv": "8052bdc3b14f7529bbab2f948dde46de638344872a922c6ab90047589cc79f06",
+    "mobility_rows_000000_001999.csv": "186a4ca892376b5ba9485b3b08d5b2822365d7ce86ee8c2186ba684a32f301d7",
+    "mobility_rows_002000_003999.csv": "ed2204e8989bff00994180b04a2030d915a9dd75f7f97668cd3b173429ab623f",
+    "mobility_rows_004000_005999.csv": "18c40a79dd14dafffd753cbeae0693ba610de6e55e9663794829f17e5c5a28df",
+    "mobility_rows_006000_007999.csv": "0f3bdcc3a049a561e403c1d40ccad6ccb7f3549c5824046fb1c8f0f758a72b3f",
+    "mobility_rows_008000_009999.csv": "37879cfdc1d70e39119d30b46fc31751009d49567ea44b75ff9462dffd9c8379",
+    "mobility_rows_010000_011999.csv": "adb229442e2f8da98648b1663ca98e8baae9bb71d816cf264bdcf60e7b30798e",
+    "mobility_rows_012000_013999.csv": "da0196b401387cd062baa273e518087463bf419a748b0fbc3c41aaf6105d08c6",
+    "mobility_rows_014000_015999.csv": "478624820e62a010293ed2815966287db00253c7d8df9e740558bfe7291f2d9c",
+    "mobility_rows_016000_017999.csv": "6dd1b3ec81777f3dd037ed21cec6ef026dc6205059b650728a9cb7e5ee59d84c",
+    "mobility_rows_018000_019999.csv": "2d2e9392d39d9c4c8bbd6a696b64df55a04982897d90648cd6bcff7e6b7da51b",
+    "mobility_rows_020000_021999.csv": "3a4bdd540215870dcf4505dd1dd187e60b6b9ea8cc8aac90d03b723a7a4f1234",
+    "mobility_rows_022000_023999.csv": "0fdfe998e9d60b03e3d21f0b1fd4b945320fda2c259e1aeb3b5436e5d5f0c1ea",
+    "mobility_rows_024000_025999.csv": "449f4d00398b7c7c208f03d009a3301b00f1cd7217509d0bfbf4aa72ae3ced9f",
+    "mobility_rows_026000_027999.csv": "ec7634aed76265b3406396eb6518d06e21de7f0a647fc3a1f4599411b3d40fb0",
+    "mobility_rows_028000_029999.csv": "45930a06c22c4db3fa45c87e9805713459c3106e9ed5b617b26473b4400421e0",
+    "mobility_rows_030000_031999.csv": "3fb61974cd1a531e0384f6e3b8386d60088efdae4b9a47e7bd4aaf8c55e9d1bb",
+    "mobility_rows_032000_033999.csv": "f96dce62a4483b1a471ed5f8f43e8a67221285308a361525e6e087f5a815eaf1",
+    "mobility_rows_034000_035999.csv": "656eac2dbd7af747ab0fb98b84ab9625a3d470b75932ff1bbffff274c6ecc2d6",
+    "mobility_rows_036000_037999.csv": "cff38fe520dee4690865448b7ae5645f79e19b5034d3545018d8b3f6c5f826b0",
+    "mobility_rows_038000_039999.csv": "6245478d3cb9be8ca350dff04a8c7000109dbab7f9bbba73428ce9a5a540811c",
+    "mobility_rows_040000_041999.csv": "b95d5d493d991e9b0c90196837b980107c9991cc14b941cdfaf5c4e83017a726",
+    "mobility_rows_042000_043999.csv": "06af8d236492419e3278f7c0f1b7ea61dc5e56464b741a5d9b75e8758c78642a",
+    "mobility_rows_044000_045999.csv": "9ed5b31d3afab624c097e0491ca872a930e64151fa0c4d6c59c23972a60104ac",
+    "mobility_rows_046000_047999.csv": "4efc497fbc28e29d84f71a3644dbb7c9014b50f5579d18ab0398d5fec7bede37",
+    "mobility_rows_048000_049999.csv": "51bfaba7b6ab171f69efac37c1ca9a719af5002a64bdfd531fd3da69c46b95e5",
+    "mobility_rows_050000_050049.csv": "6a1d0e19a3a2683f2a35e0329ae6e8b282a94c0baba444253be8d9b9bcb9700d",
+    "vehicles.csv": "4a8557a41c0dd5cdae106bb60d1bbc3b3afd9429645456cc3508c6022838f6cd"
+  },
+  "roundtrip_exact": true,
+  "mismatches": []
+}

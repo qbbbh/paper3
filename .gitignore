@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.runtime/
+.venv/
+.env
+*.pt
+*.pth
+outputs/
+/resource_allocation/n100/data/mobility.npz
+/resource_allocation/n50/data/mobility.npz
+/resource_allocation/n10/results/n10_cont_q1_100b_cand_fair_20261026/fine_samples.npz
+/resource_allocation/n10/results/n10_cont_q1_100b_cand_mean32_v2_20261026/fine_samples.npz
+/resource_allocation/n10/results/n10_cont_q1_100b_joint_fair_20261026/continuous_power_audit.json.gz
+/resource_allocation/n10/results/n10_cont_q1_100b_joint_fair_20261026/fine_samples.npz
+/resource_allocation/n10/results/n10_cont_q1_100b_joint_mean32_v2_20261026/continuous_power_audit.json.gz
+/resource_allocation/n10/results/n10_cont_q1_100b_joint_mean32_v2_20261026/fine_samples.npz
