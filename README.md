@@ -14,6 +14,6 @@
 
 `code/README.md` 是来源快照的说明，其中历史内容须与本仓库规格、复核记录核对。50/100车学习代码只作为开发资料，不代表验收通过。
 
-首次检查：`python tools/verify_snapshot.py`。单测：在 code/ 下执行 `python -m pytest -q`。依赖记录见 requirements.txt；上传前本机验证结果见 reviews/package_validation.json。
+首次检查：`python tools/restore_data.py`（首次还原大文件），再执行 `python tools/verify_snapshot.py`。单测：在 code/ 下执行 `python -m pytest -q`。依赖记录见 requirements.txt；上传前本机验证结果见 reviews/package_validation.json。
 
 GitHub负责版本和审查记录，不能保证Chat、Codex或Work自动遵守规则。正式执行还需固定源码、配置和数据，执行前后复算哈希。当前没有自动启动正式实验的工作流。
