@@ -1,0 +1,308 @@
+[
+  {
+    "path": "RF_0.1159W_Wang2024_来源核实_20261026.md",
+    "bytes": 944,
+    "sha256": "9a7cd37c9600a8267a7d71bdb077eb58f7cd264cd4d437a878d4d07f162a76ec",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原研究目录文献/Mayahi_2022.bib",
+    "bytes": 401,
+    "sha256": "94b175340c1f2955586d9e2c2bf584881a10e376dea4fa5033c1c03954caac61",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原研究目录文献/Mayahi_2022_Communication_Protocols_2022ULILB046.pdf",
+    "bytes": 6399696,
+    "sha256": "fa98fc09ac497e8dc193fffa069b8ca851c9bbe3cc8542277ae19741a80aa048",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原研究目录文献/Mayahi_2022_参数来源说明.md",
+    "bytes": 2012,
+    "sha256": "6cf71c820d9c59c853f62f837cbae18659e42bbba07ad6a8cc60b79746a95a4c",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/1.智能交通Parallel_Transportation_Systems_Toward_IoT-Enabled_Smart_Urban_Traffic_Control_and_Management.pdf",
+    "bytes": 2716983,
+    "sha256": "75db3fb0c079ce565f1a9f8106ba5f4d1554c47d8804f7cf8323d2ccd7fac1cd",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/10.Vasilis不完美的CSI-On_Optimal_Resource_Allocation_for_Hybrid_VLC_RF_Networks_With_Common_Backhaul.pdf",
+    "bytes": 1386837,
+    "sha256": "a306db8a9cdec28592468017bac10d9ce9bed52e3ffbe232c95eb0e03d194ff5",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/11.Dimitrios有用-参考文献-Proactive_Resource_Allocation_for_Aggregated_VLC_RF_Networks_With_Outdated_CSI.pdf",
+    "bytes": 873473,
+    "sha256": "748544ddf602f63ae874c0e18be2aba86f1bcd4209b8c4ff993ffea9086c81f8",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/12.WU-重要-李雅普诺夫-不同时间尺度资源分配-Adaptive_Network_Resource_Optimization_for_Heterogeneous_VLC_RF_Wireless_Networks.pdf",
+    "bytes": 1963150,
+    "sha256": "183963c033f2662dd6b501cf337166807c6879e037bd6796cd016785c6bc27bf",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/13.Hanaa-信道估计-On_the_Performance_of_Visible_Light_Communication_Systems_With_Non-Orthogonal_Multiple_Access.pdf",
+    "bytes": 1983089,
+    "sha256": "ced35dfcd191a36021a1a7a1dd1a0b66ab4dbe495577b0be578da0f74f9a0d7e",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/14.28.A_Robust_and_Energy_Efficient_NOMA-Enabled_Hybrid_VLC_RF_Wireless_Network.pdf",
+    "bytes": 1120430,
+    "sha256": "7c9d63ee210e92a3e45c16c02a811a530d6c883c92ea6aee845b0625ae800ee8",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/14.Xu-可见光通信异构网络（VLC-HetNet）：移动场景的新模型和协议-Visible light communications heterogeneous network (VLC-HetNet) new model and protocols for mobile scenario.pdf",
+    "bytes": 1052086,
+    "sha256": "2b713aa856f4ebddc42e4363f8b0f9c00d1ab1a912e6fa1cd7d0751b314b5a8c",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/15.29.Energy-Efficient_Resource_Allocation_for_Aggregated_RF_VLC_Systems.pdf",
+    "bytes": 1276118,
+    "sha256": "660eec0fb611b267133d312e2cf9fc0279cbc026e12f9b0660347c8bbae8c38e",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/15.RF路径损耗公式-Energy efficiency-通过基于 Q 学习的方案稳定车载接入点的毫米波回程能源效率.pdf",
+    "bytes": 3668694,
+    "sha256": "27a43d9a4b92f0c5877807b658463475282c01ab9903cfecb1a7bbfc5b24ebfc",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/16.路径损耗模型Channel_Modelling_and_Performance_Limits_of_Vehicular_Visible_Light_Communication_Systems.pdf",
+    "bytes": 1893335,
+    "sha256": "63bf5cc27431ebebfe559f0dcd4c138e8e863cff380ab5c12df91adda3786736",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/17.扩展卡尔曼ZF高速移动-提到车用-Nonlinear_Kalman_Filter-Based_Robust_Channel_Estimation_for_High_Mobility_OFDM_Systems.pdf",
+    "bytes": 1844241,
+    "sha256": "57992ce9ae8e99c167428e022d9f01b38920d16a88c9fe4513293a006af7ac38",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/18.Heterogeneous VLCRF multi-hop cluster V2V channel allocation algorithm based on equivalent SINR.pdf",
+    "bytes": 5293296,
+    "sha256": "7e9dcd4c1e0d6b31505d8283434c697d6a6dfd65f41ab16058f1d90e93933733",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/19.约束条件-车载通信频谱分配和功率控制的多目标进化优化Multi‑Objective Evolutionary Optimization for Spectrum Allocation and Power Control in Vehicular Communications.pdf",
+    "bytes": 2632475,
+    "sha256": "62c3702658398691ad504739529ab11f2a5563f246c27ede858a04e74feb5cf1",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/2.异构车辆通信：综合研究-Heterogeneous vehicular communications_ A comprehensive study.pdf",
+    "bytes": 2244927,
+    "sha256": "8e53fa6bebb1b5024bdcdfb3ab336ede95de04a06faa4ca5137a82c3463c64f8",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/20.Dinkelbach和SCA加速求解EE波束成形-Energy-Efficient_Beamforming_Design_for_MU-MISO_Mixed_RF_VLC_Heterogeneous_Wireless_Networks.pdf",
+    "bytes": 1506460,
+    "sha256": "e35f4062cda850deef153f043cfc69e8aa62e2efce1a1e979dc1688ebb4e8234",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/21.补充技术 仔细看看Joint Access Point Assignment and Power.pdf",
+    "bytes": 865503,
+    "sha256": "02d517a0617b71c167e7383b8434bf0a168105e9c0b289a84e11b0d8e58af866",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/22.AEU-复杂度-Energy efficiency optimization for MM-NOMA heterogeneous network with wireless backhauling and energy harvesting.pdf",
+    "bytes": 849648,
+    "sha256": "3dd3340dadea0586fb5dc7096adb31514a260796af018c1290b125255b9a0f17",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/23.AEU-Energy-efficient joint resource allocation for heterogeneous cellular networks with wireless backhauls.pdf",
+    "bytes": 822732,
+    "sha256": "ea8a7ff901d7dfb6a0b0bff278382fa25528c262a6c8664e765a534f700569b7",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/24.对比算法-交替-重要VLC in Future Heterogeneous Networks Energy- and Spectral-Efficiency Optimization.pdf",
+    "bytes": 311899,
+    "sha256": "4be58695c6b9997c2582d95ee7f768d4eaeecb7fc8fe72a761fa3b12b6c56ff3",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/25.IPM-对比算法-1+gamma辅助变量-公式12SCA重要指标Energy-Minimization Task Offloading and Resource Allocation for Mobile Edge Computing in NOMA Heterogeneous Networks.pdf",
+    "bytes": 1338267,
+    "sha256": "94de7ac9ad3e92e5873125fb35f0f144edb88cbf350a742b015f1932053add54",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/26.对比算法-普通-Energy-Efficient Resource Allocation for Phantom Cellular Networks With Imperfect CSI.pdf",
+    "bytes": 1226350,
+    "sha256": "b7041842fad6122e556a6643643530afe8648cbbfd970a0466a8b32415a827db",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/27.VMARL-对比算法Spectrum_Sharing_in_Vehicular_Networks_Based_on_Multi-Agent_Reinforcement_Learning.pdf",
+    "bytes": 1461142,
+    "sha256": "9879e53e940abc743ebb1ac50abf9bb2f1ee9599d7a08133ccfafe65c70da726",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/3.On_Energy_Efficiency_of_Visible_Light_Communication_Systems.pdf",
+    "bytes": 6042554,
+    "sha256": "98ad9c264e753c3809d1d8f039d2368fa77576bf11eabfd27f1ad8f4e4989a28",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/4.Energy-Efficient_Heterogeneous_Networking_for_Electric_Vehicles_Networks_in_Smart_Future_Cities.pdf",
+    "bytes": 3115129,
+    "sha256": "e53b7611bd6cc7b3590ba96c269e1a34b933002b23cab28b51bb2425cb4174e3",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/5.Wang-有用-参考文献-遗传算法优化连接状态和功率分配-Cell_Zooming_for_Hybrid_VLC-RF_Cellular_Networks_With_High_Energy_Efficiency.pdf",
+    "bytes": 794169,
+    "sha256": "8440f1157f81fcdfb9a8af1f388c0e899eecca8c4ca5bbbeb886f650ca6c5f80",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/6.DSCA-Energy_Efficient_Subchannel_and_Power_Allocation_for_Software-defined_Heterogeneous_VLC_and_RF_Networks.pdf",
+    "bytes": 2219634,
+    "sha256": "abc589cebfb89987c5dd4d2fbe401e80a476f67893d4d5f10b3a48abb5f009b2",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/6.Zhang-Energy_Efficient_Subchannel_and_Power_Allocation_for_Software-defined_Heterogeneous_VLC_and_RF_Networks.pdf",
+    "bytes": 2219634,
+    "sha256": "abc589cebfb89987c5dd4d2fbe401e80a476f67893d4d5f10b3a48abb5f009b2",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/7.Konstantinos-不完美CSI-Energy_Efficient_Cooperative_Communications_in_Aggregated_VLC_RF_Networks_With_NOMA.pdf",
+    "bytes": 8845179,
+    "sha256": "1d727af842afe54c8f35efb53c7f75441c733e4178b6da132675042825bc7589",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/8.Sotirios-Joint Energy-efficient and Throughput-sufficient Transmissions in 5G Cells with Deep Q-Learning.pdf",
+    "bytes": 1941990,
+    "sha256": "32df198fb030c1c4385f865bca4daabe2736c95726ed21cdc8acb2f7129c69bf",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/9.过时CSI-具有过时 CSI 和不完善 SIC 的 NOMA‑V2V 协作系统的性能分析.pdf",
+    "bytes": 1905083,
+    "sha256": "ea6d98742fbd1b23f10ccd4fcf4705a4062245235a10d63653a53f4a780d6052",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/Downlink Interference Management in Cell-Free VLC Network.pptx",
+    "bytes": 192989,
+    "sha256": "7110d6974b1fd890fc72cd005b8ee4f97c6af2cb38d9e0adfd5f9f3308d85b05",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/ee.pptx",
+    "bytes": 2483727,
+    "sha256": "24cd80559d17bad8d6f0633a88a156e2e44e2eaa71e17c468e483cbecacb66b5",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/Learning-based energy-efficient resource management by heterogeneous ...pdf",
+    "bytes": 8487322,
+    "sha256": "7d161303ca3cef452175268b66c281a7f42a2961a56d779682ee16c822fbe85d",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/On_the_Performance_Optimization_of_Two-Way_Hybrid_VLC_RF-Based_IoT_System_Over_Cellular_Spectrum.pdf",
+    "bytes": 4815343,
+    "sha256": "5e5879d2699eee06e284225720662b32aaff7435a30591eb02ece8e9c540daf5",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/SALIHA贝叶斯异构室内VLC定位-A_Bayesian_Perspective_on_RSS_Based_Localization_for_Visible_Light_Communication_With_Heterogeneous_Networks_Extension.pdf",
+    "bytes": 2059714,
+    "sha256": "514695e882dae746598bf168ab652cbcf800afc7d52c536c33255d012aed30f8",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/信道估计.pptx",
+    "bytes": 432077,
+    "sha256": "b8b684aff53db1d62d8bb99f733d5bcee55927586dd4ff67db710b874df855f8",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/信道估计2.pptx",
+    "bytes": 1163853,
+    "sha256": "c55d3e0108336b74164f279fa73242dfff93d30287e28836262c8632f61bc2f5",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/卡尔曼滤波信道估计.docx",
+    "bytes": 830165,
+    "sha256": "d1a1cf92be9677dbd17de912f5b64828cd929c4a670d6241cebcc32f5a751a5b",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/多径效应Channel_Modeling_and_Analysis_of_Reconfigurable_Intelligent_Surfaces_Assisted_Vehicular_Networks.pdf",
+    "bytes": 1199898,
+    "sha256": "3d84b1af3823cb3f1f1d8d676fc6c3113714db29e7a3a1eaa663d6f3d1dbd2a9",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/多普勒效应Doppler_effect_in_VANET_technology_on_high_users_mobility.pdf",
+    "bytes": 949720,
+    "sha256": "5836a258ce268579c1758903933b91a0913d1f6dc0a3e4c523563451e01d533b",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/干扰管理拓扑结构-Downlink_Interference_Management_in_Cell-Free_VLC_Network.pdf",
+    "bytes": 1268252,
+    "sha256": "7616bea724cd1de8185018946f0cee1d2a1311a82b6d66ac8688fe5cbfec4693",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/异构网络CRS干扰消除算法-CRS interference cancellation algorithm for heterogeneous network.pdf",
+    "bytes": 187091,
+    "sha256": "198fef5a5e82fe1efdc4221c83a1bcd9ace92672606933f5ba1b5f94f635fa20",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/资源分配系数-Optimal_Aggregation_of_RF_and_VLC_Bands_for_Beyond_5G_Mobile_Services.pdf",
+    "bytes": 1176693,
+    "sha256": "8911414ba158e86a849712fdb21b0c5fcba23cbd515691a3e9e11a6d8ed8fa20",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/重要-李雅普诺夫-不同时间尺度资源分配-Adaptive_Network_Resource_Optimization_for_Heterogeneous_VLC_RF_Wireless_Networks.pdf",
+    "bytes": 1960400,
+    "sha256": "e2dcb297b1d3b8a01cfdb5de720cca11b5e4ec583c030c44b464ac9d0fedd211",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/重要Energy-Efficient D2D Communication under Downlink HetNets.pdf",
+    "bytes": 639533,
+    "sha256": "0ca85b3418d9bb6b6847d49286286af1d66e3696f890de41d59bb7406d635576",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/重要VLC in Future Heterogeneous Networks Energy- and Spectral-Efficiency Optimization.pdf",
+    "bytes": 311899,
+    "sha256": "4be58695c6b9997c2582d95ee7f768d4eaeecb7fc8fe72a761fa3b12b6c56ff3",
+    "uploaded_full_text": false
+  },
+  {
+    "path": "原项目根目录文献/阻塞-光与影：关于克服室内 VLC 中的 LOS 阻塞和干扰的合作和预编码方案的全面调查Lights and Shadows_ A Comprehensive Survey on Cooperative and Precoding Schemes to Overcome LOS Blockage and Interference in Indoor VLC by.pdf",
+    "bytes": 4000013,
+    "sha256": "69df48b5d2c0a8382ce1a90ce88aa838c90b5f4434fb3e9694a9973e54bb25d7",
+    "uploaded_full_text": false
+  }
+]

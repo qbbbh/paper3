@@ -1,14 +1,17 @@
-# 参数来源与资料范围
+# 参考文献与既有阅读材料
 
-## RF 0.1159 W
-Wang et al., Joint cooperative caching and power control for UAV-assisted internet of vehicles, Scientific Reports 14,9341 (2024), Table 2, DOI 10.1038/s41598-024-59823-9。115.9mW是仿真参数，不是本车载硬件实测；不自动继承原文其他功放效率或能耗定义。详见RF_0.1159W_source.md。
+前一版只放了RF/VLC电路功耗和分式规划的少数来源，确实不足以交接整篇研究。本次补入完整历史目录、笔记、BibTeX与本地原件清单。
 
-## VLC 1.745 W
-Meysam Mayahi, Communication Protocols Based on Alternative Paradigm for Wireless Mobile Devices, Université de Lille, 2022，Table5.2，正文57页/PDF69页。DAC1.4W+TA0.345W。参考路灯基础设施发送前端部件，作为工程假设；不含整灯照明或接收端，非车载实测。
-原文：https://pepite-depot.univ-lille.fr/LIBRE/EDMADIS/2022/2022ULILB046.pdf
-本地原PDF SHA256：fa98fc09ac497e8dc193fffa069b8ca851c9bbe3cc8542277ae19741a80aa048。
+|入口|范围|证据等级|
+|---|---|---|
+|[核心阅读路线](CORE_READING.md)|原Paper3、RF/VLC、CSI老化、分式规划、估计界、学习|说明借鉴目的，不替代逐篇核实|
+|[文献目录](catalogue/part_01.md)|625条历史记录；7份Markdown分册、全量CSV|历史自动分类，有重复/误分类，不是625篇已精读论文|
+|[全量目录CSV](catalogue/literature_catalogue.csv)|题名、类别、中文简介与原相对位置|保留旧摘要结论的来源状态，没有新造DOI|
+|[本地参考原件清单](catalogue/local_reference_inventory.json)|本项目参考文献目录内51个文件的名称、大小、SHA-256|证明文件存在，不证明论文主张|
+|[reading_notes/historical](reading_notes/historical)|前期文献比较、核心摘录、CRLB笔记|历史内容，可能包含后来撤回的建议|
+|[reading_notes/manuscript](reading_notes/manuscript)|旧论文写作包的引用清单、公式依据、BibTeX|保持原始条目，不能无核验照抄所有引用|
+|[功耗参数来源](parameter_sources.md)|RF0.1159W与VLC1.745W|已有来源定位；仍是移用的仿真参数，非车载实测|
 
-## 方法文献待逐式核对
-Shen & Yu, Fractional Programming for Communication Systems—Part I，https://arxiv.org/abs/1802.10192 。二次变换用于多比值目标；不得仅凭引用就声称当前有限迭代、启发式修复或匹配邻域具有其全部理论保证。
+公开仓库按已确定范围不上传参考PDF全文。本地PDF路径和SHA用于定位，外部Chat不能直接访问E盘；需要全文时按条目DOI/原文链接检索或另提供相应文件。不要假定GitHub连接器能够解析NPZ或所有PDF。
 
-此次不上传参考PDF全文、大型历史数据或其他论文目录。后续文献应记录DOI、页码/公式号、借鉴内容与模型差异。
+625条目录是较早从更大文献库生成的，而51个文件清单只枚举当前Paper3/参考文献目录；两者范围不同，数量不能相减当丢失文献。

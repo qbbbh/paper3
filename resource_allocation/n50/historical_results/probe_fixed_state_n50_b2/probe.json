@@ -1,0 +1,134 @@
+{
+  "scope": "fixed-state diagnostic; not training convergence, not an algorithm comparison",
+  "n": 50,
+  "block": 2,
+  "draws": 4,
+  "updates": 300,
+  "reference": {
+    "min_ee": 997830213.7811613,
+    "network_ee": 17512319098.01729,
+    "cost": 0.0
+  },
+  "eta_ref": 17512319098.01729,
+  "before": {
+    "proposal_powers": [
+      0.1103001325763762,
+      0.10664322594180703,
+      0.1059399983100593,
+      0.13336166257038712
+    ],
+    "proposal_costs": [
+      0.949331872031376,
+      0.9487749290149078,
+      0.9485020909705201,
+      0.9488400502187312
+    ],
+    "critic_gap": [
+      0.0006574653089046478,
+      0.0013203993439674377,
+      0.0014210138469934464,
+      0.0017205756157636642
+    ]
+  },
+  "after": {
+    "final_q_reference": 0.9978321194648743,
+    "final_q_proposals": [
+      -0.9493361115455627,
+      -0.9487679898738861,
+      -0.9485002160072327,
+      -0.9488431811332703
+    ],
+    "final_critic_gap": 1.9466939941048622,
+    "deterministic": {
+      "min_ee": 1029.1848406246029,
+      "network_ee": 37803101.23167423,
+      "cost": 0.9478413423704714
+    },
+    "deterministic_mean_power_w": 0.11215110570192337,
+    "stochastic_costs": [
+      0.9483956685742211,
+      0.949122932438016,
+      0.9480997464231624,
+      0.9465753622502183
+    ],
+    "stochastic_min_ee": [
+      17658.46346050755,
+      1184.9116083558442,
+      2915.6930110506855,
+      1016.9756095805054
+    ],
+    "protected_fallback_rate": 1.0
+  },
+  "curve": [
+    {
+      "update": 0,
+      "critic_loss": 0.9402502775192261,
+      "actor_loss": 55.56813430786133,
+      "actor_gradient_norm": 1.0806739330291748
+    },
+    {
+      "update": 50,
+      "critic_loss": 0.4650854170322418,
+      "actor_loss": -10.768081665039062,
+      "actor_gradient_norm": 0.484502911567688
+    },
+    {
+      "update": 100,
+      "critic_loss": 0.13355639576911926,
+      "actor_loss": 2.8744444847106934,
+      "actor_gradient_norm": 1.3069961071014404
+    },
+    {
+      "update": 150,
+      "critic_loss": 0.00022180724772624671,
+      "actor_loss": 9.156038284301758,
+      "actor_gradient_norm": 0.24552199244499207
+    },
+    {
+      "update": 200,
+      "critic_loss": 1.755056246111053e-06,
+      "actor_loss": -5.6117472648620605,
+      "actor_gradient_norm": 0.4608495831489563
+    },
+    {
+      "update": 250,
+      "critic_loss": 1.2833456075611593e-08,
+      "actor_loss": -1.1083793640136719,
+      "actor_gradient_norm": 0.31734204292297363
+    },
+    {
+      "update": 299,
+      "critic_loss": 3.3377745012330706e-11,
+      "actor_loss": 4.13608980178833,
+      "actor_gradient_norm": 0.5342026948928833
+    }
+  ],
+  "learner": {
+    "updates": 300,
+    "replay": 5
+  },
+  "model": {
+    "node_dim": 12,
+    "edge_dim": 12,
+    "hidden_dim": 64,
+    "encoder": "mlp",
+    "message_layers": 2
+  },
+  "sac": {
+    "gamma": 0.0,
+    "actor_lr": 0.0003,
+    "critic_lr": 0.0003,
+    "alpha_discrete": 0.01,
+    "alpha_continuous": 0.001,
+    "reward_scale": 1000000000.0,
+    "cost_weight": 1.0,
+    "batch_size": 5,
+    "replay_capacity": 10000,
+    "seed": 8,
+    "device": "cpu",
+    "min_power_w": 0.001,
+    "max_power_w": 2.0,
+    "gradient_clip": 10.0,
+    "power_parameterization": "log_uniform_v1"
+  }
+}

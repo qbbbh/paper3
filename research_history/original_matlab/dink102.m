@@ -1,0 +1,274 @@
+%% Ablation Study 2: Only Using Auxiliary Variables (No Alternating Channel Selection)
+% Parameters Initialization2. 仅使用辅助变量（不进行交替优化信道选择）
+n = 5;                  % Number of vehicles
+time_steps = 1000;      % Number of time steps
+P_max = 30;             % Maximum power (W)
+P_min = 1;              % Minimum power (W)
+B_RF = 1e6;             % RF bandwidth (Hz)
+B_VLC = 2e6;            % VLC bandwidth (Hz)
+N0_RF = 8e-23;          % RF noise power spectral density (W/Hz)
+N0_VLC = 1e-21;         % VLC noise power spectral density (W/Hz)
+noise_RF = N0_RF * B_RF;    % RF noise power (W)
+noise_VLC = N0_VLC * B_VLC; % VLC noise power (W)
+P_VLC_min = 20;         % Minimum VLC power (W)
+P_RF_min = 1;           % Minimum RF power (W)
+P_total = P_max;        % Total power per vehicle
+max_iter = 50;          % Maximum iterations for optimization
+epsilon = 1e-6;         % Convergence threshold
+
+% Minimum transmission rates (QoS) for RF and VLC
+R_min_RF = 1;   % Example value, adjust as needed (bps)
+R_min_VLC = 1;  % Example value, adjust as needed (bps)
+
+% Initialize power allocation matrices
+P_RF = zeros(n, time_steps);
+P_VLC = zeros(n, time_steps);
+
+% Initialize channel selection matrices (1 for VLC, 0 for RF)
+channel_choice = zeros(n, n, time_steps);
+
+% Initialize SINR matrices
+SINR_RF = zeros(n, n, time_steps);
+SINR_VLC = zeros(n, n, time_steps);
+
+% Initialize auxiliary variables (三维数组)
+alpha = ones(n, n, time_steps);  % Initial \(\alpha_{ij,t}\)
+beta = ones(n, n, time_steps);   % Initial \(\beta_{ij,t}\)
+
+% Initialize total energy efficiency record
+EE_altopt = zeros(1, time_steps);
+IterationCount = zeros(1, time_steps); % Record iteration count for each time step
+
+% Initialize channel gains (gRF and gVLC)
+% Initialize channel gains with random positive values
+gRF = rand(n, n, time_steps) * 1e-3;  % RF channel gains
+gVLC = rand(n, n, time_steps) * 1e-3; % VLC channel gains
+
+% Ensure no self-communication by setting diagonal to zero
+for t = 1:time_steps
+    gRF(:, :, t) = gRF(:, :, t) - diag(diag(gRF(:, :, t)));
+    gVLC(:, :, t) = gVLC(:, :, t) - diag(diag(gVLC(:, :, t)));
+end
+
+% Define Optimization Options
+options = optimoptions('fmincon', ...
+    'Display', 'off', ...                % Set to 'iter' or 'iter-detailed' for debugging
+    'Algorithm', 'sqp', ...              % Choose SQP algorithm
+    'MaxIterations', 100, ...            % Maximum iterations
+    'OptimalityTolerance', 1e-6, ...     % Optimality tolerance
+    'StepTolerance', 1e-6);               % Step tolerance
+
+%% Main Loop over Time Steps
+for t = 1:time_steps
+    fprintf('Time Step %d\n', t);
+    
+    % Initialize power allocation for this time step
+    if t == 1
+        % Initial power allocation (set to minimum to allow optimization)
+        P_RF_current = P_RF_min * ones(n, 1);
+        P_VLC_current = P_VLC_min * ones(n, 1);
+        % Initial channel choice (fixed or random, here we fix to RF for simplicity)
+        channel_choice_current = zeros(n, n);
+        for i = 1:n
+            channel_choice_current(i, i) = 0;  % No self-communication
+        end
+    else
+        % Use previous time step's allocation as initial guess
+        P_RF_current = P_RF(:, t-1);
+        P_VLC_current = P_VLC(:, t-1);
+        channel_choice_current = channel_choice(:, :, t-1);
+    end
+    
+    % Initialize auxiliary variables for this time step
+    alpha_current = alpha(:, :, t);
+    beta_current = beta(:, :, t);
+    
+    % Optimization Iteration (No Alternating Channel Selection)
+    for iter = 1:max_iter
+        % Save previous power allocations for convergence check
+        if iter > 1
+            P_RF_prev = P_RF_current;
+            P_VLC_prev = P_VLC_current;
+        end
+        
+        % Step: Optimize power allocation using auxiliary variables
+        % Define optimization variables and constraints
+        x0 = [P_RF_current; P_VLC_current];
+        lb = [P_RF_min * ones(n, 1); P_VLC_min * ones(n, 1)];
+        ub = [P_max * ones(n, 1); P_max * ones(n, 1)];
+        
+        % Define objective function using auxiliary variables
+        obj_fun = @(x) compute_auxiliary_objective_only(x, alpha_current, beta_current, B_RF, B_VLC, n, channel_choice_current, SINR_VLC(:, :, t), SINR_RF(:, :, t));
+        
+        % Define non-linear constraints
+        nonlcon = @(x) nonlinear_constraints_basic(x, gRF(:, :, t), gVLC(:, :, t), channel_choice_current, B_RF, B_VLC, noise_RF, noise_VLC, n, R_min_RF, R_min_VLC, P_total);
+        
+        % Perform optimization using fmincon with non-linear constraints
+        [x_opt, ~, exitflag, output] = fmincon(obj_fun, x0, [], [], [], [], lb, ub, nonlcon, options);
+        
+        % Check if optimization was successful
+        if exitflag <= 0
+            fprintf('Optimization did not converge at time step %d, iteration %d. Exit flag: %d\n', t, iter, exitflag);
+            disp(output.message);
+        end
+        
+        % Update power allocations
+        P_RF_current = x_opt(1:n);
+        P_VLC_current = x_opt(n+1:end);
+        
+        % Update auxiliary variables
+        for i = 1:n
+            for j = 1:n
+                if i ~= j
+                    if channel_choice_current(i, j) == 1  % VLC
+                        rate = B_VLC * log2(1 + SINR_VLC(i, j, t));
+                        power = P_VLC_current(j);  % Using transmitter's power
+                    else  % RF
+                        rate = B_RF * log2(1 + SINR_RF(i, j, t));
+                        power = P_RF_current(j);  % Using transmitter's power
+                    end
+                    if power > 0
+                        alpha_current(i, j) = rate / power;
+                        beta_current(i, j) = 1 / power;
+                    else
+                        alpha_current(i, j) = 0;
+                        beta_current(i, j) = 0;
+                    end
+                else
+                    alpha_current(i, j) = 0;
+                    beta_current(i, j) = 0;
+                end
+            end
+        end
+        
+        % Check for convergence
+        if iter > 1
+            power_diff_RF = max(abs(P_RF_current - P_RF_prev));
+            power_diff_VLC = max(abs(P_VLC_current - P_VLC_prev));
+            if power_diff_RF < epsilon && power_diff_VLC < epsilon
+                fprintf('Converged at time step %d, iteration %d\n', t, iter);
+                IterationCount(t) = iter;
+                break;
+            end
+        end
+    end
+    
+    % Save results for this time step
+    P_RF(:, t) = P_RF_current;
+    P_VLC(:, t) = P_VLC_current;
+    channel_choice(:, :, t) = channel_choice_current; % No change
+    
+    % Update auxiliary variables
+    alpha(:, :, t) = alpha_current;
+    beta(:, :, t) = beta_current;
+    
+    % Compute total energy efficiency for this time step
+    EE_altopt(t) = compute_total_EE_basic([P_RF_current; P_VLC_current], gRF(:, :, t), gVLC(:, :, t), channel_choice_current, B_RF, B_VLC, noise_RF, noise_VLC, n);
+end
+
+% Calculate EE_alt for comparison (not used in this variant)
+EE_altrow = sum(zeros(n, n, time_steps), 2); % Placeholder
+EE_alt = sum(EE_altrow, 1); % Placeholder
+
+%% Function to compute total energy efficiency (Basic Version)
+function EE_total = compute_total_EE_basic(x_opt, gRF, gVLC, channel_choice, B_RF, B_VLC, noise_RF, noise_VLC, n)
+    P_RF_current = x_opt(1:n);
+    P_VLC_current = x_opt(n+1:end);
+    EE_total = 0;
+    for i = 1:n
+        for j = 1:n
+            if i ~= j
+                % Compute SINR and rate based on channel choice
+                if channel_choice(i, j) == 1  % VLC
+                    interference_VLC = sum(gVLC(:, j) .* P_VLC_current) - gVLC(i, j) * P_VLC_current(j);
+                    interference_VLC = max(interference_VLC, 1e-9); % Prevent division by zero
+                    SINR_VLC = gVLC(i, j) * P_VLC_current(j) / (interference_VLC + noise_VLC);
+                    rate = B_VLC * log2(1 + SINR_VLC);
+                    power = P_VLC_current(j);  % Using transmitter's power
+                else  % RF
+                    interference_RF = sum(gRF(:, j) .* P_RF_current) - gRF(i, j) * P_RF_current(j);
+                    interference_RF = max(interference_RF, 1e-9); % Prevent division by zero
+                    SINR_RF = gRF(i, j) * P_RF_current(j) / (interference_RF + noise_RF);
+                    rate = B_RF * log2(1 + SINR_RF);
+                    power = P_RF_current(j);  % Using transmitter's power
+                end
+                if power > 0
+                    eta_ij = rate / power;
+                else
+                    eta_ij = 0;
+                end
+                EE_total = EE_total + eta_ij;
+            end
+        end
+    end
+end
+
+%% Function to compute auxiliary objective (Only Auxiliary Variables)
+function obj = compute_auxiliary_objective_only(x, alpha, beta, B_RF, B_VLC, n, channel_choice_current, SINR_VLC, SINR_RF)
+    P_RF_current = x(1:n);
+    P_VLC_current = x(n+1:end);
+    obj = 0;
+
+    for i = 1:n
+        for j = 1:n
+            if i ~= j
+                if channel_choice_current(i, j) == 1
+                    rate = B_VLC * log2(1 + SINR_VLC(i, j));
+                else
+                    rate = B_RF * log2(1 + SINR_RF(i, j));
+                end
+                if isnan(rate) || isinf(rate) || imag(rate) ~= 0
+                    rate = 0; % Handle invalid values
+                end
+                obj = obj + beta(i, j) * rate - alpha(i, j);
+            end
+        end
+    end
+end
+
+%% Function to compute non-linear constraints (Basic Version)
+function [c, ceq] = nonlinear_constraints_basic(x, gRF, gVLC, channel_choice, B_RF, B_VLC, noise_RF, noise_VLC, n, R_min_RF, R_min_VLC, P_total)
+    % x: [P_RF; P_VLC]
+    P_RF = x(1:n);       % n x 1
+    P_VLC = x(n+1:end);  % n x 1
+    
+    c = [];
+    ceq = [];
+    
+    % C6 & C7: Minimum transmission rates
+    for j = 1:n
+        for i = 1:n
+            if i ~= j
+                if channel_choice(i, j) == 0  % RF
+                    interference_RF = sum(gRF(i, :) .* P_RF') - gRF(i, j) * P_RF(j);
+                    interference_RF = max(interference_RF, 1e-9); % Prevent division by zero
+                    SINR_RF = gRF(i, j) * P_RF(j) / (interference_RF + noise_RF);
+                    rate_RF = B_RF * log2(1 + SINR_RF);
+                    if isnan(rate_RF) || isinf(rate_RF) || imag(rate_RF) ~= 0
+                        rate_RF = 0; % Handle invalid values
+                        fprintf('Warning: Invalid rate_RF at i=%d, j=%d\n', i, j);
+                    end
+                    c(end+1) = R_min_RF - rate_RF;  % rate_RF >= R_min_RF
+                else  % VLC
+                    interference_VLC = sum(gVLC(i, :) .* P_VLC') - gVLC(i, j) * P_VLC(j);
+                    interference_VLC = max(interference_VLC, 1e-9); % Prevent division by zero
+                    SINR_VLC = gVLC(i, j) * P_VLC(j) / (interference_VLC + noise_VLC);
+                    rate_VLC = B_VLC * log2(1 + SINR_VLC);
+                    if isnan(rate_VLC) || isinf(rate_VLC) || imag(rate_VLC) ~= 0
+                        rate_VLC = 0; % Handle invalid values
+                        fprintf('Warning: Invalid rate_VLC at i=%d, j=%d\n', i, j);
+                    end
+                    c(end+1) = R_min_VLC - rate_VLC;  % rate_VLC >= R_min_VLC
+                end
+            end
+        end
+    end
+    
+    % C3 & C4: Total power per vehicle
+    for i = 1:n
+        c(end+1) = (P_RF(i) + P_VLC(i)) - P_total;  % P_RF + P_VLC <= P_total
+        if (P_RF(i) + P_VLC(i)) > P_total + 1e-6
+            fprintf('Warning: Total power for vehicle %d exceeds P_total: %f > %f\n', i, P_RF(i) + P_VLC(i), P_total);
+        end
+    end
+end

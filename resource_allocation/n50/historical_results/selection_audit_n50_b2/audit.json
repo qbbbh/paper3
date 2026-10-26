@@ -1,0 +1,1974 @@
+{
+  "scope": "selection-rule audit on one frozen block with existing checkpoints; no training, no algorithm ranking, no cross-state claim",
+  "n": 50,
+  "block": 2,
+  "delta": 0.05,
+  "draws": 4,
+  "seeds": {
+    "channel": 2026102401,
+    "forecast": 2026102500
+  },
+  "k": 16,
+  "repeats": 8,
+  "reference": {
+    "forecast": {
+      "min_ee": 997830213.7811613,
+      "network_ee": 17512319098.01729,
+      "cost": 0.0,
+      "mean_power_w": 0.001,
+      "min_power_w": 0.001,
+      "max_power_w": 0.001
+    },
+    "truth": {
+      "min_ee": 994861828.0117029,
+      "network_ee": 17842893483.159496,
+      "cost": 0.0,
+      "jain_pair_ee": 0.5434716410565255,
+      "mean_rate_bps": 17842893.483159497,
+      "min_rate_bps": 994861.8280117029,
+      "mean_power_w": 0.001
+    },
+    "eta_ref": 17512319098.01729
+  },
+  "arms": {
+    "bc_only": {
+      "name": "bc_only",
+      "updates": 0,
+      "alpha_continuous": 0.001,
+      "deterministic": {
+        "forecast": {
+          "min_ee": 996833796.9553162,
+          "network_ee": 17494959523.316772,
+          "cost": 0.0,
+          "mean_power_w": 0.00100099909119308,
+          "min_power_w": 0.0010009766556322575,
+          "max_power_w": 0.001001024036668241
+        },
+        "power": {
+          "mean": 0.00100099909119308,
+          "median": 0.00100099912378937,
+          "min": 0.0010009766556322575,
+          "max": 0.001001024036668241,
+          "near_floor_fraction": 1.0,
+          "above_half_watt_fraction": 0.0
+        },
+        "links": [
+          [
+            0,
+            44,
+            "RF"
+          ],
+          [
+            27,
+            1,
+            "RF"
+          ],
+          [
+            22,
+            2,
+            "RF"
+          ],
+          [
+            33,
+            3,
+            "RF"
+          ],
+          [
+            4,
+            42,
+            "RF"
+          ],
+          [
+            7,
+            5,
+            "RF"
+          ],
+          [
+            6,
+            40,
+            "RF"
+          ],
+          [
+            38,
+            8,
+            "RF"
+          ],
+          [
+            9,
+            19,
+            "RF"
+          ],
+          [
+            10,
+            25,
+            "RF"
+          ],
+          [
+            11,
+            47,
+            "RF"
+          ],
+          [
+            12,
+            32,
+            "RF"
+          ],
+          [
+            13,
+            48,
+            "RF"
+          ],
+          [
+            21,
+            14,
+            "RF"
+          ],
+          [
+            15,
+            49,
+            "RF"
+          ],
+          [
+            39,
+            16,
+            "RF"
+          ],
+          [
+            34,
+            17,
+            "RF"
+          ],
+          [
+            18,
+            46,
+            "RF"
+          ],
+          [
+            20,
+            28,
+            "RF"
+          ],
+          [
+            29,
+            23,
+            "RF"
+          ],
+          [
+            24,
+            26,
+            "RF"
+          ],
+          [
+            30,
+            43,
+            "RF"
+          ],
+          [
+            36,
+            31,
+            "RF"
+          ],
+          [
+            45,
+            35,
+            "RF"
+          ],
+          [
+            37,
+            41,
+            "RF"
+          ]
+        ],
+        "truth": {
+          "min_ee": 993871411.0413811,
+          "network_ee": 17825215351.36466,
+          "cost": 0.0,
+          "jain_pair_ee": 0.5434709150657014,
+          "mean_rate_bps": 17843024.36703696,
+          "min_rate_bps": 994858.9736242993,
+          "mean_power_w": 0.00100099909119308
+        }
+      },
+      "selection": {
+        "k": 16,
+        "repeats": 8,
+        "note": "all rules rank the same k candidates with the same forecast bank and the same budget shield; 'feasible_forecast' is the rule that matches the research question, 'training_label' is what the critic was fitted on, 'forecast_ignoring_budget' keeps the old (inconsistent) oracle column only as a contrast",
+        "agreements": {
+          "critic_equals_training_label": 0.125,
+          "critic_equals_feasible_forecast": 0.125,
+          "training_label_equals_feasible_forecast": 1.0
+        },
+        "concordance": {
+          "q_vs_target": {
+            "count": 8,
+            "mean": 0.546875,
+            "median": 0.525,
+            "min": 0.44166666666666665,
+            "max": 0.7166666666666667
+          },
+          "q_vs_min_ee": {
+            "count": 8,
+            "mean": 0.5458333333333334,
+            "median": 0.525,
+            "min": 0.44166666666666665,
+            "max": 0.7083333333333334
+          },
+          "q_vs_target_feasible": {
+            "count": 8,
+            "mean": 0.5438301282051282,
+            "median": 0.5541666666666667,
+            "min": 0.48333333333333334,
+            "max": 0.6263736263736264
+          }
+        },
+        "no_feasible_candidate_rate": 0.0,
+        "by_selector": {
+          "critic": {
+            "count": 8,
+            "predicted_min_ee": {
+              "count": 8,
+              "mean": 732875596.5714684,
+              "median": 852484948.6434473,
+              "min": 271181882.18413407,
+              "max": 997038035.612887
+            },
+            "predicted_cost": {
+              "count": 8,
+              "mean": 0.013520621893175516,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.06229745945810605
+            },
+            "executed_min_ee": {
+              "count": 8,
+              "mean": 961173757.1897881,
+              "median": 996997670.7139559,
+              "min": 708119425.8578798,
+              "max": 997830213.7811613
+            },
+            "executed_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "truth_min_ee": {
+              "count": 8,
+              "mean": 808464609.7569168,
+              "median": 978318327.2948558,
+              "min": 314090160.5986827,
+              "max": 994111185.2148813
+            },
+            "truth_cost": {
+              "count": 8,
+              "mean": 0.0076835897032317,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.03525282460985135
+            },
+            "truth_executed_min_ee": {
+              "count": 8,
+              "mean": 968987936.9046812,
+              "median": 994083568.8321234,
+              "min": 791256534.5067765,
+              "max": 994861828.0117029
+            },
+            "regret_predicted": {
+              "count": 8,
+              "mean": 264143207.68884766,
+              "median": 144543898.05598223,
+              "min": 0.0,
+              "max": 725773225.2931085
+            },
+            "regret_truth": {
+              "count": 8,
+              "mean": 185629484.01810598,
+              "median": 15798222.533962548,
+              "min": 0.0,
+              "max": 680049545.915072
+            },
+            "fallback_rate": 0.375
+          },
+          "training_label": {
+            "count": 8,
+            "predicted_min_ee": {
+              "count": 8,
+              "mean": 997018804.260316,
+              "median": 997027293.6099281,
+              "min": 996955107.4772425,
+              "max": 997073252.6943531
+            },
+            "predicted_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "executed_min_ee": {
+              "count": 8,
+              "mean": 997018804.260316,
+              "median": 997027293.6099281,
+              "min": 996955107.4772425,
+              "max": 997073252.6943531
+            },
+            "executed_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "truth_min_ee": {
+              "count": 8,
+              "mean": 994073494.3285391,
+              "median": 994064248.4550616,
+              "min": 993973728.4526197,
+              "max": 994210292.5553498
+            },
+            "truth_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "truth_executed_min_ee": {
+              "count": 8,
+              "mean": 994073494.3285391,
+              "median": 994064248.4550616,
+              "min": 993973728.4526197,
+              "max": 994210292.5553498
+            },
+            "regret_predicted": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "regret_truth": {
+              "count": 8,
+              "mean": 20599.446483373642,
+              "median": 1716.0239725112915,
+              "min": 0.0,
+              "max": 83911.37218368053
+            },
+            "fallback_rate": 0.0
+          },
+          "feasible_forecast": {
+            "count": 8,
+            "predicted_min_ee": {
+              "count": 8,
+              "mean": 997018804.260316,
+              "median": 997027293.6099281,
+              "min": 996955107.4772425,
+              "max": 997073252.6943531
+            },
+            "predicted_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "executed_min_ee": {
+              "count": 8,
+              "mean": 997018804.260316,
+              "median": 997027293.6099281,
+              "min": 996955107.4772425,
+              "max": 997073252.6943531
+            },
+            "executed_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "truth_min_ee": {
+              "count": 8,
+              "mean": 994073494.3285391,
+              "median": 994064248.4550616,
+              "min": 993973728.4526197,
+              "max": 994210292.5553498
+            },
+            "truth_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "truth_executed_min_ee": {
+              "count": 8,
+              "mean": 994073494.3285391,
+              "median": 994064248.4550616,
+              "min": 993973728.4526197,
+              "max": 994210292.5553498
+            },
+            "regret_predicted": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "regret_truth": {
+              "count": 8,
+              "mean": 20599.446483373642,
+              "median": 1716.0239725112915,
+              "min": 0.0,
+              "max": 83911.37218368053
+            },
+            "fallback_rate": 0.0
+          },
+          "forecast_ignoring_budget": {
+            "count": 8,
+            "predicted_min_ee": {
+              "count": 8,
+              "mean": 997018804.260316,
+              "median": 997027293.6099281,
+              "min": 996955107.4772425,
+              "max": 997073252.6943531
+            },
+            "predicted_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "executed_min_ee": {
+              "count": 8,
+              "mean": 997018804.260316,
+              "median": 997027293.6099281,
+              "min": 996955107.4772425,
+              "max": 997073252.6943531
+            },
+            "executed_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "truth_min_ee": {
+              "count": 8,
+              "mean": 994073494.3285391,
+              "median": 994064248.4550616,
+              "min": 993973728.4526197,
+              "max": 994210292.5553498
+            },
+            "truth_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "truth_executed_min_ee": {
+              "count": 8,
+              "mean": 994073494.3285391,
+              "median": 994064248.4550616,
+              "min": 993973728.4526197,
+              "max": 994210292.5553498
+            },
+            "regret_predicted": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "regret_truth": {
+              "count": 8,
+              "mean": 20599.446483373642,
+              "median": 1716.0239725112915,
+              "min": 0.0,
+              "max": 83911.37218368053
+            },
+            "fallback_rate": 0.0
+          },
+          "first_sample": {
+            "count": 8,
+            "predicted_min_ee": {
+              "count": 8,
+              "mean": 996816603.1941723,
+              "median": 996800905.6880014,
+              "min": 996646032.0157245,
+              "max": 997045578.6750264
+            },
+            "predicted_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "executed_min_ee": {
+              "count": 8,
+              "mean": 996816603.1941723,
+              "median": 996800905.6880014,
+              "min": 996646032.0157245,
+              "max": 997045578.6750264
+            },
+            "executed_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "truth_min_ee": {
+              "count": 8,
+              "mean": 993878926.0708942,
+              "median": 993833953.810288,
+              "min": 993678393.1171782,
+              "max": 994210292.5553498
+            },
+            "truth_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "truth_executed_min_ee": {
+              "count": 8,
+              "mean": 993878926.0708942,
+              "median": 993833953.810288,
+              "min": 993678393.1171782,
+              "max": 994210292.5553498
+            },
+            "regret_predicted": {
+              "count": 8,
+              "mean": 202201.06614372134,
+              "median": 202835.87355989218,
+              "min": 0.0,
+              "max": 388275.57357001305
+            },
+            "regret_truth": {
+              "count": 8,
+              "mean": 215167.7041284293,
+              "median": 236098.48770731688,
+              "min": 0.0,
+              "max": 427028.6607221365
+            },
+            "fallback_rate": 0.0
+          }
+        },
+        "power": {
+          "critic": {
+            "mean": 0.0010010207688901573,
+            "median": 0.0010010073892772198,
+            "min": 0.0010004761861637235,
+            "max": 0.0010019950568675995,
+            "near_floor_fraction": 1.0,
+            "above_half_watt_fraction": 0.0
+          },
+          "training_label": {
+            "mean": 0.0010010202368721365,
+            "median": 0.0010010102414526045,
+            "min": 0.001000586082227528,
+            "max": 0.0010019283508881927,
+            "near_floor_fraction": 1.0,
+            "above_half_watt_fraction": 0.0
+          },
+          "feasible_forecast": {
+            "mean": 0.0010010202368721365,
+            "median": 0.0010010102414526045,
+            "min": 0.001000586082227528,
+            "max": 0.0010019283508881927,
+            "near_floor_fraction": 1.0,
+            "above_half_watt_fraction": 0.0
+          },
+          "forecast_ignoring_budget": {
+            "mean": 0.0010010202368721365,
+            "median": 0.0010010102414526045,
+            "min": 0.001000586082227528,
+            "max": 0.0010019283508881927,
+            "near_floor_fraction": 1.0,
+            "above_half_watt_fraction": 0.0
+          },
+          "first_sample": {
+            "mean": 0.0010010431305272505,
+            "median": 0.0010010356199927628,
+            "min": 0.0010005490621551871,
+            "max": 0.0010017878375947475,
+            "near_floor_fraction": 1.0,
+            "above_half_watt_fraction": 0.0
+          }
+        },
+        "per_repeat": [
+          {
+            "candidates": 16,
+            "no_feasible": false,
+            "best_feasible_min_ee": 997038035.612887,
+            "best_truth_min_ee": 994111185.2148813,
+            "picks": {
+              "critic": 1,
+              "training_label": 1,
+              "feasible_forecast": 1,
+              "forecast_ignoring_budget": 1,
+              "first_sample": 0
+            },
+            "regret_predicted": {
+              "critic": 0.0,
+              "training_label": 0.0,
+              "feasible_forecast": 0.0,
+              "forecast_ignoring_budget": 0.0,
+              "first_sample": 305061.78202569485
+            },
+            "concordance_q_vs_target": 0.55,
+            "concordance_q_vs_min_ee": 0.55,
+            "concordance_q_vs_target_feasible": 0.55,
+            "critic": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "training_label": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "feasible_forecast": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "forecast_ignoring_budget": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "first_sample": {
+              "fallback": false,
+              "regret_predicted": 305061.78202569485,
+              "regret_truth": 360788.69813609123
+            }
+          },
+          {
+            "candidates": 16,
+            "no_feasible": false,
+            "best_feasible_min_ee": 997041141.7918899,
+            "best_truth_min_ee": 994123486.4305131,
+            "picks": {
+              "critic": 1,
+              "training_label": 11,
+              "feasible_forecast": 11,
+              "forecast_ignoring_budget": 11,
+              "first_sample": 0
+            },
+            "regret_predicted": {
+              "critic": 288921715.93401015,
+              "training_label": 0.0,
+              "feasible_forecast": 0.0,
+              "forecast_ignoring_budget": 0.0,
+              "first_sample": 388275.57357001305
+            },
+            "concordance_q_vs_target": 0.625,
+            "concordance_q_vs_min_ee": 0.625,
+            "concordance_q_vs_target_feasible": 0.5714285714285714,
+            "critic": {
+              "fallback": false,
+              "regret_predicted": 288921715.93401015,
+              "regret_truth": 202866951.9237367
+            },
+            "training_label": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 83911.37218368053
+            },
+            "feasible_forecast": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 83911.37218368053
+            },
+            "forecast_ignoring_budget": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 83911.37218368053
+            },
+            "first_sample": {
+              "fallback": false,
+              "regret_predicted": 388275.57357001305,
+              "regret_truth": 427028.6607221365
+            }
+          },
+          {
+            "candidates": 16,
+            "no_feasible": false,
+            "best_feasible_min_ee": 996974252.5296307,
+            "best_truth_min_ee": 994088921.8517936,
+            "picks": {
+              "critic": 11,
+              "training_label": 0,
+              "feasible_forecast": 0,
+              "forecast_ignoring_budget": 0,
+              "first_sample": 0
+            },
+            "regret_predicted": {
+              "critic": 40075.06961667538,
+              "training_label": 0.0,
+              "feasible_forecast": 0.0,
+              "forecast_ignoring_budget": 0.0,
+              "first_sample": 0.0
+            },
+            "concordance_q_vs_target": 0.48333333333333334,
+            "concordance_q_vs_min_ee": 0.48333333333333334,
+            "concordance_q_vs_target_feasible": 0.48333333333333334,
+            "critic": {
+              "fallback": false,
+              "regret_predicted": 40075.06961667538,
+              "regret_truth": 48797.610902905464
+            },
+            "training_label": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "feasible_forecast": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "forecast_ignoring_budget": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "first_sample": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            }
+          },
+          {
+            "candidates": 16,
+            "no_feasible": false,
+            "best_feasible_min_ee": 997016551.6069691,
+            "best_truth_min_ee": 994022807.1022868,
+            "picks": {
+              "critic": 8,
+              "training_label": 5,
+              "feasible_forecast": 5,
+              "forecast_ignoring_budget": 5,
+              "first_sample": 0
+            },
+            "regret_predicted": {
+              "critic": 166080.17795431614,
+              "training_label": 0.0,
+              "feasible_forecast": 0.0,
+              "forecast_ignoring_budget": 0.0,
+              "first_sample": 158117.7476296425
+            },
+            "concordance_q_vs_target": 0.7166666666666667,
+            "concordance_q_vs_min_ee": 0.7083333333333334,
+            "concordance_q_vs_target_feasible": 0.6263736263736264,
+            "critic": {
+              "fallback": false,
+              "regret_predicted": 166080.17795431614,
+              "regret_truth": 168592.31186044216
+            },
+            "training_label": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 3432.047945022583
+            },
+            "feasible_forecast": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 3432.047945022583
+            },
+            "forecast_ignoring_budget": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 3432.047945022583
+            },
+            "first_sample": {
+              "fallback": false,
+              "regret_predicted": 158117.7476296425,
+              "regret_truth": 83767.96656727791
+            }
+          },
+          {
+            "candidates": 16,
+            "no_feasible": false,
+            "best_feasible_min_ee": 996955107.4772425,
+            "best_truth_min_ee": 994000398.082236,
+            "picks": {
+              "critic": 8,
+              "training_label": 4,
+              "feasible_forecast": 4,
+              "forecast_ignoring_budget": 4,
+              "first_sample": 0
+            },
+            "regret_predicted": {
+              "critic": 725773225.2931085,
+              "training_label": 0.0,
+              "feasible_forecast": 0.0,
+              "forecast_ignoring_budget": 0.0,
+              "first_sample": 211729.96057927608
+            },
+            "concordance_q_vs_target": 0.5,
+            "concordance_q_vs_min_ee": 0.5,
+            "concordance_q_vs_target_feasible": 0.4945054945054945,
+            "critic": {
+              "fallback": true,
+              "regret_predicted": 725773225.2931085,
+              "regret_truth": 570474131.6272112
+            },
+            "training_label": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 26669.629616379738
+            },
+            "feasible_forecast": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 26669.629616379738
+            },
+            "forecast_ignoring_budget": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 26669.629616379738
+            },
+            "first_sample": {
+              "fallback": false,
+              "regret_predicted": 211729.96057927608,
+              "regret_truth": 230767.0306584835
+            }
+          },
+          {
+            "candidates": 16,
+            "no_feasible": false,
+            "best_feasible_min_ee": 997045578.6750264,
+            "best_truth_min_ee": 994210292.5553498,
+            "picks": {
+              "critic": 15,
+              "training_label": 0,
+              "feasible_forecast": 0,
+              "forecast_ignoring_budget": 0,
+              "first_sample": 0
+            },
+            "regret_predicted": {
+              "critic": 580403272.5808015,
+              "training_label": 0.0,
+              "feasible_forecast": 0.0,
+              "forecast_ignoring_budget": 0.0,
+              "first_sample": 0.0
+            },
+            "concordance_q_vs_target": 0.44166666666666665,
+            "concordance_q_vs_min_ee": 0.44166666666666665,
+            "concordance_q_vs_target_feasible": 0.49523809523809526,
+            "critic": {
+              "fallback": true,
+              "regret_predicted": 580403272.5808015,
+              "regret_truth": 31427852.756064653
+            },
+            "training_label": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "feasible_forecast": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "forecast_ignoring_budget": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "first_sample": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            }
+          },
+          {
+            "candidates": 16,
+            "no_feasible": false,
+            "best_feasible_min_ee": 997006513.6945292,
+            "best_truth_min_ee": 994055952.4493655,
+            "picks": {
+              "critic": 8,
+              "training_label": 3,
+              "feasible_forecast": 3,
+              "forecast_ignoring_budget": 3,
+              "first_sample": 0
+            },
+            "regret_predicted": {
+              "critic": 49207.879504442215,
+              "training_label": 0.0,
+              "feasible_forecast": 0.0,
+              "forecast_ignoring_budget": 0.0,
+              "first_sample": 360481.678804636
+            },
+            "concordance_q_vs_target": 0.5583333333333333,
+            "concordance_q_vs_min_ee": 0.5583333333333333,
+            "concordance_q_vs_target_feasible": 0.5583333333333333,
+            "critic": {
+              "fallback": false,
+              "regret_predicted": 49207.879504442215,
+              "regret_truth": 0.0
+            },
+            "training_label": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 50782.52212190628
+            },
+            "feasible_forecast": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 50782.52212190628
+            },
+            "forecast_ignoring_budget": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 50782.52212190628
+            },
+            "first_sample": {
+              "fallback": false,
+              "regret_predicted": 360481.678804636,
+              "regret_truth": 377559.33218729496
+            }
+          },
+          {
+            "candidates": 16,
+            "no_feasible": false,
+            "best_feasible_min_ee": 997073252.6943531,
+            "best_truth_min_ee": 994139706.5137546,
+            "picks": {
+              "critic": 11,
+              "training_label": 4,
+              "feasible_forecast": 4,
+              "forecast_ignoring_budget": 4,
+              "first_sample": 0
+            },
+            "regret_predicted": {
+              "critic": 517792084.57578593,
+              "training_label": 0.0,
+              "feasible_forecast": 0.0,
+              "forecast_ignoring_budget": 0.0,
+              "first_sample": 193941.78654050827
+            },
+            "concordance_q_vs_target": 0.5,
+            "concordance_q_vs_min_ee": 0.5,
+            "concordance_q_vs_target_feasible": 0.5714285714285714,
+            "critic": {
+              "fallback": true,
+              "regret_predicted": 517792084.57578593,
+              "regret_truth": 680049545.915072
+            },
+            "training_label": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "feasible_forecast": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "forecast_ignoring_budget": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "first_sample": {
+              "fallback": false,
+              "regret_predicted": 193941.78654050827,
+              "regret_truth": 241429.94475615025
+            }
+          }
+        ],
+        "accounting": {
+          "bank_evaluations": 208,
+          "bank_evaluations_per_repeat": 26.0,
+          "seconds": 10.543961800052784,
+          "seconds_per_repeat": 1.317995225006598,
+          "includes_shield": true
+        }
+      },
+      "seconds": 10.752907100017183
+    },
+    "bc_masac": {
+      "name": "bc_masac",
+      "updates": 640,
+      "alpha_continuous": 0.001,
+      "deterministic": {
+        "forecast": {
+          "min_ee": 964950408.5678858,
+          "network_ee": 16863419506.663734,
+          "cost": 0.0,
+          "mean_power_w": 0.0010321757989004254,
+          "min_power_w": 0.0010177330113947392,
+          "max_power_w": 0.001043024705722928
+        },
+        "power": {
+          "mean": 0.0010321757989004254,
+          "median": 0.0010324212489649653,
+          "min": 0.0010177330113947392,
+          "max": 0.001043024705722928,
+          "near_floor_fraction": 0.0,
+          "above_half_watt_fraction": 0.0
+        },
+        "links": [
+          [
+            0,
+            44,
+            "RF"
+          ],
+          [
+            27,
+            1,
+            "RF"
+          ],
+          [
+            41,
+            2,
+            "RF"
+          ],
+          [
+            33,
+            3,
+            "RF"
+          ],
+          [
+            4,
+            42,
+            "RF"
+          ],
+          [
+            7,
+            5,
+            "RF"
+          ],
+          [
+            6,
+            40,
+            "RF"
+          ],
+          [
+            38,
+            8,
+            "RF"
+          ],
+          [
+            9,
+            19,
+            "RF"
+          ],
+          [
+            10,
+            25,
+            "RF"
+          ],
+          [
+            11,
+            47,
+            "RF"
+          ],
+          [
+            12,
+            32,
+            "RF"
+          ],
+          [
+            13,
+            48,
+            "RF"
+          ],
+          [
+            21,
+            14,
+            "RF"
+          ],
+          [
+            15,
+            49,
+            "RF"
+          ],
+          [
+            39,
+            16,
+            "RF"
+          ],
+          [
+            34,
+            17,
+            "RF"
+          ],
+          [
+            18,
+            46,
+            "RF"
+          ],
+          [
+            20,
+            28,
+            "RF"
+          ],
+          [
+            22,
+            37,
+            "RF"
+          ],
+          [
+            29,
+            23,
+            "RF"
+          ],
+          [
+            24,
+            26,
+            "RF"
+          ],
+          [
+            30,
+            43,
+            "RF"
+          ],
+          [
+            36,
+            31,
+            "RF"
+          ],
+          [
+            45,
+            35,
+            "RF"
+          ]
+        ],
+        "truth": {
+          "min_ee": 964026968.6108626,
+          "network_ee": 16688434007.422037,
+          "cost": 0.0,
+          "jain_pair_ee": 0.5263185820129386,
+          "mean_rate_bps": 17225397.704007868,
+          "min_rate_bps": 1000608.3568117862,
+          "mean_power_w": 0.0010321757989004254
+        }
+      },
+      "selection": {
+        "k": 16,
+        "repeats": 8,
+        "note": "all rules rank the same k candidates with the same forecast bank and the same budget shield; 'feasible_forecast' is the rule that matches the research question, 'training_label' is what the critic was fitted on, 'forecast_ignoring_budget' keeps the old (inconsistent) oracle column only as a contrast",
+        "agreements": {
+          "critic_equals_training_label": 0.125,
+          "critic_equals_feasible_forecast": 0.125,
+          "training_label_equals_feasible_forecast": 0.875
+        },
+        "concordance": {
+          "q_vs_target": {
+            "count": 8,
+            "mean": 0.684375,
+            "median": 0.6625000000000001,
+            "min": 0.5916666666666667,
+            "max": 0.8916666666666667
+          },
+          "q_vs_min_ee": {
+            "count": 8,
+            "mean": 0.6260416666666666,
+            "median": 0.6125,
+            "min": 0.48333333333333334,
+            "max": 0.8333333333333334
+          },
+          "q_vs_target_feasible": {
+            "count": 8,
+            "mean": 0.55501443001443,
+            "median": 0.5232323232323233,
+            "min": 0.4222222222222222,
+            "max": 0.7619047619047619
+          }
+        },
+        "no_feasible_candidate_rate": 0.0,
+        "by_selector": {
+          "critic": {
+            "count": 8,
+            "predicted_min_ee": {
+              "count": 8,
+              "mean": 861650090.6499615,
+              "median": 951366438.9286282,
+              "min": 249731153.2529893,
+              "max": 975186648.6468743
+            },
+            "predicted_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "executed_min_ee": {
+              "count": 8,
+              "mean": 861650090.6499615,
+              "median": 951366438.9286282,
+              "min": 249731153.2529893,
+              "max": 975186648.6468743
+            },
+            "executed_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "truth_min_ee": {
+              "count": 8,
+              "mean": 868878521.4331849,
+              "median": 944311992.3420496,
+              "min": 355097107.1735413,
+              "max": 972001479.1554147
+            },
+            "truth_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "truth_executed_min_ee": {
+              "count": 8,
+              "mean": 868878521.4331849,
+              "median": 944311992.3420496,
+              "min": 355097107.1735413,
+              "max": 972001479.1554147
+            },
+            "regret_predicted": {
+              "count": 8,
+              "mean": 117153007.91332828,
+              "median": 30634039.606070697,
+              "min": 0.0,
+              "max": 728412274.0503142
+            },
+            "regret_truth": {
+              "count": 8,
+              "mean": 101679868.31778076,
+              "median": 25154747.30336094,
+              "min": 0.0,
+              "max": 616917195.3232129
+            },
+            "fallback_rate": 0.0
+          },
+          "training_label": {
+            "count": 8,
+            "predicted_min_ee": {
+              "count": 8,
+              "mean": 1019542200.8745772,
+              "median": 978638272.2463001,
+              "min": 975186648.6468743,
+              "max": 1309313128.1725163
+            },
+            "predicted_cost": {
+              "count": 8,
+              "mean": 0.01123754529088214,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.08990036232705712
+            },
+            "executed_min_ee": {
+              "count": 8,
+              "mean": 980606836.5756578,
+              "median": 978638272.2463001,
+              "min": 975186648.6468743,
+              "max": 997830213.7811613
+            },
+            "executed_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "truth_min_ee": {
+              "count": 8,
+              "mean": 961359086.7890236,
+              "median": 971914128.0279303,
+              "min": 912539336.5069995,
+              "max": 975131116.617931
+            },
+            "truth_cost": {
+              "count": 8,
+              "mean": 0.014724540067036912,
+              "median": 0.002921331689068385,
+              "min": 0.0,
+              "max": 0.09671670075245964
+            },
+            "truth_executed_min_ee": {
+              "count": 8,
+              "mean": 967753449.2874286,
+              "median": 972950462.6931653,
+              "min": 912539336.5069995,
+              "max": 994861828.0117029
+            },
+            "regret_predicted": {
+              "count": 8,
+              "mean": -40739102.31128742,
+              "median": 0.0,
+              "min": -325912818.49029934,
+              "max": 0.0
+            },
+            "regret_truth": {
+              "count": 8,
+              "mean": 9199302.961941868,
+              "median": 0.0,
+              "min": -5324397.725193858,
+              "max": 50249707.75731754
+            },
+            "fallback_rate": 0.125
+          },
+          "feasible_forecast": {
+            "count": 8,
+            "predicted_min_ee": {
+              "count": 8,
+              "mean": 978803098.5632898,
+              "median": 978638272.2463001,
+              "min": 975186648.6468743,
+              "max": 983400309.682217
+            },
+            "predicted_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "executed_min_ee": {
+              "count": 8,
+              "mean": 978803098.5632898,
+              "median": 978638272.2463001,
+              "min": 975186648.6468743,
+              "max": 983400309.682217
+            },
+            "executed_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "truth_min_ee": {
+              "count": 8,
+              "mean": 965701464.8047621,
+              "median": 972950462.6931653,
+              "min": 912539336.5069995,
+              "max": 978445952.1503719
+            },
+            "truth_cost": {
+              "count": 8,
+              "mean": 0.002634952472979457,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.009140330680543651
+            },
+            "truth_executed_min_ee": {
+              "count": 8,
+              "mean": 965701464.8047621,
+              "median": 972950462.6931653,
+              "min": 912539336.5069995,
+              "max": 978445952.1503719
+            },
+            "regret_predicted": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "regret_truth": {
+              "count": 8,
+              "mean": 4856924.946203291,
+              "median": 0.0,
+              "min": -5324397.725193858,
+              "max": 50249707.75731754
+            },
+            "fallback_rate": 0.0
+          },
+          "forecast_ignoring_budget": {
+            "count": 8,
+            "predicted_min_ee": {
+              "count": 8,
+              "mean": 1019602339.9398878,
+              "median": 978754545.0161493,
+              "min": 975186648.6468743,
+              "max": 1309313128.1725163
+            },
+            "predicted_cost": {
+              "count": 8,
+              "mean": 0.016345397177312232,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.08990036232705712
+            },
+            "executed_min_ee": {
+              "count": 8,
+              "mean": 984932344.8963563,
+              "median": 979011343.0314641,
+              "min": 975186648.6468743,
+              "max": 997830213.7811613
+            },
+            "executed_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "truth_min_ee": {
+              "count": 8,
+              "mean": 957725151.300177,
+              "median": 972950462.6931653,
+              "min": 871949512.4080585,
+              "max": 978694963.5617383
+            },
+            "truth_cost": {
+              "count": 8,
+              "mean": 0.018818202171807005,
+              "median": 0.002921331689068385,
+              "min": 0.0,
+              "max": 0.09671670075245964
+            },
+            "truth_executed_min_ee": {
+              "count": 8,
+              "mean": 981504411.3052831,
+              "median": 974861052.0601897,
+              "min": 971826776.9004457,
+              "max": 994861828.0117029
+            },
+            "regret_predicted": {
+              "count": 8,
+              "mean": -40799241.376597956,
+              "median": 0.0,
+              "min": -325912818.49029934,
+              "max": 0.0
+            },
+            "regret_truth": {
+              "count": 8,
+              "mean": 12833238.450788558,
+              "median": 0.0,
+              "min": -15905919.297421217,
+              "max": 91733885.50870919
+            },
+            "fallback_rate": 0.375
+          },
+          "first_sample": {
+            "count": 8,
+            "predicted_min_ee": {
+              "count": 8,
+              "mean": 833659675.8318377,
+              "median": 954038396.1249696,
+              "min": 56407854.50416113,
+              "max": 976810907.7645957
+            },
+            "predicted_cost": {
+              "count": 8,
+              "mean": 0.03755037183730789,
+              "median": 0.00409126003246002,
+              "min": 0.0,
+              "max": 0.15218189124531523
+            },
+            "executed_min_ee": {
+              "count": 8,
+              "mean": 980188426.6489241,
+              "median": 997830213.7811613,
+              "min": 877715222.7398285,
+              "max": 997830213.7811613
+            },
+            "executed_cost": {
+              "count": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "truth_min_ee": {
+              "count": 8,
+              "mean": 774249289.4649446,
+              "median": 929017783.6446612,
+              "min": 48259924.74890496,
+              "max": 971826776.9004457
+            },
+            "truth_cost": {
+              "count": 8,
+              "mean": 0.045546711129898956,
+              "median": 0.013464511553774539,
+              "min": 0.0,
+              "max": 0.1708186593094032
+            },
+            "truth_executed_min_ee": {
+              "count": 8,
+              "mean": 979787685.4900515,
+              "median": 994861828.0117029,
+              "min": 897303738.9497484,
+              "max": 994861828.0117029
+            },
+            "regret_predicted": {
+              "count": 8,
+              "mean": 145143422.7314521,
+              "median": 24334491.572404623,
+              "min": 0.0,
+              "max": 926992455.1780559
+            },
+            "regret_truth": {
+              "count": 8,
+              "mean": 196309100.28602093,
+              "median": 38377478.06520468,
+              "min": 0.0,
+              "max": 930186027.401467
+            },
+            "fallback_rate": 0.75
+          }
+        },
+        "power": {
+          "critic": {
+            "mean": 0.0010523954435484484,
+            "median": 0.0010313881793990731,
+            "min": 0.0010021032067015767,
+            "max": 0.00170085986610502,
+            "near_floor_fraction": 0.15,
+            "above_half_watt_fraction": 0.0
+          },
+          "training_label": {
+            "mean": 0.0010450927104102448,
+            "median": 0.0010268214391544461,
+            "min": 0.001002405653707683,
+            "max": 0.0013187323929741979,
+            "near_floor_fraction": 0.19,
+            "above_half_watt_fraction": 0.0
+          },
+          "feasible_forecast": {
+            "mean": 0.0010405967949191108,
+            "median": 0.0010268214391544461,
+            "min": 0.0010028998367488384,
+            "max": 0.0012755852658301592,
+            "near_floor_fraction": 0.195,
+            "above_half_watt_fraction": 0.0
+          },
+          "forecast_ignoring_budget": {
+            "mean": 0.0010512593213934452,
+            "median": 0.001028257014695555,
+            "min": 0.001002405653707683,
+            "max": 0.0016318128909915686,
+            "near_floor_fraction": 0.17,
+            "above_half_watt_fraction": 0.0
+          },
+          "first_sample": {
+            "mean": 0.0010543951916042716,
+            "median": 0.0010289436322636902,
+            "min": 0.0010019059991464019,
+            "max": 0.0016874694265425205,
+            "near_floor_fraction": 0.135,
+            "above_half_watt_fraction": 0.0
+          }
+        },
+        "per_repeat": [
+          {
+            "candidates": 16,
+            "no_feasible": false,
+            "best_feasible_min_ee": 979879258.7596246,
+            "best_truth_min_ee": 969806718.8927372,
+            "picks": {
+              "critic": 15,
+              "training_label": 1,
+              "feasible_forecast": 1,
+              "forecast_ignoring_budget": 1,
+              "first_sample": 0
+            },
+            "regret_predicted": {
+              "critic": 24830724.483821392,
+              "training_label": 0.0,
+              "feasible_forecast": 0.0,
+              "forecast_ignoring_budget": 0.0,
+              "first_sample": 102164036.01979613
+            },
+            "concordance_q_vs_target": 0.7083333333333334,
+            "concordance_q_vs_min_ee": 0.6666666666666666,
+            "concordance_q_vs_target_feasible": 0.5555555555555556,
+            "critic": {
+              "fallback": false,
+              "regret_predicted": 24830724.483821392,
+              "regret_truth": 20899749.499515772
+            },
+            "training_label": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": -5324397.725193858
+            },
+            "feasible_forecast": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": -5324397.725193858
+            },
+            "forecast_ignoring_budget": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": -5324397.725193858
+            },
+            "first_sample": {
+              "fallback": false,
+              "regret_predicted": 102164036.01979613,
+              "regret_truth": 72502979.94298875
+            }
+          },
+          {
+            "candidates": 16,
+            "no_feasible": false,
+            "best_feasible_min_ee": 975947875.3529688,
+            "best_truth_min_ee": 973899446.2309159,
+            "picks": {
+              "critic": 8,
+              "training_label": 11,
+              "feasible_forecast": 11,
+              "forecast_ignoring_budget": 11,
+              "first_sample": 0
+            },
+            "regret_predicted": {
+              "critic": 53909233.272117496,
+              "training_label": 0.0,
+              "feasible_forecast": 0.0,
+              "forecast_ignoring_budget": 0.0,
+              "first_sample": 49646449.43423271
+            },
+            "concordance_q_vs_target": 0.7,
+            "concordance_q_vs_min_ee": 0.6083333333333333,
+            "concordance_q_vs_target_feasible": 0.6,
+            "critic": {
+              "fallback": false,
+              "regret_predicted": 53909233.272117496,
+              "regret_truth": 77065931.18780673
+            },
+            "training_label": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "feasible_forecast": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "forecast_ignoring_budget": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "first_sample": {
+              "fallback": true,
+              "regret_predicted": 49646449.43423271,
+              "regret_truth": 468110813.3707894
+            }
+          },
+          {
+            "candidates": 16,
+            "no_feasible": false,
+            "best_feasible_min_ee": 979133117.1892967,
+            "best_truth_min_ee": 963683397.9167677,
+            "picks": {
+              "critic": 3,
+              "training_label": 5,
+              "feasible_forecast": 5,
+              "forecast_ignoring_budget": 13,
+              "first_sample": 0
+            },
+            "regret_predicted": {
+              "critic": 46852739.10920107,
+              "training_label": 0.0,
+              "feasible_forecast": 0.0,
+              "forecast_ignoring_budget": -232545.53969848156,
+              "first_sample": 21073828.367311835
+            },
+            "concordance_q_vs_target": 0.65,
+            "concordance_q_vs_min_ee": 0.65,
+            "concordance_q_vs_target_feasible": 0.47619047619047616,
+            "critic": {
+              "fallback": false,
+              "regret_predicted": 46852739.10920107,
+              "regret_truth": 26448048.553858757
+            },
+            "training_label": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": -3493225.4568030834
+            },
+            "feasible_forecast": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": -3493225.4568030834
+            },
+            "forecast_ignoring_budget": {
+              "fallback": true,
+              "regret_predicted": -232545.53969848156,
+              "regret_truth": 91733885.50870919
+            },
+            "first_sample": {
+              "fallback": true,
+              "regret_predicted": 21073828.367311835,
+              "regret_truth": 10977330.284210801
+            }
+          },
+          {
+            "candidates": 16,
+            "no_feasible": false,
+            "best_feasible_min_ee": 983400309.682217,
+            "best_truth_min_ee": 978445952.1503719,
+            "picks": {
+              "critic": 6,
+              "training_label": 4,
+              "feasible_forecast": 11,
+              "forecast_ignoring_budget": 4,
+              "first_sample": 0
+            },
+            "regret_predicted": {
+              "critic": 27217818.676395297,
+              "training_label": -325912818.49029934,
+              "feasible_forecast": 0.0,
+              "forecast_ignoring_budget": -325912818.49029934,
+              "first_sample": 926992455.1780559
+            },
+            "concordance_q_vs_target": 0.65,
+            "concordance_q_vs_min_ee": 0.6166666666666667,
+            "concordance_q_vs_target_feasible": 0.7619047619047619,
+            "critic": {
+              "fallback": false,
+              "regret_predicted": 27217818.676395297,
+              "regret_truth": 26116185.49718845
+            },
+            "training_label": {
+              "fallback": true,
+              "regret_predicted": -325912818.49029934,
+              "regret_truth": 34739024.12590861
+            },
+            "feasible_forecast": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "forecast_ignoring_budget": {
+              "fallback": true,
+              "regret_predicted": -325912818.49029934,
+              "regret_truth": 34739024.12590861
+            },
+            "first_sample": {
+              "fallback": true,
+              "regret_predicted": 926992455.1780559,
+              "regret_truth": 930186027.401467
+            }
+          },
+          {
+            "candidates": 16,
+            "no_feasible": false,
+            "best_feasible_min_ee": 978143427.3033035,
+            "best_truth_min_ee": 972014302.4967542,
+            "picks": {
+              "critic": 15,
+              "training_label": 13,
+              "feasible_forecast": 13,
+              "forecast_ignoring_budget": 13,
+              "first_sample": 0
+            },
+            "regret_predicted": {
+              "critic": 728412274.0503142,
+              "training_label": 0.0,
+              "feasible_forecast": 0.0,
+              "forecast_ignoring_budget": 0.0,
+              "first_sample": 12601629.707410932
+            },
+            "concordance_q_vs_target": 0.5916666666666667,
+            "concordance_q_vs_min_ee": 0.5583333333333333,
+            "concordance_q_vs_target_feasible": 0.4909090909090909,
+            "critic": {
+              "fallback": false,
+              "regret_predicted": 728412274.0503142,
+              "regret_truth": 616917195.3232129
+            },
+            "training_label": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": -2576685.00569427
+            },
+            "feasible_forecast": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": -2576685.00569427
+            },
+            "forecast_ignoring_budget": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": -2576685.00569427
+            },
+            "first_sample": {
+              "fallback": true,
+              "regret_predicted": 12601629.707410932,
+              "regret_truth": 11940695.158302188
+            }
+          },
+          {
+            "candidates": 16,
+            "no_feasible": false,
+            "best_feasible_min_ee": 976810907.7645957,
+            "best_truth_min_ee": 971826776.9004457,
+            "picks": {
+              "critic": 3,
+              "training_label": 0,
+              "feasible_forecast": 0,
+              "forecast_ignoring_budget": 0,
+              "first_sample": 0
+            },
+            "regret_predicted": {
+              "critic": 21951013.179030657,
+              "training_label": 0.0,
+              "feasible_forecast": 0.0,
+              "forecast_ignoring_budget": 0.0,
+              "first_sample": 0.0
+            },
+            "concordance_q_vs_target": 0.675,
+            "concordance_q_vs_min_ee": 0.5916666666666667,
+            "concordance_q_vs_target_feasible": 0.4666666666666667,
+            "critic": {
+              "fallback": false,
+              "regret_predicted": 21951013.179030657,
+              "regret_truth": 24193309.10953343
+            },
+            "training_label": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "feasible_forecast": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "forecast_ignoring_budget": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "first_sample": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            }
+          },
+          {
+            "candidates": 16,
+            "no_feasible": false,
+            "best_feasible_min_ee": 981923243.8074375,
+            "best_truth_min_ee": 962789044.264317,
+            "picks": {
+              "critic": 3,
+              "training_label": 14,
+              "feasible_forecast": 14,
+              "forecast_ignoring_budget": 5,
+              "first_sample": 0
+            },
+            "regret_predicted": {
+              "critic": 34050260.5357461,
+              "training_label": 0.0,
+              "feasible_forecast": 0.0,
+              "forecast_ignoring_budget": -248566.98278582096,
+              "first_sample": 23499837.925889254
+            },
+            "concordance_q_vs_target": 0.6083333333333333,
+            "concordance_q_vs_min_ee": 0.48333333333333334,
+            "concordance_q_vs_target_feasible": 0.4222222222222222,
+            "critic": {
+              "fallback": false,
+              "regret_predicted": 34050260.5357461,
+              "regret_truth": 21798527.37113011
+            },
+            "training_label": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 50249707.75731754
+            },
+            "feasible_forecast": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 50249707.75731754
+            },
+            "forecast_ignoring_budget": {
+              "fallback": true,
+              "regret_predicted": -248566.98278582096,
+              "regret_truth": -15905919.297421217
+            },
+            "first_sample": {
+              "fallback": true,
+              "regret_predicted": 23499837.925889254,
+              "regret_truth": 43774312.51347947
+            }
+          },
+          {
+            "candidates": 16,
+            "no_feasible": false,
+            "best_feasible_min_ee": 975186648.6468743,
+            "best_truth_min_ee": 972001479.1554147,
+            "picks": {
+              "critic": 6,
+              "training_label": 6,
+              "feasible_forecast": 6,
+              "forecast_ignoring_budget": 6,
+              "first_sample": 0
+            },
+            "regret_predicted": {
+              "critic": 0.0,
+              "training_label": 0.0,
+              "feasible_forecast": 0.0,
+              "forecast_ignoring_budget": 0.0,
+              "first_sample": 25169145.218919992
+            },
+            "concordance_q_vs_target": 0.8916666666666667,
+            "concordance_q_vs_min_ee": 0.8333333333333334,
+            "concordance_q_vs_target_feasible": 0.6666666666666666,
+            "critic": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "training_label": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "feasible_forecast": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "forecast_ignoring_budget": {
+              "fallback": false,
+              "regret_predicted": 0.0,
+              "regret_truth": 0.0
+            },
+            "first_sample": {
+              "fallback": true,
+              "regret_predicted": 25169145.218919992,
+              "regret_truth": 32980643.61692989
+            }
+          }
+        ],
+        "accounting": {
+          "bank_evaluations": 208,
+          "bank_evaluations_per_repeat": 26.0,
+          "seconds": 9.704951800056733,
+          "seconds_per_repeat": 1.2131189750070916,
+          "includes_shield": true
+        }
+      },
+      "seconds": 9.774919699993916
+    }
+  },
+  "notes": [
+    "'training_label' is the exact quantity the critic was fitted on; 'feasible_forecast' is the study's actual target.",
+    "'forecast_ignoring_budget' reproduces the old oracle column and is not a like-for-like reference for the critic.",
+    "regret = best feasible predicted min EE - predicted min EE of the pick; negative values are possible for the old rule because it may pick an infeasible candidate with a higher raw min EE.",
+    "truth columns are validation only and never enter a decision.",
+    "a plain local search with the same evaluation budget is NOT included yet; until it is, 'learning vs search' cannot be attributed."
+  ]
+}

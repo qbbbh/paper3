@@ -1,0 +1,932 @@
+[
+  {
+    "file": "research_history/documents/early/00_Paper3当前入口_20261012.md",
+    "source": "前期材料/00_Paper3当前入口_20261012.md",
+    "sha256": "ea3f5b829b24d8d6c331e079e97aeb68f50542cd79125dfe8158b92d36a2f7fb",
+    "status": "historical_unverified_current"
+  },
+  {
+    "file": "research_history/documents/early/01_Paper3当前研究主线与大论文衔接_20261012.md",
+    "source": "前期材料/01_Paper3当前研究主线与大论文衔接_20261012.md",
+    "sha256": "b9a9cd4e4f62e0c2aa088b10d7fc6b8bac06e950902af30bd36e697b05effbcd",
+    "status": "historical_unverified_current"
+  },
+  {
+    "file": "research_history/documents/early/02_Paper3场景参数与实验边界_20261012.md",
+    "source": "前期材料/02_Paper3场景参数与实验边界_20261012.md",
+    "sha256": "8362a0957e1691922892631e5f4feff34971ec2f5cb2c392ad990fa9c049cb86",
+    "status": "historical_unverified_current"
+  },
+  {
+    "file": "research_history/documents/early/03_Paper3新项目交接_20261012.md",
+    "source": "前期材料/03_Paper3新项目交接_20261012.md",
+    "sha256": "8d3ee02593743b810ee078d46d9fc58e408b347b59bdb4e43a3c3b74dd32724d",
+    "status": "historical_unverified_current"
+  },
+  {
+    "file": "references/reading_notes/historical/04_新增文献核读_LED摄像机参数估计与CRLB_20261012.md",
+    "source": "前期材料/04_新增文献核读_LED摄像机参数估计与CRLB_20261012.md",
+    "sha256": "aa7d3a8f9569ea265c99176d1159628c7e22bdbb7877cfbc190d7fd57575ded7",
+    "status": "historical_unverified_current"
+  },
+  {
+    "file": "research_history/documents/early/下一轮研究任务_A核心_B动态机制_给同学Agent.md",
+    "source": "前期材料/下一轮研究任务_A核心_B动态机制_给同学Agent.md",
+    "sha256": "6fa9b7ad970bf61688c2ffde25593a4bf37a61002080d2e91898af47788c9b7a",
+    "status": "historical_unverified_current"
+  },
+  {
+    "file": "research_history/documents/early/下一阶段_A与B组合及FPLinQ对照设计_20261014.md",
+    "source": "前期材料/下一阶段_A与B组合及FPLinQ对照设计_20261014.md",
+    "sha256": "78830a1fa186e901973910700ba9ebe37a9bdc5e15b7ec4adc059d845ef73b2b",
+    "status": "historical_unverified_current"
+  },
+  {
+    "file": "research_history/documents/early/交给同学Agent_论文审查与非强化学习联合优化提示词.md",
+    "source": "前期材料/交给同学Agent_论文审查与非强化学习联合优化提示词.md",
+    "sha256": "b91cdf6db8646443414b9f76049510ab6c9691a1ee5368374f67da52c76f9af2",
+    "status": "historical_unverified_current"
+  },
+  {
+    "file": "research_history/documents/early/大论文统一变量名与符号设计.md",
+    "source": "前期材料/大论文统一变量名与符号设计.md",
+    "sha256": "aac7276ff5e4a7c5f86c69b1457e7fdc49a1a6ef28855f21c312d47823b71ce9",
+    "status": "historical_unverified_current"
+  },
+  {
+    "file": "references/reading_notes/historical/文献分类整理.md",
+    "source": "前期材料/文献分类整理.md",
+    "sha256": "3a22266fadc6e51be8d2859b646815cca0e08d38432ef0780a55952ef15d62af",
+    "status": "historical_unverified_current"
+  },
+  {
+    "file": "references/reading_notes/historical/文献精读分类总结.md",
+    "source": "前期材料/文献精读分类总结.md",
+    "sha256": "ca80ecf8f32d87fb16dc349bf8690d2942215ec24ef191d0c8ebd9d110666f99",
+    "status": "historical_unverified_current"
+  },
+  {
+    "file": "references/reading_notes/historical/核心文献抽取片段.md",
+    "source": "前期材料/核心文献抽取片段.md",
+    "sha256": "d57d2fe5c3bad622c992507a673a12dd4ddf1ea0d174dee9013845c96d5fd83d",
+    "status": "historical_unverified_current"
+  },
+  {
+    "file": "research_history/documents/early/模型核对与谱半径说明.md",
+    "source": "前期材料/模型核对与谱半径说明.md",
+    "sha256": "4cf194bf52b5c003ae1e2e7d344ea30b631df843d1da195c8aa8aa73d329bb85",
+    "status": "historical_unverified_current"
+  },
+  {
+    "file": "research_history/documents/early/第3篇节点图式SINR与统一符号设计.md",
+    "source": "前期材料/第3篇节点图式SINR与统一符号设计.md",
+    "sha256": "2cc9412ba1a6d3e3fd21cac9ae206a65a7b9942a010bfdc5e7169ff7f2c13c58",
+    "status": "historical_unverified_current"
+  },
+  {
+    "file": "research_history/documents/early/车辆遮挡感知_RF_VLC异构V2V资源分配思路汇总.md",
+    "source": "前期材料/车辆遮挡感知_RF_VLC异构V2V资源分配思路汇总.md",
+    "sha256": "e7d90d7055a38303c5e09f51bcb0694ddfa609456f0dcbe18594a0a44936202a",
+    "status": "historical_unverified_current"
+  },
+  {
+    "file": "references/reading_notes/historical/返回_非强化学习创新方案_文献检索与三方案比较.md",
+    "source": "前期材料/返回_非强化学习创新方案_文献检索与三方案比较.md",
+    "sha256": "77b1a62b9d32cc687482b27a423d329b7b783a51e00c2b1cbdbbd04544a1270a",
+    "status": "historical_unverified_current"
+  },
+  {
+    "file": "references/reading_notes/historical/非强化学习创新方案_文献检索与三方案比较.md",
+    "source": "前期材料/非强化学习创新方案_文献检索与三方案比较.md",
+    "sha256": "c9c8922ac4106edf89e6f59b6267e9b4dc71cbeacc963d52ca713417c857010f",
+    "status": "historical_unverified_current"
+  },
+  {
+    "file": "research_history/documents/20261014_22/01_计算方法与验证边界.md",
+    "source": "前期材料/历次研究说明_20261022/01_计算方法与验证边界.md",
+    "sha256": "3eda2c6d5d7f1855e3d85943f4e83ff141abffe8e32848f246581c9fc77cac5d",
+    "status": "superseded_protocol"
+  },
+  {
+    "file": "research_history/documents/20261014_22/02_本轮结果与继承边界.md",
+    "source": "前期材料/历次研究说明_20261022/02_本轮结果与继承边界.md",
+    "sha256": "2745f3ce2d4a732209e82a8eae8334832d0a7dd5ea1ab1f5277414d02be09d72",
+    "status": "superseded_protocol"
+  },
+  {
+    "file": "research_history/documents/20261014_22/03_后续仿真变量与验收.md",
+    "source": "前期材料/历次研究说明_20261022/03_后续仿真变量与验收.md",
+    "sha256": "33b46aba3a08891eaf4f419c300c72d522a0f367a43bb0172dc404c4b3a70a5b",
+    "status": "superseded_protocol"
+  },
+  {
+    "file": "research_history/documents/20261014_22/04_论文结构与证据清单.md",
+    "source": "前期材料/历次研究说明_20261022/04_论文结构与证据清单.md",
+    "sha256": "97b0bfd9d49f59af4c9ca4b8fead1fd96079c7b809b8f40ecefc521abe263bd7",
+    "status": "superseded_protocol"
+  },
+  {
+    "file": "research_history/documents/20261014_22/05_仿真设计_精简版.md",
+    "source": "前期材料/历次研究说明_20261022/05_仿真设计_精简版.md",
+    "sha256": "fd30a4e15f21512a7a2e83f7cb2c1ea5e3a3768c77b2f651a523488b1d18365a",
+    "status": "superseded_protocol"
+  },
+  {
+    "file": "research_history/documents/20261014_22/06_精简仿真方案_独立复核.md",
+    "source": "前期材料/历次研究说明_20261022/06_精简仿真方案_独立复核.md",
+    "sha256": "ae9c8d7b5a50f3fa770e1b9cf6ed10be2d177c943ae61cf0e8479a29b0c53194",
+    "status": "superseded_protocol"
+  },
+  {
+    "file": "research_history/documents/20261014_22/07_两种文献对比方法_候选筛选.md",
+    "source": "前期材料/历次研究说明_20261022/07_两种文献对比方法_候选筛选.md",
+    "sha256": "5bd3a7fd8a40db533f5ccc42435983657f26ef8b91c9d91ea1e7751fb0a28a67",
+    "status": "superseded_protocol"
+  },
+  {
+    "file": "research_history/documents/20261014_22/08_8车逐车诊断与清理建议_20261021.md",
+    "source": "前期材料/历次研究说明_20261022/08_8车逐车诊断与清理建议_20261021.md",
+    "sha256": "97e0ee4b9581dfd7db8f74e2e5659881a7016efc29d5b52ab6dcf8a4fc663d6f",
+    "status": "superseded_protocol"
+  },
+  {
+    "file": "research_history/documents/20261014_22/08_两种文献适配与两种消融_代码进展_20261018.md",
+    "source": "前期材料/历次研究说明_20261022/08_两种文献适配与两种消融_代码进展_20261018.md",
+    "sha256": "1e755a90716b66b4267f4f89dde6b61fb0631ee71213d57e538ac5ce8b6ad1eb",
+    "status": "superseded_protocol"
+  },
+  {
+    "file": "research_history/documents/20261014_22/09_四种对照100s批次_20261018.md",
+    "source": "前期材料/历次研究说明_20261022/09_四种对照100s批次_20261018.md",
+    "sha256": "e0176985118d918d0ea7eacf7647af43937e7d3ae985d987f2d23d7f6be52a6e",
+    "status": "superseded_protocol"
+  },
+  {
+    "file": "research_history/documents/20261014_22/10_文献适配性能异常_代码排查_20261018.md",
+    "source": "前期材料/历次研究说明_20261022/10_文献适配性能异常_代码排查_20261018.md",
+    "sha256": "6a6d09e675bbd62d36ac727048910e07ab0167eba0e665678d2483bb0f4e5eb2",
+    "status": "superseded_protocol"
+  },
+  {
+    "file": "research_history/documents/20261014_22/11_四种对照统一排查与DJ完整运行_20261018.md",
+    "source": "前期材料/历次研究说明_20261022/11_四种对照统一排查与DJ完整运行_20261018.md",
+    "sha256": "451243eda7ae66bd073ab53b915b98979356fb55743338f7740902fb91eb23f3",
+    "status": "superseded_protocol"
+  },
+  {
+    "file": "research_history/documents/20261014_22/12_Wang修复版20s试跑_20261018.md",
+    "source": "前期材料/历次研究说明_20261022/12_Wang修复版20s试跑_20261018.md",
+    "sha256": "aefce7fcf386052d1114ae27110b0feb842dcc4839a03cb88b345e4ea56e2854",
+    "status": "superseded_protocol"
+  },
+  {
+    "file": "research_history/documents/20261014_22/13_活动发送模块开销_代码修改与交接_20261019.md",
+    "source": "前期材料/历次研究说明_20261022/13_活动发送模块开销_代码修改与交接_20261019.md",
+    "sha256": "89b8cf3930c0bfc9a4cffb8b4e008b77245a52cd917d538cdb95a8b8a5877cb4",
+    "status": "superseded_protocol"
+  },
+  {
+    "file": "research_history/documents/20261014_22/14_20s试运行阶段汇报_20261019.md",
+    "source": "前期材料/历次研究说明_20261022/14_20s试运行阶段汇报_20261019.md",
+    "sha256": "c1c2fecfa1884a765560f7b58661019f25c56dc52ee40260f2fa722c9158c82a",
+    "status": "superseded_protocol"
+  },
+  {
+    "file": "research_history/documents/20261014_22/15_去掉固定开销_Aboagye复核与重跑_20261019.md",
+    "source": "前期材料/历次研究说明_20261022/15_去掉固定开销_Aboagye复核与重跑_20261019.md",
+    "sha256": "89c905005d1a530fbedba473eebfb16bbafc685137442fa4c0a22843430d2a8a",
+    "status": "superseded_protocol"
+  },
+  {
+    "file": "research_history/documents/20261014_22/16_去掉固定项重跑_共同前缀阶段结果_20261019.md",
+    "source": "前期材料/历次研究说明_20261022/16_去掉固定项重跑_共同前缀阶段结果_20261019.md",
+    "sha256": "0dff21046768fbbb1ed99a3a7b05c05d3c89ad613785bd4debdb8395cb44b634",
+    "status": "superseded_protocol"
+  },
+  {
+    "file": "research_history/documents/20261014_22/17_RF上限2W_基线服务适配修正与10s设置_20261019.md",
+    "source": "前期材料/历次研究说明_20261022/17_RF上限2W_基线服务适配修正与10s设置_20261019.md",
+    "sha256": "3acea241c350e8d552f661309d0b117a4f5a5d4e1c000c7bac57d308259754ee",
+    "status": "superseded_protocol"
+  },
+  {
+    "file": "research_history/documents/20261014_22/18_RF2W完整10s批次执行记录_20261019.md",
+    "source": "前期材料/历次研究说明_20261022/18_RF2W完整10s批次执行记录_20261019.md",
+    "sha256": "2e109475b22f18830b942aaccd45439a65ae1c946a4976d8b382bad441d7f761",
+    "status": "superseded_protocol"
+  },
+  {
+    "file": "research_history/documents/manuscript_decisions/00_今晚讨论完整记录与后续开发依据_20261023.md",
+    "source": "论文/00_今晚讨论完整记录与后续开发依据_20261023.md",
+    "sha256": "1e2b2e4edd57721c8b1c049551f33b77b9470acb8119edaebbc78e9449ed9093",
+    "status": "historical_decision_not_current_spec"
+  },
+  {
+    "file": "research_history/documents/manuscript_decisions/00_论文入口.md",
+    "source": "论文/00_论文入口.md",
+    "sha256": "de39ed2149e59dc6ecffd273369c03c1b0fb925a2a889470eb0d75b675c118de",
+    "status": "historical_decision_not_current_spec"
+  },
+  {
+    "file": "research_history/documents/manuscript_decisions/P3_RF低功率能效偏好与最低速率约束复议_20261023.md",
+    "source": "论文/P3_RF低功率能效偏好与最低速率约束复议_20261023.md",
+    "sha256": "d7ce09bdf40fe6f7082b535bb2ed47fc3f333beac4211ef8207efbee3678d10a",
+    "status": "historical_decision_not_current_spec"
+  },
+  {
+    "file": "research_history/documents/manuscript_decisions/P3_取消QoS优化约束与场景交接补充_20261023.md",
+    "source": "论文/P3_取消QoS优化约束与场景交接补充_20261023.md",
+    "sha256": "1f916988225153dde52ca0e42e229f280187a0d98d9aa5626f125ca8540a3281",
+    "status": "historical_decision_not_current_spec"
+  },
+  {
+    "file": "research_history/documents/manuscript_decisions/P3_固定块协议修正与信道估计实验设计_20261023.md",
+    "source": "论文/P3_固定块协议修正与信道估计实验设计_20261023.md",
+    "sha256": "6b4b0b029c6701d4baaf367d73f7eecdf017184704213c8b6cf52ed11c45a7fa",
+    "status": "historical_decision_not_current_spec"
+  },
+  {
+    "file": "research_history/documents/manuscript_decisions/P3_统一目标与参数_定稿_v1_20261019.md",
+    "source": "论文/P3_统一目标与参数_定稿_v1_20261019.md",
+    "sha256": "331eea26e3e96cb5c27ef6aa0768b233fa3ba21022f2bd6b25c903e18c268112",
+    "status": "historical_decision_not_current_spec"
+  },
+  {
+    "file": "research_history/documents/manuscript_decisions/Paper3_主算法定位与目录收口决定_20261022.md",
+    "source": "论文/Paper3_主算法定位与目录收口决定_20261022.md",
+    "sha256": "3a1b18e055c676a3ac77fc9f0febe486354f4f4e25544ccc4aaf3e0306bebe3a",
+    "status": "historical_decision_not_current_spec"
+  },
+  {
+    "file": "research_history/documents/manuscript_decisions/Paper3_方向调整与研究主线_CRLB误差补偿_20261023.md",
+    "source": "论文/Paper3_方向调整与研究主线_CRLB误差补偿_20261023.md",
+    "sha256": "966eb4c48315259a2879a036c1f4123d2607796235fd5e1f87182978dffe6d86",
+    "status": "historical_decision_not_current_spec"
+  },
+  {
+    "file": "research_history/documents/manuscript_decisions/Paper3_研究方案_CRLB到资源决策代价_20261016_v1.md",
+    "source": "论文/Paper3_研究方案_CRLB到资源决策代价_20261016_v1.md",
+    "sha256": "6a18d59735a9a45e95e4846836bc19dfb601ffa321cf1914fad600329841dfb0",
+    "status": "historical_decision_not_current_spec"
+  },
+  {
+    "file": "research_history/documents/manuscript_decisions/Paper3_论文写作总说明_20261021.md",
+    "source": "论文/Paper3_论文写作总说明_20261021.md",
+    "sha256": "4c998a4483ac8687cee4af99fa80769228b1aca0c5ad9afc0034d60a6283e08b",
+    "status": "historical_decision_not_current_spec"
+  },
+  {
+    "file": "research_history/documents/manuscript_decisions/交接包_v2_完成说明_20261023.md",
+    "source": "论文/交接包_v2_完成说明_20261023.md",
+    "sha256": "861e103be42854cbde4fdd95789603f4177fc5cac178102e32ea82f7261e8308",
+    "status": "historical_decision_not_current_spec"
+  },
+  {
+    "file": "research_history/documents/manuscript_decisions/信道估计结果复核与下一步交接决定_20261023.md",
+    "source": "论文/信道估计结果复核与下一步交接决定_20261023.md",
+    "sha256": "1b63f52fe5ac001ad28ef6e882cd3e48a048c05bb53e7fac521d85524e50156a",
+    "status": "historical_decision_not_current_spec"
+  },
+  {
+    "file": "research_history/documents/manuscript_decisions/基础层_CRLB的作用与适用边界_20261023.md",
+    "source": "论文/基础层_CRLB的作用与适用边界_20261023.md",
+    "sha256": "fc1fc6966f7a4fa5c7e17a85cdd7d1078ef3696fc5181a0a3ad92ab2b0721293",
+    "status": "historical_decision_not_current_spec"
+  },
+  {
+    "file": "research_history/documents/manuscript_decisions/基础层代码审查与agent3修复清单_20261023.md",
+    "source": "论文/基础层代码审查与agent3修复清单_20261023.md",
+    "sha256": "5a58aae3eb3338474a69a382245e1155f0dd6fef55abb0a1eb5391f31743ce34",
+    "status": "historical_decision_not_current_spec"
+  },
+  {
+    "file": "research_history/documents/manuscript_decisions/通信模式硬约定_禁止冲刺通信与通信对EE_20261023.md",
+    "source": "论文/通信模式硬约定_禁止冲刺通信与通信对EE_20261023.md",
+    "sha256": "014f4dcc0ef6ee1fe795407220b3d6019bcdb01eb46057e8ade826de0ffc7821",
+    "status": "historical_decision_not_current_spec"
+  },
+  {
+    "file": "research_history/documents/20261024/00_重要复盘_发射功率与算法反复修改_20261024.md",
+    "source": "00_重要复盘_发射功率与算法反复修改_20261024.md",
+    "sha256": "49c28358515460c65041419a6b812108db0627657ca41396b8654a206ee2b9a7",
+    "status": "historical_with_later_corrections"
+  },
+  {
+    "file": "research_history/documents/20261024/00_下一步仿真方案_v1_20261024.md",
+    "source": "00_下一步仿真方案_v1_20261024.md",
+    "sha256": "4788edba6212048d8de1d4fa17ec8b7d9e5bd6b7d74cb31c356bdaa6a01ea851",
+    "status": "historical_with_later_corrections"
+  },
+  {
+    "file": "research_history/documents/20261024/00_Paper3工作入口.md",
+    "source": "00_Paper3工作入口.md",
+    "sha256": "d895b7bf10c9875cbc039c8a04ecc8e265a40db7b97c9767943936f0399c8ed4",
+    "status": "historical_with_later_corrections"
+  },
+  {
+    "file": "research_history/documents/20261025_26/00_代码入口.md",
+    "source": "代码/00_代码入口.md",
+    "sha256": "165d9728ec042a63cfdf846d33ecf1bf1d78b9d284b084f55120a67291bb9d89",
+    "status": "historical_with_later_corrections"
+  },
+  {
+    "file": "research_history/documents/20261025_26/10车仿真收口评估与实验设计_20261025.md",
+    "source": "代码/10车仿真收口评估与实验设计_20261025.md",
+    "sha256": "01c570036c28ef19ed35d590fef656546488a1f335e51a1bd21bc4e1c6b8e199",
+    "status": "historical_with_later_corrections"
+  },
+  {
+    "file": "research_history/documents/20261025_26/10车新口径验收与功率明细复核_20261026.md",
+    "source": "代码/10车新口径验收与功率明细复核_20261026.md",
+    "sha256": "cd288b8d27bb91b40219c1b1a8f7d5ef9a6fa4374a8db529efb54f4a5271988b",
+    "status": "historical_with_later_corrections"
+  },
+  {
+    "file": "research_history/documents/20261025_26/10车新版功率与VLC模型复核_20261025.md",
+    "source": "代码/10车新版功率与VLC模型复核_20261025.md",
+    "sha256": "6e6bb586f63f7dc0a603c038263b02ba0f58b4cee69dc28275dbc765075c31e9",
+    "status": "historical_with_later_corrections"
+  },
+  {
+    "file": "research_history/documents/20261025_26/10车联合搜索结果复核与收口建议_20261026.md",
+    "source": "代码/10车联合搜索结果复核与收口建议_20261026.md",
+    "sha256": "95c74fffdc283506f9dc1951d5c2a9580f585e235e0df308abe5a161bd2273ce",
+    "status": "historical_with_later_corrections"
+  },
+  {
+    "file": "research_history/documents/20261025_26/50车_选择口径修正与三分支验证_20261025.md",
+    "source": "代码/50车_选择口径修正与三分支验证_20261025.md",
+    "sha256": "ea3ec04ddde5dc4ced74f210ef7d93744c757665a2c23a7058bb8c34f6d07a9e",
+    "status": "historical_with_later_corrections"
+  },
+  {
+    "file": "research_history/documents/20261025_26/功率维与等效SINR_20261025.md",
+    "source": "代码/功率维与等效SINR_20261025.md",
+    "sha256": "e31de6421b4f1de52aa63fa38e54fe93c0d8dbc3c51681b7404dab6ff961af59",
+    "status": "historical_with_later_corrections"
+  },
+  {
+    "file": "research_history/documents/learning/09_v3改造验收_20261024.md",
+    "source": "代码/开发_50_100车_v3_20261024/09_v3改造验收_20261024.md",
+    "sha256": "40e583dfcac66e67d723fe34868430e0af72dcc9de7ceb3825d44a3ac5b0c582",
+    "status": "learning_development_not_validated"
+  },
+  {
+    "file": "research_history/documents/learning/10_agent1独立复核与下一步_20261024.md",
+    "source": "代码/开发_50_100车_v3_20261024/10_agent1独立复核与下一步_20261024.md",
+    "sha256": "bf2e60bdb31cc35d7b88d593bf2c81e79bbd600a413c5cf8ee57fd28077b7c2f",
+    "status": "learning_development_not_validated"
+  },
+  {
+    "file": "research_history/documents/old_allocation10/P3_误差补偿与弱链路保障_10车SCA代码复核_20261024.md",
+    "source": "代码/P3_误差补偿与弱链路保障/10车SCA代码复核_20261024.md",
+    "sha256": "6038b7b10c74d1efa7643200ab48622c5171f2fdb6b7d2bec112e6a23ff2bb9c",
+    "status": "old_objective_not_current_results"
+  },
+  {
+    "file": "research_history/documents/old_allocation10/review_sca_20261024_r2_复核结论.md",
+    "source": "代码/P3_误差补偿与弱链路保障/diagnostics/review_sca_20261024_r2/复核结论.md",
+    "sha256": "a49129aa07a77ced7001ef920426eb8ccd6989e31cad20a54120122e9f6d1666",
+    "status": "old_objective_not_current_results"
+  },
+  {
+    "file": "research_history/documents/old_allocation10/sweep_report_20261024_报告.md",
+    "source": "代码/P3_误差补偿与弱链路保障/diagnostics/sweep_report_20261024/报告.md",
+    "sha256": "8ce871a1b141193c24158b6396aab39adea9fd906524784781bdf81027e77887",
+    "status": "old_objective_not_current_results"
+  },
+  {
+    "file": "references/reading_notes/manuscript/10_历史理论_20261002/02_最近邻文献差异表.md",
+    "source": "论文/返回_Paper3_中文主体写作/10_历史理论_20261002/02_最近邻文献差异表.md",
+    "sha256": "6507fe0868bdd8baaf63df760860cc58b127907630f1e04713f099faf62e885e",
+    "status": "bibliography_or_historical_notes_not_new_verification"
+  },
+  {
+    "file": "references/reading_notes/manuscript/10_历史理论_20261002/references.bib",
+    "source": "论文/返回_Paper3_中文主体写作/10_历史理论_20261002/references.bib",
+    "sha256": "1fb7971f15058ab97fd71eeb1500860c546e59e2170d944997c6b1c64a22b9a9",
+    "status": "bibliography_or_historical_notes_not_new_verification"
+  },
+  {
+    "file": "references/reading_notes/manuscript/11_理论返回_20261016/文献核查与期刊依据.md",
+    "source": "论文/返回_Paper3_中文主体写作/11_理论返回_20261016/文献核查与期刊依据.md",
+    "sha256": "2d34febb5b24256d2c48b84a89d060584920390f0c45aa78487cecfd6148c9df",
+    "status": "bibliography_or_historical_notes_not_new_verification"
+  },
+  {
+    "file": "references/reading_notes/manuscript/16_参考论文/Mayahi_2022.bib",
+    "source": "论文/返回_Paper3_中文主体写作/16_参考论文/Mayahi_2022.bib",
+    "sha256": "94b175340c1f2955586d9e2c2bf584881a10e376dea4fa5033c1c03954caac61",
+    "status": "bibliography_or_historical_notes_not_new_verification"
+  },
+  {
+    "file": "references/reading_notes/manuscript/21_既有论文框架与公式依据/参考文献.bib",
+    "source": "论文/返回_Paper3_中文主体写作/21_既有论文框架与公式依据/参考文献.bib",
+    "sha256": "f03fa54cd3fec02557056b7ab449b5434d8ca0d5c9437705c7d8801e6e97f6b6",
+    "status": "bibliography_or_historical_notes_not_new_verification"
+  },
+  {
+    "file": "references/reading_notes/manuscript/21_既有论文框架与公式依据/参考文献与公式依据清单.md",
+    "source": "论文/返回_Paper3_中文主体写作/21_既有论文框架与公式依据/参考文献与公式依据清单.md",
+    "sha256": "95af986687c851f2a083979daffc6f7fa1847d6885a1782f37089e58cae793f8",
+    "status": "bibliography_or_historical_notes_not_new_verification"
+  },
+  {
+    "file": "references/reading_notes/manuscript/中文主体初稿_20261022/01_引言思路与文献论证.md",
+    "source": "论文/返回_Paper3_中文主体写作/中文主体初稿_20261022/01_引言思路与文献论证.md",
+    "sha256": "fc616f3a25b18e37d6f56ad47af930235919aeffbd6133e2d0dce560f3e16a46",
+    "status": "bibliography_or_historical_notes_not_new_verification"
+  },
+  {
+    "file": "references/reading_notes/manuscript/中文主体初稿_20261022/参考文献_本轮引用.md",
+    "source": "论文/返回_Paper3_中文主体写作/中文主体初稿_20261022/参考文献_本轮引用.md",
+    "sha256": "9de987b08b8f72f5bb7881dbded915f47e3df7ee32652cfb963be6f100c7c21c",
+    "status": "bibliography_or_historical_notes_not_new_verification"
+  },
+  {
+    "file": "references/reading_notes/manuscript/中文主体初稿_20261022/资料核查_文献.md",
+    "source": "论文/返回_Paper3_中文主体写作/中文主体初稿_20261022/资料核查_文献.md",
+    "sha256": "e2a2c94f0da94fec2f29bba2a60d3d1077de09c6339a964ce926f41a90f1abb5",
+    "status": "bibliography_or_historical_notes_not_new_verification"
+  },
+  {
+    "file": "resource_allocation/n50/historical_results/n50_mlp_eval/results.csv",
+    "source": "代码/开发_50_100车_v3_20261024/runs/n50_mlp_eval/results.csv",
+    "sha256": "2819cf6dc81ab7752a7f459ecc6253f4170e3c9905ddc58b52e50c2fe7ec07fb",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n50/historical_results/n50_mlp_eval/summary.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/n50_mlp_eval/summary.json",
+    "sha256": "84887c0e1af8133b63952f51f015e18049ce43bcabd84704a7def83ab57e599c",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n50/historical_results/n50_mlp_eval/training_curve.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/n50_mlp_eval/training_curve.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n50/historical_results/n50_credit_v3/credit.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/n50_credit_v3/credit.json",
+    "sha256": "9385cf6457e6fc9ab888761c2cbe0376c27a4c59f64f6cc8c46560500cff6624",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n50/historical_results/n50_credit_v3/results.csv",
+    "source": "代码/开发_50_100车_v3_20261024/runs/n50_credit_v3/results.csv",
+    "sha256": "8446031167ac0b6b1af4f4a04278933001b301deee86b6f57a4ee7f84ca999c0",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n50/historical_results/n50_credit_v3/summary.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/n50_credit_v3/summary.json",
+    "sha256": "41f5c859534c7156024c5c4a5a917e99e1b8abb293b1c47cd99fd39da8cf23dc",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n50/historical_results/n50_credit_v3/training_curve.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/n50_credit_v3/training_curve.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n50/historical_results/probe_fixed_state_n50_b2/probe.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/probe_fixed_state_n50_b2/probe.json",
+    "sha256": "0a69a665f7b68f781ebd2e10baa9c485901103d9bf18612c7ee3a5458d598ab8",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n50/historical_results/probe_explore_n50_b2/probe.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/probe_explore_n50_b2/probe.json",
+    "sha256": "2e1e2a7907c3c22b5645dc0a3a7b84ac1dd4b64a2be78345e37cfabca423d3c7",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n50/historical_results/selection_audit_n50_b2/audit.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/selection_audit_n50_b2/audit.json",
+    "sha256": "9906ed2704a4493aaa08a60c12b54db3e07bab54e895186a358ff5a369ec8560",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n50/historical_results/branch_scan_n50_b2/no_continuous_entropy_seed10/probe.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/branch_scan_n50_b2/no_continuous_entropy_seed10/probe.json",
+    "sha256": "d6a21bc7a2d329a5fe5d0f687bcc658b0899c7d85f3b510e2067f7e20377e59a",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n50/historical_results/branch_scan_n50_b2/no_continuous_entropy_seed8/probe.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/branch_scan_n50_b2/no_continuous_entropy_seed8/probe.json",
+    "sha256": "085b46b684e9bc3c5dc094b4c747d88f35678dcb9ea7c30aa34a30cd10a0c303",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n50/historical_results/branch_scan_n50_b2/no_continuous_entropy_seed9/probe.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/branch_scan_n50_b2/no_continuous_entropy_seed9/probe.json",
+    "sha256": "08a8928f41043e217291a5d00fb97c752c0cd3e9394bf27c158445e1efa1388e",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n50/historical_results/branch_scan_n50_b2/original_seed10/probe.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/branch_scan_n50_b2/original_seed10/probe.json",
+    "sha256": "974bf202a765aa2add60116d08a7b1ab9b0cf32be89e3d7c025ba778598cdb25",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n50/historical_results/branch_scan_n50_b2/original_seed8/probe.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/branch_scan_n50_b2/original_seed8/probe.json",
+    "sha256": "6fbe749ae874ec941c4bc84f1baa330ee122b1413a2209bd3a3b071f2fff7c1c",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n50/historical_results/branch_scan_n50_b2/original_seed9/probe.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/branch_scan_n50_b2/original_seed9/probe.json",
+    "sha256": "aaf7cc24aab997006099f0f1e6138d01bc2d3067906176befa9503932432e211",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n100/historical_results/n100_hg_eval/credit.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/n100_hg_eval/credit.json",
+    "sha256": "77c4b70a8a7ae8730feb61dc13e4b448ec236f54fab26e52279c4820ed9b98c2",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n100/historical_results/n100_hg_eval/results.csv",
+    "source": "代码/开发_50_100车_v3_20261024/runs/n100_hg_eval/results.csv",
+    "sha256": "422fcc641075896dc0bcb2b15eb6d3b7f3d94fc6d7f4da333cade3d3ec31301f",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n100/historical_results/n100_hg_eval/summary.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/n100_hg_eval/summary.json",
+    "sha256": "97a1c7f3f1e6e9fee583956ae257505d30fc6bd7f33bbd6b525acff41af8290b",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n100/historical_results/n100_hg_eval/training_curve.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/n100_hg_eval/training_curve.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n100/historical_results/n100_hg2_eval/credit.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/n100_hg2_eval/credit.json",
+    "sha256": "5831c635644380a3ce211223bc2fc0860dbde27c7a9cdf03d0242262b89a45cc",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n100/historical_results/n100_hg2_eval/results.csv",
+    "source": "代码/开发_50_100车_v3_20261024/runs/n100_hg2_eval/results.csv",
+    "sha256": "cd9bc994d61211d37f62a0cdc2dbe6dbe65cae925145cbf19788bd3c2372612b",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n100/historical_results/n100_hg2_eval/summary.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/n100_hg2_eval/summary.json",
+    "sha256": "8f18cd31637ada13c780edfa93578bcdf253f01ef61d832b07e4d8a2f830d096",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n100/historical_results/n100_hg2_eval/training_curve.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/n100_hg2_eval/training_curve.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n100/historical_results/n100_hg2_credit_v3/credit.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/n100_hg2_credit_v3/credit.json",
+    "sha256": "2977efb5cbd0cc849c13777d06bf4e04eeed9df7fe84ab762c323827373724db",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n100/historical_results/n100_hg2_credit_v3/results.csv",
+    "source": "代码/开发_50_100车_v3_20261024/runs/n100_hg2_credit_v3/results.csv",
+    "sha256": "664d74ecd1fccfd326789ec2010008e4c0d55b43443d9151c5efc1491fbe7314",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n100/historical_results/n100_hg2_credit_v3/summary.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/n100_hg2_credit_v3/summary.json",
+    "sha256": "0588f6f4d2a5213cbfa6c17832909436122241337cbe24d535cecf07835ee625",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "resource_allocation/n100/historical_results/n100_hg2_credit_v3/training_curve.json",
+    "source": "代码/开发_50_100车_v3_20261024/runs/n100_hg2_credit_v3/training_curve.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "status": "legacy_learning_result_not_current_model"
+  },
+  {
+    "file": "research_history/original_matlab/alternating.m",
+    "source": "E:\\matlab code\\paper3\\alternating.m",
+    "sha256": "af056365fa399392c4d244ed6df637305daac484f84ba1c279c79fc5f1d056a2",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/avera.m",
+    "source": "E:\\matlab code\\paper3\\avera.m",
+    "sha256": "62e3b8c0841704fe9875a822757d3d72bd55381800f94edff5d05b55d9240ab4",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/BFGSSCA.m",
+    "source": "E:\\matlab code\\paper3\\BFGSSCA.m",
+    "sha256": "dc5145e879800536c3602a6051e02020d1a9eaf8300efe0ca977dacce60bb866",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/channelest2.m",
+    "source": "E:\\matlab code\\paper3\\channelest2.m",
+    "sha256": "9be11984f524ef28cd0a7009963c0a42d2097d53d408748796a38bc4b083a364",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/dink.m",
+    "source": "E:\\matlab code\\paper3\\dink.m",
+    "sha256": "3cff41cd3e9a6cbc86910e9b6d24622607d4a7789378dcf43e79a578c65f6dc4",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/dink1.m",
+    "source": "E:\\matlab code\\paper3\\dink1.m",
+    "sha256": "af646d47d0491e1d4331c9b2f4381c14799b71933eb631e15c88c4b10726a6ca",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/dink10.m",
+    "source": "E:\\matlab code\\paper3\\dink10.m",
+    "sha256": "9181e40c0d8af25254791a05e1d1dc8aaae02583c513d87fa08ec873505cd134",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/dink101.m",
+    "source": "E:\\matlab code\\paper3\\dink101.m",
+    "sha256": "19bc7ca545b7f979c12d4f49e958de702273c75ad6a554125604d8d81a5f9f97",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/dink102.m",
+    "source": "E:\\matlab code\\paper3\\dink102.m",
+    "sha256": "e813fb7a73aec510e3088229c3ea23627013dcbd0898f7ade81e51224dc40ad7",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/dink103.m",
+    "source": "E:\\matlab code\\paper3\\dink103.m",
+    "sha256": "93b6ab52fcc0c85bd40d4ee4dfafa03089e42dd123b776062520c3e967c85622",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/dink104.m",
+    "source": "E:\\matlab code\\paper3\\dink104.m",
+    "sha256": "0e2c39bb3ae81b2b0ac15a570db51ab1154b051067da11fb4d9b85551b303cab",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/dink11.m",
+    "source": "E:\\matlab code\\paper3\\dink11.m",
+    "sha256": "e35d33224637a477c469f9e632c5e007cbdd586c0424475cd5bea3c7813f25fb",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/dink2.m",
+    "source": "E:\\matlab code\\paper3\\dink2.m",
+    "sha256": "86c505cf129046fdc237e4addf46bd04c3ffcab6a393f69586ebf4e366f11df2",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/dink4.m",
+    "source": "E:\\matlab code\\paper3\\dink4.m",
+    "sha256": "5920be2b299ffb170c317e988db9c69e96c1c0b479bd260769f4dec630443e96",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/dink5.m",
+    "source": "E:\\matlab code\\paper3\\dink5.m",
+    "sha256": "251507d380ed8e7f7f869babb7415edee16b3262f27c2785be31aecc412a3e5f",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/dink6.m",
+    "source": "E:\\matlab code\\paper3\\dink6.m",
+    "sha256": "c0f5c81fbce56f6e0e3efac057a3874680512e38c48f066b6dc33a05bd3260ba",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/dink7.m",
+    "source": "E:\\matlab code\\paper3\\dink7.m",
+    "sha256": "f53938ae6a4f3a0f199f1a6bc24d10876b5391309c03832a3ef3db45da3538ff",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/dink8.m",
+    "source": "E:\\matlab code\\paper3\\dink8.m",
+    "sha256": "71bbce852b154278c184d1609c20e424ffbff61ec8bbd74dc2c90cca3aa46d2d",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/dink9.m",
+    "source": "E:\\matlab code\\paper3\\dink9.m",
+    "sha256": "95e9c4b80a2402a979272a364fc3d6630d51d6cf70f4865fc84ed105a6be2971",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/dinkelbach.m",
+    "source": "E:\\matlab code\\paper3\\dinkelbach.m",
+    "sha256": "4b4a848dd7b20106e5e4cd3402d2a153e6739ffa9ddb550589170a08217281c4",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/dongtaitu.m",
+    "source": "E:\\matlab code\\paper3\\dongtaitu.m",
+    "sha256": "7754e27927c90ad49ef85e14396fb868d5dc56a0443bf4080a1b6bb51da93461",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/doppler.m",
+    "source": "E:\\matlab code\\paper3\\doppler.m",
+    "sha256": "d7bf3cac49b92755af2939c6b9a7ca39c347a4da8cedeb564d3acd35a9c4b097",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/hejiSCA.m",
+    "source": "E:\\matlab code\\paper3\\hejiSCA.m",
+    "sha256": "18c5e4239122f7ded5dc5d6154831d7202711a59ab43a528b557614b8d88ceff",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/lianluzuida.m",
+    "source": "E:\\matlab code\\paper3\\lianluzuida.m",
+    "sha256": "562cff05ac82446aae733d9271a5bcd691a70fc3abc20789ffa0fd4908fa4d99",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/lianluzuida1.m",
+    "source": "E:\\matlab code\\paper3\\lianluzuida1.m",
+    "sha256": "2033c5bc079714398b5695710d7027c0fa07e423087bde40450eee1ba29d6603",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/marl.m",
+    "source": "E:\\matlab code\\paper3\\marl.m",
+    "sha256": "f86cb45ea60033c74535ad8b3540a27402c8eab5dbb86c9745677387ae47b37b",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/marl2.m",
+    "source": "E:\\matlab code\\paper3\\marl2.m",
+    "sha256": "830d521da91cd799061abfe7b2b596978d09c65919f414dcc46a6b4062b2965a",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/marl3.m",
+    "source": "E:\\matlab code\\paper3\\marl3.m",
+    "sha256": "ca4a6bb9a3c3a2ded98b57b3402a7c1f4d673193dfcb1a418e2ab8ac59b6484e",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/marl4.m",
+    "source": "E:\\matlab code\\paper3\\marl4.m",
+    "sha256": "5f5653bc83c373eba592c06f8ec282bab794d6b54f2519a4e922edce186fec59",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/mmsexindaoguji.m",
+    "source": "E:\\matlab code\\paper3\\mmsexindaoguji.m",
+    "sha256": "fa845fed587ca543fddc1dd99799f38818dff536e76acd8235bad3b822e3bfff",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/putongdink8.m",
+    "source": "E:\\matlab code\\paper3\\putongdink8.m",
+    "sha256": "7c437969b7d1989d4de438f10cbd2dd1a57821ab219c2b27c3b8f5b6c71a8f4d",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/SCA12.m",
+    "source": "E:\\matlab code\\paper3\\SCA12.m",
+    "sha256": "57dd76a21dbade21aa16c3fe43cc7116b07763a4712fb2ffe0fe921b0a2db880",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/SCA2.m",
+    "source": "E:\\matlab code\\paper3\\SCA2.m",
+    "sha256": "ded8f3d3be1622fc924f0ca1551137d58e313d486283eb10bef2c73c37c49d50",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/SCA3.m",
+    "source": "E:\\matlab code\\paper3\\SCA3.m",
+    "sha256": "40865ac4e9a786229ed201d1132199cddcf31e06b4cea2f62a98fd7083cd75e7",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/SCA3HOUXU.m",
+    "source": "E:\\matlab code\\paper3\\SCA3HOUXU.m",
+    "sha256": "2bedb03b2159d39b0001d3502c729f4d56da2109dca7fd269e326794f3397b42",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/SCA3HOUXU1.m",
+    "source": "E:\\matlab code\\paper3\\SCA3HOUXU1.m",
+    "sha256": "927ed47f6d6a2f67896627aefaa964e77ccc5806b11acd9369b1b1c6a49c5204",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/SCA3HOUXU2.m",
+    "source": "E:\\matlab code\\paper3\\SCA3HOUXU2.m",
+    "sha256": "2ad051320547d450fdd7b74222bdd1eba8590e051bb7ffe7262273aadb06b504",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/SCA4.m",
+    "source": "E:\\matlab code\\paper3\\SCA4.m",
+    "sha256": "c848dc39b103d77bf20f0db462e207cacef1a50555f54303a3536f093ade8d73",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/SCAPCA.m",
+    "source": "E:\\matlab code\\paper3\\SCAPCA.m",
+    "sha256": "58a45dcd3daa034707a9444578b7c98c5357770d9566116e9713e288a9c33f8d",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/straight.m",
+    "source": "E:\\matlab code\\paper3\\straight.m",
+    "sha256": "c918ac51b33493fd14b4b5c67b031ffa169dfc65df5fa37ae904edea7a90d439",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/stralternating.m",
+    "source": "E:\\matlab code\\paper3\\stralternating.m",
+    "sha256": "91a8829cb2f0437e9f1de45711e0e4e2c3dbf3995793f5b81c6b605e57e33084",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/strdink10.m",
+    "source": "E:\\matlab code\\paper3\\strdink10.m",
+    "sha256": "6d7d7afd04b26fa9bb2dc01d41e65959ece6d94d0eb58df34033f1b14288bfd9",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/strdink3.m",
+    "source": "E:\\matlab code\\paper3\\strdink3.m",
+    "sha256": "872ed8b6027cc654604271a3e81817e540a14bac48130a2f366fcd7c0e0a48b0",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/strdink7.m",
+    "source": "E:\\matlab code\\paper3\\strdink7.m",
+    "sha256": "8664425372d21e22c31c062edfa274f8ac5c4306e83f9f24317b32f89292594b",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/strmarl3.m",
+    "source": "E:\\matlab code\\paper3\\strmarl3.m",
+    "sha256": "48dc2f155fbbac46c4267a35e2071d82d851bffdb5658a5ebc4e76e350b383f4",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/try2.m",
+    "source": "E:\\matlab code\\paper3\\try2.m",
+    "sha256": "9cbd95aafcc23f5f3b59f5070ce26ce90c0ceca1bf1b1a997672adf605a94524",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/try3.m",
+    "source": "E:\\matlab code\\paper3\\try3.m",
+    "sha256": "56b6b7ba5f143ce501814ab5eead29cc12a6718ae0c567466c9741e812fd0861",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/xindaoguj1i.m",
+    "source": "E:\\matlab code\\paper3\\xindaoguj1i.m",
+    "sha256": "61f99152b1d26c4f152393ac519bdba40af606c0e29757b20b6099f75a0a1236",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/xindaoguji.m",
+    "source": "E:\\matlab code\\paper3\\xindaoguji.m",
+    "sha256": "bd77d5c7163f210a4baf64aef07832a84699be62e0b133c8a915f1d9dff78d4f",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/xindaozengyi.m",
+    "source": "E:\\matlab code\\paper3\\xindaozengyi.m",
+    "sha256": "7f642ffa93f385377006f27606b4853145b3ffe0d918285c95fbeb73f2f96c40",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/original_matlab/zuihouyici.m",
+    "source": "E:\\matlab code\\paper3\\zuihouyici.m",
+    "sha256": "1fc5eb3b1a987f283b910cdde2a016b00585ef065ff2e18569e7255e7c1ea4c2",
+    "status": "historical_MATLAB_not_verified_final_DIJCPO_version"
+  },
+  {
+    "file": "research_history/manuscript_20261022/Paper3_中文主体初稿_合并阅读版.md",
+    "source": "论文/返回_Paper3_中文主体写作/中文主体初稿_20261022/Paper3_中文主体初稿_合并阅读版.md",
+    "sha256": "47972edee05185bfdc06c29fc8230a088d2c371db5ec76679024f3db2afc3e9b",
+    "status": "superseded_manuscript_not_current_spec"
+  }
+]
