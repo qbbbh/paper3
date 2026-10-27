@@ -5,12 +5,12 @@
     ".gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
     ".gitignore": "d66312d67bea565eb30240ec342d2d363eac0cbacb29ce144a3a5671f72abe91",
     "AGENTS.md": "ee40fb8d3ffe33e0dd5cded5f420b6be4adac9b8888a35de28df389a1936c27b",
-    "MODEL_SPEC.md": "0bc0b0e05ac6af83376e79cbf7d726a709f086b7c1516abe00a4be973c760e60",
-    "PROJECT_STATUS.md": "ef2cd87bb7ada76dfb09741fec6de02b4589e20a29ac23ead40e133c8ae84e36",
+    "MODEL_SPEC.md": "474fb96a5b64d3080e4069faaee2b3854670adb5673c661d5d23a21b77819ec1",
+    "PROJECT_STATUS.md": "42c6af35be5c83c5cb9f6315909f930210dfc3a73f23c412d35cc59500252639",
     "README.md": "518cdf831580ea8ffa47302e0480a1c43cca5bd67a96680bc8e256aedf171f1b",
     "RUNBOOK.md": "eee4b91d83a6af22ea240678d2c6b72c19104c9d48239ff97e39889f43581915",
-    "START_HERE.md": "8462fec5f52052755875502269ecc200c5c9990c4e1f1c710e826f94cb2814f4",
-    "channel_estimation/README.md": "2cbc6c051e0089f31959e1905a48c8c7bcc953be307f74e2d365e73cd88b49f4",
+    "START_HERE.md": "6ebea5424887d9d8384540bd6ba0a51260f1ecd1dc780f579597339e07442daf",
+    "channel_estimation/README.md": "b4c939a57164869c40b1daf45e3beb84fafb9afd6a610dc8727a094cf2226636",
     "channel_estimation/entrypoints/crlb_report.py": "e976329feefab49f751f31ca07a0bc9af5cdbe33d03ea689c8a2dc12aa511064",
     "channel_estimation/entrypoints/plot_estimation.py": "7c3d7d62ba6ba344b3d5f8e3ea440c27defe2504099852fba06c45e7c4c57d07",
     "channel_estimation/entrypoints/run_foundation.py": "4a4bfb67ea19a288454cf00302290201c8c857827d8fe3e2b4b0622115fd6893",
@@ -73,8 +73,10 @@
     "data_parts/f95aa7281d53864e/002.part": "a0097b85413f372afbd22aa137853c71d7dfa56cb51a19246ba1602ac72181dc",
     "data_parts/f95aa7281d53864e/003.part": "578d7aec14c671d7f00e61cb2a5d7b4686d8d3e348136e90cce8f3dd7bf8144d",
     "data_parts/manifest.json": "05cec276e72e0ea0f9c4fff89fce0bc339996d119497ff8aef52b7e6419309fc",
-    "plans/RESEARCH_PROPOSALS.md": "67ea43555523b3ee96484ca0ab47a6adcb0179a0a5e03c8fbe325aec6dc527e0",
-    "plans/三图一表与CRLB说明_20261026.md": "9c964118de32b3e95daf191c66f7f7cdb5ee785c75474f52c425b63674eca319",
+    "plans/RESEARCH_PROPOSALS.md": "f9394e8efebbd308cab9608e750a2065b6e8a9e36434828a8ded28db4a5271d6",
+    "plans/三图一表与CRLB说明_20261026.md": "216de4f819bb9c2e065dbf9d7b534581df9b313e2efed6704716cd11e91deda0",
+    "plans/研究主线与实验矩阵_20261027.md": "49c0678f6561d5c2b4329d9bb3ff050b6c34695f1930a72a2c01b5510c057b8d",
+    "plans/风险界与可靠性主张_20261027.md": "76c5df458eb1398c7255aeb255efd7f6c0d23f9b92263ac4fa28287270ee4d84",
     "references/CORE_READING.md": "a98d58b8ca2efc0ab7f16e8ab7f8e70f64d7683c2eb8d291a1ea9a83f249fbf0",
     "references/INDEX.md": "cfa98a4092d87e8f12cbc927d639fd96cfda6715853ef62e972b61e7497a683d",
     "references/Mayahi_2022.bib": "94b175340c1f2955586d9e2c2bf584881a10e376dea4fa5033c1c03954caac61",
@@ -104,6 +106,7 @@
     "references/reading_notes/manuscript/中文主体初稿_20261022/01_引言思路与文献论证.md": "fc616f3a25b18e37d6f56ad47af930235919aeffbd6133e2d0dce560f3e16a46",
     "references/reading_notes/manuscript/中文主体初稿_20261022/参考文献_本轮引用.md": "9de987b08b8f72f5bb7881dbded915f47e3df7ee32652cfb963be6f100c7c21c",
     "references/reading_notes/manuscript/中文主体初稿_20261022/资料核查_文献.md": "e2a2c94f0da94fec2f29bba2a60d3d1077de09c6339a964ce926f41a90f1abb5",
+    "references/risk_bound_20261027.md": "0570b8e4afc2f1b354b5cb3ddd0fc0a0ac4263277e76b83652690589091e282d",
     "requirements.txt": "3fd01fa23b03c7425c0783bbcc59fcc4c3cc39df1829c3fbddb88d0706677916",
     "research_history/DOCUMENT_INDEX.md": "c9f818d1d51e8fce52613bb3bbca165f751a6ed4a347677da7d7283ded00367c",
     "research_history/ERROR_LEDGER.md": "bf6adbe4389d1f10057d1b9de0e1840c11bb1e28dcc3c3da87ccd2af65de3a3f",
@@ -452,6 +455,54 @@
     "tools/export_scene_csv.py": "93de7313f17d5dcf11be4f6d34b32703245c0aefa7ec307b9fdc756938eb5bc4",
     "tools/restore_data.py": "1bfe9ad490ebd50a117b778d47c1cdd217feaf3b3125c05cf27fb2f0a43ae485",
     "tools/run.py": "7fbd3002485ee58fc51d42374b3ee0a793c9728dd1ab56f1f219e1abc98b3799",
-    "tools/verify_snapshot.py": "f669231235186159f98f2a4b4afc969584c6e96e60b2d014b2034290929cd471"
-  }
+    "tools/verify_snapshot.py": "f669231235186159f98f2a4b4afc969584c6e96e60b2d014b2034290929cd471",
+    "reviews/20261027_docs_upload_review.md": "4a03662d6462acf96bfdd2142d23502406178c3068924bba15eb14367c84431f"
+  },
+  "docs_rebaseline": {
+    "date": "2026-10-27",
+    "scope": "markdown only",
+    "changed": [
+      "plans/研究主线与实验矩阵_20261027.md"
+    ],
+    "previous_hashes": {
+      "MODEL_SPEC.md": "474fb96a5b64d3080e4069faaee2b3854670adb5673c661d5d23a21b77819ec1",
+      "PROJECT_STATUS.md": "0a72db08ad02f165d5d45d08a4bae48b7b639662ba606647b3f356b1638bcf23",
+      "START_HERE.md": "6ebea5424887d9d8384540bd6ba0a51260f1ecd1dc780f579597339e07442daf",
+      "plans/RESEARCH_PROPOSALS.md": "f9394e8efebbd308cab9608e750a2065b6e8a9e36434828a8ded28db4a5271d6",
+      "plans/三图一表与CRLB说明_20261026.md": "216de4f819bb9c2e065dbf9d7b534581df9b313e2efed6704716cd11e91deda0",
+      "channel_estimation/README.md": "b4c939a57164869c40b1daf45e3beb84fafb9afd6a610dc8727a094cf2226636",
+      "plans/研究主线与实验矩阵_20261027.md": "895b2f417075cd60f29e3b8f9414afca728162fd31e32db1126c4612c4846986",
+      "plans/风险界与可靠性主张_20261027.md": "bf5ae62e2f88953e36f045bd767e13175564dfd4ad4dc59b3103a93a4f257c2a",
+      "references/risk_bound_20261027.md": "0570b8e4afc2f1b354b5cb3ddd0fc0a0ac4263277e76b83652690589091e282d"
+    },
+    "note": "科学源码与 source_sha256 未变；本次只把用户要求新增/修订的文档写入清单。任何 .py 条目未触碰。"
+  },
+  "docs_review_history": [
+    {
+      "date": "2026-10-27",
+      "reason": "pre-upload evidence corrections; no scientific source edits",
+      "files": [
+        {
+          "path": "plans/研究主线与实验矩阵_20261027.md",
+          "previous_sha256": "235f67a98001c09ebc83ccefde49aed779ed2c24b863224d98067c0157e32b67",
+          "sha256": "49c0678f6561d5c2b4329d9bb3ff050b6c34695f1930a72a2c01b5510c057b8d"
+        },
+        {
+          "path": "PROJECT_STATUS.md",
+          "previous_sha256": "0a72db08ad02f165d5d45d08a4bae48b7b639662ba606647b3f356b1638bcf23",
+          "sha256": "42c6af35be5c83c5cb9f6315909f930210dfc3a73f23c412d35cc59500252639"
+        },
+        {
+          "path": "plans/风险界与可靠性主张_20261027.md",
+          "previous_sha256": "bf5ae62e2f88953e36f045bd767e13175564dfd4ad4dc59b3103a93a4f257c2a",
+          "sha256": "76c5df458eb1398c7255aeb255efd7f6c0d23f9b92263ac4fa28287270ee4d84"
+        },
+        {
+          "path": "reviews/20261027_docs_upload_review.md",
+          "previous_sha256": null,
+          "sha256": "4a03662d6462acf96bfdd2142d23502406178c3068924bba15eb14367c84431f"
+        }
+      ]
+    }
+  ]
 }
