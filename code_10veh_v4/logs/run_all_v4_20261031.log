@@ -1,0 +1,10 @@
+﻿[02:58:30] START v4 batch Tag=20261031 Blocks=100 Draws=32
+[02:58:30] STAGE e5_refine begin (run_e5_refine_20261028.ps1)
+[03:39:08] STAGE e5_refine end rc=0
+[03:39:08] STAGE scenario_b begin (run_scenario_b_20261028.ps1)
+[04:06:45] STAGE scenario_b end rc=0
+[04:06:45] STAGE e4 begin (run_e4_20261027.ps1)
+[04:47:01] STAGE e4 end rc=0
+[04:47:01] STAGE delta_scan begin (run_delta_scan_20261028.ps1)
+[05:06:07] STAGE delta_scan end rc=0
+[05:06:07] ALL DONE

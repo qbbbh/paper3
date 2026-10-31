@@ -1,0 +1,252 @@
+tagA=20261031b tagB=20261031g 共同组 18：仅A [] 仅B ['e10_lit_cont', 'e10_lit_nom001', 'e10_lit_nom300', 'e10_literature', 'e9_oracle_bound']
+
+group                      method     field                                           A          B       Δ%
+e4_A_mean_ref              reference  mean_pair_ee_including_failed_as_zero    510.4253   510.4253   0.0000
+e4_A_mean_ref              reference  mean_pair_ee_ratio_vs_reference            1.0000     1.0000   0.0000
+e4_A_mean_ref              reference  min_pair_ee_including_failed_as_zero     103.8883   103.8883   0.0000
+e4_A_mean_ref              reference  mean_total_data_power_w                    1.5151     1.5151   0.0000
+e4_A_mean_ref              reference  mean_total_electrical_power_w              4.7337     4.7337   0.0000
+e4_A_mean_ref              reference  mean_vlc_link_fraction                    32.4000    32.4000   0.0000
+  reference fallback 0.000->0.000
+e4_B_mean_maxmin_d005      reference  mean_pair_ee_including_failed_as_zero    510.4253   510.4253   0.0000
+e4_B_mean_maxmin_d005      reference  mean_pair_ee_ratio_vs_reference            1.0000     1.0000   0.0000
+e4_B_mean_maxmin_d005      reference  min_pair_ee_including_failed_as_zero     103.8883   103.8883   0.0000
+e4_B_mean_maxmin_d005      reference  mean_total_data_power_w                    1.5151     1.5151   0.0000
+e4_B_mean_maxmin_d005      reference  mean_total_electrical_power_w              4.7337     4.7337   0.0000
+e4_B_mean_maxmin_d005      reference  mean_vlc_link_fraction                    32.4000    32.4000   0.0000
+e4_B_mean_maxmin_d005      maxmin     mean_pair_ee_including_failed_as_zero    509.5120   509.5120   0.0000
+e4_B_mean_maxmin_d005      maxmin     mean_pair_ee_ratio_vs_reference            0.9983     0.9983   0.0000
+e4_B_mean_maxmin_d005      maxmin     min_pair_ee_including_failed_as_zero     104.2823   104.2823   0.0000
+e4_B_mean_maxmin_d005      maxmin     mean_total_data_power_w                    1.5104     1.5104   0.0000
+e4_B_mean_maxmin_d005      maxmin     mean_total_electrical_power_w              4.7291     4.7291   0.0000
+e4_B_mean_maxmin_d005      maxmin     mean_vlc_link_fraction                    32.4000    32.4000   0.0000
+  reference fallback 0.000->0.000 | maxmin fallback 0.960->0.960
+e4_B_mean_maxmin_d010      reference  mean_pair_ee_including_failed_as_zero    510.4253   510.4253   0.0000
+e4_B_mean_maxmin_d010      reference  mean_pair_ee_ratio_vs_reference            1.0000     1.0000   0.0000
+e4_B_mean_maxmin_d010      reference  min_pair_ee_including_failed_as_zero     103.8883   103.8883   0.0000
+e4_B_mean_maxmin_d010      reference  mean_total_data_power_w                    1.5151     1.5151   0.0000
+e4_B_mean_maxmin_d010      reference  mean_total_electrical_power_w              4.7337     4.7337   0.0000
+e4_B_mean_maxmin_d010      reference  mean_vlc_link_fraction                    32.4000    32.4000   0.0000
+e4_B_mean_maxmin_d010      maxmin     mean_pair_ee_including_failed_as_zero    497.1574   497.1574   0.0000
+e4_B_mean_maxmin_d010      maxmin     mean_pair_ee_ratio_vs_reference            0.9736     0.9736   0.0000
+e4_B_mean_maxmin_d010      maxmin     min_pair_ee_including_failed_as_zero     109.3459   109.3459   0.0000
+e4_B_mean_maxmin_d010      maxmin     mean_total_data_power_w                    1.3467     1.3467   0.0000
+e4_B_mean_maxmin_d010      maxmin     mean_total_electrical_power_w              4.5653     4.5653   0.0000
+e4_B_mean_maxmin_d010      maxmin     mean_vlc_link_fraction                    32.4000    32.4000   0.0000
+  reference fallback 0.000->0.000 | maxmin fallback 0.660->0.660
+e4_C_chance_ref            reference  mean_pair_ee_including_failed_as_zero    508.3863   508.3863   0.0000
+e4_C_chance_ref            reference  mean_pair_ee_ratio_vs_reference            1.0000     1.0000   0.0000
+e4_C_chance_ref            reference  min_pair_ee_including_failed_as_zero     108.7374   108.7374   0.0000
+e4_C_chance_ref            reference  mean_total_data_power_w                    1.5315     1.5315   0.0000
+e4_C_chance_ref            reference  mean_total_electrical_power_w              4.7664     4.7664   0.0000
+e4_C_chance_ref            reference  mean_vlc_link_fraction                    32.6000    32.6000   0.0000
+  reference fallback 0.000->0.000
+e4_D_chance_maxmin_d005    reference  mean_pair_ee_including_failed_as_zero    508.3863   508.3863   0.0000
+e4_D_chance_maxmin_d005    reference  mean_pair_ee_ratio_vs_reference            1.0000     1.0000   0.0000
+e4_D_chance_maxmin_d005    reference  min_pair_ee_including_failed_as_zero     108.7374   108.7374   0.0000
+e4_D_chance_maxmin_d005    reference  mean_total_data_power_w                    1.5315     1.5315   0.0000
+e4_D_chance_maxmin_d005    reference  mean_total_electrical_power_w              4.7664     4.7664   0.0000
+e4_D_chance_maxmin_d005    reference  mean_vlc_link_fraction                    32.6000    32.6000   0.0000
+e4_D_chance_maxmin_d005    maxmin     mean_pair_ee_including_failed_as_zero    507.6216   507.6216   0.0000
+e4_D_chance_maxmin_d005    maxmin     mean_pair_ee_ratio_vs_reference            0.9986     0.9986   0.0000
+e4_D_chance_maxmin_d005    maxmin     min_pair_ee_including_failed_as_zero     109.0248   109.0248   0.0000
+e4_D_chance_maxmin_d005    maxmin     mean_total_data_power_w                    1.5272     1.5272   0.0000
+e4_D_chance_maxmin_d005    maxmin     mean_total_electrical_power_w              4.7621     4.7621   0.0000
+e4_D_chance_maxmin_d005    maxmin     mean_vlc_link_fraction                    32.6000    32.6000   0.0000
+  reference fallback 0.000->0.000 | maxmin fallback 0.970->0.970
+e4_D_chance_maxmin_d010    reference  mean_pair_ee_including_failed_as_zero    508.3863   508.3863   0.0000
+e4_D_chance_maxmin_d010    reference  mean_pair_ee_ratio_vs_reference            1.0000     1.0000   0.0000
+e4_D_chance_maxmin_d010    reference  min_pair_ee_including_failed_as_zero     108.7374   108.7374   0.0000
+e4_D_chance_maxmin_d010    reference  mean_total_data_power_w                    1.5315     1.5315   0.0000
+e4_D_chance_maxmin_d010    reference  mean_total_electrical_power_w              4.7664     4.7664   0.0000
+e4_D_chance_maxmin_d010    reference  mean_vlc_link_fraction                    32.6000    32.6000   0.0000
+e4_D_chance_maxmin_d010    maxmin     mean_pair_ee_including_failed_as_zero    496.5249   496.5249   0.0000
+e4_D_chance_maxmin_d010    maxmin     mean_pair_ee_ratio_vs_reference            0.9764     0.9764   0.0000
+e4_D_chance_maxmin_d010    maxmin     min_pair_ee_including_failed_as_zero     113.9785   113.9785   0.0000
+e4_D_chance_maxmin_d010    maxmin     mean_total_data_power_w                    1.3728     1.3728   0.0000
+e4_D_chance_maxmin_d010    maxmin     mean_total_electrical_power_w              4.6078     4.6078   0.0000
+e4_D_chance_maxmin_d010    maxmin     mean_vlc_link_fraction                    32.6000    32.6000   0.0000
+  reference fallback 0.000->0.000 | maxmin fallback 0.700->0.700
+e5_B_mean_d005             reference  mean_pair_ee_including_failed_as_zero    510.4253   510.4253   0.0000
+e5_B_mean_d005             reference  mean_pair_ee_ratio_vs_reference            1.0000     1.0000   0.0000
+e5_B_mean_d005             reference  min_pair_ee_including_failed_as_zero     103.8883   103.8883   0.0000
+e5_B_mean_d005             reference  mean_total_data_power_w                    1.5151     1.5151   0.0000
+e5_B_mean_d005             reference  mean_total_electrical_power_w              4.7337     4.7337   0.0000
+e5_B_mean_d005             reference  mean_vlc_link_fraction                    32.4000    32.4000   0.0000
+e5_B_mean_d005             maxmin     mean_pair_ee_including_failed_as_zero    499.5388   499.5388   0.0000
+e5_B_mean_d005             maxmin     mean_pair_ee_ratio_vs_reference            0.9776     0.9776   0.0000
+e5_B_mean_d005             maxmin     min_pair_ee_including_failed_as_zero     129.4316   129.4316   0.0000
+e5_B_mean_d005             maxmin     mean_total_data_power_w                    1.5268     1.5268   0.0000
+e5_B_mean_d005             maxmin     mean_total_electrical_power_w              4.7455     4.7455   0.0000
+e5_B_mean_d005             maxmin     mean_vlc_link_fraction                    32.4000    32.4000   0.0000
+  reference fallback 0.000->0.000 | maxmin fallback 0.000->0.000
+e5_B_mean_d010             reference  mean_pair_ee_including_failed_as_zero    510.4253   510.4253   0.0000
+e5_B_mean_d010             reference  mean_pair_ee_ratio_vs_reference            1.0000     1.0000   0.0000
+e5_B_mean_d010             reference  min_pair_ee_including_failed_as_zero     103.8883   103.8883   0.0000
+e5_B_mean_d010             reference  mean_total_data_power_w                    1.5151     1.5151   0.0000
+e5_B_mean_d010             reference  mean_total_electrical_power_w              4.7337     4.7337   0.0000
+e5_B_mean_d010             reference  mean_vlc_link_fraction                    32.4000    32.4000   0.0000
+e5_B_mean_d010             maxmin     mean_pair_ee_including_failed_as_zero    490.2659   490.2659   0.0000
+e5_B_mean_d010             maxmin     mean_pair_ee_ratio_vs_reference            0.9582     0.9582   0.0000
+e5_B_mean_d010             maxmin     min_pair_ee_including_failed_as_zero     132.9377   132.9377   0.0000
+e5_B_mean_d010             maxmin     mean_total_data_power_w                    1.4808     1.4808   0.0000
+e5_B_mean_d010             maxmin     mean_total_electrical_power_w              4.6994     4.6994   0.0000
+e5_B_mean_d010             maxmin     mean_vlc_link_fraction                    32.4000    32.4000   0.0000
+  reference fallback 0.000->0.000 | maxmin fallback 0.000->0.000
+e5_D_chance_d005           reference  mean_pair_ee_including_failed_as_zero    508.3863   508.3863   0.0000
+e5_D_chance_d005           reference  mean_pair_ee_ratio_vs_reference            1.0000     1.0000   0.0000
+e5_D_chance_d005           reference  min_pair_ee_including_failed_as_zero     108.7374   108.7374   0.0000
+e5_D_chance_d005           reference  mean_total_data_power_w                    1.5315     1.5315   0.0000
+e5_D_chance_d005           reference  mean_total_electrical_power_w              4.7664     4.7664   0.0000
+e5_D_chance_d005           reference  mean_vlc_link_fraction                    32.6000    32.6000   0.0000
+e5_D_chance_d005           maxmin     mean_pair_ee_including_failed_as_zero    497.8129   497.8129   0.0000
+e5_D_chance_d005           maxmin     mean_pair_ee_ratio_vs_reference            0.9778     0.9778   0.0000
+e5_D_chance_d005           maxmin     min_pair_ee_including_failed_as_zero     133.8301   133.8301   0.0000
+e5_D_chance_d005           maxmin     mean_total_data_power_w                    1.5739     1.5739   0.0000
+e5_D_chance_d005           maxmin     mean_total_electrical_power_w              4.8088     4.8088   0.0000
+e5_D_chance_d005           maxmin     mean_vlc_link_fraction                    32.6000    32.6000   0.0000
+  reference fallback 0.000->0.000 | maxmin fallback 0.000->0.000
+e5_D_chance_d010           reference  mean_pair_ee_including_failed_as_zero    508.3863   508.3863   0.0000
+e5_D_chance_d010           reference  mean_pair_ee_ratio_vs_reference            1.0000     1.0000   0.0000
+e5_D_chance_d010           reference  min_pair_ee_including_failed_as_zero     108.7374   108.7374   0.0000
+e5_D_chance_d010           reference  mean_total_data_power_w                    1.5315     1.5315   0.0000
+e5_D_chance_d010           reference  mean_total_electrical_power_w              4.7664     4.7664   0.0000
+e5_D_chance_d010           reference  mean_vlc_link_fraction                    32.6000    32.6000   0.0000
+e5_D_chance_d010           maxmin     mean_pair_ee_including_failed_as_zero    489.1409   489.1409   0.0000
+e5_D_chance_d010           maxmin     mean_pair_ee_ratio_vs_reference            0.9593     0.9593   0.0000
+e5_D_chance_d010           maxmin     min_pair_ee_including_failed_as_zero     136.7799   136.7799   0.0000
+e5_D_chance_d010           maxmin     mean_total_data_power_w                    1.5111     1.5111   0.0000
+e5_D_chance_d010           maxmin     mean_total_electrical_power_w              4.7460     4.7460   0.0000
+e5_D_chance_d010           maxmin     mean_vlc_link_fraction                    32.6000    32.6000   0.0000
+  reference fallback 0.000->0.000 | maxmin fallback 0.000->0.000
+e6_A_chance_d020           reference  mean_pair_ee_including_failed_as_zero    508.3863   508.3863   0.0000
+e6_A_chance_d020           reference  mean_pair_ee_ratio_vs_reference            1.0000     1.0000   0.0000
+e6_A_chance_d020           reference  min_pair_ee_including_failed_as_zero     108.7374   108.7374   0.0000
+e6_A_chance_d020           reference  mean_total_data_power_w                    1.5315     1.5315   0.0000
+e6_A_chance_d020           reference  mean_total_electrical_power_w              4.7664     4.7664   0.0000
+e6_A_chance_d020           reference  mean_vlc_link_fraction                    32.6000    32.6000   0.0000
+e6_A_chance_d020           maxmin     mean_pair_ee_including_failed_as_zero    477.9935   477.9935   0.0000
+e6_A_chance_d020           maxmin     mean_pair_ee_ratio_vs_reference            0.9357     0.9357   0.0000
+e6_A_chance_d020           maxmin     min_pair_ee_including_failed_as_zero     137.2217   137.2217   0.0000
+e6_A_chance_d020           maxmin     mean_total_data_power_w                    1.7333     1.7333   0.0000
+e6_A_chance_d020           maxmin     mean_total_electrical_power_w              4.9031     4.9031   0.0000
+e6_A_chance_d020           maxmin     mean_vlc_link_fraction                    31.8000    31.8000   0.0000
+  reference fallback 0.000->0.000 | maxmin fallback 0.000->0.000
+e6_A_chance_d100: 缺 summary.json，跳过
+e6_B_d005                  reference  mean_pair_ee_including_failed_as_zero    547.8888   547.8888   0.0000
+e6_B_d005                  reference  mean_pair_ee_ratio_vs_reference            1.0000     1.0000   0.0000
+e6_B_d005                  reference  min_pair_ee_including_failed_as_zero     107.6240   107.6240   0.0000
+e6_B_d005                  reference  mean_total_data_power_w                    1.8371     1.8371   0.0000
+e6_B_d005                  reference  mean_total_electrical_power_w              4.6974     4.6974   0.0000
+e6_B_d005                  reference  mean_vlc_link_fraction                    28.0000    28.0000   0.0000
+e6_B_d005                  maxmin     mean_pair_ee_including_failed_as_zero    536.3304   536.3304   0.0000
+e6_B_d005                  maxmin     mean_pair_ee_ratio_vs_reference            0.9779     0.9779   0.0000
+e6_B_d005                  maxmin     min_pair_ee_including_failed_as_zero     131.7707   131.7707   0.0000
+e6_B_d005                  maxmin     mean_total_data_power_w                    1.7366     1.7366   0.0000
+e6_B_d005                  maxmin     mean_total_electrical_power_w              4.5968     4.5968   0.0000
+e6_B_d005                  maxmin     mean_vlc_link_fraction                    28.0000    28.0000   0.0000
+  reference fallback 0.000->0.000 | maxmin fallback 0.000->0.000
+e6_B_d010                  reference  mean_pair_ee_including_failed_as_zero    547.8888   547.8888   0.0000
+e6_B_d010                  reference  mean_pair_ee_ratio_vs_reference            1.0000     1.0000   0.0000
+e6_B_d010                  reference  min_pair_ee_including_failed_as_zero     107.6240   107.6240   0.0000
+e6_B_d010                  reference  mean_total_data_power_w                    1.8371     1.8371   0.0000
+e6_B_d010                  reference  mean_total_electrical_power_w              4.6974     4.6974   0.0000
+e6_B_d010                  reference  mean_vlc_link_fraction                    28.0000    28.0000   0.0000
+e6_B_d010                  maxmin     mean_pair_ee_including_failed_as_zero    527.5659   527.5659   0.0000
+e6_B_d010                  maxmin     mean_pair_ee_ratio_vs_reference            0.9610     0.9610   0.0000
+e6_B_d010                  maxmin     min_pair_ee_including_failed_as_zero     136.6356   136.6356   0.0000
+e6_B_d010                  maxmin     mean_total_data_power_w                    1.7488     1.7488   0.0000
+e6_B_d010                  maxmin     mean_total_electrical_power_w              4.5439     4.5439   0.0000
+e6_B_d010                  maxmin     mean_vlc_link_fraction                    27.2000    27.2000   0.0000
+  reference fallback 0.000->0.000 | maxmin fallback 0.000->0.000
+e6_B_ref                   reference  mean_pair_ee_including_failed_as_zero    547.8888   547.8888   0.0000
+e6_B_ref                   reference  mean_pair_ee_ratio_vs_reference            1.0000     1.0000   0.0000
+e6_B_ref                   reference  min_pair_ee_including_failed_as_zero     107.6240   107.6240   0.0000
+e6_B_ref                   reference  mean_total_data_power_w                    1.8371     1.8371   0.0000
+e6_B_ref                   reference  mean_total_electrical_power_w              4.6974     4.6974   0.0000
+e6_B_ref                   reference  mean_vlc_link_fraction                    28.0000    28.0000   0.0000
+  reference fallback 0.000->0.000
+e7_ideal_chance_d010       reference  mean_pair_ee_including_failed_as_zero    479.9528   479.9528   0.0000
+e7_ideal_chance_d010       reference  mean_pair_ee_ratio_vs_reference            1.0000     1.0000   0.0000
+e7_ideal_chance_d010       reference  min_pair_ee_including_failed_as_zero     115.3582   115.3582   0.0000
+e7_ideal_chance_d010       reference  mean_total_data_power_w                    1.4513     1.4513   0.0000
+e7_ideal_chance_d010       reference  mean_total_electrical_power_w              4.5722     4.5722   0.0000
+e7_ideal_chance_d010       reference  mean_vlc_link_fraction                    31.2000    31.2000   0.0000
+e7_ideal_chance_d010       maxmin     mean_pair_ee_including_failed_as_zero    460.7581   460.7581   0.0000
+e7_ideal_chance_d010       maxmin     mean_pair_ee_ratio_vs_reference            0.9576     0.9576   0.0000
+e7_ideal_chance_d010       maxmin     min_pair_ee_including_failed_as_zero     141.2462   141.2462   0.0000
+e7_ideal_chance_d010       maxmin     mean_total_data_power_w                    1.4674     1.4674   0.0000
+e7_ideal_chance_d010       maxmin     mean_total_electrical_power_w              4.5883     4.5883   0.0000
+e7_ideal_chance_d010       maxmin     mean_vlc_link_fraction                    31.2000    31.2000   0.0000
+  reference fallback 0.000->0.000 | maxmin fallback 0.000->0.000
+e7_ideal_ref               reference  mean_pair_ee_including_failed_as_zero    479.9528   479.9528   0.0000
+e7_ideal_ref               reference  mean_pair_ee_ratio_vs_reference            1.0000     1.0000   0.0000
+e7_ideal_ref               reference  min_pair_ee_including_failed_as_zero     115.3582   115.3582   0.0000
+e7_ideal_ref               reference  mean_total_data_power_w                    1.4513     1.4513   0.0000
+e7_ideal_ref               reference  mean_total_electrical_power_w              4.5722     4.5722   0.0000
+e7_ideal_ref               reference  mean_vlc_link_fraction                    31.2000    31.2000   0.0000
+  reference fallback 0.000->0.000
+e7_random_chance_d010      reference  mean_pair_ee_including_failed_as_zero    508.3863   508.3863   0.0000
+e7_random_chance_d010      reference  mean_pair_ee_ratio_vs_reference            1.0000     1.0000   0.0000
+e7_random_chance_d010      reference  min_pair_ee_including_failed_as_zero     108.7374   108.7374   0.0000
+e7_random_chance_d010      reference  mean_total_data_power_w                    1.5315     1.5315   0.0000
+e7_random_chance_d010      reference  mean_total_electrical_power_w              4.7664     4.7664   0.0000
+e7_random_chance_d010      reference  mean_vlc_link_fraction                    32.6000    32.6000   0.0000
+e7_random_chance_d010      random     mean_pair_ee_including_failed_as_zero     17.3632    17.3632   0.0000
+e7_random_chance_d010      random     mean_pair_ee_ratio_vs_reference            0.0348     0.0348   0.0000
+e7_random_chance_d010      random     min_pair_ee_including_failed_as_zero       0.0663     0.0663   0.0000
+e7_random_chance_d010      random     mean_total_data_power_w                   15.0585    15.0585   0.0000
+e7_random_chance_d010      random     mean_total_electrical_power_w             16.2082    16.2082   0.0000
+e7_random_chance_d010      random     mean_vlc_link_fraction                     7.0000     7.0000   0.0000
+  reference fallback 0.000->0.000 | random fallback 0.000->0.000
+
+=== 每组最大相对差 ===
+e4_A_mean_ref              reference  max|Δ| = 0.000000%
+e4_B_mean_maxmin_d005      maxmin     max|Δ| = 0.000000%
+e4_B_mean_maxmin_d005      reference  max|Δ| = 0.000000%
+e4_B_mean_maxmin_d010      maxmin     max|Δ| = 0.000000%
+e4_B_mean_maxmin_d010      reference  max|Δ| = 0.000000%
+e4_C_chance_ref            reference  max|Δ| = 0.000000%
+e4_D_chance_maxmin_d005    maxmin     max|Δ| = 0.000000%
+e4_D_chance_maxmin_d005    reference  max|Δ| = 0.000000%
+e4_D_chance_maxmin_d010    maxmin     max|Δ| = 0.000000%
+e4_D_chance_maxmin_d010    reference  max|Δ| = 0.000000%
+e5_B_mean_d005             maxmin     max|Δ| = 0.000000%
+e5_B_mean_d005             reference  max|Δ| = 0.000000%
+e5_B_mean_d010             maxmin     max|Δ| = 0.000000%
+e5_B_mean_d010             reference  max|Δ| = 0.000000%
+e5_D_chance_d005           maxmin     max|Δ| = 0.000000%
+e5_D_chance_d005           reference  max|Δ| = 0.000000%
+e5_D_chance_d010           maxmin     max|Δ| = 0.000000%
+e5_D_chance_d010           reference  max|Δ| = 0.000000%
+e6_A_chance_d020           maxmin     max|Δ| = 0.000000%
+e6_A_chance_d020           reference  max|Δ| = 0.000000%
+e6_B_d005                  maxmin     max|Δ| = 0.000000%
+e6_B_d005                  reference  max|Δ| = 0.000000%
+e6_B_d010                  maxmin     max|Δ| = 0.000000%
+e6_B_d010                  reference  max|Δ| = 0.000000%
+e6_B_ref                   reference  max|Δ| = 0.000000%
+e7_ideal_chance_d010       maxmin     max|Δ| = 0.000000%
+e7_ideal_chance_d010       reference  max|Δ| = 0.000000%
+e7_ideal_ref               reference  max|Δ| = 0.000000%
+e7_random_chance_d010      random     max|Δ| = 0.000000%
+e7_random_chance_d010      reference  max|Δ| = 0.000000%
+
+=== 仅 B 有的组（对比算法） ===
+
+e10_lit_cont: methods=['literature']
+  literature fallback=0.000 meanEE=    455.4 ratio=0.8927 minEE=   130.5 Pelec=  4.65 vlc%= 34.8 qos_ok=nan budget_viol=0.40
+
+e10_lit_nom001: methods=['literature']
+  literature fallback=0.000 meanEE=    401.7 ratio=0.7695 minEE=   121.9 Pelec=  3.81 vlc%= 29.4 qos_ok=nan budget_viol=0.31
+
+e10_lit_nom300: methods=['literature']
+  literature fallback=0.000 meanEE=    407.6 ratio=0.7810 minEE=   128.2 Pelec=  4.15 vlc%= 32.0 qos_ok=nan budget_viol=0.28
+
+e10_literature: methods=['reference', 'literature']
+  reference  fallback=0.000 meanEE=    508.4 ratio=1.0000 minEE=   108.7 Pelec=  4.77 vlc%= 32.6 qos_ok=nan budget_viol=0.00
+  literature fallback=0.000 meanEE=    408.7 ratio=0.7835 minEE=   128.8 Pelec=  4.06 vlc%= 31.4 qos_ok=nan budget_viol=0.26
+
+e9_oracle_bound: methods=['reference', 'maxmin']
+  reference  fallback=0.000 meanEE=    502.1 ratio=1.0000 minEE=   114.9 Pelec=  4.47 vlc%= 32.0 qos_ok=nan budget_viol=0.00
+  maxmin     fallback=0.000 meanEE=    481.2 ratio=0.9567 minEE=   148.2 Pelec=  4.42 vlc%= 32.0 qos_ok=nan budget_viol=0.00

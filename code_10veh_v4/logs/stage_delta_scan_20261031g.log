@@ -1,0 +1,276 @@
+﻿D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 1/100; forecast 0.203s; decisions 9.453s
+n10 development evaluate block 2/100; forecast 0.186s; decisions 7.562s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 3/100; forecast 0.211s; decisions 11.205s
+n10 development evaluate block 4/100; forecast 0.212s; decisions 7.839s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 5/100; forecast 0.198s; decisions 7.929s
+n10 development evaluate block 6/100; forecast 0.200s; decisions 13.205s
+n10 development evaluate block 7/100; forecast 0.197s; decisions 7.858s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 8/100; forecast 0.223s; decisions 8.634s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 9/100; forecast 0.199s; decisions 6.755s
+n10 development evaluate block 10/100; forecast 0.197s; decisions 7.659s
+n10 development evaluate block 11/100; forecast 0.206s; decisions 8.253s
+n10 development evaluate block 12/100; forecast 0.265s; decisions 4.869s
+n10 development evaluate block 13/100; forecast 0.195s; decisions 5.407s
+n10 development evaluate block 14/100; forecast 0.191s; decisions 4.051s
+n10 development evaluate block 15/100; forecast 0.221s; decisions 4.364s
+n10 development evaluate block 16/100; forecast 0.188s; decisions 4.235s
+n10 development evaluate block 17/100; forecast 0.192s; decisions 4.827s
+n10 development evaluate block 18/100; forecast 0.217s; decisions 4.211s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 19/100; forecast 0.212s; decisions 4.404s
+n10 development evaluate block 20/100; forecast 0.194s; decisions 11.497s
+n10 development evaluate block 21/100; forecast 0.256s; decisions 9.603s
+n10 development evaluate block 22/100; forecast 0.199s; decisions 6.727s
+n10 development evaluate block 23/100; forecast 0.205s; decisions 3.475s
+n10 development evaluate block 24/100; forecast 0.188s; decisions 5.039s
+n10 development evaluate block 25/100; forecast 0.206s; decisions 4.835s
+n10 development evaluate block 26/100; forecast 0.184s; decisions 5.996s
+n10 development evaluate block 27/100; forecast 0.196s; decisions 6.180s
+n10 development evaluate block 28/100; forecast 0.247s; decisions 6.160s
+n10 development evaluate block 29/100; forecast 0.186s; decisions 10.099s
+n10 development evaluate block 30/100; forecast 0.194s; decisions 8.994s
+n10 development evaluate block 31/100; forecast 0.192s; decisions 3.605s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 32/100; forecast 0.184s; decisions 3.511s
+n10 development evaluate block 33/100; forecast 0.197s; decisions 3.386s
+n10 development evaluate block 34/100; forecast 0.185s; decisions 3.340s
+n10 development evaluate block 35/100; forecast 0.187s; decisions 8.203s
+n10 development evaluate block 36/100; forecast 0.180s; decisions 3.320s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 37/100; forecast 0.180s; decisions 3.294s
+n10 development evaluate block 38/100; forecast 0.190s; decisions 3.514s
+n10 development evaluate block 39/100; forecast 0.180s; decisions 3.655s
+n10 development evaluate block 40/100; forecast 0.180s; decisions 5.276s
+n10 development evaluate block 41/100; forecast 0.181s; decisions 4.231s
+n10 development evaluate block 42/100; forecast 0.222s; decisions 5.088s
+n10 development evaluate block 43/100; forecast 0.194s; decisions 3.629s
+n10 development evaluate block 44/100; forecast 0.182s; decisions 5.325s
+n10 development evaluate block 45/100; forecast 0.179s; decisions 3.406s
+n10 development evaluate block 46/100; forecast 0.182s; decisions 3.755s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 47/100; forecast 0.181s; decisions 10.315s
+n10 development evaluate block 48/100; forecast 0.196s; decisions 4.566s
+n10 development evaluate block 49/100; forecast 0.184s; decisions 3.631s
+n10 development evaluate block 50/100; forecast 0.183s; decisions 5.379s
+n10 development evaluate block 51/100; forecast 0.183s; decisions 4.808s
+n10 development evaluate block 52/100; forecast 0.182s; decisions 6.451s
+n10 development evaluate block 53/100; forecast 0.182s; decisions 4.509s
+n10 development evaluate block 54/100; forecast 0.194s; decisions 4.555s
+n10 development evaluate block 55/100; forecast 0.180s; decisions 3.692s
+n10 development evaluate block 56/100; forecast 0.182s; decisions 6.514s
+n10 development evaluate block 57/100; forecast 0.181s; decisions 4.730s
+n10 development evaluate block 58/100; forecast 0.183s; decisions 4.270s
+n10 development evaluate block 59/100; forecast 0.179s; decisions 4.285s
+n10 development evaluate block 60/100; forecast 0.179s; decisions 4.287s
+n10 development evaluate block 61/100; forecast 0.189s; decisions 4.569s
+n10 development evaluate block 62/100; forecast 0.186s; decisions 3.504s
+n10 development evaluate block 63/100; forecast 0.183s; decisions 7.630s
+n10 development evaluate block 64/100; forecast 0.193s; decisions 5.619s
+n10 development evaluate block 65/100; forecast 0.193s; decisions 5.262s
+n10 development evaluate block 66/100; forecast 0.180s; decisions 4.475s
+n10 development evaluate block 67/100; forecast 0.178s; decisions 5.088s
+n10 development evaluate block 68/100; forecast 0.177s; decisions 3.919s
+n10 development evaluate block 69/100; forecast 0.178s; decisions 3.924s
+n10 development evaluate block 70/100; forecast 0.185s; decisions 4.886s
+n10 development evaluate block 71/100; forecast 0.189s; decisions 3.598s
+n10 development evaluate block 72/100; forecast 0.199s; decisions 3.842s
+n10 development evaluate block 73/100; forecast 0.177s; decisions 5.022s
+n10 development evaluate block 74/100; forecast 0.177s; decisions 5.241s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 75/100; forecast 0.180s; decisions 4.291s
+n10 development evaluate block 76/100; forecast 0.177s; decisions 3.740s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 77/100; forecast 0.176s; decisions 5.113s
+n10 development evaluate block 78/100; forecast 0.178s; decisions 5.200s
+n10 development evaluate block 79/100; forecast 0.205s; decisions 4.874s
+n10 development evaluate block 80/100; forecast 0.179s; decisions 4.690s
+n10 development evaluate block 81/100; forecast 0.177s; decisions 6.989s
+n10 development evaluate block 82/100; forecast 0.176s; decisions 3.853s
+n10 development evaluate block 83/100; forecast 0.176s; decisions 5.068s
+n10 development evaluate block 84/100; forecast 0.176s; decisions 8.012s
+n10 development evaluate block 85/100; forecast 0.179s; decisions 6.022s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 86/100; forecast 0.176s; decisions 11.224s
+n10 development evaluate block 87/100; forecast 0.185s; decisions 4.380s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 88/100; forecast 0.182s; decisions 7.154s
+n10 development evaluate block 89/100; forecast 0.209s; decisions 8.863s
+n10 development evaluate block 90/100; forecast 0.194s; decisions 6.667s
+n10 development evaluate block 91/100; forecast 0.187s; decisions 6.737s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 92/100; forecast 0.185s; decisions 11.470s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 93/100; forecast 0.182s; decisions 9.000s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 94/100; forecast 0.194s; decisions 8.846s
+n10 development evaluate block 95/100; forecast 0.183s; decisions 4.901s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 96/100; forecast 0.184s; decisions 8.683s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 97/100; forecast 0.181s; decisions 9.827s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 98/100; forecast 0.180s; decisions 4.261s
+n10 development evaluate block 99/100; forecast 0.180s; decisions 3.615s
+n10 development evaluate block 100/100; forecast 0.186s; decisions 6.333s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 1/100; forecast 0.181s; decisions 7.983s
+n10 development evaluate block 2/100; forecast 0.177s; decisions 7.741s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 3/100; forecast 0.191s; decisions 10.766s
+n10 development evaluate block 4/100; forecast 0.180s; decisions 7.147s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 5/100; forecast 0.195s; decisions 8.125s
+n10 development evaluate block 6/100; forecast 0.179s; decisions 11.603s
+n10 development evaluate block 7/100; forecast 0.177s; decisions 6.475s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 8/100; forecast 0.179s; decisions 7.386s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 9/100; forecast 0.199s; decisions 5.859s
+n10 development evaluate block 10/100; forecast 0.179s; decisions 7.562s
+n10 development evaluate block 11/100; forecast 0.205s; decisions 6.497s
+n10 development evaluate block 12/100; forecast 0.204s; decisions 4.354s
+n10 development evaluate block 13/100; forecast 0.202s; decisions 6.134s
+n10 development evaluate block 14/100; forecast 0.185s; decisions 3.388s
+n10 development evaluate block 15/100; forecast 0.177s; decisions 3.682s
+n10 development evaluate block 16/100; forecast 0.186s; decisions 3.740s
+n10 development evaluate block 17/100; forecast 0.190s; decisions 3.692s
+n10 development evaluate block 18/100; forecast 0.177s; decisions 3.463s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 19/100; forecast 0.176s; decisions 3.844s
+n10 development evaluate block 20/100; forecast 0.185s; decisions 10.302s
+n10 development evaluate block 21/100; forecast 0.185s; decisions 8.556s
+n10 development evaluate block 22/100; forecast 0.192s; decisions 7.124s
+n10 development evaluate block 23/100; forecast 0.191s; decisions 3.327s
+n10 development evaluate block 24/100; forecast 0.227s; decisions 4.701s
+n10 development evaluate block 25/100; forecast 0.191s; decisions 4.418s
+n10 development evaluate block 26/100; forecast 0.195s; decisions 5.621s
+n10 development evaluate block 27/100; forecast 0.184s; decisions 5.199s
+n10 development evaluate block 28/100; forecast 0.186s; decisions 5.290s
+n10 development evaluate block 29/100; forecast 0.185s; decisions 8.201s
+n10 development evaluate block 30/100; forecast 0.186s; decisions 7.755s
+n10 development evaluate block 31/100; forecast 0.188s; decisions 3.141s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 32/100; forecast 0.176s; decisions 3.050s
+n10 development evaluate block 33/100; forecast 0.176s; decisions 2.950s
+n10 development evaluate block 34/100; forecast 0.185s; decisions 2.893s
+n10 development evaluate block 35/100; forecast 0.176s; decisions 7.032s
+n10 development evaluate block 36/100; forecast 0.175s; decisions 3.101s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 37/100; forecast 0.176s; decisions 3.107s
+n10 development evaluate block 38/100; forecast 0.178s; decisions 3.279s
+n10 development evaluate block 39/100; forecast 0.176s; decisions 3.391s
+n10 development evaluate block 40/100; forecast 0.178s; decisions 5.805s
+n10 development evaluate block 41/100; forecast 0.177s; decisions 3.874s
+n10 development evaluate block 42/100; forecast 0.176s; decisions 4.648s
+n10 development evaluate block 43/100; forecast 0.175s; decisions 3.342s
+n10 development evaluate block 44/100; forecast 0.177s; decisions 4.928s
+n10 development evaluate block 45/100; forecast 0.180s; decisions 3.145s
+n10 development evaluate block 46/100; forecast 0.178s; decisions 3.502s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 47/100; forecast 0.184s; decisions 9.598s
+n10 development evaluate block 48/100; forecast 0.181s; decisions 4.215s
+n10 development evaluate block 49/100; forecast 0.176s; decisions 3.364s
+n10 development evaluate block 50/100; forecast 0.176s; decisions 4.884s
+n10 development evaluate block 51/100; forecast 0.177s; decisions 4.407s
+n10 development evaluate block 52/100; forecast 0.176s; decisions 5.817s
+n10 development evaluate block 53/100; forecast 0.179s; decisions 4.209s
+n10 development evaluate block 54/100; forecast 0.177s; decisions 4.217s
+n10 development evaluate block 55/100; forecast 0.190s; decisions 3.439s
+n10 development evaluate block 56/100; forecast 0.175s; decisions 5.561s
+n10 development evaluate block 57/100; forecast 0.177s; decisions 4.203s
+n10 development evaluate block 58/100; forecast 0.177s; decisions 3.653s
+n10 development evaluate block 59/100; forecast 0.176s; decisions 4.002s
+n10 development evaluate block 60/100; forecast 0.177s; decisions 3.899s
+n10 development evaluate block 61/100; forecast 0.177s; decisions 3.823s
+n10 development evaluate block 62/100; forecast 0.176s; decisions 3.175s
+n10 development evaluate block 63/100; forecast 0.177s; decisions 6.933s
+n10 development evaluate block 64/100; forecast 0.176s; decisions 4.466s
+n10 development evaluate block 65/100; forecast 0.178s; decisions 4.538s
+n10 development evaluate block 66/100; forecast 0.179s; decisions 4.149s
+n10 development evaluate block 67/100; forecast 0.176s; decisions 5.184s
+n10 development evaluate block 68/100; forecast 0.176s; decisions 3.665s
+n10 development evaluate block 69/100; forecast 0.179s; decisions 3.638s
+n10 development evaluate block 70/100; forecast 0.176s; decisions 4.544s
+n10 development evaluate block 71/100; forecast 0.178s; decisions 3.267s
+n10 development evaluate block 72/100; forecast 0.175s; decisions 3.438s
+n10 development evaluate block 73/100; forecast 0.178s; decisions 4.680s
+n10 development evaluate block 74/100; forecast 0.178s; decisions 4.906s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 75/100; forecast 0.178s; decisions 4.052s
+n10 development evaluate block 76/100; forecast 0.176s; decisions 3.573s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 77/100; forecast 0.176s; decisions 5.031s
+n10 development evaluate block 78/100; forecast 0.189s; decisions 4.710s
+n10 development evaluate block 79/100; forecast 0.210s; decisions 4.480s
+n10 development evaluate block 80/100; forecast 0.191s; decisions 4.858s
+n10 development evaluate block 81/100; forecast 0.178s; decisions 6.664s
+n10 development evaluate block 82/100; forecast 0.178s; decisions 4.076s
+n10 development evaluate block 83/100; forecast 0.186s; decisions 4.758s
+n10 development evaluate block 84/100; forecast 0.186s; decisions 7.745s
+n10 development evaluate block 85/100; forecast 0.176s; decisions 5.712s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 86/100; forecast 0.187s; decisions 10.584s
+n10 development evaluate block 87/100; forecast 0.190s; decisions 3.854s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 88/100; forecast 0.177s; decisions 7.036s
+n10 development evaluate block 89/100; forecast 0.179s; decisions 8.154s
+n10 development evaluate block 90/100; forecast 0.177s; decisions 5.723s
+n10 development evaluate block 91/100; forecast 0.178s; decisions 5.848s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 92/100; forecast 0.176s; decisions 10.619s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 93/100; forecast 0.177s; decisions 8.273s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 94/100; forecast 0.187s; decisions 8.206s
+n10 development evaluate block 95/100; forecast 0.177s; decisions 3.573s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 96/100; forecast 0.177s; decisions 8.019s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 97/100; forecast 0.176s; decisions 9.047s
+D:\anaconda\envs\pymarl\lib\site-packages\scipy\optimize\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  warnings.warn("Values in x were outside bounds during a "
+n10 development evaluate block 98/100; forecast 0.181s; decisions 4.022s
+n10 development evaluate block 99/100; forecast 0.179s; decisions 3.296s
+n10 development evaluate block 100/100; forecast 0.176s; decisions 5.802s

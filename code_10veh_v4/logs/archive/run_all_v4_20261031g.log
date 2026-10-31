@@ -1,0 +1,12 @@
+﻿[10:46:01] START v4 rerun+comparators Tag=20261031g Blocks=100 Draws=32
+[10:46:01] STAGE e5_refine begin (run_e5_refine_20261028.ps1)
+[11:17:17] STAGE e5_refine end rc=0
+[11:17:17] STAGE scenario_b begin (run_scenario_b_20261028.ps1)
+[11:46:39] STAGE scenario_b end rc=0
+[11:46:39] STAGE e4 begin (run_e4_20261027.ps1)
+[12:31:41] STAGE e4 end rc=0
+[12:31:41] STAGE delta_scan begin (run_delta_scan_20261028.ps1)
+[12:51:51] STAGE delta_scan end rc=0
+[12:51:51] STAGE comparators begin (run_comparators_v4_20261031.ps1)
+[12:51:51] STAGE comparators end rc=0
+[12:51:51] ALL DONE

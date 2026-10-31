@@ -1,0 +1,229 @@
+{
+  "n": 50,
+  "blocks": 2,
+  "warmup_blocks": 0,
+  "block_dt_s": 0.1,
+  "config": {
+    "rf": {
+      "candidate_range_m": 100.0,
+      "bandwidth_hz": 22000000.0,
+      "gap_db": 3.0,
+      "power_max_w": 2.0,
+      "frequency_ghz": 5.89,
+      "noise_reference_dbm": -95.0,
+      "noise_reference_bandwidth_hz": 10000000.0,
+      "pathloss_model": "tr37885",
+      "los_shadow_sigma_db": 3.0,
+      "nlos_shadow_sigma_db": 4.0,
+      "shadow_decorrelation_m": 10.0,
+      "doppler_coherence_coeff": 0.423,
+      "fading_coherence_s": 0.02,
+      "fading_coherence_min_s": 0.001,
+      "fading_coherence_max_s": 0.5,
+      "legacy_path_loss_1m_db": 47.86,
+      "legacy_path_loss_exponent": 2.75
+    },
+    "vlc": {
+      "candidate_range_m": 45.0,
+      "bandwidth_hz": 50000000.0,
+      "gap_db": 5.4,
+      "power_max_w": 2.0,
+      "area_m2": 0.00015,
+      "responsivity": 0.45,
+      "background_current_a": 0.0051,
+      "fov_half_deg": 60.0,
+      "zeta_rad": 0.1585,
+      "epsilon": 0.0175,
+      "temperature_k": 298.0,
+      "voltage_gain": 10.0,
+      "capacitance_per_area_f_m2": 1.12e-06,
+      "noise_factor": 1.5,
+      "transconductance_s": 0.03,
+      "c2": 0.562,
+      "c3": 0.0868,
+      "electron_charge_c": 1.602e-19,
+      "boltzmann_j_k": 1.380649e-23,
+      "min_port_distance_m": 1.0,
+      "log_stationary_sd": 0.25,
+      "fading_coherence_s": 0.5
+    },
+    "vehicle": {
+      "length_m": 4.5,
+      "width_m": 1.8,
+      "height_m": 1.5,
+      "port_height_m": 1.0,
+      "port_longitudinal_frac": 0.5
+    },
+    "estimation": {
+      "fine_dt_s": 0.001,
+      "block_dt_s": 0.1,
+      "rf_pilot_period_s": 0.001,
+      "rf_pilot_delay_s": 0.002,
+      "rf_pilot_power_w": 2.0,
+      "rf_pilot_max_slot_s": 0.001,
+      "rf_pilot_combined_symbols": 16,
+      "rf_state": "two_state",
+      "rf_process_var": 0.0,
+      "pilot_overhead_budget": 0.2,
+      "vlc_pilot_period_s": 0.05,
+      "vlc_pilot_delay_s": 0.005,
+      "vlc_pilot_power_w": 2.0,
+      "vlc_pilot_max_slot_s": 0.001,
+      "vlc_log_obs_sd": 0.12,
+      "vlc_observable_gain_min": 1e-08,
+      "vlc_state": "log_intensity",
+      "vlc_process_var": 0.0,
+      "mmse_stage": false,
+      "tail_probability": 0.05
+    },
+    "speed_limit_mps": 8.3333333333
+  },
+  "pilot_plan": {
+    "n": 50,
+    "rf_period_s": 0.001,
+    "rf_slot_s": 4e-06,
+    "rf_delay_s": 0.002,
+    "rf_power_w": 2.0,
+    "rf_overhead": 0.19999999999999998,
+    "rf_energy_per_vehicle_per_s": 0.008,
+    "vlc_period_s": 0.05,
+    "vlc_slot_s": 0.00020000000000000004,
+    "vlc_delay_s": 0.005,
+    "vlc_power_w": 2.0,
+    "vlc_overhead": 0.20000000000000004,
+    "vlc_energy_per_vehicle_per_s": 0.008
+  },
+  "scene": {
+    "vehicles": 50,
+    "frames": 1001,
+    "frame_dt_s": 0.10000000000000142,
+    "duration_s": 100.0,
+    "buildings": 4,
+    "directory": "E:\\博士\\课题论文\\第3篇-修改版\\代码\\交接_同学_50_100车开发_v2_20261023\\SUMO_10_50_100车_建筑公园_20261023\\n50"
+  },
+  "estimator": {
+    "rf_state": "two_state",
+    "vlc_state": "log_intensity",
+    "mmse_stage": false
+  },
+  "rf_candidates": {
+    "count": 2,
+    "mean": 1434.0,
+    "p05": 1434.0,
+    "p50": 1434.0,
+    "p95": 1434.0
+  },
+  "vlc_candidates": {
+    "count": 2,
+    "mean": 151.0,
+    "p05": 148.3,
+    "p50": 151.0,
+    "p95": 153.7
+  },
+  "vlc_visible_ratio": {
+    "count": 2,
+    "mean": 0.1106,
+    "p05": 0.1079,
+    "p50": 0.1106,
+    "p95": 0.11330000000000001
+  },
+  "vlc_matching_cover": {
+    "count": 2,
+    "mean": 0.96,
+    "p05": 0.96,
+    "p50": 0.96,
+    "p95": 0.96
+  },
+  "rf_nlos_ratio": {
+    "count": 2,
+    "mean": 0.6171428571428572,
+    "p05": 0.6149387755102041,
+    "p50": 0.6171428571428572,
+    "p95": 0.6193469387755102
+  },
+  "rf_pilot_snr_db": {
+    "count": 2,
+    "mean": 59.48231641787199,
+    "p05": 59.48170089854993,
+    "p50": 59.48231641787199,
+    "p95": 59.48293193719405
+  },
+  "rf_coherence_ms": {
+    "count": 2,
+    "mean": 5.910641911838726,
+    "p05": 5.849252223868183,
+    "p50": 5.910641911838726,
+    "p95": 5.972031599809269
+  },
+  "rf_state_mse": {
+    "count": 2,
+    "mean": 0.8288572569758572,
+    "p05": 0.6695786737375208,
+    "p50": 0.8288572569758572,
+    "p95": 0.9881358402141935
+  },
+  "rf_state_nmse": {
+    "count": 2,
+    "mean": 0.7297404875421309,
+    "p05": 0.4865069263300488,
+    "p50": 0.7297404875421309,
+    "p95": 0.9729740487542131
+  },
+  "vlc_state_mse": {
+    "count": 2,
+    "mean": 0.05294134138717435,
+    "p05": 0.024857661159351983,
+    "p50": 0.05294134138717435,
+    "p95": 0.08102502161499672
+  },
+  "rf_gain_rel_mse": {
+    "count": 2,
+    "mean": 0.48215700382156734,
+    "p05": 0.47360354280060063,
+    "p50": 0.48215700382156734,
+    "p95": 0.490710464842534
+  },
+  "vlc_gain_rel_mse": {
+    "count": 2,
+    "mean": 0.04798580122642679,
+    "p05": 0.02012187601682511,
+    "p50": 0.04798580122642679,
+    "p95": 0.07584972643602847
+  },
+  "rf_gain_abs_db_err": {
+    "count": 2,
+    "mean": 2.8848001479176277,
+    "p05": 2.3909041104318884,
+    "p50": 2.8848001479176277,
+    "p95": 3.3786961854033666
+  },
+  "vlc_gain_abs_db_err": {
+    "count": 2,
+    "mean": 0.6644972123567241,
+    "p05": 0.4259568636628871,
+    "p50": 0.6644972123567241,
+    "p95": 0.903037561050561
+  },
+  "rf_age_ms": {
+    "count": 1,
+    "mean": 2.0000000000000018,
+    "p05": 2.0000000000000018,
+    "p50": 2.0000000000000018,
+    "p95": 2.0000000000000018
+  },
+  "vlc_age_ms": {
+    "count": 1,
+    "mean": 50.0,
+    "p05": 50.0,
+    "p50": 50.0,
+    "p95": 50.0
+  },
+  "block_sec": {
+    "count": 2,
+    "mean": 0.8138328499626368,
+    "p05": 0.11933988494565712,
+    "p50": 0.8138328499626368,
+    "p95": 1.5083258149796164
+  },
+  "note": "只说明基础层接口与估计误差，不含资源分配或 EE 结论；轨迹固定，跨规模比较的是车辆数与导频开销，不是统计重复实验。"
+}

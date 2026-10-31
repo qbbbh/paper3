@@ -1,0 +1,8 @@
+﻿[08:46:06] START Tag=20261031e Blocks=100 Draws=32
+[08:46:06] BEGIN e5_D_chance_d010
+[08:55:52] END e5_D_chance_d010 rc=0 9.8 min
+[08:55:52] BEGIN e10_literature
+[09:02:52] END e10_literature rc=0 7.0 min
+[09:02:52] BEGIN e9_oracle_bound
+[09:09:18] END e9_oracle_bound rc=0 6.4 min
+[09:09:18] ALL DONE

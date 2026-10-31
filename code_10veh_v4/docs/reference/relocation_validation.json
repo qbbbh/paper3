@@ -1,0 +1,55 @@
+{
+  "results": [
+    {
+      "check": "hash",
+      "exit_code": 0,
+      "stdout": "Checked 111 files; errors=0\n",
+      "stderr": ""
+    },
+    {
+      "check": "tests",
+      "exit_code": 0,
+      "stdout": "...............                                                          [100%]\n15 passed in 4.30s\n",
+      "stderr": ""
+    },
+    {
+      "check": "audit",
+      "exit_code": 0,
+      "stdout": "{\"blocks\": 44, \"link_blocks\": 350, \"checks_passed\": true}\n",
+      "stderr": ""
+    },
+    {
+      "check": "foundation_n10",
+      "exit_code": 0,
+      "stdout": ": 50.0\n  },\n  \"block_sec\": {\n    \"count\": 2,\n    \"mean\": 0.10757454996928573,\n    \"p05\": 0.01641872493783012,\n    \"p50\": 0.10757454996928573,\n    \"p95\": 0.1987303750007413\n  },\n  \"note\": \"只说明基础层接口与估计误差，不含资源分配或 EE 结论；轨迹固定，跨规模比较的是车辆数与导频开销，不是统计重复实验。\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "check": "foundation_n50",
+      "exit_code": 0,
+      "stdout": "95\": 50.0\n  },\n  \"block_sec\": {\n    \"count\": 2,\n    \"mean\": 0.7009295499883592,\n    \"p05\": 0.10039055498782545,\n    \"p50\": 0.7009295499883592,\n    \"p95\": 1.301468544988893\n  },\n  \"note\": \"只说明基础层接口与估计误差，不含资源分配或 EE 结论；轨迹固定，跨规模比较的是车辆数与导频开销，不是统计重复实验。\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "check": "foundation_n100",
+      "exit_code": 0,
+      "stdout": "\"p95\": 50.0\n  },\n  \"block_sec\": {\n    \"count\": 2,\n    \"mean\": 3.379544450028334,\n    \"p05\": 0.49873017505160533,\n    \"p50\": 3.379544450028334,\n    \"p95\": 6.260358725005062\n  },\n  \"note\": \"只说明基础层接口与估计误差，不含资源分配或 EE 结论；轨迹固定，跨规模比较的是车辆数与导频开销，不是统计重复实验。\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "check": "crlb",
+      "exit_code": 0,
+      "stdout": "results\\relocated\\crlb.json\n",
+      "stderr": ""
+    },
+    {
+      "check": "fixed_block",
+      "exit_code": 0,
+      "stdout": "lc_slot_s\": 0.001, \"vlc_delay_s\": 0.005, \"vlc_power_w\": 2.0, \"vlc_overhead\": 0.19999999999999998, \"vlc_energy_per_vehicle_per_s\": 0.04}, \"scope\": \"short integration validation; coverage diagnostic only, no reliability claim; data-only gross PHY EE\"}\n",
+      "stderr": ""
+    }
+  ],
+  "tested_pre_report_archive_sha256": "d66f2f5870428a6e9c80199d2fe365cafa7d3d07ece080ba00cb0f6772b8cc1e",
+  "note": "Adding this report changes archive hash only; code and data are the tested payload. Final manifest verification is performed after re-extraction.",
+  "tested_code_manifest_sha256": "dac11d68651f86cc56a11692380dcdd901e2587b672f5b0d4538ac6a528978ba"
+}

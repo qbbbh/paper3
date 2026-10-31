@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "root_relative_to_manifest": "../../返回_交接_同学_50_100车开发_v2_20261023(1)",
+  "entries": [
+    {
+      "split": "train",
+      "traffic_seed": 2026102401,
+      "n": 50,
+      "directory": "development/traffic/seed2026102401/n50",
+      "files": {
+        "mobility.npz": "c6b652501c8e4873a7ef78f4e2140fff448428e541f11b96206bdef07c2b48c2",
+        "buildings.npz": "b0c3e25ae59789d25f3a2c3dc691ee085880ceee9ad179a13bf3b4c8f66b8f02",
+        "scenario.json": "39511e7f1d68bd161b0831df85463b9ef8b92a7bdabe479ab8f1c722d44f29d4",
+        "audit.json": "c2ff388223f0c70b5e0f073d946a6511322b795af35b600f277adad426374d94"
+      }
+    },
+    {
+      "split": "train",
+      "traffic_seed": 2026102401,
+      "n": 100,
+      "directory": "development/traffic/seed2026102401/n100",
+      "files": {
+        "mobility.npz": "fa7e787d72292e576764d1e43a2badaba7d00b3096677024a693922ff838a489",
+        "buildings.npz": "b8babd8fa57d837539acf6366536deb672610b2b57c2e7a8a9825a2a0f0c748c",
+        "scenario.json": "744915e730fe877afe5ad52d5be638a91754be462ca5f57133bd8527335c9553",
+        "audit.json": "86500f35a3c42cea87e94d29605798a8fc8dfe0f686b2043c7ba51aa07494f10"
+      }
+    },
+    {
+      "split": "validation",
+      "traffic_seed": 2026102402,
+      "n": 50,
+      "directory": "development/traffic/seed2026102402/n50",
+      "files": {
+        "mobility.npz": "c2a39ca77731c40264e8786c3a6a0fdd2aa339633d0c5890cd015f6b32b16fa6",
+        "buildings.npz": "b0c3e25ae59789d25f3a2c3dc691ee085880ceee9ad179a13bf3b4c8f66b8f02",
+        "scenario.json": "9cd4edb6c9bc8e524f47da72974bf554750d69b0a3f0ea10a896c4bf87855a95",
+        "audit.json": "7c32f80736ce347a5411bb6d61126bc88e0c0a4e33aa0ae6df4abd35f076a0d4"
+      }
+    },
+    {
+      "split": "validation",
+      "traffic_seed": 2026102402,
+      "n": 100,
+      "directory": "development/traffic/seed2026102402/n100",
+      "files": {
+        "mobility.npz": "d22705a18adc1883b9b07ed2ae1c0d6bf30706926bd8fe7320f8748413653040",
+        "buildings.npz": "b8babd8fa57d837539acf6366536deb672610b2b57c2e7a8a9825a2a0f0c748c",
+        "scenario.json": "4b75c4b7f51f9677bb6a9aaa99f6edb3879e8169324c2240622dc3eacdbcaf67",
+        "audit.json": "cd86ba26c6f243a2fd2f0b19ec224de7db69bcee71a449c1a71440aaaf92801a"
+      }
+    },
+    {
+      "split": "test",
+      "traffic_seed": 2026102403,
+      "n": 50,
+      "directory": "development/traffic/seed2026102403/n50",
+      "files": {
+        "mobility.npz": "5aecf40418404ef1845e3bdeca09d64212d568a5f82e08c07952d24eaf871ab0",
+        "buildings.npz": "b0c3e25ae59789d25f3a2c3dc691ee085880ceee9ad179a13bf3b4c8f66b8f02",
+        "scenario.json": "ec0d702f9db774cb6fa9003790e89501ac12774ce62148073c741abc4a317696",
+        "audit.json": "c25acd3f57435ae4001c3abadad6fef54ce4eab5c959262c401112ec4d828387"
+      }
+    },
+    {
+      "split": "test",
+      "traffic_seed": 2026102403,
+      "n": 100,
+      "directory": "development/traffic/seed2026102403/n100",
+      "files": {
+        "mobility.npz": "44eeb8c1e0937339c518ad3073a282502b7f9ede1b97b1d33a231daa5c5f761e",
+        "buildings.npz": "b8babd8fa57d837539acf6366536deb672610b2b57c2e7a8a9825a2a0f0c748c",
+        "scenario.json": "b30265a3413cca5a135c98bedf87091204059393b88bd846b27c0b8193f698fa",
+        "audit.json": "3f0608e852193413c06ad55bb98bfe1be7c352839a65e92d4839d8e81989f680"
+      }
+    }
+  ],
+  "purpose": "independent traffic partitions; short runs remain development validation"
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "file": "audit_outputs.py",
+    "original_sha256": null,
+    "packaged_sha256": "1fdcb1ba78859df62f13c9b8d24a53c174af4d4ce8e8cbaadb1ba60111c4a0bf"
+  },
+  {
+    "file": "crlb_report.py",
+    "original_sha256": "303bf3a68e81941035b87181ab7b5d09e63cb6193c3badefebf5170e5b92e59a",
+    "packaged_sha256": "e976329feefab49f751f31ca07a0bc9af5cdbe33d03ea689c8a2dc12aa511064"
+  },
+  {
+    "file": "p3base/__init__.py",
+    "original_sha256": "7ee824cbf21fdae18c692221e6ec7b7889187a1368ce8cb16be1f81ef0d0de59",
+    "packaged_sha256": "7ee824cbf21fdae18c692221e6ec7b7889187a1368ce8cb16be1f81ef0d0de59"
+  },
+  {
+    "file": "p3base/block.py",
+    "original_sha256": null,
+    "packaged_sha256": "84729eac3509e20a8d656b5912900ac4fd2f047670994c2602f2a6933b6d0171"
+  },
+  {
+    "file": "p3base/channel.py",
+    "original_sha256": "77e5667cdab24124d709c37334b4387e9f82a95d7479899b4f199cc597387594",
+    "packaged_sha256": "9d9863f4ec120c1e08ff280eadcfcd0d88970ee36744b06abd1c36b67f3da0e9"
+  },
+  {
+    "file": "p3base/config.py",
+    "original_sha256": "26bf134afcfd40651df871fa709e126e6a1b7dd699b4fc2d2b145201a638ff9e",
+    "packaged_sha256": "d70196e21573f34601848f40e683658382de8369442e557d16672213f79a19cc"
+  },
+  {
+    "file": "p3base/contract.py",
+    "original_sha256": "ab9062c5373f73261e021d330f08574b310a2db5841f149002390d6d3070d604",
+    "packaged_sha256": "822e1fe74c952704fbb1ca29cf84943be26f83506e26d42c08bd4e2d73a16bc3"
+  },
+  {
+    "file": "p3base/estimator.py",
+    "original_sha256": "90e34d93885db5555ec80b07121b8140fef18caf956ad438974d25c56382cbaf",
+    "packaged_sha256": "90e34d93885db5555ec80b07121b8140fef18caf956ad438974d25c56382cbaf"
+  },
+  {
+    "file": "p3base/fading.py",
+    "original_sha256": "33f229c63de1f88e3c59ffa6fab214b3600ca3ca857d79ffd7d5148d61144071",
+    "packaged_sha256": "33f229c63de1f88e3c59ffa6fab214b3600ca3ca857d79ffd7d5148d61144071"
+  },
+  {
+    "file": "p3base/geometry.py",
+    "original_sha256": "188470eb6de9c19d0c8bb7ba00a13bfa1d340ae68514c2e3b55019edafda11ef",
+    "packaged_sha256": "188470eb6de9c19d0c8bb7ba00a13bfa1d340ae68514c2e3b55019edafda11ef"
+  },
+  {
+    "file": "p3base/kalman_mmse.py",
+    "original_sha256": "d4af384630e50ebba3144c5d1bd174c8f442162ae440989e98a0618af80715c0",
+    "packaged_sha256": "d4af384630e50ebba3144c5d1bd174c8f442162ae440989e98a0618af80715c0"
+  },
+  {
+    "file": "p3base/link_eval.py",
+    "original_sha256": "519acff53c675eb0c2a84e71e9f74a29894f575bc728835a25ed7a7dd225b463",
+    "packaged_sha256": "7cc9963215187c0f7177a0029a10c77c16d73f6816b87691e83fb897fb16cdc7"
+  },
+  {
+    "file": "p3base/noise.py",
+    "original_sha256": "1ee9893a05740961b1f84f73dfed9bd9000b2459c8dfd55cebc6a1a04303089b",
+    "packaged_sha256": "1ee9893a05740961b1f84f73dfed9bd9000b2459c8dfd55cebc6a1a04303089b"
+  },
+  {
+    "file": "p3base/pilots.py",
+    "original_sha256": "cc1725a9a2b20edfeb7d699d0d85aaee5d98daa9e943ebedc6d34133726405c2",
+    "packaged_sha256": "938a347a8ead74051dde0fd478866618d8da1561dc131e7825f83e6d79110c84"
+  },
+  {
+    "file": "p3base/rf_two_state.py",
+    "original_sha256": "26a82b0ad9650a507a85abfe5bf85b13a3da87cddcee1d8cb0455431b90089c2",
+    "packaged_sha256": "26a82b0ad9650a507a85abfe5bf85b13a3da87cddcee1d8cb0455431b90089c2"
+  },
+  {
+    "file": "p3base/scene.py",
+    "original_sha256": "f82466be00339d5c9a8b2761612b1a1b6351c394a12e6034e13a7d814a66934c",
+    "packaged_sha256": "f82466be00339d5c9a8b2761612b1a1b6351c394a12e6034e13a7d814a66934c"
+  },
+  {
+    "file": "plot_estimation.py",
+    "original_sha256": "2329259b59a9653331a25f94e6f9703b294a446b230de9eb54b9b8f26963e8b0",
+    "packaged_sha256": "7c3d7d62ba6ba344b3d5f8e3ea440c27defe2504099852fba06c45e7c4c57d07"
+  },
+  {
+    "file": "run_foundation.py",
+    "original_sha256": "5fda43e20126ce9fa6229e6c2df9883366aa724eab0b04c190fecdecfa1d97ee",
+    "packaged_sha256": "4a4bfb67ea19a288454cf00302290201c8c857827d8fe3e2b4b0622115fd6893"
+  },
+  {
+    "file": "tests/test_block.py",
+    "original_sha256": null,
+    "packaged_sha256": "b86d755299ea8e718504ae672dc7a59cb2c71da34b852c8fac7924491b127d4b"
+  },
+  {
+    "file": "tests/test_crlb.py",
+    "original_sha256": null,
+    "packaged_sha256": "914194e8964086455debc2b4b23fe6b0bee5993ca63843e7ee2c1e06274301c9"
+  },
+  {
+    "file": "tests/test_geometry_snapshot.py",
+    "original_sha256": null,
+    "packaged_sha256": "2fcecde8ea421e66060dbf4ef8b21f26ed9dbe156b88ff5091bf96e0903027cc"
+  },
+  {
+    "file": "tests/test_prediction.py",
+    "original_sha256": null,
+    "packaged_sha256": "42846d2dc1d72282c761477fb47ade03af3656101b740e9290a004b6bf95fa0d"
+  },
+  {
+    "file": "tests/test_time_consistency.py",
+    "original_sha256": "d987ee3bd40fb3402882368048b61b2d8c58069bc17f0f0b4d23c88394e0be8b",
+    "packaged_sha256": "d987ee3bd40fb3402882368048b61b2d8c58069bc17f0f0b4d23c88394e0be8b"
+  },
+  {
+    "file": "validate_blocks.py",
+    "original_sha256": null,
+    "packaged_sha256": "2a8b2869726c08a1b07bfca802b3b7077d60fe1065dcb7b7e139b6ef599204c1"
+  }
+]

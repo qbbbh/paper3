@@ -1,0 +1,142 @@
+{
+  "seed": 123,
+  "repetitions": 50000,
+  "observation_complex_mse": 0.029988677358837607,
+  "observation_crlb": 0.03,
+  "observation_ratio": 0.9996225786279203,
+  "linear_gaussian": [
+    {
+      "step": 0,
+      "mse": 0.0289253605171569,
+      "bayes_mse": 0.029126213592232997
+    },
+    {
+      "step": 1,
+      "mse": 0.027241693494615946,
+      "bayes_mse": 0.02726063829787236
+    },
+    {
+      "step": 2,
+      "mse": 0.027318887114014857,
+      "bayes_mse": 0.0272493535391509
+    },
+    {
+      "step": 3,
+      "mse": 0.02724838729010839,
+      "bayes_mse": 0.027249284995380423
+    },
+    {
+      "step": 4,
+      "mse": 0.027290960191230944,
+      "bayes_mse": 0.027249284579034177
+    },
+    {
+      "step": 5,
+      "mse": 0.027204801363919996,
+      "bayes_mse": 0.027249284576505228
+    },
+    {
+      "step": 6,
+      "mse": 0.02723158671529657,
+      "bayes_mse": 0.0272492845764899
+    },
+    {
+      "step": 7,
+      "mse": 0.02719340484812972,
+      "bayes_mse": 0.027249284576489806
+    },
+    {
+      "step": 8,
+      "mse": 0.027286196423926795,
+      "bayes_mse": 0.027249284576489768
+    },
+    {
+      "step": 9,
+      "mse": 0.027257034168643755,
+      "bayes_mse": 0.027249284576489768
+    },
+    {
+      "step": 10,
+      "mse": 0.027076929292412594,
+      "bayes_mse": 0.027249284576489768
+    },
+    {
+      "step": 11,
+      "mse": 0.027037833911706066,
+      "bayes_mse": 0.027249284576489768
+    },
+    {
+      "step": 12,
+      "mse": 0.027072733819159134,
+      "bayes_mse": 0.027249284576489768
+    },
+    {
+      "step": 13,
+      "mse": 0.027256697538857205,
+      "bayes_mse": 0.027249284576489768
+    },
+    {
+      "step": 14,
+      "mse": 0.02724913918400937,
+      "bayes_mse": 0.027249284576489768
+    },
+    {
+      "step": 15,
+      "mse": 0.027277687067772987,
+      "bayes_mse": 0.027249284576489768
+    },
+    {
+      "step": 16,
+      "mse": 0.027256195400000887,
+      "bayes_mse": 0.027249284576489768
+    },
+    {
+      "step": 17,
+      "mse": 0.02714812585828584,
+      "bayes_mse": 0.027249284576489768
+    },
+    {
+      "step": 18,
+      "mse": 0.027101652964386876,
+      "bayes_mse": 0.027249284576489768
+    },
+    {
+      "step": 19,
+      "mse": 0.02709514679033734,
+      "bayes_mse": 0.027249284576489768
+    }
+  ],
+  "scope": "normalized complex state; not composite two-state or dB optimality",
+  "scene_local_db_sd_at_unit_state": [
+    {
+      "n": 10,
+      "slot_s": 2e-05,
+      "snapshot_count": 4,
+      "candidate_samples": 358,
+      "p50": 0.0029254978172357175,
+      "p90": 0.04620462486576943,
+      "worst": 0.06307788336307711,
+      "note": "local bound at normalized |h|=1, excludes realized fades; not full-trajectory measurement error"
+    },
+    {
+      "n": 50,
+      "slot_s": 4e-06,
+      "snapshot_count": 4,
+      "candidate_samples": 5562,
+      "p50": 0.0064862333991385504,
+      "p90": 0.11293142684615942,
+      "worst": 0.1431763722934631,
+      "note": "local bound at normalized |h|=1, excludes realized fades; not full-trajectory measurement error"
+    },
+    {
+      "n": 100,
+      "slot_s": 2e-06,
+      "snapshot_count": 4,
+      "candidate_samples": 10228,
+      "p50": 0.008750627580062502,
+      "p90": 0.17451561121908432,
+      "worst": 0.20301506525239413,
+      "note": "local bound at normalized |h|=1, excludes realized fades; not full-trajectory measurement error"
+    }
+  ]
+}

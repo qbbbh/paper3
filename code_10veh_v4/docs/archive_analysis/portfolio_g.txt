@@ -1,0 +1,23 @@
+块数 100；组合里均 EE 最好者来自：
+  e7_random_chance_d010_20261031g/reference           41 块
+  e9_oracle_bound_20261031g/reference                 26 块
+  e10_literature_20261031g/literature                  8 块
+  e5_D_chance_d010_20261031g/maxmin                    7 块
+  e7_ideal_chance_d010_20261031g/maxmin                7 块
+  e9_oracle_bound_20261031g/maxmin                     6 块
+  e10_lit_cont_20261031g/literature                    4 块
+  e7_ideal_chance_d010_20261031g/reference             1 块
+
+e5_D_chance_d010_20261031g::maxmin     配对 100 块  均 EE  489.1 M  组合上界  519.7 M  差距  -30.6 M ( -5.9%)  已是组合最好 7/100
+e5_D_chance_d010_20261031g::reference  配对 100 块  均 EE  508.4 M  组合上界  519.7 M  差距  -11.4 M ( -2.2%)  已是组合最好 41/100
+e7_random_chance_d010_20261031g::random     配对 100 块  均 EE   17.4 M  组合上界  519.7 M  差距 -502.4 M (-96.7%)  已是组合最好 0/100
+e7_random_chance_d010_20261031g::reference  配对 100 块  均 EE  508.4 M  组合上界  519.7 M  差距  -11.4 M ( -2.2%)  已是组合最好 41/100
+e7_ideal_chance_d010_20261031g::maxmin     配对 100 块  均 EE  460.8 M  组合上界  519.7 M  差距  -59.0 M (-11.3%)  已是组合最好 7/100
+e7_ideal_chance_d010_20261031g::reference  配对 100 块  均 EE  480.0 M  组合上界  519.7 M  差距  -39.8 M ( -7.7%)  已是组合最好 13/100
+e10_literature_20261031g::literature 配对  84 块  均 EE  486.6 M  组合上界  533.7 M  差距  -47.1 M ( -8.8%)  已是组合最好 8/84
+e10_literature_20261031g::reference  配对 100 块  均 EE  508.4 M  组合上界  519.7 M  差距  -11.4 M ( -2.2%)  已是组合最好 41/100
+e10_lit_cont_20261031g::literature 配对 100 块  均 EE  455.4 M  组合上界  519.7 M  差距  -64.3 M (-12.4%)  已是组合最好 13/100
+e10_lit_nom001_20261031g::literature 配对  84 块  均 EE  478.2 M  组合上界  533.7 M  差距  -55.5 M (-10.4%)  已是组合最好 5/84
+e10_lit_nom300_20261031g::literature 配对  84 块  均 EE  485.3 M  组合上界  533.7 M  差距  -48.5 M ( -9.1%)  已是组合最好 8/84
+e9_oracle_bound_20261031g::maxmin     配对 100 块  均 EE  481.2 M  组合上界  519.7 M  差距  -38.6 M ( -7.4%)  已是组合最好 6/100
+e9_oracle_bound_20261031g::reference  配对 100 块  均 EE  502.1 M  组合上界  519.7 M  差距  -17.6 M ( -3.4%)  已是组合最好 26/100
