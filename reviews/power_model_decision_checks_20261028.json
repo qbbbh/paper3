@@ -1,0 +1,82 @@
+{
+  "scope": "Independent proposed-model arithmetic, not production-solver or hardware validation",
+  "scientific_code_changed": false,
+  "simulations_started": false,
+  "document": "plans/功耗模型决定稿_20261028.md",
+  "document_sha256": "129682572b381b28df4da73298c0304a883ee76cc5b6992933648825a6089002",
+  "checks": [
+    {
+      "name": "rf_30mw_dc",
+      "passed": true,
+      "values": {
+        "input_w": 0.03,
+        "output_w": 0.003,
+        "billed_w": 0.1459
+      }
+    },
+    {
+      "name": "rf_30mw_output",
+      "passed": true,
+      "values": {
+        "output_w": 0.03,
+        "input_w": 0.3,
+        "billed_w": 0.4159
+      }
+    },
+    {
+      "name": "vlc_30mw_dc",
+      "passed": true,
+      "values": {
+        "input_w": 0.03,
+        "output_w": 0.0075,
+        "billed_w": 1.775
+      }
+    },
+    {
+      "name": "rf_input_output_equivalence",
+      "passed": true,
+      "values": {
+        "input_w": [
+          0.03,
+          0.12
+        ],
+        "output_w": [
+          0.003,
+          0.012
+        ],
+        "sinr_input": [
+          0.6521739130434783,
+          6.0
+        ],
+        "sinr_output": [
+          0.6521739130434783,
+          6.0
+        ]
+      }
+    },
+    {
+      "name": "vlc_fixed_sum",
+      "passed": true,
+      "values": {
+        "dac_w": 1.4,
+        "ta_w": 0.345,
+        "sum_w": 1.745
+      }
+    },
+    {
+      "name": "existing_snapshot_difference_unchanged",
+      "passed": true,
+      "values": {
+        "success": false,
+        "files": 457,
+        "scientific_python_files": 56,
+        "source_sha256": "95960f5a4b0c23c974ebc48fd7d799a8e7f45f9c58f366531cc723eede4a4925",
+        "mismatches": [
+          "plans/仿真协议_v1_20261027.md"
+        ]
+      }
+    }
+  ],
+  "status": "Historical arithmetic for eta_RF=0.1 proposal; user rejected adoption. Not validation of the adopted model.",
+  "adopted_rf_efficiency": 1.0
+}
