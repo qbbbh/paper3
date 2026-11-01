@@ -1,0 +1,45 @@
+﻿
+=== 主线一：分位数校准 ===
+[PASS] C1 跌破率     expected=0.1027  actual=0.1027
+[PASS] C1 n       expected=9990  actual=9990
+[PASS] C2 α*(100s) expected=1.3003  actual=1.3003
+[PASS] C2 α=1.35 跌破率 expected=0.0458  actual=0.0458
+[PASS] C2b α*(10s) expected=1.2314  actual=1.2314
+[PASS] C3 α*∈[1.23,1.30] expected=True  actual=True
+[PASS] C4 年龄分层反直觉 expected=age<5ms > 5-50ms  actual=0.1073 vs 0.0896
+[PASS] C4 RF 违约率  expected=0.1073  actual=0.1073
+[PASS] C4 VLC 违约率 expected=0.0900  actual=0.0900
+
+=== 主线二：峰值钉住 / 反事实 ===
+[PASS] C5 premise_holds==0 expected=0  actual=0
+[PASS] C5 p_cur>p_svc==95 expected=95  actual=95
+[PASS] C6 p_cur/p_ee 中位 expected=0.9800  actual=0.9847
+[PASS] C6 p_cur/p_svc 中位 expected=8.260  actual=8.261
+[PASS] C6 p_ee/p_svc 中位 expected=10.960  actual=10.957
+[PASS] C7 A Δmin≈0 expected=|x|<=0.005  actual=-0.001160
+[PASS] C7 A 逐位相同区块 expected=15  actual=15
+[PASS] C8 B Δmin  expected=-97.71  actual=-97.71
+[PASS] C8 B n/better expected=102/6  actual=102/6
+[PASS] C9 C Δmin  expected=-27.62  actual=-27.62
+[PASS] C9 S2 Δmin expected=-45.34  actual=-45.34
+
+=== 主线三：排序有效性 / 守卫价值 ===
+[PASS] C10 τ 均值   expected=0.3576  actual=0.3576
+[PASS] C10 τ n    expected=66  actual=66
+[PASS] C10 τ 正相关块 expected=45/66  actual=45/66
+[PASS] C11 合法改进块数 expected=28  actual=28
+[PASS] C11 中位增益   expected=0.020  actual=0.018
+[PASS] C11 >10% 块 expected=1  actual=1
+[PASS] C11 >50% 块 expected=1  actual=1
+[PASS] C12 真值更优块  expected=35  actual=35
+[PASS] C12 Δmean 中位 expected=-1.96  actual=-1.96
+[PASS] C12 真值预算内比例 expected=0.470  actual=0.470
+
+=== 自检 S1/S2 ===
+[PASS] S1 复现通过块   expected=100  actual=100
+[PASS] S1 排除块     expected=0  actual=0
+[PASS] S2 真值口径偏差  expected=0.0  actual=0.0
+[PASS] CSV/summary 前提一致 expected=0 vs 0  actual=0 vs 0
+
+====================================================================
+共 34 条检查，PASS 34，FAIL 0

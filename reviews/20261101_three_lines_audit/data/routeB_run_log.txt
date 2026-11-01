@@ -1,0 +1,122 @@
+﻿run: E:\博士\课题论文\第3篇-修改版\代码\开发_10车机制定型_v5_20261101\code\runs\v5_C_ref_sca_s_v5a
+  k=  2 mismatch=-                            exec_min=  93.78M cands= 3 any_better=1 premise=0 tau=-1.00
+  k=  3 mismatch=-                            exec_min=  26.35M cands= 3 any_better=1 premise=0 tau=+0.00
+  k=  4 mismatch=-                            exec_min=  47.95M cands= 2 any_better=1 premise=0 tau=n/a
+  k=  5 mismatch=-                            exec_min=  46.65M cands= 3 any_better=1 premise=0 tau=+0.33
+  k=  6 mismatch=-                            exec_min=  29.19M cands= 3 any_better=1 premise=0 tau=+0.00
+  k=  7 mismatch=-                            exec_min=  32.59M cands= 2 any_better=1 premise=0 tau=n/a
+  k=  8 mismatch=-                            exec_min= 261.07M cands= 3 any_better=1 premise=0 tau=+1.00
+  k=  9 mismatch=-                            exec_min= 117.98M cands= 4 any_better=1 premise=0 tau=+0.20
+  k= 10 mismatch=-                            exec_min= 123.87M cands= 4 any_better=1 premise=0 tau=+0.20
+  k= 11 mismatch=-                            exec_min= 119.44M cands= 3 any_better=1 premise=0 tau=+0.00
+  k= 12 mismatch=-                            exec_min= 120.22M cands= 4 any_better=1 premise=0 tau=+0.20
+  k= 13 mismatch=-                            exec_min= 209.51M cands= 4 any_better=0 premise=0 tau=+1.00
+  k= 14 mismatch=-                            exec_min= 107.10M cands= 4 any_better=0 premise=0 tau=+1.00
+  k= 15 mismatch=-                            exec_min= 229.17M cands= 4 any_better=1 premise=0 tau=+0.33
+  k= 16 mismatch=-                            exec_min= 219.81M cands= 3 any_better=1 premise=0 tau=+0.33
+  k= 17 mismatch=-                            exec_min= 209.12M cands= 4 any_better=0 premise=0 tau=+0.20
+  k= 18 mismatch=-                            exec_min= 203.17M cands= 4 any_better=0 premise=0 tau=+1.00
+  k= 19 mismatch=-                            exec_min= 193.16M cands= 3 any_better=0 premise=0 tau=+1.00
+  k= 20 mismatch=-                            exec_min= 192.14M cands= 4 any_better=0 premise=0 tau=+1.00
+  k= 21 mismatch=-                            exec_min=  48.74M cands= 3 any_better=1 premise=0 tau=-1.00
+  k= 22 mismatch=-                            exec_min=  49.03M cands= 4 any_better=1 premise=0 tau=-0.33
+  k= 23 mismatch=-                            exec_min=  44.97M cands= 4 any_better=1 premise=0 tau=-0.33
+  k= 24 mismatch=-                            exec_min= 182.11M cands= 4 any_better=0 premise=0 tau=+0.20
+  k= 25 mismatch=-                            exec_min= 178.66M cands= 4 any_better=0 premise=0 tau=-0.20
+  k= 26 mismatch=-                            exec_min= 188.91M cands= 4 any_better=1 premise=0 tau=-1.00
+  k= 27 mismatch=-                            exec_min= 181.10M cands= 3 any_better=0 premise=0 tau=+0.33
+  k= 28 mismatch=-                            exec_min= 176.34M cands= 3 any_better=0 premise=0 tau=+0.33
+  k= 29 mismatch=-                            exec_min= 163.66M cands= 4 any_better=1 premise=0 tau=+0.60
+  k= 30 mismatch=-                            exec_min=  29.70M cands= 3 any_better=1 premise=0 tau=+0.00
+  k= 31 mismatch=-                            exec_min=  27.54M cands= 3 any_better=1 premise=0 tau=+0.00
+  k= 32 mismatch=-                            exec_min= 183.64M cands= 3 any_better=1 premise=0 tau=+1.00
+  k= 33 mismatch=-                            exec_min= 181.14M cands= 3 any_better=1 premise=0 tau=+1.00
+  k= 34 mismatch=-                            exec_min= 179.79M cands= 3 any_better=1 premise=0 tau=+1.00
+  k= 35 mismatch=-                            exec_min= 178.14M cands= 3 any_better=1 premise=0 tau=-0.33
+  k= 36 mismatch=-                            exec_min=  31.50M cands= 2 any_better=1 premise=0 tau=n/a
+  k= 37 mismatch=-                            exec_min= 178.60M cands= 3 any_better=0 premise=0 tau=-0.33
+  k= 38 mismatch=-                            exec_min= 176.20M cands= 3 any_better=0 premise=0 tau=-0.33
+  k= 39 mismatch=-                            exec_min= 176.07M cands= 3 any_better=1 premise=0 tau=+0.33
+  k= 40 mismatch=-                            exec_min= 176.91M cands= 3 any_better=1 premise=0 tau=+1.00
+  k= 41 mismatch=-                            exec_min=  29.80M cands= 3 any_better=1 premise=0 tau=+0.00
+  k= 42 mismatch=-                            exec_min= 179.03M cands= 2 any_better=0 premise=0 tau=n/a
+  k= 43 mismatch=-                            exec_min= 176.97M cands= 3 any_better=0 premise=0 tau=+0.33
+  k= 44 mismatch=-                            exec_min= 164.21M cands= 2 any_better=1 premise=0 tau=n/a
+  k= 45 mismatch=-                            exec_min= 160.98M cands= 3 any_better=0 premise=0 tau=-0.33
+  k= 46 mismatch=-                            exec_min= 175.85M cands= 4 any_better=1 premise=0 tau=+0.20
+  k= 47 mismatch=-                            exec_min= 173.74M cands= 4 any_better=1 premise=0 tau=-0.20
+  k= 48 mismatch=-                            exec_min= 123.38M cands= 3 any_better=1 premise=0 tau=+1.00
+  k= 49 mismatch=-                            exec_min= 155.33M cands= 3 any_better=1 premise=0 tau=+1.00
+  k= 50 mismatch=-                            exec_min= 159.48M cands= 2 any_better=1 premise=0 tau=n/a
+  k= 51 mismatch=-                            exec_min= 157.68M cands= 2 any_better=1 premise=0 tau=n/a
+  k= 52 mismatch=-                            exec_min= 154.52M cands= 2 any_better=0 premise=0 tau=n/a
+  k= 53 mismatch=-                            exec_min=  34.53M cands= 4 any_better=1 premise=0 tau=-0.33
+  k= 54 mismatch=-                            exec_min= 163.20M cands= 4 any_better=0 premise=0 tau=+0.60
+  k= 55 mismatch=-                            exec_min= 156.30M cands= 3 any_better=0 premise=0 tau=+1.00
+  k= 56 mismatch=-                            exec_min= 166.95M cands= 3 any_better=0 premise=0 tau=n/a
+  k= 57 mismatch=-                            exec_min= 171.29M cands= 3 any_better=0 premise=0 tau=-0.33
+  k= 58 mismatch=-                            exec_min= 163.71M cands= 3 any_better=0 premise=0 tau=+1.00
+  k= 59 mismatch=-                            exec_min= 143.85M cands= 3 any_better=0 premise=0 tau=-0.33
+  k= 60 mismatch=-                            exec_min= 169.48M cands= 2 any_better=0 premise=0 tau=n/a
+  k= 61 mismatch=-                            exec_min= 182.24M cands= 3 any_better=1 premise=0 tau=+0.33
+  k= 62 mismatch=-                            exec_min= 184.72M cands= 2 any_better=0 premise=0 tau=n/a
+  k= 63 mismatch=-                            exec_min= 194.83M cands= 3 any_better=1 premise=0 tau=+0.33
+  k= 64 mismatch=-                            exec_min= 196.77M cands= 3 any_better=1 premise=0 tau=+0.33
+  k= 65 mismatch=-                            exec_min=  87.64M cands= 4 any_better=1 premise=0 tau=n/a
+  k= 66 mismatch=-                            exec_min= 166.10M cands= 3 any_better=0 premise=0 tau=n/a
+  k= 67 mismatch=-                            exec_min= 140.76M cands= 3 any_better=0 premise=0 tau=n/a
+  k= 68 mismatch=-                            exec_min= 127.01M cands= 3 any_better=0 premise=0 tau=+1.00
+  k= 69 mismatch=-                            exec_min= 143.64M cands= 3 any_better=0 premise=0 tau=+1.00
+  k= 70 mismatch=-                            exec_min= 174.15M cands= 3 any_better=0 premise=0 tau=+1.00
+  k= 71 mismatch=-                            exec_min= 170.16M cands= 3 any_better=0 premise=0 tau=+1.00
+  k= 72 mismatch=-                            exec_min= 171.51M cands= 2 any_better=1 premise=0 tau=n/a
+  k= 73 mismatch=-                            exec_min= 138.39M cands= 2 any_better=0 premise=0 tau=n/a
+  k= 74 mismatch=-                            exec_min=  74.18M cands= 3 any_better=0 premise=0 tau=+1.00
+  k= 75 mismatch=-                            exec_min=  67.97M cands= 4 any_better=1 premise=0 tau=n/a
+  k= 76 mismatch=-                            exec_min= 307.00M cands= 4 any_better=0 premise=0 tau=n/a
+  k= 77 mismatch=-                            exec_min= 114.60M cands= 4 any_better=1 premise=0 tau=n/a
+  k= 78 mismatch=-                            exec_min= 276.36M cands= 4 any_better=0 premise=0 tau=n/a
+  k= 79 mismatch=-                            exec_min= 131.60M cands= 4 any_better=1 premise=0 tau=n/a
+  k= 80 mismatch=-                            exec_min= 105.37M cands= 4 any_better=1 premise=0 tau=n/a
+  k= 81 mismatch=-                            exec_min= 252.61M cands= 4 any_better=0 premise=0 tau=+1.00
+  k= 82 mismatch=-                            exec_min=  84.57M cands= 4 any_better=1 premise=0 tau=n/a
+  k= 83 mismatch=-                            exec_min= 145.17M cands= 4 any_better=1 premise=0 tau=n/a
+  k= 84 mismatch=-                            exec_min= 291.54M cands= 4 any_better=0 premise=0 tau=+1.00
+  k= 85 mismatch=-                            exec_min= 115.84M cands= 4 any_better=0 premise=0 tau=+1.00
+  k= 86 mismatch=-                            exec_min=  29.99M cands= 4 any_better=1 premise=0 tau=n/a
+  k= 87 mismatch=-                            exec_min=  31.45M cands= 4 any_better=0 premise=0 tau=n/a
+  k= 88 mismatch=-                            exec_min= 104.24M cands= 4 any_better=1 premise=0 tau=-1.00
+  k= 89 mismatch=-                            exec_min=  76.12M cands= 4 any_better=1 premise=0 tau=n/a
+  k= 90 mismatch=-                            exec_min=  48.30M cands= 4 any_better=1 premise=0 tau=n/a
+  k= 91 mismatch=-                            exec_min= 161.58M cands= 4 any_better=1 premise=0 tau=n/a
+  k= 92 mismatch=-                            exec_min= 127.05M cands= 4 any_better=0 premise=0 tau=+1.00
+  k= 93 mismatch=-                            exec_min=  87.59M cands= 4 any_better=1 premise=0 tau=n/a
+  k= 94 mismatch=-                            exec_min=  85.10M cands= 4 any_better=0 premise=0 tau=+0.33
+  k= 95 mismatch=-                            exec_min= 165.04M cands= 4 any_better=0 premise=0 tau=+0.60
+  k= 96 mismatch=-                            exec_min=  94.17M cands= 4 any_better=1 premise=0 tau=n/a
+  k= 97 mismatch=-                            exec_min= 145.42M cands= 4 any_better=0 premise=0 tau=+1.00
+  k= 98 mismatch=-                            exec_min= 100.37M cands= 4 any_better=0 premise=0 tau=n/a
+  k= 99 mismatch=-                            exec_min=  16.59M cands= 3 any_better=0 premise=0 tau=n/a
+  k=100 mismatch=-                            exec_min=  11.25M cands= 4 any_better=1 premise=0 tau=n/a
+  k=101 mismatch=-                            exec_min=  64.79M cands= 4 any_better=0 premise=0 tau=+0.33
+
+==============================================================================
+路线 B 反事实审计
+  块：总 100，复现校验通过 100，排除 0
+  耗时 2295.0s
+
+  命题 2 前提 p_ee < p_svc：0.0%（当前功率 > p_svc：95.0%）
+  候选 334 个，采纳 0 个
+  存在'真值更好'被拒候选的块：55 (55.0%)
+  预测排序 vs 真值排序 Kendall tau 均值 +0.358（正相关块占比 68.2%）
+
+  按族（相对执行动作的真值差，中位）：
+    A            n= 100 真值更优= 32  Δmin=   -0.00%  Δmean=   -0.00%
+    B            n= 102 真值更优=  6  Δmin=  -97.71%  Δmean=  -35.27%
+    C            n=  60 真值更优= 25  Δmin=  -27.62%  Δmean=  -39.47%
+    S2           n=  72 真值更优= 15  Δmin=  -45.34%  Δmean=   -3.20%
+
+  '全都采纳'对照（取预测 min EE 最高者强制采纳）：n=100 真值更优 35 块 Δmin中位 -0.00% Δmean中位 -1.96% 真值预算内 47.0%
+
+  执行动作：均 min EE 136.89 M，均 mean EE 487.40 M
+写出: E:\博士\课题论文\第3篇-修改版\代码\分析_三条主线_20261101\out_routeB

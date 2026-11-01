@@ -1,0 +1,94 @@
+{
+  "run": "..\\开发_10车机制定型_v4_20261027\\code\\runs\\e5_D_chance_d010_20261031h",
+  "tag": "e5_D_chance_d010_20261031h",
+  "parts": {
+    "calib": {
+      "overall": {
+        "n": 9990,
+        "violation_rate": 0.10270270270270271,
+        "nominal": 0.05,
+        "over_eps": 0.052702702702702706
+      },
+      "by_mode": {
+        "RF": {
+          "n": 7347,
+          "violation_rate": 0.1072546617667075,
+          "nominal": 0.05,
+          "over_eps": 0.0572546617667075
+        },
+        "VLC": {
+          "n": 2643,
+          "violation_rate": 0.09004918653045782,
+          "nominal": 0.05,
+          "over_eps": 0.04004918653045782
+        }
+      },
+      "by_csi_age": {
+        "5-50ms": {
+          "n": 1584,
+          "violation_rate": 0.08964646464646464,
+          "nominal": 0.05,
+          "over_eps": 0.03964646464646464
+        },
+        "50-100ms": {
+          "n": 1055,
+          "violation_rate": 0.0909952606635071,
+          "nominal": 0.05,
+          "over_eps": 0.0409952606635071
+        },
+        ">=100ms": {
+          "n": 4,
+          "violation_rate": 0.0,
+          "nominal": 0.05,
+          "over_eps": -0.05
+        },
+        "age<5ms": {
+          "n": 7347,
+          "violation_rate": 0.1072546617667075,
+          "nominal": 0.05,
+          "over_eps": 0.0572546617667075
+        }
+      },
+      "n_used": 9990,
+      "n_skipped": 0
+    },
+    "alpha": {
+      "status": "ok",
+      "alpha_star": 1.30029296875,
+      "violation_rate_at_star": 0.04984984984984985,
+      "trace": [
+        {
+          "alpha": 1.0,
+          "violation_rate": 0.10270270270270271
+        },
+        {
+          "alpha": 1.35,
+          "violation_rate": 0.04584584584584585
+        },
+        {
+          "alpha": 1.6,
+          "violation_rate": 0.025325325325325325
+        },
+        {
+          "alpha": 2.0,
+          "violation_rate": 0.01011011011011011
+        },
+        {
+          "alpha": 2.5,
+          "violation_rate": 0.004904904904904905
+        },
+        {
+          "alpha": 3.0,
+          "violation_rate": 0.0025025025025025025
+        },
+        {
+          "alpha": 4.0,
+          "violation_rate": 0.0015015015015015015
+        }
+      ],
+      "n_used": 9990
+    }
+  },
+  "link_rows": 9990,
+  "missing_columns": []
+}

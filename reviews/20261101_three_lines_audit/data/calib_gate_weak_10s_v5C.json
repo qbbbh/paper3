@@ -1,0 +1,178 @@
+{
+  "run": "..\\开发_10车机制定型_v5_20261101\\code\\runs\\v5_C_ref_sca_s_v5a",
+  "tag": "v5_C_ref_sca_s_v5a",
+  "parts": {
+    "calib": {
+      "overall": {
+        "n": 1000,
+        "violation_rate": 0.082,
+        "nominal": 0.05,
+        "over_eps": 0.032
+      },
+      "by_mode": {
+        "RF": {
+          "n": 674,
+          "violation_rate": 0.08605341246290801,
+          "nominal": 0.05,
+          "over_eps": 0.03605341246290801
+        },
+        "VLC": {
+          "n": 326,
+          "violation_rate": 0.0736196319018405,
+          "nominal": 0.05,
+          "over_eps": 0.023619631901840493
+        }
+      },
+      "by_csi_age": {
+        "5-50ms": {
+          "n": 192,
+          "violation_rate": 0.08333333333333333,
+          "nominal": 0.05,
+          "over_eps": 0.033333333333333326
+        },
+        "50-100ms": {
+          "n": 132,
+          "violation_rate": 0.06060606060606061,
+          "nominal": 0.05,
+          "over_eps": 0.010606060606060605
+        },
+        ">=100ms": {
+          "n": 2,
+          "violation_rate": 0.0,
+          "nominal": 0.05,
+          "over_eps": -0.05
+        },
+        "age<5ms": {
+          "n": 674,
+          "violation_rate": 0.08605341246290801,
+          "nominal": 0.05,
+          "over_eps": 0.03605341246290801
+        }
+      },
+      "n_used": 1000,
+      "n_skipped": 0
+    },
+    "alpha": {
+      "status": "ok",
+      "alpha_star": 1.2314453125,
+      "violation_rate_at_star": 0.05,
+      "trace": [
+        {
+          "alpha": 1.0,
+          "violation_rate": 0.082
+        },
+        {
+          "alpha": 1.35,
+          "violation_rate": 0.041
+        },
+        {
+          "alpha": 1.6,
+          "violation_rate": 0.029
+        },
+        {
+          "alpha": 2.0,
+          "violation_rate": 0.008
+        },
+        {
+          "alpha": 2.5,
+          "violation_rate": 0.004
+        },
+        {
+          "alpha": 3.0,
+          "violation_rate": 0.004
+        },
+        {
+          "alpha": 4.0,
+          "violation_rate": 0.002
+        }
+      ],
+      "n_used": 1000
+    },
+    "gate": {
+      "maxmin": {
+        "blocks": 100,
+        "blocks_all_pairs_met": 100,
+        "blocks_all_pairs_failed": 0,
+        "link_rows": 500,
+        "link_rows_failing_qos": 0,
+        "link_fail_rate": 0.0,
+        "chance_fallback_blocks": 0,
+        "fallback_blocks": 0
+      },
+      "reference": {
+        "blocks": 100,
+        "blocks_all_pairs_met": 100,
+        "blocks_all_pairs_failed": 0,
+        "link_rows": 500,
+        "link_rows_failing_qos": 0,
+        "link_fail_rate": 0.0,
+        "chance_fallback_blocks": 0,
+        "fallback_blocks": 0
+      }
+    },
+    "weak": {
+      "path": "..\\开发_10车机制定型_v5_20261101\\code\\runs\\v5_C_ref_sca_s_v5a\\weak_link.json",
+      "blocks": 100,
+      "blocks_with_submission": 100,
+      "candidates_submitted": 334,
+      "candidates_accepted": 0,
+      "by_family": {
+        "B_swap_rx": {
+          "submitted": 102,
+          "accepted": 0,
+          "budget_ok": 2,
+          "qos_ok": 0,
+          "both_ok": 0,
+          "min_ee_median": 42203715.718472406,
+          "min_ee_max": 216721344.11633185
+        },
+        "C_mode": {
+          "submitted": 60,
+          "accepted": 0,
+          "budget_ok": 0,
+          "qos_ok": 0,
+          "both_ok": 0,
+          "min_ee_median": 167091102.81464145,
+          "min_ee_max": 218209684.51167953
+        },
+        "A_raise_power": {
+          "submitted": 100,
+          "accepted": 0,
+          "budget_ok": 70,
+          "qos_ok": 0,
+          "both_ok": 0,
+          "min_ee_median": 152906200.3783689,
+          "min_ee_max": 236974027.437663
+        },
+        "S2_cut1": {
+          "submitted": 47,
+          "accepted": 0,
+          "budget_ok": 39,
+          "qos_ok": 0,
+          "both_ok": 0,
+          "min_ee_median": 81578339.04269606,
+          "min_ee_max": 175823748.98451978
+        },
+        "S2_cut2": {
+          "submitted": 25,
+          "accepted": 0,
+          "budget_ok": 11,
+          "qos_ok": 0,
+          "both_ok": 0,
+          "min_ee_median": 70181489.42497447,
+          "min_ee_max": 210724345.2491391
+        }
+      },
+      "s1_probe": {
+        "blocks": 100,
+        "ratio_sum": 20.99015590134484,
+        "empty_ranking": 28,
+        "ratio_median": 0.18042950015276146,
+        "ratio_min": 0.05027228965982733,
+        "ratio_max": 0.8004692452773254
+      }
+    }
+  },
+  "link_rows": 1000,
+  "missing_columns": []
+}
