@@ -1,0 +1,1904 @@
+{
+ "run": "..\\开发_10车机制定型_v5_20261101\\code\\runs\\v5_C_ref_sca_s_v5a",
+ "channel_seed": 2026102401,
+ "prefilter": {
+  "bc_candidates": 162,
+  "matched": 31,
+  "blocks": 25,
+  "rule": "B/C & pred qos ok & pred min-EE gain > 10% & predicted budget violation"
+ },
+ "elapsed_s": 705.398342600005,
+ "records": [
+  {
+   "block": 2,
+   "stage": "B_swap_rx_4",
+   "before": {
+    "mean_ee": 350673910.6866057,
+    "min_ee": 132974424.38476646,
+    "margin": -50621834.99142748,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 350673910.6866057,
+    "min_ee": 132974424.38476646,
+    "margin": -50621834.99142748,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 875,
+   "truth": {
+    "min_ee": 135790154.1600527,
+    "mean_ee": 339788357.1546042,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 401604040.8556226,
+     "min_ee": 93165237.89751892,
+     "margin": 308295.1775894165,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 371773866.7178878,
+     "min_ee": 93780156.151417,
+     "network_ee": 142086819.49029335,
+     "mean_rate_bps": 110676934.6444223,
+     "min_rate_bps": 25246698.318721395,
+     "budget_ok": false,
+     "total_power_w": 1.686093928735
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 402705693.64001113,
+     "min_ee": 93165237.89858074,
+     "margin": 1409947.9619779587,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 372846312.66183925,
+     "min_ee": 93780154.42751132,
+     "network_ee": 142290009.84237516,
+     "mean_rate_bps": 110730457.64603165,
+     "min_rate_bps": 24687817.68150497,
+     "budget_ok": false,
+     "total_power_w": 1.682413071427
+    },
+    "calls": 622
+   }
+  },
+  {
+   "block": 2,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 322739070.78900313,
+    "min_ee": 109086437.75525169,
+    "margin": -78556674.88903004,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 322739070.78900313,
+    "min_ee": 109086437.75525169,
+    "margin": -78556674.88903004,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 886,
+   "truth": {
+    "min_ee": 95334570.62508859,
+    "mean_ee": 287421112.74809086,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 401604040.8556226,
+     "min_ee": 93165237.89751892,
+     "margin": 308295.1775894165,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 371773866.7178878,
+     "min_ee": 93780156.151417,
+     "network_ee": 142086819.49029335,
+     "mean_rate_bps": 110676934.6444223,
+     "min_rate_bps": 25246698.318721395,
+     "budget_ok": false,
+     "total_power_w": 1.686093928735
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 402705693.64001113,
+     "min_ee": 93165237.89858074,
+     "margin": 1409947.9619779587,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 372846312.66183925,
+     "min_ee": 93780154.42751132,
+     "network_ee": 142290009.84237516,
+     "mean_rate_bps": 110730457.64603165,
+     "min_rate_bps": 24687817.68150497,
+     "budget_ok": false,
+     "total_power_w": 1.682413071427
+    },
+    "calls": 622
+   }
+  },
+  {
+   "block": 3,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 281704355.4977018,
+    "min_ee": 83050707.97819133,
+    "margin": -164564361.76560783,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 281704355.4977018,
+    "min_ee": 83050707.97819133,
+    "margin": -164564361.76560783,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 886,
+   "truth": {
+    "min_ee": 99766116.21339148,
+    "mean_ee": 268330831.74691343,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 487353263.9094857,
+     "min_ee": 30737197.40676115,
+     "margin": 41084546.64617604,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 471839991.85546553,
+     "min_ee": 26354603.56908484,
+     "network_ee": 123519303.46515225,
+     "mean_rate_bps": 227883282.18700376,
+     "min_rate_bps": 46180266.61349823,
+     "budget_ok": true,
+     "total_power_w": 5.386901976941
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 487607050.47375345,
+     "min_ee": 30737197.41107735,
+     "margin": 41338333.210443795,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 473060619.6795003,
+     "min_ee": 26354655.863584496,
+     "network_ee": 123508741.31059767,
+     "mean_rate_bps": 227825855.56453124,
+     "min_rate_bps": 44552780.013556816,
+     "budget_ok": true,
+     "total_power_w": 5.385366041601
+    },
+    "calls": 579
+   }
+  },
+  {
+   "block": 4,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 212647928.39479065,
+    "min_ee": 126639555.6004194,
+    "margin": -210354980.88191915,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 212647928.39479065,
+    "min_ee": 126639555.6004194,
+    "margin": -210354980.88191915,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 798,
+   "truth": {
+    "min_ee": 147530080.26441783,
+    "mean_ee": 245159797.98407015,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 469347577.0526718,
+     "min_ee": 38776788.53235207,
+     "margin": 46344667.775961995,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 495903792.88108605,
+     "min_ee": 47946510.68996054,
+     "network_ee": 148653683.43540722,
+     "mean_rate_bps": 236031587.0383041,
+     "min_rate_bps": 46174616.299855664,
+     "budget_ok": true,
+     "total_power_w": 4.101275395146
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 468645290.10946006,
+     "min_ee": 38776788.53357526,
+     "margin": 45642380.83275026,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 493771734.1996722,
+     "min_ee": 47946565.30744067,
+     "network_ee": 148540210.4337195,
+     "mean_rate_bps": 236050372.39537397,
+     "min_rate_bps": 43983729.72460474,
+     "budget_ok": true,
+     "total_power_w": 4.107972478385999
+    },
+    "calls": 609
+   }
+  },
+  {
+   "block": 5,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 228556459.9703231,
+    "min_ee": 106644511.62278709,
+    "margin": -211396182.9662189,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 228556459.9703231,
+    "min_ee": 106644511.62278709,
+    "margin": -211396182.9662189,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 977,
+   "truth": {
+    "min_ee": 133600941.28534043,
+    "mean_ee": 229124245.60063934,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 488956672.04604304,
+     "min_ee": 48405904.017584756,
+     "margin": 49004029.109501064,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 435623325.2565602,
+     "min_ee": 46650826.49154874,
+     "network_ee": 151435124.89896968,
+     "mean_rate_bps": 220373199.3215459,
+     "min_rate_bps": 55407833.12127825,
+     "budget_ok": false,
+     "total_power_w": 3.438458667567
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 488458754.2500742,
+     "min_ee": 48405904.017729945,
+     "margin": 48506111.31353223,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 435048571.10367805,
+     "min_ee": 46650829.30745842,
+     "network_ee": 151305148.9095967,
+     "mean_rate_bps": 220403226.31672746,
+     "min_rate_bps": 53947197.34332072,
+     "budget_ok": false,
+     "total_power_w": 3.445701388026
+    },
+    "calls": 650
+   }
+  },
+  {
+   "block": 6,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 257089811.63754338,
+    "min_ee": 119816868.59713353,
+    "margin": -145432055.84236342,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 257089811.63754338,
+    "min_ee": 119816868.59713353,
+    "margin": -145432055.84236342,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 708,
+   "truth": {
+    "min_ee": 167166154.31687135,
+    "mean_ee": 290004910.4229915,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 446775386.2690028,
+     "min_ee": 28427535.63059222,
+     "margin": 44253518.789096,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 461964887.70574486,
+     "min_ee": 29189660.469696943,
+     "network_ee": 119267077.80832034,
+     "mean_rate_bps": 216623868.62776214,
+     "min_rate_bps": 44916074.859646946,
+     "budget_ok": true,
+     "total_power_w": 5.2437612300600005
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 445756004.4361439,
+     "min_ee": 28427535.63062103,
+     "margin": 43234136.95623708,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 460761690.62545407,
+     "min_ee": 29189661.147205766,
+     "network_ee": 119211514.5395304,
+     "mean_rate_bps": 216631357.4411648,
+     "min_rate_bps": 43987267.19426671,
+     "budget_ok": true,
+     "total_power_w": 5.2483081040799995
+    },
+    "calls": 643
+   }
+  },
+  {
+   "block": 7,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 229079615.70850506,
+    "min_ee": 158407416.04387927,
+    "margin": -191723051.1136633,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 229079615.70850506,
+    "min_ee": 158407416.04387927,
+    "margin": -191723051.1136633,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 823,
+   "truth": {
+    "min_ee": 154646229.12387636,
+    "mean_ee": 241046506.05626625,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 466663024.69806945,
+     "min_ee": 34930697.80951899,
+     "margin": 45860357.8759011,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 493377846.28852785,
+     "min_ee": 32586710.24805287,
+     "network_ee": 132469892.55151181,
+     "mean_rate_bps": 218884630.72258013,
+     "min_rate_bps": 48026085.44247856,
+     "budget_ok": true,
+     "total_power_w": 4.42397465326
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 465338270.8786742,
+     "min_ee": 34930697.81090421,
+     "margin": 44535604.05650586,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 492702822.0233618,
+     "min_ee": 32586725.875565574,
+     "network_ee": 132385445.98067366,
+     "mean_rate_bps": 218933450.19732165,
+     "min_rate_bps": 46868352.42670806,
+     "budget_ok": true,
+     "total_power_w": 4.431088482583
+    },
+    "calls": 570
+   }
+  },
+  {
+   "block": 9,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 387296056.97368455,
+    "min_ee": 209646559.00343776,
+    "margin": -66036573.37497628,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 387296056.97368455,
+    "min_ee": 209646559.00343776,
+    "margin": -66036573.37497628,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 752,
+   "truth": {
+    "min_ee": 216560215.79914954,
+    "mean_ee": 356570632.3074524,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 504615835.78298414,
+     "min_ee": 115589662.1355886,
+     "margin": 51283205.43432331,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 480298095.73268425,
+     "min_ee": 117979896.72053747,
+     "network_ee": 223645526.08943048,
+     "mean_rate_bps": 252594731.92148957,
+     "min_rate_bps": 20930200.24544764,
+     "budget_ok": true,
+     "total_power_w": 1.8095118252990001
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 504172651.5421977,
+     "min_ee": 115589662.13655055,
+     "margin": 50840021.19353688,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 480187361.5376353,
+     "min_ee": 117979902.72755928,
+     "network_ee": 223645423.08629328,
+     "mean_rate_bps": 252882261.93372855,
+     "min_rate_bps": 19910536.606639028,
+     "budget_ok": true,
+     "total_power_w": 1.815942682331
+    },
+    "calls": 665
+   }
+  },
+  {
+   "block": 10,
+   "stage": "B_swap_rx_4",
+   "before": {
+    "mean_ee": 373979404.1319906,
+    "min_ee": 215499036.72797593,
+    "margin": -78450164.82616758,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 373979404.1319906,
+    "min_ee": 215499036.72797593,
+    "margin": -78450164.82616758,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 995,
+   "truth": {
+    "min_ee": 217753589.99848798,
+    "mean_ee": 401134616.84285223,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 502735006.5990747,
+     "min_ee": 108586224.97196335,
+     "margin": 50305437.64091653,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 489794655.0529501,
+     "min_ee": 123869942.46176039,
+     "network_ee": 229217369.0138966,
+     "mean_rate_bps": 261444164.6236751,
+     "min_rate_bps": 38980012.65308395,
+     "budget_ok": true,
+     "total_power_w": 1.865274555297
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 502300747.8818919,
+     "min_ee": 108586224.97273228,
+     "margin": 49871178.92373371,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 489056768.3139396,
+     "min_ee": 123869905.8627169,
+     "network_ee": 229235376.04376695,
+     "mean_rate_bps": 261563748.67555222,
+     "min_rate_bps": 37252450.09473232,
+     "budget_ok": true,
+     "total_power_w": 1.8674348964920002
+    },
+    "calls": 596
+   }
+  },
+  {
+   "block": 10,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 306844549.8390812,
+    "min_ee": 176629133.3901793,
+    "margin": -145585019.11907697,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 306844549.8390812,
+    "min_ee": 176629133.3901793,
+    "margin": -145585019.11907697,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 725,
+   "truth": {
+    "min_ee": 178796156.9054842,
+    "mean_ee": 310404265.60497653,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 502735006.5990747,
+     "min_ee": 108586224.97196335,
+     "margin": 50305437.64091653,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 489794655.0529501,
+     "min_ee": 123869942.46176039,
+     "network_ee": 229217369.0138966,
+     "mean_rate_bps": 261444164.6236751,
+     "min_rate_bps": 38980012.65308395,
+     "budget_ok": true,
+     "total_power_w": 1.865274555297
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 502300747.8818919,
+     "min_ee": 108586224.97273228,
+     "margin": 49871178.92373371,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 489056768.3139396,
+     "min_ee": 123869905.8627169,
+     "network_ee": 229235376.04376695,
+     "mean_rate_bps": 261563748.67555222,
+     "min_rate_bps": 37252450.09473232,
+     "budget_ok": true,
+     "total_power_w": 1.8674348964920002
+    },
+    "calls": 596
+   }
+  },
+  {
+   "block": 11,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 359918433.0999313,
+    "min_ee": 241514289.2084513,
+    "margin": -97902853.48832321,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 359918433.0999313,
+    "min_ee": 241514289.2084513,
+    "margin": -97902853.48832321,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 805,
+   "truth": {
+    "min_ee": 186458619.71339005,
+    "mean_ee": 340015806.206933,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 507996777.9883691,
+     "min_ee": 117804956.31002702,
+     "margin": 50175491.400114596,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 514682225.0732049,
+     "min_ee": 119442092.1199873,
+     "network_ee": 233426253.96726334,
+     "mean_rate_bps": 261077825.70607337,
+     "min_rate_bps": 47288820.604531504,
+     "budget_ok": true,
+     "total_power_w": 1.7545978085979999
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 508259651.80449057,
+     "min_ee": 117804956.3100325,
+     "margin": 50438365.216236055,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 514529332.01338327,
+     "min_ee": 119442091.8162546,
+     "network_ee": 233445530.59001467,
+     "mean_rate_bps": 261361998.82030883,
+     "min_rate_bps": 45706077.79667181,
+     "budget_ok": true,
+     "total_power_w": 1.760222525219
+    },
+    "calls": 633
+   }
+  },
+  {
+   "block": 12,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 340926800.5638285,
+    "min_ee": 207138162.7021333,
+    "margin": -111114005.51987433,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 340926800.5638285,
+    "min_ee": 207138162.7021333,
+    "margin": -111114005.51987433,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 678,
+   "truth": {
+    "min_ee": 135558306.83578297,
+    "mean_ee": 316711929.25448954,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 503486642.2533883,
+     "min_ee": 120779230.73964743,
+     "margin": 51445836.16968542,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 480196007.3060296,
+     "min_ee": 120218807.00383715,
+     "network_ee": 236045188.63939422,
+     "mean_rate_bps": 262368761.2895584,
+     "min_rate_bps": 23621862.566551015,
+     "budget_ok": true,
+     "total_power_w": 1.719896043408
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 503647625.0547288,
+     "min_ee": 120779230.73977992,
+     "margin": 51606818.971025944,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 480658027.6958958,
+     "min_ee": 120218807.54537141,
+     "network_ee": 236236109.49341145,
+     "mean_rate_bps": 262618479.89206964,
+     "min_rate_bps": 22122648.20279415,
+     "budget_ok": true,
+     "total_power_w": 1.7206898764510001
+    },
+    "calls": 666
+   }
+  },
+  {
+   "block": 21,
+   "stage": "B_swap_rx_3",
+   "before": {
+    "mean_ee": 385683827.55925614,
+    "min_ee": 171362657.18961856,
+    "margin": -116874249.66494298,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 385683827.55925614,
+    "min_ee": 171362657.18961856,
+    "margin": -116874249.66494298,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 1121,
+   "truth": {
+    "min_ee": 185889132.62110287,
+    "mean_ee": 425231052.1096119,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 558481861.4906144,
+     "min_ee": 43671951.81571465,
+     "margin": 55923784.2664153,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 605585718.9170097,
+     "min_ee": 48737431.4383004,
+     "network_ee": 145665639.04224157,
+     "mean_rate_bps": 226581927.88487738,
+     "min_rate_bps": 99338066.66699028,
+     "budget_ok": true,
+     "total_power_w": 3.9397665794439996
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 557933993.0751358,
+     "min_ee": 43671951.81571872,
+     "margin": 55375915.85093671,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 604124147.7469908,
+     "min_ee": 48737433.01327192,
+     "network_ee": 145787475.83131742,
+     "mean_rate_bps": 226610088.21333718,
+     "min_rate_bps": 97077794.1285028,
+     "budget_ok": true,
+     "total_power_w": 3.9342326341699994
+    },
+    "calls": 592
+   }
+  },
+  {
+   "block": 21,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 424134010.8706254,
+    "min_ee": 192984998.02573726,
+    "margin": -78424066.35357374,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 424134010.8706254,
+    "min_ee": 192984998.02573726,
+    "margin": -78424066.35357374,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 977,
+   "truth": {
+    "min_ee": 203178355.4220935,
+    "mean_ee": 463947099.59109515,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 558481861.4906144,
+     "min_ee": 43671951.81571465,
+     "margin": 55923784.2664153,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 605585718.9170097,
+     "min_ee": 48737431.4383004,
+     "network_ee": 145665639.04224157,
+     "mean_rate_bps": 226581927.88487738,
+     "min_rate_bps": 99338066.66699028,
+     "budget_ok": true,
+     "total_power_w": 3.9397665794439996
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 557933993.0751358,
+     "min_ee": 43671951.81571872,
+     "margin": 55375915.85093671,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 604124147.7469908,
+     "min_ee": 48737433.01327192,
+     "network_ee": 145787475.83131742,
+     "mean_rate_bps": 226610088.21333718,
+     "min_rate_bps": 97077794.1285028,
+     "budget_ok": true,
+     "total_power_w": 3.9342326341699994
+    },
+    "calls": 592
+   }
+  },
+  {
+   "block": 22,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 424708036.92820996,
+    "min_ee": 112159936.40436615,
+    "margin": -153176044.9243626,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 424708036.92820996,
+    "min_ee": 112159936.40436615,
+    "margin": -153176044.9243626,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 987,
+   "truth": {
+    "min_ee": 84303044.42911242,
+    "mean_ee": 370460132.22945046,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 641027274.9808973,
+     "min_ee": 42063089.64887411,
+     "margin": 63143193.12832475,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 591507626.2490615,
+     "min_ee": 49027829.743440434,
+     "network_ee": 113541142.598847,
+     "mean_rate_bps": 191039445.05421036,
+     "min_rate_bps": 88955233.33455919,
+     "budget_ok": true,
+     "total_power_w": 4.575085034636
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 638972976.4325736,
+     "min_ee": 42063089.6509191,
+     "margin": 61088894.580001,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 589095119.222231,
+     "min_ee": 49027779.51479719,
+     "network_ee": 112955056.20660608,
+     "mean_rate_bps": 189733182.6374268,
+     "min_rate_bps": 89090343.97680369,
+     "budget_ok": true,
+     "total_power_w": 4.560913971312
+    },
+    "calls": 833
+   }
+  },
+  {
+   "block": 22,
+   "stage": "B_swap_rx_1",
+   "before": {
+    "mean_ee": 344387092.40673023,
+    "min_ee": 81851650.69826914,
+    "margin": -233496989.44584233,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 344387092.40673023,
+    "min_ee": 81851650.69826914,
+    "margin": -233496989.44584233,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 1118,
+   "truth": {
+    "min_ee": 91494693.32205167,
+    "mean_ee": 306673431.9587921,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 641027274.9808973,
+     "min_ee": 42063089.64887411,
+     "margin": 63143193.12832475,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 591507626.2490615,
+     "min_ee": 49027829.743440434,
+     "network_ee": 113541142.598847,
+     "mean_rate_bps": 191039445.05421036,
+     "min_rate_bps": 88955233.33455919,
+     "budget_ok": true,
+     "total_power_w": 4.575085034636
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 638972976.4325736,
+     "min_ee": 42063089.6509191,
+     "margin": 61088894.580001,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 589095119.222231,
+     "min_ee": 49027779.51479719,
+     "network_ee": 112955056.20660608,
+     "mean_rate_bps": 189733182.6374268,
+     "min_rate_bps": 89090343.97680369,
+     "budget_ok": true,
+     "total_power_w": 4.560913971312
+    },
+    "calls": 833
+   }
+  },
+  {
+   "block": 23,
+   "stage": "B_swap_rx_1",
+   "before": {
+    "mean_ee": 548583082.6083244,
+    "min_ee": 193193751.96668157,
+    "margin": -2039875.0708703995,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 557126083.9171879,
+    "min_ee": 195909375.42670706,
+    "margin": 6503126.237993121,
+    "qos_ok": true
+   },
+   "restored_feasible": true,
+   "improved_vs_original": true,
+   "action_changed": true,
+   "refine_calls": 664,
+   "truth": {
+    "min_ee": 197849052.464281,
+    "mean_ee": 561698782.3233583,
+    "qos_ok": true,
+    "budget_ok_true": true
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 611450288.4905232,
+     "min_ee": 44516281.55112266,
+     "margin": 60827330.81132841,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 603603494.4013886,
+     "min_ee": 44967954.90857296,
+     "network_ee": 141252232.8157282,
+     "mean_rate_bps": 217005856.33070526,
+     "min_rate_bps": 107542086.24640784,
+     "budget_ok": true,
+     "total_power_w": 3.84380180726
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 609868984.2490431,
+     "min_ee": 44516281.55112652,
+     "margin": 59246026.5698483,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 600984205.1548347,
+     "min_ee": 44967954.80355764,
+     "network_ee": 141219138.9823856,
+     "mean_rate_bps": 216871494.7534454,
+     "min_rate_bps": 110567797.6712186,
+     "budget_ok": true,
+     "total_power_w": 3.840844718379
+    },
+    "calls": 830
+   }
+  },
+  {
+   "block": 23,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 357185894.3256081,
+    "min_ee": 57720884.22055001,
+    "margin": -193437063.35358673,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 357185894.3256081,
+    "min_ee": 57720884.22055001,
+    "margin": -193437063.35358673,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 1050,
+   "truth": {
+    "min_ee": 55048598.10309281,
+    "mean_ee": 365943108.7848611,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 611450288.4905232,
+     "min_ee": 44516281.55112266,
+     "margin": 60827330.81132841,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 603603494.4013886,
+     "min_ee": 44967954.90857296,
+     "network_ee": 141252232.8157282,
+     "mean_rate_bps": 217005856.33070526,
+     "min_rate_bps": 107542086.24640784,
+     "budget_ok": true,
+     "total_power_w": 3.84380180726
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 609868984.2490431,
+     "min_ee": 44516281.55112652,
+     "margin": 59246026.5698483,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 600984205.1548347,
+     "min_ee": 44967954.80355764,
+     "network_ee": 141219138.9823856,
+     "mean_rate_bps": 216871494.7534454,
+     "min_rate_bps": 110567797.6712186,
+     "budget_ok": true,
+     "total_power_w": 3.840844718379
+    },
+    "calls": 830
+   }
+  },
+  {
+   "block": 29,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 379355047.764953,
+    "min_ee": 269212460.9186697,
+    "margin": -98390629.36725217,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 379355047.764953,
+    "min_ee": 269212460.9186697,
+    "margin": -98390629.36725217,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 794,
+   "truth": {
+    "min_ee": 243996469.7994266,
+    "mean_ee": 308870557.6602541,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 530131180.51672494,
+     "min_ee": 176480958.6355459,
+     "margin": 52385503.384519756,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 479889113.13776934,
+     "min_ee": 163660014.37561607,
+     "network_ee": 279774633.8059095,
+     "mean_rate_bps": 288623621.7178672,
+     "min_rate_bps": 52244880.76952729,
+     "budget_ok": true,
+     "total_power_w": 1.3204449288590001
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 528876707.22450054,
+     "min_ee": 176480958.63568798,
+     "margin": 51131030.09229535,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 479200606.37742805,
+     "min_ee": 163660005.30065778,
+     "network_ee": 280151593.31722313,
+     "mean_rate_bps": 288911232.5551193,
+     "min_rate_bps": 48850658.639286816,
+     "budget_ok": true,
+     "total_power_w": 1.318637487397
+    },
+    "calls": 672
+   }
+  },
+  {
+   "block": 30,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 374737240.75631154,
+    "min_ee": 139824213.03509536,
+    "margin": -191669366.27781808,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 374737240.75631154,
+    "min_ee": 139824213.03509536,
+    "margin": -191669366.27781808,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 947,
+   "truth": {
+    "min_ee": 100160569.75129992,
+    "mean_ee": 335906289.32457304,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 628914977.0878298,
+     "min_ee": 35848046.15984054,
+     "margin": 62508370.05370021,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 623291844.5881903,
+     "min_ee": 29695974.984579276,
+     "network_ee": 120790953.75632702,
+     "mean_rate_bps": 205249585.0046444,
+     "min_rate_bps": 71005845.8290109,
+     "budget_ok": true,
+     "total_power_w": 4.658366080358
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 627420996.572921,
+     "min_ee": 35848046.16005177,
+     "margin": 61014389.53879142,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 621754138.9631901,
+     "min_ee": 29695960.600239817,
+     "network_ee": 120885593.98302646,
+     "mean_rate_bps": 205351801.24810398,
+     "min_rate_bps": 72427226.5972743,
+     "budget_ok": true,
+     "total_power_w": 4.655942396997999
+    },
+    "calls": 738
+   }
+  },
+  {
+   "block": 31,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 338213979.48712933,
+    "min_ee": 100079939.79694596,
+    "margin": -293338755.51438105,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 338213979.48712933,
+    "min_ee": 100079939.79694596,
+    "margin": -293338755.51438105,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 944,
+   "truth": {
+    "min_ee": 117967724.60984516,
+    "mean_ee": 344355418.35435927,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 700918506.9391533,
+     "min_ee": 31992113.423612833,
+     "margin": 69365771.93764293,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 725391524.3533802,
+     "min_ee": 27541446.6968484,
+     "network_ee": 125083985.14206004,
+     "mean_rate_bps": 222558866.16336736,
+     "min_rate_bps": 132917267.94301467,
+     "budget_ok": true,
+     "total_power_w": 5.058677338418
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 699658057.8671265,
+     "min_ee": 31992113.42377234,
+     "margin": 68105322.86561608,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 724149566.0151497,
+     "min_ee": 27541456.515339926,
+     "network_ee": 125248815.49802165,
+     "mean_rate_bps": 222796551.28687793,
+     "min_rate_bps": 134699096.3245194,
+     "budget_ok": true,
+     "total_power_w": 5.056458016624
+    },
+    "calls": 686
+   }
+  },
+  {
+   "block": 33,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 483240361.46057874,
+    "min_ee": 227543975.7305181,
+    "margin": -96914183.45452338,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 483240361.46057874,
+    "min_ee": 227543975.7305181,
+    "margin": -96914183.45452338,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 916,
+   "truth": {
+    "min_ee": 272858478.68287766,
+    "mean_ee": 495830874.85477006,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 644645226.3164828,
+     "min_ee": 177357735.6774993,
+     "margin": 64490681.40138066,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 653890256.0391115,
+     "min_ee": 181136443.90080094,
+     "network_ee": 306629505.394359,
+     "mean_rate_bps": 314363118.32833064,
+     "min_rate_bps": 64720694.53817894,
+     "budget_ok": true,
+     "total_power_w": 1.288406796605
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 644501446.4343588,
+     "min_ee": 177357735.6775013,
+     "margin": 64346901.51925671,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 653701789.6842098,
+     "min_ee": 181136444.20907524,
+     "network_ee": 306886350.9294378,
+     "mean_rate_bps": 314982024.16749394,
+     "min_rate_bps": 64535095.65413002,
+     "budget_ok": true,
+     "total_power_w": 1.294200184116
+    },
+    "calls": 646
+   }
+  },
+  {
+   "block": 34,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 433490717.64918077,
+    "min_ee": 265715935.60667488,
+    "margin": -149754329.03464854,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 433490717.64918077,
+    "min_ee": 265715935.60667488,
+    "margin": -149754329.03464854,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 930,
+   "truth": {
+    "min_ee": 230455499.61284575,
+    "mean_ee": 467545218.95657885,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 647802804.1840252,
+     "min_ee": 183308525.21095154,
+     "margin": 64557757.50019586,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 695175488.5881325,
+     "min_ee": 179792123.93931288,
+     "network_ee": 310157712.57574785,
+     "mean_rate_bps": 316973575.5392329,
+     "min_rate_bps": 52339192.56519129,
+     "budget_ok": true,
+     "total_power_w": 1.272177373464
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 647802804.1840252,
+     "min_ee": 183308525.21095154,
+     "margin": 64557757.50019586,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 695175488.5881325,
+     "min_ee": 179792123.93931288,
+     "network_ee": 310157712.57574785,
+     "mean_rate_bps": 316973575.5392329,
+     "min_rate_bps": 52339192.56519129,
+     "budget_ok": true,
+     "total_power_w": 1.272177373464
+    },
+    "calls": 614
+   }
+  },
+  {
+   "block": 35,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 346376562.35310173,
+    "min_ee": 212360913.87623024,
+    "margin": -239282391.79523313,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 346376562.35310173,
+    "min_ee": 212360913.87623024,
+    "margin": -239282391.79523313,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 956,
+   "truth": {
+    "min_ee": 75214953.65298356,
+    "mean_ee": 365643666.0090272,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 650714571.8664812,
+     "min_ee": 175738300.69539016,
+     "margin": 65055617.718146324,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 648669586.3734424,
+     "min_ee": 178140128.35492405,
+     "network_ee": 300800105.7414255,
+     "mean_rate_bps": 309531610.12867796,
+     "min_rate_bps": 47297929.30658888,
+     "budget_ok": true,
+     "total_power_w": 1.307437987331
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 649987805.7531866,
+     "min_ee": 175738300.69542915,
+     "margin": 64328851.60485172,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 648776009.5544201,
+     "min_ee": 178140129.2517126,
+     "network_ee": 300992047.1002243,
+     "mean_rate_bps": 309892360.4485269,
+     "min_rate_bps": 47191511.55808469,
+     "budget_ok": true,
+     "total_power_w": 1.310149643106
+    },
+    "calls": 594
+   }
+  },
+  {
+   "block": 36,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 413303866.491903,
+    "min_ee": 87844286.92776318,
+    "margin": -306338191.43553,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 413303866.491903,
+    "min_ee": 87844286.92776318,
+    "margin": -306338191.43553,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 1205,
+   "truth": {
+    "min_ee": 88088761.77090317,
+    "mean_ee": 408526544.56003255,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 799044712.0304344,
+     "min_ee": 34361671.23269614,
+     "margin": 79402654.10300136,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 778492872.8235202,
+     "min_ee": 31495415.702791404,
+     "network_ee": 131893306.35946672,
+     "mean_rate_bps": 226750674.69750077,
+     "min_rate_bps": 139493984.61821067,
+     "budget_ok": true,
+     "total_power_w": 4.758288718317
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 797696694.605806,
+     "min_ee": 34361671.23317737,
+     "margin": 78054636.67837298,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 777120811.7827051,
+     "min_ee": 31495426.772276167,
+     "network_ee": 132036371.20558348,
+     "mean_rate_bps": 226890163.10554785,
+     "min_rate_bps": 140328256.18759242,
+     "budget_ok": true,
+     "total_power_w": 4.754256937088
+    },
+    "calls": 670
+   }
+  },
+  {
+   "block": 41,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 239317550.60610858,
+    "min_ee": 65940751.23647418,
+    "margin": -281458182.9143666,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 239317550.60610858,
+    "min_ee": 65940751.23647418,
+    "margin": -281458182.9143666,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 1262,
+   "truth": {
+    "min_ee": 47498645.38682825,
+    "mean_ee": 236118828.04891276,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 578075445.7094071,
+     "min_ee": 27190789.51591527,
+     "margin": 57299712.18893188,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 571564697.8365642,
+     "min_ee": 29798253.504422817,
+     "network_ee": 105748968.1730174,
+     "mean_rate_bps": 202741902.533051,
+     "min_rate_bps": 109398001.61562628,
+     "budget_ok": true,
+     "total_power_w": 5.748299089908
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 577315723.5824108,
+     "min_ee": 27190789.515940964,
+     "margin": 56539990.0619356,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 570794645.8472971,
+     "min_ee": 29798256.080633536,
+     "network_ee": 105906036.09504749,
+     "mean_rate_bps": 203012167.3230702,
+     "min_rate_bps": 111677116.4432761,
+     "budget_ok": true,
+     "total_power_w": 5.746841864114
+    },
+    "calls": 628
+   }
+  },
+  {
+   "block": 47,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 340510385.9413582,
+    "min_ee": 282611150.60206455,
+    "margin": -107584644.98943311,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 340510385.9413582,
+    "min_ee": 282611150.60206455,
+    "margin": -107584644.98943311,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 718,
+   "truth": {
+    "min_ee": 103716705.74265718,
+    "mean_ee": 261412621.07894817,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 497878159.0835436,
+     "min_ee": 169314003.0762402,
+     "margin": 49783128.15275228,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 445240438.131359,
+     "min_ee": 173735004.6221624,
+     "network_ee": 278765831.7131333,
+     "mean_rate_bps": 289957226.3565713,
+     "min_rate_bps": 55762944.76828698,
+     "budget_ok": false,
+     "total_power_w": 1.363031104215
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 496603911.8927921,
+     "min_ee": 169314003.07624382,
+     "margin": 48508880.96200079,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 444887627.1445605,
+     "min_ee": 173735004.11865282,
+     "network_ee": 278585554.5355431,
+     "mean_rate_bps": 289517610.0191112,
+     "min_rate_bps": 51027883.39074928,
+     "budget_ok": false,
+     "total_power_w": 1.3585064311230002
+    },
+    "calls": 659
+   }
+  },
+  {
+   "block": 48,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 483985676.97258615,
+    "min_ee": 190262047.83002877,
+    "margin": -12595075.289666593,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 496581531.75539273,
+    "min_ee": 200803555.44189364,
+    "margin": 779.4931399822235,
+    "qos_ok": true
+   },
+   "restored_feasible": true,
+   "improved_vs_original": true,
+   "action_changed": true,
+   "refine_calls": 1160,
+   "truth": {
+    "min_ee": 154230415.23733303,
+    "mean_ee": 420750063.63838816,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 546225148.6119426,
+     "min_ee": 126683537.86092012,
+     "margin": 49644396.3496899,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 487561155.15659934,
+     "min_ee": 123377381.11440188,
+     "network_ee": 197341346.17126408,
+     "mean_rate_bps": 137816889.80356148,
+     "min_rate_bps": 49778133.97183289,
+     "budget_ok": false,
+     "total_power_w": 1.2832402168989998
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 544739234.6835468,
+     "min_ee": 126683537.86097656,
+     "margin": 48158482.42129403,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 486137586.68768376,
+     "min_ee": 123377383.01515594,
+     "network_ee": 196769738.5109623,
+     "mean_rate_bps": 137351804.37518358,
+     "min_rate_bps": 51456098.93016982,
+     "budget_ok": false,
+     "total_power_w": 1.281565851075
+    },
+    "calls": 688
+   }
+  },
+  {
+   "block": 49,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 287137991.17041457,
+    "min_ee": 231119378.57867524,
+    "margin": -136328326.5754006,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 287137991.17041457,
+    "min_ee": 231119378.57867524,
+    "margin": -136328326.5754006,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 750,
+   "truth": {
+    "min_ee": 114324667.47803172,
+    "mean_ee": 280921666.4554171,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 469718361.102744,
+     "min_ee": 169191500.35336798,
+     "margin": 46252043.356928825,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 492117656.3948356,
+     "min_ee": 155325624.5571709,
+     "network_ee": 282664565.3868392,
+     "mean_rate_bps": 293409575.8653798,
+     "min_rate_bps": 73298110.05045383,
+     "budget_ok": true,
+     "total_power_w": 1.352366456753
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 468426029.3208604,
+     "min_ee": 169191500.35353228,
+     "margin": 44959711.57504523,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 490882847.2275052,
+     "min_ee": 155325635.568207,
+     "network_ee": 282238597.34636384,
+     "mean_rate_bps": 293160851.2427127,
+     "min_rate_bps": 70100404.84831196,
+     "budget_ok": true,
+     "total_power_w": 1.3557932712789997
+    },
+    "calls": 671
+   }
+  },
+  {
+   "block": 53,
+   "stage": "C_mode_RF",
+   "before": {
+    "mean_ee": 241270665.6089189,
+    "min_ee": 100160226.53178917,
+    "margin": -185450480.7547779,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 241270665.6089189,
+    "min_ee": 100160226.53178917,
+    "margin": -185450480.7547779,
+    "qos_ok": true
+   },
+   "restored_feasible": false,
+   "improved_vs_original": false,
+   "action_changed": false,
+   "refine_calls": 1192,
+   "truth": {
+    "min_ee": 61361692.97306788,
+    "mean_ee": 195432518.07270476,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 474278368.2415514,
+     "min_ee": 35204353.31475914,
+     "margin": 47557221.877854586,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 453962419.12665904,
+     "min_ee": 34534296.4894361,
+     "network_ee": 147950051.38252628,
+     "mean_rate_bps": 240858693.0648257,
+     "min_rate_bps": 80961763.50606816,
+     "budget_ok": true,
+     "total_power_w": 4.302165137393
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 473080696.00723284,
+     "min_ee": 35204353.32121876,
+     "margin": 46359549.64353603,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 452034597.9900192,
+     "min_ee": 34534308.51855181,
+     "network_ee": 147795440.42969233,
+     "mean_rate_bps": 240626192.4012217,
+     "min_rate_bps": 77824088.80480595,
+     "budget_ok": true,
+     "total_power_w": 4.302814744624
+    },
+    "calls": 586
+   }
+  },
+  {
+   "block": 53,
+   "stage": "B_swap_rx_1",
+   "before": {
+    "mean_ee": 400384218.350685,
+    "min_ee": 159877100.93640092,
+    "margin": -26336928.013011813,
+    "qos_ok": true
+   },
+   "after": {
+    "mean_ee": 429101156.80978745,
+    "min_ee": 159933269.3434659,
+    "margin": 2380010.4460906386,
+    "qos_ok": true
+   },
+   "restored_feasible": true,
+   "improved_vs_original": true,
+   "action_changed": true,
+   "refine_calls": 711,
+   "truth": {
+    "min_ee": 171032347.70760202,
+    "mean_ee": 412408069.8459097,
+    "qos_ok": true,
+    "budget_ok_true": false
+   },
+   "original": {
+    "pred": {
+     "mean_ee": 474278368.2415514,
+     "min_ee": 35204353.31475914,
+     "margin": 47557221.877854586,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 453962419.12665904,
+     "min_ee": 34534296.4894361,
+     "network_ee": 147950051.38252628,
+     "mean_rate_bps": 240858693.0648257,
+     "min_rate_bps": 80961763.50606816,
+     "budget_ok": true,
+     "total_power_w": 4.302165137393
+    }
+   },
+   "same_topology": {
+    "pred": {
+     "mean_ee": 473080696.00723284,
+     "min_ee": 35204353.32121876,
+     "margin": 46359549.64353603,
+     "qos_ok": true
+    },
+    "truth": {
+     "mean_ee": 452034597.9900192,
+     "min_ee": 34534308.51855181,
+     "network_ee": 147795440.42969233,
+     "mean_rate_bps": 240626192.4012217,
+     "min_rate_bps": 77824088.80480595,
+     "budget_ok": true,
+     "total_power_w": 4.302814744624
+    },
+    "calls": 586
+   }
+  }
+ ]
+}
