@@ -125,22 +125,63 @@ legit_gain = []
 for r in records:
     base = r["executed"]["min_ee"]
     better = [c for c in r["candidates"]
-              if c["truth_min_ee"] > base + 1e-9 and c["truth_budget_ok"]]
+              if c["truth_min_ee"] > base + 1e-9
+              and c.get("truth_qos_ok")
+              and c.get("truth_budget_ok_true_ref")]
     if better:
         best = max(better, key=lambda c: c["truth_min_ee"])
         legit_gain.append(100.0 * (best["truth_min_ee"] - base) / base)
-check("C11 合法改进块数", "28", str(len(legit_gain)), len(legit_gain) == 28)
+check("C11 合法改进块数", "29", str(len(legit_gain)), len(legit_gain) == 29)
 if legit_gain:
-    close("C11 中位增益", 0.02, st.median(legit_gain), 0.02, "{:.3f}")
+    close("C11 中位增益", 0.01, st.median(legit_gain), 0.01, "{:.3f}")
     check("C11 >10% 块", "1", str(sum(1 for x in legit_gain if x > 10)),
           sum(1 for x in legit_gain if x > 10) == 1)
     check("C11 >50% 块", "1", str(sum(1 for x in legit_gain if x > 50)),
           sum(1 for x in legit_gain if x > 50) == 1)
 
+# C16：真值 QoS 从来不是约束
+tri = summary.get("truth_three_conditions") or {}
+check("C16 真值更优候选总数", "78", str(tri.get("total")), tri.get("total") == 78)
+check("C16 真值QoS失败数", "0", str(tri.get("better_qos_fail")),
+      tri.get("better_qos_fail") == 0)
+check("C16 三条件全过(候选)", "30", str(tri.get("better_qos_ok_budget_true")),
+      tri.get("better_qos_ok_budget_true") == 30)
+
+# C15：Block 23 的唯一显著漏拒
+blk23 = [r for r in records if r["block"] == 23]
+if blk23:
+    r23 = blk23[0]
+    cand = [c for c in r23["candidates"] if c["stage"].startswith("B_")]
+    if cand:
+        c = cand[0]
+        close("C15 B23 增益", 334.30, c["d_min_vs_exec_pct"], 0.05, "{:.2f}")
+        close("C15 B23 Δmean", -7.86, c["d_mean_vs_exec_pct"], 0.05, "{:.2f}")
+        check("C15 B23 真值QoS", "True", str(c.get("truth_qos_ok")), c.get("truth_qos_ok") is True)
+        check("C15 B23 真值参考预算", "True", str(c.get("truth_budget_ok_true_ref")),
+              c.get("truth_budget_ok_true_ref") is True)
+        close("C15 B23 预测违约占 η_ref", 0.0033,
+              c["pred_budget_violation"] / max(r23["eta_ref_pred"], 1e-12), 5e-4, "{:.4f}")
+    else:
+        check("C15 B23 候选存在", "B_swap_rx_1", "MISSING", False)
+else:
+    check("C15 Block 23 存在", "present", "MISSING", False)
+
 force = summary["force_accept"]
 check("C12 真值更优块", "35", str(force["wins_on_truth_min"]), force["wins_on_truth_min"] == 35)
 close("C12 Δmean 中位", -1.96, force["d_mean_median_pct"], 0.02, "{:.2f}")
 close("C12 真值预算内比例", 0.47, force["truth_budget_ok_frac"], 0.005, "{:.3f}")
+
+# ---------------------------------------------------------------- C14 bootstrap
+print("\n=== C14 block bootstrap ===")
+boot = load("bootstrap_100s.json")
+b100 = boot["alpha"]["1"]["block_bootstrap"]
+close("C14 未校准点估计", 0.1027, b100["point"], 5e-4)
+close("C14 CI 下界", 0.0949, b100["ci_low"], 5e-4)
+close("C14 CI 上界", 0.1111, b100["ci_high"], 5e-4)
+check("C14 P(rate>5%)", "1.000", f"{b100['probability_above_nominal']:.3f}",
+      b100["probability_above_nominal"] > 0.99)
+b135 = boot["alpha"]["1.35"]["block_bootstrap"]
+close("C14 α=1.35 点估计", 0.0458, b135["point"], 5e-4)
 
 # ---------------------------------------------------------------- 自检
 print("\n=== 自检 S1/S2 ===")

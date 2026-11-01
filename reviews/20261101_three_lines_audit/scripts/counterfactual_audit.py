@@ -324,6 +324,10 @@ def run(run_dir, blocks, limit, out_dir):
         window = session.truth_window(info["t"])
         eta_ref = decision.eta_ref
         base = truth_metrics(session, window, decision.action, eta_ref)
+        # 真值基准：Reference 动作在同一条真值信道上的均逐链路 EE。
+        # 有了它才能定义"真值口径的 δ 预算"，而不是拿决策时的预测门槛去套真值。
+        ref_truth = truth_metrics(session, window, reference.action, eta_ref)
+        eta_ref_true = ref_truth["mean_ee"]
         # 口径自检：本脚本的真值 EE 必须与归档的块级 EE 一致。不一致说明用了
         # 别的口径（例如 summary 的 rate/p），此时该块的全部结论都不可用。
         ref_ee = archived_ee.get(k)
@@ -345,7 +349,14 @@ def run(run_dir, blocks, limit, out_dir):
                 "pred_budget_violation": float(guard.get("budget_violation") or 0.0),
                 "truth_min_ee": met["min_ee"],
                 "truth_mean_ee": met["mean_ee"],
+                # ``truth_budget_ok`` 用**预测** η_ref（决策时确定的门槛）判定；
+                # ``truth_budget_ok_true_ref`` 用同一条真值信道上的 Reference 均 EE 判定。
+                # 两者都要报：前者是"执行后是否守住决策时承诺的门槛"，后者是"相对真值参考是否守预算"。
                 "truth_budget_ok": met["budget_ok"],
+                "truth_budget_ok_true_ref": bool(
+                    met["mean_ee"] + 1e-9 >= (1.0 - DELTA) * eta_ref_true),
+                "truth_min_rate_bps": met["min_rate_bps"],
+                "truth_qos_ok": bool(met["min_rate_bps"] + 1e-9 >= Q_MIN),
                 "d_min_vs_exec_pct": 100.0 * (met["min_ee"] - base["min_ee"]) / max(base["min_ee"], 1e-12),
                 "d_mean_vs_exec_pct": 100.0 * (met["mean_ee"] - base["mean_ee"]) / max(base["mean_ee"], 1e-12),
             })
@@ -383,6 +394,8 @@ def run(run_dir, blocks, limit, out_dir):
         record = {
             "block": k, "mismatch": mismatch, "ee_rel_dev": ee_dev,
             "executed": base, "executed_pred_min_ee": float(decision.min_pair_ee),
+            "reference_truth": ref_truth, "eta_ref_true": eta_ref_true,
+            "eta_ref_pred": float(eta_ref),
             "candidates": cands, "premise": premise, "kendall_tau": tau,
             "forced_best": forced,
             "refine": diag[0] if diag else None,
@@ -452,6 +465,63 @@ def summarise(rows, elapsed):
         agg["d_min_median"] = float(np.median(agg.pop("d_min")))
         agg["d_mean_median"] = float(np.median(agg.pop("d_mean")))
     s["by_stage"] = by_stage
+
+    # ---- 真值口径的"合法改进"：三条同时成立才算 ------------------------
+    #   1) 真值 min EE 更高
+    #   2) 真值 QoS 通过（所有链路真值平均速率 >= q_min）
+    #   3) 真值预算通过（对本块真值 Reference 均 EE 的 (1-delta) 门槛）
+    # 旧口径（只查 1 + 预测门槛预算）会把不满足真值 QoS 的候选也算进来。
+    legit = []
+    for r in ok:
+        base = r["executed"]
+        good = [c for c in r["candidates"]
+                if c["truth_min_ee"] > base["min_ee"] + 1e-9
+                and c.get("truth_qos_ok") and c.get("truth_budget_ok_true_ref")]
+        if good:
+            best = max(good, key=lambda c: c["truth_min_ee"])
+            legit.append({
+                "block": r["block"], "stage": best["stage"],
+                "gain_pct": 100.0 * (best["truth_min_ee"] - base["min_ee"]) / max(base["min_ee"], 1e-12),
+                "d_mean_pct": best["d_mean_vs_exec_pct"],
+                "exec_min_ee": base["min_ee"],
+                "cand_min_ee": best["truth_min_ee"],
+            })
+    gains = sorted(item["gain_pct"] for item in legit)
+    s["legit_v2"] = {
+        "definition": "truth min-EE better AND truth QoS ok AND truth budget ok (vs truth reference)",
+        "blocks": len(legit),
+        "frac": len(legit) / len(ok) if ok else None,
+        "gain_median_pct": float(np.median(gains)) if gains else None,
+        "gain_mean_pct": float(np.mean(gains)) if gains else None,
+        "gain_p90_pct": float(np.percentile(gains, 90)) if gains else None,
+        "n_gain_gt10": int(sum(1 for g in gains if g > 10)),
+        "n_gain_gt50": int(sum(1 for g in gains if g > 50)),
+        "top5": sorted(legit, key=lambda x: -x["gain_pct"])[:5],
+    }
+
+    # ---- 每条候选按"真值是否三条全过"重新分类 -------------------------
+    tri = {"better_qos_ok_budget_pred": 0, "better_qos_ok_budget_true": 0,
+           "better_qos_fail": 0, "better_budget_true_fail": 0, "total": 0}
+    for r in ok:
+        base = r["executed"]
+        for c in r["candidates"]:
+            if c["truth_min_ee"] <= base["min_ee"] + 1e-9:
+                continue
+            tri["total"] += 1
+            if not c.get("truth_qos_ok"):
+                tri["better_qos_fail"] += 1
+            if not c.get("truth_budget_ok_true_ref"):
+                tri["better_budget_true_fail"] += 1
+            if c.get("truth_qos_ok") and c.get("truth_budget_ok"):
+                tri["better_qos_ok_budget_pred"] += 1
+            if c.get("truth_qos_ok") and c.get("truth_budget_ok_true_ref"):
+                tri["better_qos_ok_budget_true"] += 1
+    s["truth_three_conditions"] = tri
+
+    # ---- 真值参考与预测参考的偏差（说明预算门槛本身的误差） ------------
+    deviations = [r["eta_ref_true"] / r["eta_ref_pred"] - 1.0
+                  for r in ok if r.get("eta_ref_pred")]
+    s["eta_ref_true_over_pred_median"] = float(np.median(deviations)) if deviations else None
 
     forced = [r["forced_best"] for r in ok if r["forced_best"]]
     if forced:
@@ -531,6 +601,24 @@ def report(s):
               f" 真值更优 {f['wins_on_truth_min']} 块"
               f" Δmin中位 {f['d_min_median_pct']:+.2f}% Δmean中位 {f['d_mean_median_pct']:+.2f}%"
               f" 真值预算内 {f['truth_budget_ok_frac']:.1%}")
+    lv = s.get("legit_v2")
+    if lv:
+        print(f"\n  真值口径的合法改进（更优 + 真值QoS通过 + 真值参考预算通过）：")
+        print(f"    块数 {lv['blocks']} ({lv['frac']:.1%})  中位增益 {lv['gain_median_pct']:+.2f}%"
+              f"  均值 {lv['gain_mean_pct']:+.2f}%  p90 {lv['gain_p90_pct']:+.2f}%"
+              f"  >10%:{lv['n_gain_gt10']}  >50%:{lv['n_gain_gt50']}")
+        for item in lv["top5"]:
+            print(f"      block {item['block']:3d} {item['stage']:14s}"
+                  f" minEE {item['exec_min_ee']/1e6:8.2f}→{item['cand_min_ee']/1e6:8.2f} M"
+                  f" (+{item['gain_pct']:.1f}%)  Δmean {item['d_mean_pct']:+.2f}%")
+    tri = s.get("truth_three_conditions")
+    if tri:
+        print(f"\n  真值更优的候选共 {tri['total']} 个：真值QoS失败 {tri['better_qos_fail']}，"
+              f"真值参考预算失败 {tri['better_budget_true_fail']}，"
+              f"三条全过 {tri['better_qos_ok_budget_true']}")
+    if s.get("eta_ref_true_over_pred_median") is not None:
+        print(f"  真值 Reference 均 EE 相对预测 η_ref 的中位偏差："
+              f"{s['eta_ref_true_over_pred_median']:+.2%}")
     print(f"\n  执行动作：均 min EE {s['executed_mean_min_ee']/1e6:.2f} M，"
           f"均 mean EE {s['executed_mean_mean_ee']/1e6:.2f} M")
 

@@ -27,13 +27,28 @@
 [PASS] C10 τ 均值   expected=0.3576  actual=0.3576
 [PASS] C10 τ n    expected=66  actual=66
 [PASS] C10 τ 正相关块 expected=45/66  actual=45/66
-[PASS] C11 合法改进块数 expected=28  actual=28
-[PASS] C11 中位增益   expected=0.020  actual=0.018
+[PASS] C11 合法改进块数 expected=29  actual=29
+[PASS] C11 中位增益   expected=0.010  actual=0.010
 [PASS] C11 >10% 块 expected=1  actual=1
 [PASS] C11 >50% 块 expected=1  actual=1
+[PASS] C16 真值更优候选总数 expected=78  actual=78
+[PASS] C16 真值QoS失败数 expected=0  actual=0
+[PASS] C16 三条件全过(候选) expected=30  actual=30
+[PASS] C15 B23 增益 expected=334.30  actual=334.30
+[PASS] C15 B23 Δmean expected=-7.86  actual=-7.86
+[PASS] C15 B23 真值QoS expected=True  actual=True
+[PASS] C15 B23 真值参考预算 expected=True  actual=True
+[PASS] C15 B23 预测违约占 η_ref expected=0.0033  actual=0.0033
 [PASS] C12 真值更优块  expected=35  actual=35
 [PASS] C12 Δmean 中位 expected=-1.96  actual=-1.96
 [PASS] C12 真值预算内比例 expected=0.470  actual=0.470
+
+=== C14 block bootstrap ===
+[PASS] C14 未校准点估计 expected=0.1027  actual=0.1027
+[PASS] C14 CI 下界  expected=0.0949  actual=0.0949
+[PASS] C14 CI 上界  expected=0.1111  actual=0.1111
+[PASS] C14 P(rate>5%) expected=1.000  actual=1.000
+[PASS] C14 α=1.35 点估计 expected=0.0458  actual=0.0458
 
 === 自检 S1/S2 ===
 [PASS] S1 复现通过块   expected=100  actual=100
@@ -42,4 +57,4 @@
 [PASS] CSV/summary 前提一致 expected=0 vs 0  actual=0 vs 0
 
 ====================================================================
-共 34 条检查，PASS 34，FAIL 0
+共 47 条检查，PASS 47，FAIL 0

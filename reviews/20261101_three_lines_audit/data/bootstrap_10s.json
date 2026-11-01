@@ -1,0 +1,60 @@
+{
+  "run": "..\\开发_10车机制定型_v5_20261101\\code\\runs\\v5_C_ref_sca_s_v5a",
+  "reps": 4000,
+  "alpha": {
+    "1": {
+      "block_bootstrap": {
+        "point": 0.082,
+        "ci_low": 0.06,
+        "ci_high": 0.10502500000000009,
+        "reps": 4000,
+        "n_blocks": 100,
+        "n_links": 1000,
+        "mean_links_per_block": 10.0,
+        "probability_above_nominal": 0.99875
+      },
+      "naive_binomial": {
+        "point": 0.082,
+        "ci_low": 0.06499501090307404,
+        "ci_high": 0.09900498909692597,
+        "n_links": 1000
+      }
+    },
+    "1.35": {
+      "block_bootstrap": {
+        "point": 0.041,
+        "ci_low": 0.025,
+        "ci_high": 0.058,
+        "reps": 4000,
+        "n_blocks": 100,
+        "n_links": 1000,
+        "mean_links_per_block": 10.0,
+        "probability_above_nominal": 0.13275
+      },
+      "naive_binomial": {
+        "point": 0.041,
+        "ci_low": 0.028710072442407475,
+        "ci_high": 0.05328992755759253,
+        "n_links": 1000
+      }
+    },
+    "1.2314": {
+      "block_bootstrap": {
+        "point": 0.05,
+        "ci_low": 0.033,
+        "ci_high": 0.069,
+        "reps": 4000,
+        "n_blocks": 100,
+        "n_links": 1000,
+        "mean_links_per_block": 10.0,
+        "probability_above_nominal": 0.46625
+      },
+      "naive_binomial": {
+        "point": 0.05,
+        "ci_low": 0.03649188044237945,
+        "ci_high": 0.06350811955762056,
+        "n_links": 1000
+      }
+    }
+  }
+}

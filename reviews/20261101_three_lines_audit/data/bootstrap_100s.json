@@ -1,0 +1,60 @@
+{
+  "run": "..\\开发_10车机制定型_v4_20261027\\code\\runs\\e5_D_chance_d010_20261031h",
+  "reps": 4000,
+  "alpha": {
+    "1": {
+      "block_bootstrap": {
+        "point": 0.10270270270270271,
+        "ci_low": 0.0948948948948949,
+        "ci_high": 0.1111111111111111,
+        "reps": 4000,
+        "n_blocks": 999,
+        "n_links": 9990,
+        "mean_links_per_block": 10.0,
+        "probability_above_nominal": 1.0
+      },
+      "naive_binomial": {
+        "point": 0.10270270270270271,
+        "ci_low": 0.09674985923173372,
+        "ci_high": 0.1086555461736717,
+        "n_links": 9990
+      }
+    },
+    "1.35": {
+      "block_bootstrap": {
+        "point": 0.04584584584584585,
+        "ci_low": 0.04024024024024024,
+        "ci_high": 0.05145395395395397,
+        "reps": 4000,
+        "n_blocks": 999,
+        "n_links": 9990,
+        "mean_links_per_block": 10.0,
+        "probability_above_nominal": 0.07775
+      },
+      "naive_binomial": {
+        "point": 0.04584584584584585,
+        "ci_low": 0.04174451679254526,
+        "ci_high": 0.049947174899146435,
+        "n_links": 9990
+      }
+    },
+    "1.3003": {
+      "block_bootstrap": {
+        "point": 0.04984984984984985,
+        "ci_low": 0.044044044044044044,
+        "ci_high": 0.05565565565565565,
+        "reps": 4000,
+        "n_blocks": 999,
+        "n_links": 9990,
+        "mean_links_per_block": 10.0,
+        "probability_above_nominal": 0.471
+      },
+      "naive_binomial": {
+        "point": 0.04984984984984985,
+        "ci_low": 0.04558215464583498,
+        "ci_high": 0.05411754505386472,
+        "n_links": 9990
+      }
+    }
+  }
+}
