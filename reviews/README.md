@@ -1,5 +1,6 @@
-# 独立复核与可追溯记录
+﻿# 独立复核与可追溯记录
 
+- `20261101_guard_boundary_phase0/`：Block 23 的 Phase 0 可恢复性审计（预测器看准了、预算门在噪声尺度上失真）+ Guard-v2 设计稿。
 - `20261101_three_lines_audit/`：三条主线（估计极限→服务代价→候选更新）的命题、实测与**逐条断言校验**（`verify_claims.py`，34/34 PASS）。含分位数校准、峰值钉住、反事实真值审计，以及 6 项已作废/更正条目。
 - `20261026_mean_chance_review.md`：四组结果的定义、边界与方差拆分问题。
 - `energy_metric_recompute_20261026.json`：平均逐链路EE与总比特/总能量的区别。
