@@ -1,0 +1,125 @@
+﻿run: E:\博士\课题论文\第3篇-修改版\代码\分析_三条主线_20261101\validation_seed_2026102801\run`nchannel_seed: 2026102801
+  k=  2 cands=3 exec_min=  24.48M bestΔmin= +238.89M would_select=True
+  k=  3 cands=3 exec_min=  27.80M bestΔmin= +228.56M would_select=True
+  k=  4 cands=4 exec_min= 399.84M bestΔmin=   -3.64M would_select=True
+  k=  5 cands=3 exec_min=  98.48M bestΔmin= +181.19M would_select=True
+  k=  6 cands=3 exec_min=  38.75M bestΔmin=  +60.40M would_select=True
+  k=  7 cands=3 exec_min= 115.83M bestΔmin=  +95.35M would_select=True
+  k=  8 cands=3 exec_min= 239.67M bestΔmin=   -0.01M would_select=True
+  k=  9 cands=4 exec_min= 119.95M bestΔmin=   +0.18M would_select=True
+  k= 10 cands=4 exec_min= 122.22M bestΔmin=   +0.00M would_select=True
+  k= 11 cands=3 exec_min= 122.66M bestΔmin= +156.68M would_select=True
+  k= 12 cands=3 exec_min=  42.66M bestΔmin= +166.17M would_select=True
+  k= 13 cands=4 exec_min= 118.86M bestΔmin=  +78.37M would_select=True
+  k= 14 cands=4 exec_min= 222.14M bestΔmin=   -0.01M would_select=True
+  k= 15 cands=4 exec_min= 217.24M bestΔmin=   -0.01M would_select=True
+  k= 16 cands=3 exec_min= 109.67M bestΔmin=  +89.26M would_select=True
+  k= 17 cands=3 exec_min= 211.54M bestΔmin=   +5.86M would_select=True
+  k= 18 cands=4 exec_min= 208.39M bestΔmin=   -0.01M would_select=True
+  k= 19 cands=4 exec_min= 200.53M bestΔmin=   -0.02M would_select=True
+  k= 20 cands=3 exec_min= 202.69M bestΔmin=   -0.01M would_select=True
+  k= 21 cands=4 exec_min= 207.22M bestΔmin=   -0.00M would_select=True
+  k= 22 cands=4 exec_min= 153.71M bestΔmin=  -10.88M would_select=True
+  k= 23 cands=3 exec_min=  43.23M bestΔmin=   +0.00M would_select=True
+  k= 24 cands=4 exec_min=  41.11M bestΔmin= +162.79M would_select=True
+  k= 25 cands=3 exec_min=  41.54M bestΔmin= +145.78M would_select=True
+  k= 26 cands=3 exec_min=  38.75M bestΔmin= +155.20M would_select=True
+  k= 27 cands=3 exec_min=  37.84M bestΔmin=  +73.83M would_select=True
+  k= 28 cands=3 exec_min=  38.97M bestΔmin= +147.31M would_select=True
+  k= 29 cands=4 exec_min= 196.06M bestΔmin=   -0.01M would_select=True
+  k= 30 cands=4 exec_min=  41.67M bestΔmin= +150.14M would_select=True
+  k= 31 cands=4 exec_min=  39.44M bestΔmin= +145.61M would_select=True
+  k= 32 cands=4 exec_min=  34.85M bestΔmin= +129.58M would_select=True
+  k= 33 cands=3 exec_min=  37.73M bestΔmin= +151.72M would_select=True
+  k= 34 cands=4 exec_min=  32.55M bestΔmin= +165.74M would_select=True
+  k= 35 cands=3 exec_min=  33.73M bestΔmin=  +87.92M would_select=True
+  k= 36 cands=4 exec_min= 126.88M bestΔmin=  +50.00M would_select=True
+  k= 37 cands=4 exec_min= 111.04M bestΔmin=  +57.04M would_select=True
+  k= 38 cands=2 exec_min=  25.47M bestΔmin= +151.57M would_select=True
+  k= 39 cands=3 exec_min=  25.81M bestΔmin= +140.39M would_select=True
+  k= 40 cands=3 exec_min= 181.18M bestΔmin=   -5.10M would_select=True
+  k= 41 cands=3 exec_min= 171.78M bestΔmin=   -6.17M would_select=True
+  k= 42 cands=4 exec_min= 176.18M bestΔmin=   +0.00M would_select=True
+  k= 43 cands=4 exec_min= 183.41M bestΔmin=   +0.00M would_select=True
+  k= 44 cands=2 exec_min= 185.66M bestΔmin=  +30.38M would_select=True
+  k= 45 cands=3 exec_min= 175.36M bestΔmin= +149.97M would_select=True
+  k= 46 cands=3 exec_min= 185.22M bestΔmin= +118.57M would_select=True
+  k= 47 cands=3 exec_min= 194.77M bestΔmin= +121.49M would_select=True
+  k= 48 cands=3 exec_min= 181.58M bestΔmin=  +15.18M would_select=True
+  k= 49 cands=2 exec_min= 168.61M bestΔmin=  +48.39M would_select=True
+  k= 50 cands=2 exec_min= 159.62M bestΔmin=   -0.01M would_select=True
+  k= 51 cands=4 exec_min= 270.79M bestΔmin=   -3.52M would_select=True
+  k= 52 cands=4 exec_min= 164.15M bestΔmin=   -0.00M would_select=True
+  k= 53 cands=4 exec_min= 170.64M bestΔmin=   -0.00M would_select=True
+  k= 54 cands=3 exec_min= 168.32M bestΔmin=   -0.02M would_select=True
+  k= 55 cands=2 exec_min= 167.52M bestΔmin=   -0.01M would_select=True
+  k= 56 cands=3 exec_min= 166.43M bestΔmin=   -0.01M would_select=True
+  k= 57 cands=3 exec_min= 182.11M bestΔmin=   -0.00M would_select=True
+  k= 58 cands=3 exec_min= 182.95M bestΔmin=   -0.00M would_select=True
+  k= 59 cands=3 exec_min= 182.73M bestΔmin=   -0.00M would_select=True
+  k= 60 cands=4 exec_min= 152.69M bestΔmin=   +5.74M would_select=True
+  k= 61 cands=3 exec_min= 181.48M bestΔmin=   -0.00M would_select=True
+  k= 62 cands=2 exec_min= 185.29M bestΔmin=   -0.01M would_select=True
+  k= 63 cands=3 exec_min= 181.79M bestΔmin=   -0.00M would_select=True
+  k= 64 cands=3 exec_min= 168.90M bestΔmin=   -0.00M would_select=True
+  k= 65 cands=2 exec_min= 174.78M bestΔmin=   -0.00M would_select=True
+  k= 66 cands=2 exec_min= 172.15M bestΔmin=   -0.00M would_select=True
+  k= 67 cands=2 exec_min= 181.84M bestΔmin=   -0.00M would_select=True
+  k= 68 cands=3 exec_min= 188.11M bestΔmin=   -0.00M would_select=True
+  k= 69 cands=3 exec_min= 199.46M bestΔmin=   -0.00M would_select=True
+  k= 70 cands=3 exec_min= 199.67M bestΔmin=   -0.00M would_select=True
+  k= 71 cands=4 exec_min= 123.83M bestΔmin=  -54.43M would_select=True
+  k= 72 cands=3 exec_min=  22.07M bestΔmin= +105.96M would_select=True
+  k= 73 cands=4 exec_min= 183.87M bestΔmin=   +0.00M would_select=True
+  k= 74 cands=4 exec_min=  76.88M bestΔmin=   +5.77M would_select=True
+  k= 75 cands=4 exec_min= 126.50M bestΔmin=  +32.33M would_select=True
+  k= 76 cands=4 exec_min= 149.36M bestΔmin=  +12.09M would_select=True
+  k= 77 cands=4 exec_min= 179.62M bestΔmin=   +6.43M would_select=True
+  k= 78 cands=4 exec_min= 140.92M bestΔmin=  -26.34M would_select=True
+  k= 79 cands=4 exec_min= 174.80M bestΔmin= -103.18M would_select=True
+  k= 80 cands=4 exec_min= 179.16M bestΔmin=   +3.01M would_select=True
+  k= 81 cands=4 exec_min= 188.69M bestΔmin=   +2.68M would_select=True
+  k= 82 cands=4 exec_min= 172.37M bestΔmin=  -81.42M would_select=True
+  k= 83 cands=4 exec_min= 141.14M bestΔmin=  -30.54M would_select=True
+  k= 84 cands=4 exec_min= 148.38M bestΔmin=   -9.20M would_select=True
+  k= 85 cands=4 exec_min= 155.37M bestΔmin=  -89.41M would_select=True
+  k= 86 cands=3 exec_min= 268.09M bestΔmin=   -0.13M would_select=True
+  k= 87 cands=4 exec_min= 209.25M bestΔmin=   -8.76M would_select=True
+  k= 88 cands=3 exec_min= 222.87M bestΔmin=   -0.50M would_select=True
+  k= 89 cands=3 exec_min= 248.06M bestΔmin=   -5.93M would_select=True
+  k= 90 cands=4 exec_min= 162.15M bestΔmin=  -10.15M would_select=True
+  k= 91 cands=4 exec_min=  90.63M bestΔmin=  -51.96M would_select=True
+  k= 92 cands=4 exec_min= 131.35M bestΔmin=  -57.65M would_select=True
+  k= 93 cands=4 exec_min= 157.31M bestΔmin=  -62.76M would_select=True
+  k= 94 cands=4 exec_min=  81.95M bestΔmin=   -1.49M would_select=True
+  k= 95 cands=4 exec_min=  77.81M bestΔmin=   -4.25M would_select=True
+  k= 96 cands=4 exec_min= 125.07M bestΔmin=  -49.07M would_select=True
+  k= 97 cands=4 exec_min= 145.27M bestΔmin=   -6.34M would_select=True
+  k= 98 cands=4 exec_min= 112.07M bestΔmin=   +6.38M would_select=True
+  k= 99 cands=4 exec_min= 170.12M bestΔmin=  -68.15M would_select=True
+  k=100 cands=4 exec_min= 201.44M bestΔmin=  -95.55M would_select=True
+  k=101 cands=4 exec_min= 205.60M bestΔmin=  -66.96M would_select=True
+
+==============================================================================
+Phase 0：可恢复性审计
+  块 100，候选 342，耗时 1707.7s
+
+  ① 预测器看到多少 min EE 改善（候选自身预测 − 执行动作预测）
+     中位 -40.039%  p90 +50.18%  最大 +975.95%
+     为正的比例 17.0%；超过 +10% 的比例 11.40%
+
+  ② 预测预算余量（负=预测超支）
+     固定参考（点估计，=现守卫口径）  p05/p50/p95 = -227.94 / -25.78 / +59.07 M   负值占比 60.8%
+     逐轨迹配对（取各自下 5% 分位）  p05/p50/p95 = -258.75 / -50.27 / +55.11 M   负值占比 67.0%
+
+  ③ 取消预算门后会被选中的候选数：100（守卫实际采纳 1，预测 QoS 通过 268）
+
+  ④ Block 23 明细（执行动作预测 min = 43.226 M）
+     A_raise_power  pred_min    7.984 M (rank 3)  Δmin  -35.242 M  margin_fix   +55.86 M  margin_pair   +55.86 M  qos 1  would_sel 0
+     B_swap_rx_4    pred_min   43.226 M (rank 1)  Δmin   +0.000 M  margin_fix   +26.00 M  margin_pair   +26.00 M  qos 1  would_sel 1
+     C_mode_RF      pred_min   38.554 M (rank 2)  Δmin   -4.672 M  margin_fix  -206.69 M  margin_pair  -206.69 M  qos 1  would_sel 0
+
+  判决标准（设计稿 §2）：
+   pred_min_own(B) − exec ≤ +0.1%  → 判不可恢复，停止本方向
+   ≥ +10% 且超支仅由 0.33% 引起  → 可恢复，进入 R1
+写出: E:\博士\课题论文\第3篇-修改版\代码\分析_三条主线_20261101\validation_seed_2026102801\out_phase0_val

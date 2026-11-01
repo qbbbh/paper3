@@ -1,0 +1,30 @@
+{
+  "config": {
+    "n": 10,
+    "blocks": 100,
+    "start_block": 2,
+    "delta": 0.1,
+    "channel_seed": 2026102801,
+    "forecast_seed": 2026102501,
+    "q_min_bps": 1000000.0,
+    "qos_metric": "chance",
+    "qos_chance_inflation": 1.35,
+    "power_solver": "continuous",
+    "reference_search": "joint",
+    "joint_rounds": 8,
+    "maxmin_power_refine": true,
+    "maxmin_refine_solver": "sca",
+    "maxmin_weak_link": true,
+    "maxmin_repair_limit": 3,
+    "draws": 32,
+    "methods": [
+      "reference",
+      "maxmin"
+    ],
+    "csi": "estimated",
+    "forecast_information": "trajectory"
+  },
+  "source_sha256": "9723e1a7b1b0490e7a063bab4e7c6e8fc7dc51fe609161f2bd9cba5aa6601919",
+  "channel_seed_in_rows": "2026102801",
+  "mobility_sha256": "80b894480c5cec6d4b04d6bb5ba9eac0da4f1ac27afb88006f4148f8ffb6f010"
+}
