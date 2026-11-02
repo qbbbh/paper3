@@ -1,0 +1,42 @@
+{
+  "package": "Guard-R Final Audit",
+  "version": "1.0.0",
+  "purpose": "Independent, read-only final audit of Guard-R feasibility recovery for Paper 3 v5",
+  "files": [
+    {
+      "name": "README_GUARD_R_FINAL_AUDIT.md",
+      "bytes": 10093,
+      "sha256": "e5be41ffc5bb51553e1ede2017d80cf1b4d1d3d8a9e9044202345d7c1761f1c7"
+    },
+    {
+      "name": "feasible_first_solver.py",
+      "bytes": 16827,
+      "sha256": "9a5c2ff81fefdbbd71be98d8f37cdc4385f232212d8179bc3109c39158e3e083"
+    },
+    {
+      "name": "guard_r_final_audit.py",
+      "bytes": 41315,
+      "sha256": "8f944e2be8a4ba39e9e53b26212e124b29063880bd1263f8d50bc500afdf2164"
+    },
+    {
+      "name": "merge_guard_r_final_audits.py",
+      "bytes": 6188,
+      "sha256": "1a6590424932d0f5af3d3cab0b2dbde0e0a76869e00ae49b9310c7ad273a0c98"
+    },
+    {
+      "name": "test_feasible_first_solver.py",
+      "bytes": 3816,
+      "sha256": "81fdcf1024a5a964097d5253bccffbb6ab234a5877d2a9d075e017abc2dc26cf"
+    },
+    {
+      "name": "test_guard_r_final_audit.py",
+      "bytes": 4067,
+      "sha256": "a528424dc2e19cf19f686fee76fc4ba5e50086a167998e371073c69923406683"
+    },
+    {
+      "name": "run_guard_r_seed.ps1",
+      "bytes": 2350,
+      "sha256": "52dfa6b99ec2a7a6dca691fd893324ac8f20675093dd441a0e16f8cd12c1d173"
+    }
+  ]
+}

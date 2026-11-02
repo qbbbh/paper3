@@ -1,0 +1,1520 @@
+{
+  "channel_seeds": {
+    "design": 2026102401,
+    "validation": 2026102801
+  },
+  "arms": {
+    "legacy_guard_r_candidate": {
+      "n": 67,
+      "truth_all_gates_pass": 2,
+      "legitimate_improvement_count": 2,
+      "truth_min_gain_positive_count": 62,
+      "truth_min_gain_gt_1pct_count": 62,
+      "truth_min_gain_gt_10pct_count": 59,
+      "truth_min_gain_pct_median": 169.74448801452823,
+      "truth_min_gain_pct_p10": 6.873620535939843,
+      "truth_min_gain_pct_p90": 459.39845153870596
+    },
+    "legacy_same_topology_control": {
+      "n": 67,
+      "truth_all_gates_pass": 61,
+      "legitimate_improvement_count": 37,
+      "truth_min_gain_positive_count": 39,
+      "truth_min_gain_gt_1pct_count": 0,
+      "truth_min_gain_gt_10pct_count": 0,
+      "truth_min_gain_pct_median": 6.058134410072374e-07,
+      "truth_min_gain_pct_p10": -2.8595061826295392e-05,
+      "truth_min_gain_pct_p90": 3.4957959671483926e-05
+    },
+    "strict_feasible_first_candidate": {
+      "n": 67,
+      "truth_all_gates_pass": 2,
+      "legitimate_improvement_count": 2,
+      "truth_min_gain_positive_count": 53,
+      "truth_min_gain_gt_1pct_count": 53,
+      "truth_min_gain_gt_10pct_count": 50,
+      "truth_min_gain_pct_median": 71.94937012359098,
+      "truth_min_gain_pct_p10": -28.72103931167058,
+      "truth_min_gain_pct_p90": 400.13281226732215
+    },
+    "strict_same_topology_control": {
+      "n": 67,
+      "truth_all_gates_pass": 61,
+      "legitimate_improvement_count": 37,
+      "truth_min_gain_positive_count": 39,
+      "truth_min_gain_gt_1pct_count": 0,
+      "truth_min_gain_gt_10pct_count": 0,
+      "truth_min_gain_pct_median": 5.979000667699942e-07,
+      "truth_min_gain_pct_p10": -2.8627083092225082e-05,
+      "truth_min_gain_pct_p90": 3.4122305278558715e-05
+    }
+  },
+  "strict_feasible_first_vs_equal_budget_control": {
+    "n_pairs": 67,
+    "candidate_better_count": 53,
+    "candidate_not_worse_count": 53,
+    "median_gain_difference_pct": 71.94947170166711,
+    "both_true_feasible_pairs": 2,
+    "candidate_legitimate_improvements": 2,
+    "details": [
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 2,
+        "stage": "B_swap_rx_4",
+        "candidate_minus_control_gain_pct": -60.3534658049871,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": false,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 2,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 1.6575107926385606,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": false,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 3,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 291.311437811452,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 4,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 72.88562285447375,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 5,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 140.29810852278996,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": false,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 6,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 446.6721382638001,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 7,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 159.12890861570196,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 9,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": -17.110918039606776,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 10,
+        "stage": "B_swap_rx_4",
+        "candidate_minus_control_gain_pct": 64.70535406999335,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 10,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 44.341871476831614,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 11,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 12.003380217984747,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 12,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 12.759650227458625,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 21,
+        "stage": "B_swap_rx_3",
+        "candidate_minus_control_gain_pct": 281.4093717715117,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 21,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 316.88359002792123,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 22,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 71.94947170166711,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 22,
+        "stage": "B_swap_rx_1",
+        "candidate_minus_control_gain_pct": 30.004582718440375,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 23,
+        "stage": "B_swap_rx_1",
+        "candidate_minus_control_gain_pct": 339.97788698657536,
+        "candidate_all_true_gates_ok": true,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": true
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 23,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 22.417393254311886,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 29,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 49.087411264537494,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 30,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 20.68664805261454,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 31,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 63.080440421047236,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 33,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": -25.262151376939876,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 34,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": -33.9093714995135,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 35,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": -88.98402927857983,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 36,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": -10.61691186597378,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 41,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": -36.890827508183996,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 47,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": -40.301779420080614,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": false,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 48,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 24.913309564869937,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": false,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 49,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": -56.84493984033019,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 53,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 46.91923095632403,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "design",
+        "seed": 2026102401,
+        "block": 53,
+        "stage": "B_swap_rx_1",
+        "candidate_minus_control_gain_pct": 395.25349192176486,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 2,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 602.5241075967209,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 3,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 580.2190856442081,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 5,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 129.28530711520682,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 6,
+        "stage": "B_swap_rx_0",
+        "candidate_minus_control_gain_pct": 239.3456760931033,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 6,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": -24.682452740068392,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 7,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": -14.31926728639953,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": false,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 11,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 29.389473236955176,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 12,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 407.4517386326215,
+        "candidate_all_true_gates_ok": true,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": true
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 13,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": -20.190749872893644,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 16,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": -73.62916534006203,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 24,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 298.7146495051485,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 25,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 361.70367299182533,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 26,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 455.46492398276234,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 27,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 42.15084801242296,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 28,
+        "stage": "B_swap_rx_1",
+        "candidate_minus_control_gain_pct": 350.8929136350275,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 28,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 201.12158972133636,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 30,
+        "stage": "B_swap_rx_1",
+        "candidate_minus_control_gain_pct": 266.07308685099997,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 30,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 169.7444788002142,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 31,
+        "stage": "B_swap_rx_1",
+        "candidate_minus_control_gain_pct": 192.84548993748913,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 31,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 120.43227319593014,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 32,
+        "stage": "B_swap_rx_1",
+        "candidate_minus_control_gain_pct": 140.25746589918558,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 32,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 159.57182088793732,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 33,
+        "stage": "B_swap_rx_1",
+        "candidate_minus_control_gain_pct": 432.286531583891,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 33,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 106.0474211814841,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 34,
+        "stage": "B_swap_rx_1",
+        "candidate_minus_control_gain_pct": 349.517518229601,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 34,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 4.007468422270598,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 35,
+        "stage": "B_swap_rx_1",
+        "candidate_minus_control_gain_pct": 471.4291529064102,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 35,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 273.36440241630544,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 38,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 237.1733597485216,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 39,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 146.9060948771369,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 44,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 44.5308003607949,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 45,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 60.23080468234235,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 46,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 56.33296265055823,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 47,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 9.82711808506058,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 49,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": -15.557882640595768,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      },
+      {
+        "role": "validation",
+        "seed": 2026102801,
+        "block": 72,
+        "stage": "C_mode_RF",
+        "candidate_minus_control_gain_pct": 255.22757163102963,
+        "candidate_all_true_gates_ok": false,
+        "control_all_true_gates_ok": true,
+        "candidate_legitimate_improvement": false
+      }
+    ]
+  },
+  "design_summary": {
+    "candidate_records_total": 31,
+    "candidate_records_verified": 31,
+    "candidate_records_excluded": 0,
+    "elapsed_s": 678.6306803000043,
+    "excluded": [],
+    "arms": {
+      "legacy_guard_r_candidate": {
+        "n": 31,
+        "arm_errors": 0,
+        "predicted_qos_pass": 31,
+        "predicted_budget_pass": 3,
+        "truth_qos_pass": 31,
+        "truth_budget_pred_ref_pass": 1,
+        "truth_budget_true_ref_pass": 2,
+        "truth_all_gates_pass": 1,
+        "legitimate_improvement_count": 1,
+        "truth_min_gain_pct_median": 75.79211362410233,
+        "truth_min_gain_pct_p10": 1.657508941616428,
+        "truth_min_gain_pct_p90": 339.97787505911657,
+        "truth_min_gain_positive_count": 28,
+        "truth_min_gain_gt_1pct_count": 28,
+        "truth_min_gain_gt_10pct_count": 27,
+        "mean_evaluator_calls": 913.2258064516129
+      },
+      "legacy_same_topology_control": {
+        "n": 31,
+        "arm_errors": 0,
+        "predicted_qos_pass": 31,
+        "predicted_budget_pass": 31,
+        "truth_qos_pass": 31,
+        "truth_budget_pred_ref_pass": 26,
+        "truth_budget_true_ref_pass": 29,
+        "truth_all_gates_pass": 26,
+        "legitimate_improvement_count": 16,
+        "truth_min_gain_pct_median": 5.034174757725217e-07,
+        "truth_min_gain_pct_p10": -2.9546347371397958e-05,
+        "truth_min_gain_pct_p90": 3.5649875745530784e-05,
+        "truth_min_gain_positive_count": 18,
+        "truth_min_gain_gt_1pct_count": 0,
+        "truth_min_gain_gt_10pct_count": 0,
+        "mean_evaluator_calls": 658.0322580645161
+      },
+      "strict_feasible_first_candidate": {
+        "n": 31,
+        "arm_errors": 0,
+        "predicted_qos_pass": 31,
+        "predicted_budget_pass": 3,
+        "truth_qos_pass": 31,
+        "truth_budget_pred_ref_pass": 1,
+        "truth_budget_true_ref_pass": 2,
+        "truth_all_gates_pass": 1,
+        "legitimate_improvement_count": 1,
+        "truth_min_gain_pct_median": 30.004481140364252,
+        "truth_min_gain_pct_p10": -40.30177973159784,
+        "truth_min_gain_pct_p90": 316.8835932178925,
+        "truth_min_gain_positive_count": 22,
+        "truth_min_gain_gt_1pct_count": 22,
+        "truth_min_gain_gt_10pct_count": 21,
+        "mean_evaluator_calls": 258.19354838709677
+      },
+      "strict_same_topology_control": {
+        "n": 31,
+        "arm_errors": 0,
+        "predicted_qos_pass": 31,
+        "predicted_budget_pass": 31,
+        "truth_qos_pass": 31,
+        "truth_budget_pred_ref_pass": 26,
+        "truth_budget_true_ref_pass": 31,
+        "truth_all_gates_pass": 26,
+        "legitimate_improvement_count": 16,
+        "truth_min_gain_pct_median": 4.844459707544976e-07,
+        "truth_min_gain_pct_p10": -2.9257376345413578e-05,
+        "truth_min_gain_pct_p90": 3.568138477593843e-05,
+        "truth_min_gain_positive_count": 18,
+        "truth_min_gain_gt_1pct_count": 0,
+        "truth_min_gain_gt_10pct_count": 0,
+        "mean_evaluator_calls": 294.61290322580646
+      }
+    },
+    "strict_feasible_first_paired_vs_same_topology": {
+      "n_pairs": 31,
+      "candidate_better_count": 22,
+      "candidate_not_worse_count": 22,
+      "median_difference_in_min_gain_pct": 30.004582718440375,
+      "pairs_both_true_feasible": 1,
+      "candidate_legitimate_improvement_count": 1,
+      "details": [
+        {
+          "block": 2,
+          "stage": "B_swap_rx_4",
+          "candidate_minus_control_min_ee": -56599574.47470897,
+          "candidate_minus_control_min_gain_pct": -60.3534658049871,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": false,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 2,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 1554416.2095630318,
+          "candidate_minus_control_min_gain_pct": 1.6575107926385606,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": false,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 3,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 76773974.5866093,
+          "candidate_minus_control_min_gain_pct": 291.311437811452,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 4,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 34946112.95336458,
+          "candidate_minus_control_min_gain_pct": 72.88562285447375,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 5,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 65450227.1778915,
+          "candidate_minus_control_min_gain_pct": 140.29810852278996,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": false,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 6,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 130382080.57193853,
+          "candidate_minus_control_min_gain_pct": 446.6721382638001,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 7,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 51854876.37148763,
+          "candidate_minus_control_min_gain_pct": 159.12890861570196,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 9,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": -20187443.43106389,
+          "candidate_minus_control_min_gain_pct": -17.110918039606776,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 10,
+          "stage": "B_swap_rx_4",
+          "candidate_minus_control_min_ee": 80150484.8561791,
+          "candidate_minus_control_min_gain_pct": 64.70535406999335,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 10,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 54926250.68481906,
+          "candidate_minus_control_min_gain_pct": 44.341871476831614,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 11,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 14337088.457477674,
+          "candidate_minus_control_min_gain_pct": 12.003380217984747,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 12,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 15339499.281313151,
+          "candidate_minus_control_min_gain_pct": 12.759650227458625,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 21,
+          "stage": "B_swap_rx_3",
+          "candidate_minus_control_min_ee": 137151699.6280924,
+          "candidate_minus_control_min_gain_pct": 281.4093717715117,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 21,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 154440922.42908305,
+          "candidate_minus_control_min_gain_pct": 316.88359002792123,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 22,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 35275264.487198204,
+          "candidate_minus_control_min_gain_pct": 71.94947170166711,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 22,
+          "stage": "B_swap_rx_1",
+          "candidate_minus_control_min_ee": 14710595.730426699,
+          "candidate_minus_control_min_gain_pct": 30.004582718440375,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 23,
+          "stage": "B_swap_rx_1",
+          "candidate_minus_control_min_ee": 152881102.91924232,
+          "candidate_minus_control_min_gain_pct": 339.97788698657536,
+          "candidate_all_true_gates_ok": true,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": true
+        },
+        {
+          "block": 23,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 10080643.290276445,
+          "candidate_minus_control_min_gain_pct": 22.417393254311886,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 29,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 80336464.33215985,
+          "candidate_minus_control_min_gain_pct": 49.087411264537494,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 30,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 6143101.830852371,
+          "candidate_minus_control_min_gain_pct": 20.68664805261454,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 31,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 17373265.874699935,
+          "candidate_minus_control_min_gain_pct": 63.080440421047236,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 33,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": -45758962.65702611,
+          "candidate_minus_control_min_gain_pct": -25.262151376939876,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 34,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": -60966379.23344734,
+          "candidate_minus_control_min_gain_pct": -33.9093714995135,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 35,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": -158516263.9722453,
+          "candidate_minus_control_min_gain_pct": -88.98402927857983,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 36,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": -3343840.5269874297,
+          "candidate_minus_control_min_gain_pct": -10.61691186597378,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 41,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": -10992822.300768014,
+          "candidate_minus_control_min_gain_pct": -36.890827508183996,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 47,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": -70018298.33829075,
+          "candidate_minus_control_min_gain_pct": -40.301779420080614,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": false,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 48,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 30737388.89006032,
+          "candidate_minus_control_min_gain_pct": 24.913309564869937,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": false,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 49,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": -88294757.83614093,
+          "candidate_minus_control_min_gain_pct": -56.84493984033019,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 53,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 16203226.329020225,
+          "candidate_minus_control_min_gain_pct": 46.91923095632403,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 53,
+          "stage": "B_swap_rx_1",
+          "candidate_minus_control_min_ee": 136498012.78511164,
+          "candidate_minus_control_min_gain_pct": 395.25349192176486,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        }
+      ]
+    },
+    "interpretation_guardrail": "A found feasible point is a numerical witness. Failure to find a feasible point under multistart local SLSQP is NOT a proof of infeasibility or global nonexistence."
+  },
+  "validation_summary": {
+    "candidate_records_total": 36,
+    "candidate_records_verified": 36,
+    "candidate_records_excluded": 0,
+    "elapsed_s": 750.3776247999631,
+    "excluded": [],
+    "arms": {
+      "legacy_guard_r_candidate": {
+        "n": 36,
+        "arm_errors": 0,
+        "predicted_qos_pass": 36,
+        "predicted_budget_pass": 4,
+        "truth_qos_pass": 36,
+        "truth_budget_pred_ref_pass": 2,
+        "truth_budget_true_ref_pass": 1,
+        "truth_all_gates_pass": 1,
+        "legitimate_improvement_count": 1,
+        "truth_min_gain_pct_median": 246.59284491222516,
+        "truth_min_gain_pct_p10": 16.37243517369723,
+        "truth_min_gain_pct_p90": 532.5284319821312,
+        "truth_min_gain_positive_count": 34,
+        "truth_min_gain_gt_1pct_count": 34,
+        "truth_min_gain_gt_10pct_count": 32,
+        "mean_evaluator_calls": 938.8888888888889
+      },
+      "legacy_same_topology_control": {
+        "n": 36,
+        "arm_errors": 0,
+        "predicted_qos_pass": 36,
+        "predicted_budget_pass": 36,
+        "truth_qos_pass": 36,
+        "truth_budget_pred_ref_pass": 35,
+        "truth_budget_true_ref_pass": 36,
+        "truth_all_gates_pass": 35,
+        "legitimate_improvement_count": 21,
+        "truth_min_gain_pct_median": 6.303832143551592e-07,
+        "truth_min_gain_pct_p10": -2.255420124682151e-05,
+        "truth_min_gain_pct_p90": 1.5081098455738762e-05,
+        "truth_min_gain_positive_count": 21,
+        "truth_min_gain_gt_1pct_count": 0,
+        "truth_min_gain_gt_10pct_count": 0,
+        "mean_evaluator_calls": 685.5277777777778
+      },
+      "strict_feasible_first_candidate": {
+        "n": 36,
+        "arm_errors": 0,
+        "predicted_qos_pass": 36,
+        "predicted_budget_pass": 4,
+        "truth_qos_pass": 36,
+        "truth_budget_pred_ref_pass": 2,
+        "truth_budget_true_ref_pass": 1,
+        "truth_all_gates_pass": 1,
+        "legitimate_improvement_count": 1,
+        "truth_min_gain_pct_median": 164.65816197720537,
+        "truth_min_gain_pct_p10": -17.8743304417859,
+        "truth_min_gain_pct_p90": 443.875717140588,
+        "truth_min_gain_positive_count": 31,
+        "truth_min_gain_gt_1pct_count": 31,
+        "truth_min_gain_gt_10pct_count": 29,
+        "mean_evaluator_calls": 253.88888888888889
+      },
+      "strict_same_topology_control": {
+        "n": 36,
+        "arm_errors": 0,
+        "predicted_qos_pass": 36,
+        "predicted_budget_pass": 36,
+        "truth_qos_pass": 36,
+        "truth_budget_pred_ref_pass": 35,
+        "truth_budget_true_ref_pass": 36,
+        "truth_all_gates_pass": 35,
+        "legitimate_improvement_count": 21,
+        "truth_min_gain_pct_median": 6.263973166855594e-07,
+        "truth_min_gain_pct_p10": -2.225274546498403e-05,
+        "truth_min_gain_pct_p90": 1.5051945196313554e-05,
+        "truth_min_gain_positive_count": 21,
+        "truth_min_gain_gt_1pct_count": 0,
+        "truth_min_gain_gt_10pct_count": 0,
+        "mean_evaluator_calls": 320.25
+      }
+    },
+    "strict_feasible_first_paired_vs_same_topology": {
+      "n_pairs": 36,
+      "candidate_better_count": 31,
+      "candidate_not_worse_count": 31,
+      "median_difference_in_min_gain_pct": 164.65814984407575,
+      "pairs_both_true_feasible": 1,
+      "candidate_legitimate_improvement_count": 1,
+      "details": [
+        {
+          "block": 2,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 147399391.5833618,
+          "candidate_minus_control_min_gain_pct": 602.5241075967209,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 3,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 153896478.56054747,
+          "candidate_minus_control_min_gain_pct": 580.2190856442081,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 5,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 144353467.41559875,
+          "candidate_minus_control_min_gain_pct": 129.28530711520682,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 6,
+          "stage": "B_swap_rx_0",
+          "candidate_minus_control_min_ee": 86863302.73526919,
+          "candidate_minus_control_min_gain_pct": 239.3456760931033,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 6,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": -8957752.651339058,
+          "candidate_minus_control_min_gain_pct": -24.682452740068392,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 7,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": -7651882.078334793,
+          "candidate_minus_control_min_gain_pct": -14.31926728639953,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": false,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 11,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 36251310.333525315,
+          "candidate_minus_control_min_gain_pct": 29.389473236955176,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 12,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 186357344.2744187,
+          "candidate_minus_control_min_gain_pct": 407.4517386326215,
+          "candidate_all_true_gates_ok": true,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": true
+        },
+        {
+          "block": 13,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": -21162004.15937552,
+          "candidate_minus_control_min_gain_pct": -20.190749872893644,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 16,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": -82579186.22357671,
+          "candidate_minus_control_min_gain_pct": -73.62916534006203,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 24,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 129941877.42717433,
+          "candidate_minus_control_min_gain_pct": 298.7146495051485,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 25,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 147247191.81165293,
+          "candidate_minus_control_min_gain_pct": 361.70367299182533,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 26,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 159637985.0459725,
+          "candidate_minus_control_min_gain_pct": 455.46492398276234,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 27,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 15384893.555445641,
+          "candidate_minus_control_min_gain_pct": 42.15084801242296,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 28,
+          "stage": "B_swap_rx_1",
+          "candidate_minus_control_min_ee": 139820873.46966872,
+          "candidate_minus_control_min_gain_pct": 350.8929136350275,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 28,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 80141248.95578526,
+          "candidate_minus_control_min_gain_pct": 201.12158972133636,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 30,
+          "stage": "B_swap_rx_1",
+          "candidate_minus_control_min_ee": 106679832.82773313,
+          "candidate_minus_control_min_gain_pct": 266.07308685099997,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 30,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 68057663.53956023,
+          "candidate_minus_control_min_gain_pct": 169.7444788002142,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 31,
+          "stage": "B_swap_rx_1",
+          "candidate_minus_control_min_ee": 71312959.61564401,
+          "candidate_minus_control_min_gain_pct": 192.84548993748913,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 31,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 44535041.1753238,
+          "candidate_minus_control_min_gain_pct": 120.43227319593014,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 32,
+          "stage": "B_swap_rx_1",
+          "candidate_minus_control_min_ee": 51723235.966388844,
+          "candidate_minus_control_min_gain_pct": 140.25746589918558,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 32,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 58845858.16847446,
+          "candidate_minus_control_min_gain_pct": 159.57182088793732,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 33,
+          "stage": "B_swap_rx_1",
+          "candidate_minus_control_min_ee": 153882442.6535535,
+          "candidate_minus_control_min_gain_pct": 432.286531583891,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 33,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 37750045.43566278,
+          "candidate_minus_control_min_gain_pct": 106.0474211814841,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 34,
+          "stage": "B_swap_rx_1",
+          "candidate_minus_control_min_ee": 113754867.93831168,
+          "candidate_minus_control_min_gain_pct": 349.517518229601,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 34,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 1304280.9512136728,
+          "candidate_minus_control_min_gain_pct": 4.007468422270598,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 35,
+          "stage": "B_swap_rx_1",
+          "candidate_minus_control_min_ee": 116371799.41041258,
+          "candidate_minus_control_min_gain_pct": 471.4291529064102,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 35,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 67479720.35206957,
+          "candidate_minus_control_min_gain_pct": 273.36440241630544,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 38,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 56736789.54938197,
+          "candidate_minus_control_min_gain_pct": 237.1733597485216,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 39,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 34076128.469974115,
+          "candidate_minus_control_min_gain_pct": 146.9060948771369,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 44,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 84143190.26238614,
+          "candidate_minus_control_min_gain_pct": 44.5308003607949,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 45,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 117664489.28707975,
+          "candidate_minus_control_min_gain_pct": 60.23080468234235,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 46,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 111892330.85627818,
+          "candidate_minus_control_min_gain_pct": 56.33296265055823,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 47,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 18529661.961960375,
+          "candidate_minus_control_min_gain_pct": 9.82711808506058,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 49,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": -24046230.322788596,
+          "candidate_minus_control_min_gain_pct": -15.557882640595768,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        },
+        {
+          "block": 72,
+          "stage": "C_mode_RF",
+          "candidate_minus_control_min_ee": 69322074.83929414,
+          "candidate_minus_control_min_gain_pct": 255.22757163102963,
+          "candidate_all_true_gates_ok": false,
+          "control_all_true_gates_ok": true,
+          "candidate_legitimate_improvement": false
+        }
+      ]
+    },
+    "interpretation_guardrail": "A found feasible point is a numerical witness. Failure to find a feasible point under multistart local SLSQP is NOT a proof of infeasibility or global nonexistence."
+  },
+  "claim_limit": "Two-seed replication is evidence about these sampled seeds, not a global guarantee. A local multistart failure is not an infeasibility proof."
+}

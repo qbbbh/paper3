@@ -1,0 +1,17 @@
+========================================================================================
+Guard-R Final Audit v1 | role=validation | seed=2026102801
+delta=0.1 | QoS=1000000.0 bps / chance / inflation=1.35
+records verified=36 / 36 | excluded=0
+
+Arm results (all counts are candidate-level; only reconstruction-verified rows):
+- legacy_guard_r_candidate: n=36, true-all-gates=1, legitimate-improvement=1, median true min-EE gain=246.59284491222516
+- legacy_same_topology_control: n=36, true-all-gates=35, legitimate-improvement=21, median true min-EE gain=6.303832143551592e-07
+- strict_feasible_first_candidate: n=36, true-all-gates=1, legitimate-improvement=1, median true min-EE gain=164.65816197720537
+- strict_same_topology_control: n=36, true-all-gates=35, legitimate-improvement=21, median true min-EE gain=6.263973166855594e-07
+
+Strict feasible-first candidate vs equal-budget same-topology control:
+- pairs=36; candidate better=31; median paired difference in min-EE gain (%)=164.65814984407575
+
+Interpretation restriction:
+A found feasible point is a numerical witness. Failure to find a feasible point under multistart local SLSQP is NOT a proof of infeasibility or global nonexistence.
+========================================================================================
