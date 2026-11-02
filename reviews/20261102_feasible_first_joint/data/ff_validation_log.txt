@@ -1,0 +1,52 @@
+﻿预登记：B/C 166 → 命中 36（28 块）
+  k=  2 C_mode_RF      before  263.37M (m  -111.56M) | best(cand+nm)  263.37M (m  -111.56M) true  200.17M budT=False
+  k=  3 C_mode_RF      before  256.37M (m  -105.38M) | best(cand+nm)  256.37M (m  -105.38M) true  180.42M budT=False
+  k=  5 C_mode_RF      before  279.67M (m   -32.12M) | best(cand+nm)  279.67M (m   -32.12M) true  256.01M budT=False
+  k=  6 B_swap_rx_0    before   94.82M (m   -39.44M) | best(cand+sca)  109.35M (m    +0.00M) true  119.87M budT=False
+  k=  6 C_mode_RF      before   99.16M (m  -228.39M) | best(cand+nm)   99.16M (m  -228.39M) true   44.61M budT=False
+  k=  7 C_mode_RF      before  211.18M (m   -64.85M) | best(cand+nm)  101.14M (m    +0.00M) true   41.15M budT=False
+  k= 11 C_mode_RF      before  279.34M (m   -60.22M) | best(cand+nm)  279.34M (m   -60.22M) true  245.63M budT=False
+  k= 12 C_mode_RF      before  208.83M (m    -9.89M) | best(cand+nm)  212.90M (m    +9.25M) true  232.09M budT=True
+  k= 13 C_mode_RF      before  197.23M (m  -196.39M) | best(cand+nm)  197.23M (m  -196.39M) true  189.51M budT=False
+  k= 16 C_mode_RF      before  198.93M (m  -108.31M) | best(cand+nm)  198.93M (m  -108.31M) true   85.70M budT=False
+  k= 24 C_mode_RF      before  203.90M (m   -65.65M) | best(cand+nm)  203.90M (m   -65.65M) true  173.44M budT=False
+  k= 25 C_mode_RF      before  187.32M (m   -71.61M) | best(cand+nm)  187.32M (m   -71.61M) true  187.96M budT=False
+  k= 26 C_mode_RF      before  193.96M (m   -85.11M) | best(cand+nm)  193.96M (m   -85.11M) true  194.69M budT=False
+  k= 27 C_mode_RF      before  111.67M (m  -349.22M) | best(cand+nm)  111.67M (m  -349.22M) true  116.35M budT=False
+  k= 28 B_swap_rx_1    before  186.28M (m   -45.26M) | best(cand+nm)  186.28M (m   -45.26M) true  179.77M budT=False
+  k= 28 C_mode_RF      before  105.71M (m  -130.13M) | best(cand+nm)  105.71M (m  -130.13M) true  119.99M budT=False
+  k= 30 B_swap_rx_1    before  191.81M (m   -83.46M) | best(cand+nm)  191.81M (m   -83.46M) true  176.98M budT=False
+  k= 30 C_mode_RF      before  141.96M (m  -135.59M) | best(cand+nm)  141.96M (m  -135.59M) true  108.15M budT=False
+  k= 31 B_swap_rx_1    before  185.04M (m   -92.53M) | best(cand+nm)  185.04M (m   -92.53M) true  166.49M budT=False
+  k= 31 C_mode_RF      before  126.32M (m  -137.55M) | best(cand+nm)  126.32M (m  -137.55M) true   81.51M budT=False
+  k= 32 B_swap_rx_1    before  164.42M (m  -123.79M) | best(cand+nm)  164.42M (m  -123.79M) true  203.07M budT=False
+  k= 32 C_mode_RF      before  140.75M (m  -144.55M) | best(cand+nm)  140.75M (m  -144.55M) true  132.45M budT=False
+  k= 33 B_swap_rx_1    before  189.45M (m   -90.89M) | best(cand+nm)  189.45M (m   -90.89M) true  201.23M budT=False
+  k= 33 C_mode_RF      before  130.78M (m  -141.37M) | best(cand+nm)  130.78M (m  -141.37M) true   73.35M budT=False
+  k= 34 B_swap_rx_1    before  198.29M (m   -75.23M) | best(cand+nm)  198.29M (m   -75.23M) true  146.30M budT=False
+  k= 34 C_mode_RF      before   77.00M (m  -161.99M) | best(cand+nm)   77.00M (m  -161.99M) true   40.32M budT=False
+  k= 35 B_swap_rx_1    before  121.65M (m   -90.91M) | best(cand+nm)  121.65M (m   -90.91M) true  128.42M budT=False
+  k= 35 C_mode_RF      before  108.08M (m  -154.31M) | best(cand+nm)  108.08M (m  -154.31M) true   92.16M budT=False
+  k= 38 C_mode_RF      before  177.04M (m  -129.40M) | best(cand+nm)  177.04M (m  -129.40M) true  186.41M budT=False
+  k= 39 C_mode_RF      before  166.20M (m  -112.02M) | best(cand+nm)  166.20M (m  -112.02M) true  143.19M budT=False
+  k= 44 C_mode_RF      before  216.04M (m  -117.89M) | best(cand+nm)  216.04M (m  -117.89M) true  193.57M budT=False
+  k= 45 C_mode_RF      before  325.34M (m   -92.98M) | best(cand+nm)  325.34M (m   -92.98M) true  313.02M budT=False
+  k= 46 C_mode_RF      before  303.78M (m   -29.68M) | best(cand+nm)  306.66M (m    +0.22M) true  310.52M budT=False
+  k= 47 C_mode_RF      before  316.26M (m   -27.86M) | best(cand+nm)  316.26M (m   -27.86M) true  207.09M budT=False
+  k= 49 C_mode_RF      before  217.00M (m   -79.93M) | best(cand+nm)  217.00M (m   -79.93M) true  243.46M budT=False
+  k= 72 C_mode_RF      before  128.03M (m  -102.90M) | best(cand+nm)  128.03M (m  -102.90M) true  175.93M budT=False
+
+==============================================================================
+Feasible-first 联合优化（36 候选，2068s）
+  arm               预测可行    改动作   预测minEE>原    真值预算(pred ref)    真值预算(true ref)   真值minEE>原
+  cand+nm              4      4          35                 2                 1          34
+  cand+sca             4      4          35                 2                 1          34
+  mapped+nm            4      4          11                 2                 1          11
+  mapped+sca           4      4          11                 2                 1          11
+
+  控制组（等预算、每候选一次）：
+    same_topology+nm: 改动作 36/36，总评价调用 24679
+    same_topology+sca: 改动作 36/36，总评价调用 25894
+    各 arm 总评价调用：{'cand+nm': 33800, 'cand+sca': 43403, 'mapped+nm': 40153, 'mapped+sca': 50642}
+
+写出: E:\博士\课题论文\第3篇-修改版\代码\分析_三条主线_20261101\validation_seed_2026102801\ff.json

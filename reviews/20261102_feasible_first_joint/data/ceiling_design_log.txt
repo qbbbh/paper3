@@ -1,0 +1,43 @@
+﻿预登记：B/C 162 → 命中 31（25 块）
+  k=  2 B_swap_rx_4    U   486.19M  阈值   401.30M  余量  +21.16%  pruned=False
+  k=  2 C_mode_RF      U   506.86M  阈值   401.30M  余量  +26.30%  pruned=False
+  k=  3 C_mode_RF      U   466.65M  阈值   446.27M  余量   +4.57%  pruned=False
+  k=  4 C_mode_RF      U   404.97M  阈值   423.00M  余量   -4.26%  pruned=True
+  k=  5 C_mode_RF      U   489.05M  阈值   439.95M  余量  +11.16%  pruned=False
+  k=  6 C_mode_RF      U   396.84M  阈值   402.52M  余量   -1.41%  pruned=True
+  k=  7 C_mode_RF      U   464.55M  阈值   420.80M  余量  +10.40%  pruned=False
+  k=  9 C_mode_RF      U   575.51M  阈值   453.33M  余量  +26.95%  pruned=False
+  k= 10 B_swap_rx_4    U   512.79M  阈值   452.43M  余量  +13.34%  pruned=False
+  k= 10 C_mode_RF      U   437.23M  阈值   452.43M  余量   -3.36%  pruned=True
+  k= 11 C_mode_RF      U   519.37M  阈值   457.82M  余量  +13.44%  pruned=False
+  k= 12 C_mode_RF      U   467.27M  阈值   452.04M  余量   +3.37%  pruned=False
+  k= 21 B_swap_rx_3    U   498.56M  阈值   502.56M  余量   -0.80%  pruned=True
+  k= 21 C_mode_RF      U   587.74M  阈值   502.56M  余量  +16.95%  pruned=False
+  k= 22 C_mode_RF      U   573.20M  阈值   577.88M  余量   -0.81%  pruned=True
+  k= 22 B_swap_rx_1    U   516.86M  阈值   577.88M  余量  -10.56%  pruned=True
+  k= 23 B_swap_rx_1    U   551.44M  阈值   550.62M  余量   +0.15%  pruned=False
+  k= 23 C_mode_RF      U   585.32M  阈值   550.62M  余量   +6.30%  pruned=False
+  k= 29 C_mode_RF      U   597.18M  阈值   477.75M  余量  +25.00%  pruned=False
+  k= 30 C_mode_RF      U   574.18M  阈值   566.41M  余量   +1.37%  pruned=False
+  k= 31 C_mode_RF      U   576.21M  阈值   631.55M  余量   -8.76%  pruned=True
+  k= 33 C_mode_RF      U   719.05M  阈值   580.15M  余量  +23.94%  pruned=False
+  k= 34 C_mode_RF      U   680.83M  阈值   583.25M  余量  +16.73%  pruned=False
+  k= 35 C_mode_RF      U   674.65M  阈值   585.66M  余量  +15.19%  pruned=False
+  k= 36 C_mode_RF      U   777.81M  阈值   719.64M  余量   +8.08%  pruned=False
+  k= 41 C_mode_RF      U   512.41M  阈值   520.78M  余量   -1.61%  pruned=True
+  k= 47 C_mode_RF      U   470.96M  阈值   448.10M  余量   +5.10%  pruned=False
+  k= 48 C_mode_RF      U   638.59M  阈值   496.58M  余量  +28.60%  pruned=False
+  k= 49 C_mode_RF      U   466.24M  阈值   423.47M  余量  +10.10%  pruned=False
+  k= 53 C_mode_RF      U   394.35M  阈值   426.72M  余量   -7.59%  pruned=True
+  k= 53 B_swap_rx_1    U   540.62M  阈值   426.72M  余量  +26.69%  pruned=False
+
+==============================================================================
+预算上界筛选（31 候选，424.5s）
+  解析上界 U < (1-δ)η_ref ⇒ 剪掉：9/31
+  U 相对阈值的余量：中位 +8.1%  最大 +28.6%
+
+  与可行性探针对照（真可行 = SLSQP 找到 ≤1e-6 违反量）：
+    正确剪掉: 9   误剪（真可行却剪掉）: 0   漏剪: 3
+    剪枝精度 100.0%，可行配置保留率 100.0%
+
+写出: E:\博士\课题论文\第3篇-修改版\代码\分析_三条主线_20261101\out_review\ceiling_design.json

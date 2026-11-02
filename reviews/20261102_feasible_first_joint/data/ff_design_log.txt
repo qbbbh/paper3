@@ -1,0 +1,47 @@
+﻿预登记：B/C 162 → 命中 31（25 块）
+  k=  2 B_swap_rx_4    before  132.97M (m   -50.62M) | best(cand+nm)  132.97M (m   -50.62M) true  135.79M budT=False
+  k=  2 C_mode_RF      before  109.09M (m   -78.56M) | best(cand+nm)  109.09M (m   -78.56M) true   95.33M budT=False
+  k=  3 C_mode_RF      before   83.05M (m  -164.56M) | best(cand+nm)   83.05M (m  -164.56M) true   99.77M budT=False
+  k=  4 C_mode_RF      before  126.64M (m  -210.35M) | best(cand+nm)  126.64M (m  -210.35M) true  147.53M budT=False
+  k=  5 C_mode_RF      before  106.64M (m  -211.40M) | best(cand+nm)  106.64M (m  -211.40M) true  133.60M budT=False
+  k=  6 C_mode_RF      before  119.82M (m  -145.43M) | best(cand+nm)  119.82M (m  -145.43M) true  167.17M budT=False
+  k=  7 C_mode_RF      before  158.41M (m  -191.72M) | best(cand+nm)  158.41M (m  -191.72M) true  154.65M budT=False
+  k=  9 C_mode_RF      before  209.65M (m   -66.04M) | best(cand+nm)  209.65M (m   -66.04M) true  216.56M budT=False
+  k= 10 B_swap_rx_4    before  215.50M (m   -78.45M) | best(cand+nm)  215.50M (m   -78.45M) true  217.75M budT=False
+  k= 10 C_mode_RF      before  176.63M (m  -145.59M) | best(cand+nm)  176.63M (m  -145.59M) true  178.80M budT=False
+  k= 11 C_mode_RF      before  241.51M (m   -97.90M) | best(cand+nm)  241.51M (m   -97.90M) true  186.46M budT=False
+  k= 12 C_mode_RF      before  207.14M (m  -111.11M) | best(cand+nm)  207.14M (m  -111.11M) true  135.56M budT=False
+  k= 21 B_swap_rx_3    before  171.36M (m  -116.87M) | best(cand+nm)  171.36M (m  -116.87M) true  185.89M budT=False
+  k= 21 C_mode_RF      before  192.98M (m   -78.42M) | best(cand+nm)  192.98M (m   -78.42M) true  203.18M budT=False
+  k= 22 C_mode_RF      before  112.16M (m  -153.18M) | best(cand+nm)  112.16M (m  -153.18M) true   84.30M budT=False
+  k= 22 B_swap_rx_1    before   81.85M (m  -233.50M) | best(cand+nm)   81.85M (m  -233.50M) true   91.49M budT=False
+  k= 23 B_swap_rx_1    before  193.19M (m    -2.04M) | best(mapped+nm)  195.91M (m   +26.10M) true  197.85M budT=True
+  k= 23 C_mode_RF      before   57.72M (m  -193.44M) | best(cand+nm)   57.72M (m  -193.44M) true   55.05M budT=False
+  k= 29 C_mode_RF      before  269.21M (m   -98.39M) | best(cand+nm)  269.21M (m   -98.39M) true  244.00M budT=False
+  k= 30 C_mode_RF      before  139.82M (m  -191.67M) | best(cand+nm)  139.82M (m  -191.67M) true  100.16M budT=False
+  k= 31 C_mode_RF      before  100.08M (m  -293.34M) | best(cand+nm)  100.08M (m  -293.34M) true  117.97M budT=False
+  k= 33 C_mode_RF      before  227.54M (m   -96.91M) | best(cand+nm)  227.54M (m   -96.91M) true  272.86M budT=False
+  k= 34 C_mode_RF      before  265.72M (m  -149.75M) | best(cand+nm)  265.72M (m  -149.75M) true  230.46M budT=False
+  k= 35 C_mode_RF      before  212.36M (m  -239.28M) | best(cand+nm)  212.36M (m  -239.28M) true   75.21M budT=False
+  k= 36 C_mode_RF      before   87.84M (m  -306.34M) | best(cand+nm)   87.84M (m  -306.34M) true   88.09M budT=False
+  k= 41 C_mode_RF      before   65.94M (m  -281.46M) | best(cand+nm)   65.94M (m  -281.46M) true   47.50M budT=False
+  k= 47 C_mode_RF      before  282.61M (m  -107.58M) | best(cand+nm)  282.61M (m  -107.58M) true  103.72M budT=False
+  k= 48 C_mode_RF      before  190.26M (m   -12.60M) | best(mapped+nm)  200.81M (m    +0.00M) true  154.11M budT=False
+  k= 49 C_mode_RF      before  231.12M (m  -136.33M) | best(cand+nm)  231.12M (m  -136.33M) true  114.32M budT=False
+  k= 53 C_mode_RF      before  100.16M (m  -185.45M) | best(cand+nm)  100.16M (m  -185.45M) true   61.36M budT=False
+  k= 53 B_swap_rx_1    before  159.88M (m   -26.34M) | best(cand+sca)  159.93M (m    +1.83M) true  171.03M budT=True
+
+==============================================================================
+Feasible-first 联合优化（31 候选，1921s）
+  arm               预测可行    改动作   预测minEE>原    真值预算(pred ref)    真值预算(true ref)   真值minEE>原
+  cand+nm              3      3          31                 1                 2          28
+  cand+sca             3      3          31                 1                 2          28
+  mapped+nm            3      3           5                 1                 1           5
+  mapped+sca           3      3           5                 1                 2           5
+
+  控制组（等预算、每候选一次）：
+    same_topology+nm: 改动作 30/31，总评价调用 20399
+    same_topology+sca: 改动作 30/31，总评价调用 20959
+    各 arm 总评价调用：{'cand+nm': 28310, 'cand+sca': 35067, 'mapped+nm': 33855, 'mapped+sca': 42496}
+
+写出: E:\博士\课题论文\第3篇-修改版\代码\分析_三条主线_20261101\out_review\ff_design.json

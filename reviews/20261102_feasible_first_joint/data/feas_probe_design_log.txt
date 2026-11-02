@@ -1,0 +1,41 @@
+﻿预登记：B/C 162 → 命中 31（25 块）
+  k=  2 B_swap_rx_4    before viol   -50.62M → min budget viol  5.433% qos viol  0.000% minEE   97.87M feasible=False
+  k=  2 C_mode_RF      before viol   -78.56M → min budget viol 12.551% qos viol  0.000% minEE  104.60M feasible=False
+  k=  3 C_mode_RF      before viol  -164.56M → min budget viol 18.825% qos viol  0.000% minEE   33.32M feasible=False
+  k=  4 C_mode_RF      before viol  -210.35M → min budget viol 19.385% qos viol  0.000% minEE   28.95M feasible=False
+  k=  5 C_mode_RF      before viol  -211.40M → min budget viol 15.365% qos viol  0.000% minEE   31.31M feasible=False
+  k=  6 C_mode_RF      before viol  -145.43M → min budget viol 19.981% qos viol  0.000% minEE   48.24M feasible=False
+  k=  7 C_mode_RF      before viol  -191.72M → min budget viol 14.179% qos viol  0.000% minEE   32.11M feasible=False
+  k=  9 C_mode_RF      before viol   -66.04M → min budget viol  1.783% qos viol  0.000% minEE   80.75M feasible=False
+  k= 10 B_swap_rx_4    before viol   -78.45M → min budget viol  9.419% qos viol  0.000% minEE  215.68M feasible=False
+  k= 10 C_mode_RF      before viol  -145.59M → min budget viol 22.133% qos viol  0.000% minEE  127.21M feasible=False
+  k= 11 C_mode_RF      before viol   -97.90M → min budget viol 10.424% qos viol  0.000% minEE  117.70M feasible=False
+  k= 12 C_mode_RF      before viol  -111.11M → min budget viol 15.133% qos viol  0.000% minEE  147.38M feasible=False
+  k= 21 B_swap_rx_3    before viol  -116.87M → min budget viol 15.982% qos viol  0.000% minEE  192.99M feasible=False
+  k= 21 C_mode_RF      before viol   -78.42M → min budget viol  8.214% qos viol  0.000% minEE  192.99M feasible=False
+  k= 22 C_mode_RF      before viol  -153.18M → min budget viol 17.956% qos viol  0.000% minEE  112.45M feasible=False
+  k= 22 B_swap_rx_1    before viol  -233.50M → min budget viol 20.788% qos viol  0.000% minEE   22.99M feasible=False
+  k= 23 B_swap_rx_1    before viol    -2.04M → min budget viol  0.000% qos viol  0.000% minEE  193.29M feasible=True
+  k= 23 C_mode_RF      before viol  -193.44M → min budget viol 21.053% qos viol  0.000% minEE  107.51M feasible=False
+  k= 29 C_mode_RF      before viol   -98.39M → min budget viol 13.844% qos viol  0.000% minEE  261.35M feasible=False
+  k= 30 C_mode_RF      before viol  -191.67M → min budget viol 11.424% qos viol  0.000% minEE   43.53M feasible=False
+  k= 31 C_mode_RF      before viol  -293.34M → min budget viol 15.952% qos viol  0.000% minEE   24.68M feasible=False
+  k= 33 C_mode_RF      before viol   -96.91M → min budget viol  1.779% qos viol  0.000% minEE   57.11M feasible=False
+  k= 34 C_mode_RF      before viol  -149.75M → min budget viol  7.975% qos viol  0.000% minEE   77.36M feasible=False
+  k= 35 C_mode_RF      before viol  -239.28M → min budget viol  7.881% qos viol  0.000% minEE   48.55M feasible=False
+  k= 36 C_mode_RF      before viol  -306.34M → min budget viol 11.803% qos viol  0.000% minEE   27.31M feasible=False
+  k= 41 C_mode_RF      before viol  -281.46M → min budget viol 20.305% qos viol  0.000% minEE   29.44M feasible=False
+  k= 47 C_mode_RF      before viol  -107.58M → min budget viol 12.647% qos viol  0.000% minEE  149.50M feasible=False
+  k= 48 C_mode_RF      before viol   -12.60M → min budget viol  0.000% qos viol  0.000% minEE  163.83M feasible=True
+  k= 49 C_mode_RF      before viol  -136.33M → min budget viol 12.407% qos viol  0.000% minEE   86.46M feasible=False
+  k= 53 C_mode_RF      before viol  -185.45M → min budget viol 26.113% qos viol  0.000% minEE   82.59M feasible=False
+  k= 53 B_swap_rx_1    before viol   -26.34M → min budget viol  0.000% qos viol  0.000% minEE  159.92M feasible=True
+
+==============================================================================
+可行性探针（31 候选，505s）
+  最小化违反量后仍不可行：28/31
+  可达的最小预算违反量：中位 12.647%  最大 26.113%  ≤1e-6 的 3
+  可达的最小 QoS 违反量：中位 0.000%  最大 0.000%
+  可行者的 min EE 相对候选初值：中位 +0.03%
+
+写出: E:\博士\课题论文\第3篇-修改版\代码\分析_三条主线_20261101\out_review\feas_probe_design.json
