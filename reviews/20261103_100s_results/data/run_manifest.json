@@ -1,0 +1,68 @@
+{
+ "R1p": {
+  "path": "runs/R1p_v5A_d010_100s",
+  "blocks": 999,
+  "methods": [
+   "literature",
+   "maxmin",
+   "reference"
+  ],
+  "source_sha256": [
+   "3cab660907dff616c964dfe53f82b43d33ca3aa6f4ea0787089c9b7d9932cdcd"
+  ],
+  "config_sha256": [
+   "a22ababbf522eb8672e33100f586b84052521806bf2eda02aab0fc7f05557f40"
+  ],
+  "csv_sha256": "290a3e4959733e23a8d699646d88a440d9483e8a80883400cea19ce32281d786",
+  "csv_bytes": 20761910
+ },
+ "R2p": {
+  "path": "runs/R2p_v5A_d010_100s_valseed",
+  "blocks": 999,
+  "methods": [
+   "literature",
+   "maxmin",
+   "reference"
+  ],
+  "source_sha256": [
+   "3cab660907dff616c964dfe53f82b43d33ca3aa6f4ea0787089c9b7d9932cdcd"
+  ],
+  "config_sha256": [
+   "5fc607e79e24affe9e0ceb48cff6be9e88d281e4eefd525f672451e386f740d8"
+  ],
+  "csv_sha256": "c431b90fcd49c74db043b00874dbd987c41b648d456635e3e5479f31a2f8ca3b",
+  "csv_bytes": 21324326
+ },
+ "R3p1": {
+  "path": "runs/R3p1_norefine_d010_100s",
+  "blocks": 999,
+  "methods": [
+   "maxmin",
+   "reference"
+  ],
+  "source_sha256": [
+   "3cab660907dff616c964dfe53f82b43d33ca3aa6f4ea0787089c9b7d9932cdcd"
+  ],
+  "config_sha256": [
+   "12a1d768a7efcc1c2041b04f4a772863857961fbcefe703b5e6179f721fbacc0"
+  ],
+  "csv_sha256": "d6f86610e0fa490144969767855e2249c49dd58e64f92239c33aa484b59e0b6b",
+  "csv_bytes": 15995761
+ },
+ "R3p2": {
+  "path": "runs/R3p2_norefine_d010_100s_valseed",
+  "blocks": 999,
+  "methods": [
+   "maxmin",
+   "reference"
+  ],
+  "source_sha256": [
+   "3cab660907dff616c964dfe53f82b43d33ca3aa6f4ea0787089c9b7d9932cdcd"
+  ],
+  "config_sha256": [
+   "a828f3af90de38fda55a3e0099fb2d5f260fb4d12ae819500840c910e7f92841"
+  ],
+  "csv_sha256": "3b0f7b3f3f9ec3bd8b56567a35bbae87f1c688bd274ced7ed525b9352c265d02",
+  "csv_bytes": 15963670
+ }
+}
