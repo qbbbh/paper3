@@ -74,6 +74,7 @@ def load_blocks(run_dir):
                     "eta_ref_pred": fnum(row.get("eta_ref"), float("nan")),
                     "eta_ref_true": fnum(row.get("actual_eta_ref"), float("nan")),
                     "pred_mean_ee": fnum(row.get("predicted_mean_pair_ee"), 0.0),
+                    "delta": fnum(row.get("delta"), 0.10),
                     "solve_s": fnum(row.get("solve_time_s"), 0.0),
                     "qos_metric": row.get("qos_metric") or "",
                 }
@@ -115,8 +116,9 @@ def summarise_method(blocks, links, method, delta, out):
     eta_pred = a("eta_ref_pred")
     eta_true = a("eta_ref_true")
     mean_ee = a("mean_ee")
-    viol_pred = mean_ee < (1.0 - delta) * eta_pred
-    viol_true = mean_ee < (1.0 - delta) * eta_true
+    dlt = a("delta")
+    viol_pred = mean_ee < (1.0 - dlt) * eta_pred
+    viol_true = mean_ee < (1.0 - dlt) * eta_true
     loss_true = 1.0 - mean_ee / np.where(eta_true > 0, eta_true, np.nan)
     at_lo = at_hi = tot = 0
     for k in keys:
@@ -206,8 +208,9 @@ def csi_diagnostic(blocks, method, delta, out):
     # 预测侧预算余量必须用**该动作自己的预测 EE**；若两边都用 mean_ee，
     # 相减时 mean_ee 会被抵消，只剩参考解误差，与动作无关
     # （曾因此得到两种方法完全相同的虚假统计）。
-    pred = np.array([blocks[k]["pred_mean_ee"] - (1 - delta) * blocks[k]["eta_ref_pred"] for k in keys])
-    true = np.array([blocks[k]["mean_ee"] - (1 - delta) * blocks[k]["eta_ref_true"] for k in keys])
+    dlt = np.array([blocks[k]["delta"] for k in keys])
+    pred = np.array([blocks[k]["pred_mean_ee"] - (1 - blocks[k]["delta"]) * blocks[k]["eta_ref_pred"] for k in keys])
+    true = np.array([blocks[k]["mean_ee"] - (1 - blocks[k]["delta"]) * blocks[k]["eta_ref_true"] for k in keys])
     err = true - pred
     z = err / np.where(eta_p > 0, eta_p, np.nan)
     out(f"  {LABEL.get(method,method)}：预测 vs 真值预算余量（n={len(keys)}）")

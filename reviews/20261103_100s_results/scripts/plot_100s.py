@@ -267,21 +267,38 @@ def fig4_delta(loaded):
     if len(tags) < 3:
         print("skip fig4（缺少 δ 扫描 run）"); return
     deltas = [loaded[t]["delta"] for t in tags]
-    fig, axes = plt.subplots(1, 2, figsize=(10.5, 4.2))
-    for ax, field, title in zip(axes, ("min_ee_M", "mean_ee_M"),
-                               ("(a) 最低通信对 EE", "(b) 平均逐链路 EE")):
-        med = [np.median(vals(loaded, t, "maxmin", field)) for t in tags]
-        allb = [vals(loaded, t, "maxmin", field) for t in tags]
-        lo = [m - np.percentile(v, 25) for m, v in zip(med, allb)]
-        hi = [np.percentile(v, 75) - m for m, v in zip(med, allb)]
-        ax.errorbar(deltas, med, yerr=[lo, hi], fmt="o-", color=COLORS["maxmin"],
-                    lw=1.9, ms=6, capsize=3, label="本文方法")
-        ref = np.median(vals(loaded, "R1p", "reference", field))
+    fig, axes = plt.subplots(1, 3, figsize=(13.2, 4.2))
+    for ax, field, title in zip(axes[:2], ("min_ee_M", "mean_ee_M"),
+                                ("(a) 最低通信对 EE", "(b) 平均逐链路 EE")):
+        med, q1, q3 = [], [], []
+        for t in tags:
+            v = vals(loaded, t, "maxmin", field)
+            med.append(float(np.median(v)))
+            q1.append(float(np.percentile(v, 25)))
+            q3.append(float(np.percentile(v, 75)))
+        ax.fill_between(deltas, q1, q3, color=COLORS["maxmin"], alpha=0.15,
+                        label="P25–P75 区间")
+        ax.plot(deltas, med, "o-", color=COLORS["maxmin"], lw=2.0, ms=7, label="本文方法（中位数）")
+        ref = float(np.median(vals(loaded, "R1p", "reference", field)))
         ax.axhline(ref, color=COLORS["reference"], ls="--", lw=1.5, label="Pure-EE 参考")
         ax.set_xlabel("平均 EE 损失预算 $\\delta$")
         ax.set_ylabel("Mbit/s/W"); ax.set_title(title, fontsize=11)
-        ax.grid(alpha=0.3, ls="--"); ax.legend(fontsize=9)
-    fig.suptitle("图 4  δ 敏感性（设计种子，误差线 P25–P75）", fontsize=12)
+        ax.grid(alpha=0.3, ls="--"); ax.legend(fontsize=8)
+    viol = []
+    for t in tags:
+        d = loaded[t]["data"]
+        v = [x["viol_true"] for (m, _b), x in d.items() if m == "maxmin" and not x["failed"]]
+        viol.append(100 * float(np.mean(v)))
+    axes[2].plot(deltas, viol, "s-", color="#7b241c", lw=2.0, ms=7)
+    for x, y in zip(deltas, viol):
+        axes[2].annotate("%.1f%%" % y, (x, y), textcoords="offset points",
+                         xytext=(0, 8), ha="center", fontsize=9, color="#7b241c")
+    axes[2].set_xlabel("平均 EE 损失预算 $\\delta$")
+    axes[2].set_ylabel("真实预算违约率（%）")
+    axes[2].set_title("(c) 真实预算违约率", fontsize=11)
+    axes[2].grid(alpha=0.3, ls="--")
+    axes[2].set_ylim(0, max(viol) * 1.3)
+    fig.suptitle("图 4  δ 敏感性（设计种子）：放宽预算提升瓶颈、降低真实违约率，但平均 EE 损失增大", fontsize=12)
     fig.tight_layout(rect=[0, 0, 1, 0.92])
     p = os.path.join(FIG, "fig4_delta_sensitivity.png")
     fig.savefig(p); plt.close(fig)
