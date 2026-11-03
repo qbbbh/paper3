@@ -1,11 +1,21 @@
 {
   "layout_version": 2,
   "source_sha256": "95960f5a4b0c23c974ebc48fd7d799a8e7f45f9c58f366531cc723eede4a4925",
+  "source_sha256_v5_run": "9723e1a7b1b0490e7a063bab4e7c6e8fc7dc51fe609161f2bd9cba5aa6601919",
+  "source_sha256_note": "source_sha256 = 冻结的 v4 源码快照哈希；source_sha256_v5_run = 2026-11-02 R1/R2 审计与 100 s 重跑所用的 v5 开发树（代码/开发_10车机制定型_v5_20261101/code）。两者不是同一棵树。",
+  "regenerated_utc": "2026-11-02T11:57:26Z",
+  "regenerated_reason": "2026-11-02 阶段 0 冻结：原快照有 2 个文件哈希过期（plans/仿真协议_v1_20261027.md 早于本轮改动；reviews/README.md 为复核索引更新）。按原 457 文件清单重算。",
+  "changed_since_previous": [
+    "MODEL_SPEC.md",
+    "plans/仿真协议_v1_20261027.md",
+    "reviews/README.md"
+  ],
+  "missing_since_previous": [],
   "files": {
     ".gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
     ".gitignore": "d66312d67bea565eb30240ec342d2d363eac0cbacb29ce144a3a5671f72abe91",
     "AGENTS.md": "ee40fb8d3ffe33e0dd5cded5f420b6be4adac9b8888a35de28df389a1936c27b",
-    "MODEL_SPEC.md": "474fb96a5b64d3080e4069faaee2b3854670adb5673c661d5d23a21b77819ec1",
+    "MODEL_SPEC.md": "921bc0ccfcab1e656a220f951a4cd29abc58c07966a3378b6b5ee1ebd278fc3c",
     "PROJECT_STATUS.md": "cbf2a2e8c55e2de8183502951e81f3623e7fb217d7b5f9bab330a1c02be69ba8",
     "README.md": "518cdf831580ea8ffa47302e0480a1c43cca5bd67a96680bc8e256aedf171f1b",
     "RUNBOOK.md": "eee4b91d83a6af22ea240678d2c6b72c19104c9d48239ff97e39889f43581915",
@@ -75,7 +85,7 @@
     "data_parts/manifest.json": "05cec276e72e0ea0f9c4fff89fce0bc339996d119497ff8aef52b7e6419309fc",
     "plans/RESEARCH_PROPOSALS.md": "f9394e8efebbd308cab9608e750a2065b6e8a9e36434828a8ded28db4a5271d6",
     "plans/三图一表与CRLB说明_20261026.md": "216de4f819bb9c2e065dbf9d7b534581df9b313e2efed6704716cd11e91deda0",
-    "plans/仿真协议_v1_20261027.md": "21dd4c4bd451de298cf6339229dbd3487e5ff058dd353b7287d3bf16ec4c56a5",
+    "plans/仿真协议_v1_20261027.md": "3f493c60f40440a49992c813794069595f42ac8fb46a9f0c2256591d59cf6f16",
     "plans/研究主线与实验矩阵_20261027.md": "8175b44763e31a9ae9b366dc1fdbdfe2082165a10100297bdec05ef30ed92bac",
     "plans/长跑命令_20261027.md": "ba3b19a3705c92224d4edd43574509f0627382190b35963e97adae74de85faf3",
     "plans/风险界与可靠性主张_20261027.md": "76c5df458eb1398c7255aeb255efd7f6c0d23f9b92263ac4fa28287270ee4d84",
@@ -426,7 +436,7 @@
     "resource_allocation/shared/src/data.py": "45e8afeaa07f6ac8edf2f2c9454a8c76e9d85e922e24c7c969a188b8697cb752",
     "reviews/20261026_mean_chance_review.md": "f5379a22e3105f7bf13a6a98a2073be77ca3bded53a53b05f61c524b8d0e7f24",
     "reviews/20261027_docs_upload_review.md": "4a03662d6462acf96bfdd2142d23502406178c3068924bba15eb14367c84431f",
-    "reviews/README.md": "c2d07d21e7d7c365cf052331475cf4bb1ff226be3cdfe865229fafe9ab1607b0",
+    "reviews/README.md": "fa058d1b7b3c1041fbf91087fb0cf62a64bbb7a11cbc631551a53c81a38a499f",
     "reviews/energy_metric_recompute_20261026.json": "98cce6dba911e33adaeaa314fd0db0d87e83ba18a27ed1e03802b8f9cdec4adf",
     "reviews/material_sources.json": "3929ea2d80f182de41a6fb2dbd6dc79ac7fb7701b39fd10b7cb244f1e4b6a2af",
     "reviews/package_validation.json": "2c8c8dc1ba68429cf2d74b4f993d17597c8c45f9350dcca11da98c46f2c42d8d",
@@ -459,54 +469,5 @@
     "tools/restore_data.py": "1bfe9ad490ebd50a117b778d47c1cdd217feaf3b3125c05cf27fb2f0a43ae485",
     "tools/run.py": "7fbd3002485ee58fc51d42374b3ee0a793c9728dd1ab56f1f219e1abc98b3799",
     "tools/verify_snapshot.py": "f669231235186159f98f2a4b4afc969584c6e96e60b2d014b2034290929cd471"
-  },
-  "docs_rebaseline": {
-    "date": "2026-10-27",
-    "scope": "markdown only",
-    "changed": [
-      "plans/仿真协议_v1_20261027.md"
-    ],
-    "previous_hashes": {
-      "MODEL_SPEC.md": "474fb96a5b64d3080e4069faaee2b3854670adb5673c661d5d23a21b77819ec1",
-      "PROJECT_STATUS.md": "cbf2a2e8c55e2de8183502951e81f3623e7fb217d7b5f9bab330a1c02be69ba8",
-      "START_HERE.md": "6ebea5424887d9d8384540bd6ba0a51260f1ecd1dc780f579597339e07442daf",
-      "plans/RESEARCH_PROPOSALS.md": "f9394e8efebbd308cab9608e750a2065b6e8a9e36434828a8ded28db4a5271d6",
-      "plans/三图一表与CRLB说明_20261026.md": "216de4f819bb9c2e065dbf9d7b534581df9b313e2efed6704716cd11e91deda0",
-      "channel_estimation/README.md": "b4c939a57164869c40b1daf45e3beb84fafb9afd6a610dc8727a094cf2226636",
-      "plans/研究主线与实验矩阵_20261027.md": "8175b44763e31a9ae9b366dc1fdbdfe2082165a10100297bdec05ef30ed92bac",
-      "plans/风险界与可靠性主张_20261027.md": "76c5df458eb1398c7255aeb255efd7f6c0d23f9b92263ac4fa28287270ee4d84",
-      "plans/仿真协议_v1_20261027.md": "9926897a747801afcd6f50a40dd90afa379f3735dbb50cf56a012cda55f87865",
-      "plans/长跑命令_20261027.md": "ba3b19a3705c92224d4edd43574509f0627382190b35963e97adae74de85faf3",
-      "references/risk_bound_20261027.md": "0570b8e4afc2f1b354b5cb3ddd0fc0a0ac4263277e76b83652690589091e282d"
-    },
-    "note": "科学源码与 source_sha256 未变；本次只把用户要求新增/修订的文档写入清单。任何 .py 条目未触碰。"
-  },
-  "docs_review_history": [
-    {
-      "date": "2026-10-27",
-      "reason": "pre-upload evidence corrections; no scientific source edits",
-      "files": [
-        {
-          "path": "plans/研究主线与实验矩阵_20261027.md",
-          "previous_sha256": "235f67a98001c09ebc83ccefde49aed779ed2c24b863224d98067c0157e32b67",
-          "sha256": "49c0678f6561d5c2b4329d9bb3ff050b6c34695f1930a72a2c01b5510c057b8d"
-        },
-        {
-          "path": "PROJECT_STATUS.md",
-          "previous_sha256": "0a72db08ad02f165d5d45d08a4bae48b7b639662ba606647b3f356b1638bcf23",
-          "sha256": "42c6af35be5c83c5cb9f6315909f930210dfc3a73f23c412d35cc59500252639"
-        },
-        {
-          "path": "plans/风险界与可靠性主张_20261027.md",
-          "previous_sha256": "bf5ae62e2f88953e36f045bd767e13175564dfd4ad4dc59b3103a93a4f257c2a",
-          "sha256": "76c5df458eb1398c7255aeb255efd7f6c0d23f9b92263ac4fa28287270ee4d84"
-        },
-        {
-          "path": "reviews/20261027_docs_upload_review.md",
-          "previous_sha256": null,
-          "sha256": "4a03662d6462acf96bfdd2142d23502406178c3068924bba15eb14367c84431f"
-        }
-      ]
-    }
-  ]
+  }
 }
