@@ -3,11 +3,9 @@
   "source_sha256": "95960f5a4b0c23c974ebc48fd7d799a8e7f45f9c58f366531cc723eede4a4925",
   "source_sha256_v5_run": "9723e1a7b1b0490e7a063bab4e7c6e8fc7dc51fe609161f2bd9cba5aa6601919",
   "source_sha256_note": "source_sha256 = 冻结的 v4 源码快照哈希；source_sha256_v5_run = 2026-11-02 R1/R2 审计与 100 s 重跑所用的 v5 开发树（代码/开发_10车机制定型_v5_20261101/code）。两者不是同一棵树。",
-  "regenerated_utc": "2026-11-03T05:12:08Z",
+  "regenerated_utc": "2026-11-03T05:18:42Z",
   "regenerated_reason": "2026-11-02 阶段 0 冻结：原快照有 2 个文件哈希过期（plans/仿真协议_v1_20261027.md 早于本轮改动；reviews/README.md 为复核索引更新）。按原 457 文件清单重算。",
-  "changed_since_previous": [
-    "reviews/README.md"
-  ],
+  "changed_since_previous": [],
   "missing_since_previous": [],
   "files": {
     ".gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
