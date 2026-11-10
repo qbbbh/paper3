@@ -1,0 +1,289 @@
+{
+  "selection": "All methods, all groups, all 1000 planned periods; failures retained",
+  "file_count": 24,
+  "row_count": 24000,
+  "source_files": [
+    {
+      "path": "tables/10A_periods.csv",
+      "sha256": "d5ec4814b24a0a67d5736abc03f52196a64e5a38603ff63357c3df4d339f5386",
+      "row_count": 8000
+    },
+    {
+      "path": "tables/10B_periods.csv",
+      "sha256": "8f4b1b8f368b4ab0f96e64d1e520609e60bef01e2eb02cfb12a3f9f9eb2c2989",
+      "row_count": 8000
+    },
+    {
+      "path": "tables/50B_periods.csv",
+      "sha256": "833eb57f79de215b6e14108bd6f0653f9589599e325f98d542e62a0695dfad03",
+      "row_count": 8000
+    }
+  ],
+  "files": [
+    {
+      "group": "10A",
+      "method": "aboagye_matching_qt",
+      "path": "tables/by_method/10A_aboagye_matching_qt_periods.csv",
+      "rows": 1000,
+      "bytes": 408211,
+      "sha256": "28e8af301ca1d70fa5b70530adb4fdaef3d27a39418566026a29b4ef0b9826bb",
+      "source_path": "tables/10A_periods.csv",
+      "source_sha256": "d5ec4814b24a0a67d5736abc03f52196a64e5a38603ff63357c3df4d339f5386",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "10A",
+      "method": "main_new",
+      "path": "tables/by_method/10A_main_new_periods.csv",
+      "rows": 1000,
+      "bytes": 481293,
+      "sha256": "ad593f59fb67471e24f81faf72b59240ed9071b83c133a0ec631c439cf0ea526",
+      "source_path": "tables/10A_periods.csv",
+      "source_sha256": "d5ec4814b24a0a67d5736abc03f52196a64e5a38603ff63357c3df4d339f5386",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "10A",
+      "method": "main_old",
+      "path": "tables/by_method/10A_main_old_periods.csv",
+      "rows": 1000,
+      "bytes": 415256,
+      "sha256": "ba33b18fcbba16d57cf91809e1b2ed14d34e10b70023d55bee8b9de4c630cea9",
+      "source_path": "tables/10A_periods.csv",
+      "source_sha256": "d5ec4814b24a0a67d5736abc03f52196a64e5a38603ff63357c3df4d339f5386",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "10A",
+      "method": "no_refine",
+      "path": "tables/by_method/10A_no_refine_periods.csv",
+      "rows": 1000,
+      "bytes": 408227,
+      "sha256": "e99cb1e2a36c2523cde1b332daf43e89a4c5cc8a6b64104d3fd2588f64b072d3",
+      "source_path": "tables/10A_periods.csv",
+      "source_sha256": "d5ec4814b24a0a67d5736abc03f52196a64e5a38603ff63357c3df4d339f5386",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "10A",
+      "method": "reference",
+      "path": "tables/by_method/10A_reference_periods.csv",
+      "rows": 1000,
+      "bytes": 409281,
+      "sha256": "67b1c07bec7098ad77285745a0e9fbfece4a26f19833fe770529c15e11f39d1c",
+      "source_path": "tables/10A_periods.csv",
+      "source_sha256": "d5ec4814b24a0a67d5736abc03f52196a64e5a38603ff63357c3df4d339f5386",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "10A",
+      "method": "same_topo_new",
+      "path": "tables/by_method/10A_same_topo_new_periods.csv",
+      "rows": 1000,
+      "bytes": 507762,
+      "sha256": "43032b5ff452981c127f07d745cf56a48b9391dfea0f69f32de9f9a8227720b7",
+      "source_path": "tables/10A_periods.csv",
+      "source_sha256": "d5ec4814b24a0a67d5736abc03f52196a64e5a38603ff63357c3df4d339f5386",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "10A",
+      "method": "same_topo_old",
+      "path": "tables/by_method/10A_same_topo_old_periods.csv",
+      "rows": 1000,
+      "bytes": 421881,
+      "sha256": "97f2193816b69b3dec2dae61276fd136784f41f0e0aecd194a4464b234599dd8",
+      "source_path": "tables/10A_periods.csv",
+      "source_sha256": "d5ec4814b24a0a67d5736abc03f52196a64e5a38603ff63357c3df4d339f5386",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "10A",
+      "method": "zappone_mmee_fp_fixed",
+      "path": "tables/by_method/10A_zappone_mmee_fp_fixed_periods.csv",
+      "rows": 1000,
+      "bytes": 431528,
+      "sha256": "cb9417d95b7e8a5c21dd1469d8937931ffcd85cb303f0172eb13c145ef84a703",
+      "source_path": "tables/10A_periods.csv",
+      "source_sha256": "d5ec4814b24a0a67d5736abc03f52196a64e5a38603ff63357c3df4d339f5386",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "10B",
+      "method": "aboagye_matching_qt",
+      "path": "tables/by_method/10B_aboagye_matching_qt_periods.csv",
+      "rows": 1000,
+      "bytes": 407914,
+      "sha256": "b58e99f0e225f1f1e5298fbbd15ec1dec0ee8474eb1c65db14c348d83aedf5cd",
+      "source_path": "tables/10B_periods.csv",
+      "source_sha256": "8f4b1b8f368b4ab0f96e64d1e520609e60bef01e2eb02cfb12a3f9f9eb2c2989",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "10B",
+      "method": "main_new",
+      "path": "tables/by_method/10B_main_new_periods.csv",
+      "rows": 1000,
+      "bytes": 479021,
+      "sha256": "5e8968590c162d228f5620bfcf3f692c6791d5319bae1251859039aae82b5dd3",
+      "source_path": "tables/10B_periods.csv",
+      "source_sha256": "8f4b1b8f368b4ab0f96e64d1e520609e60bef01e2eb02cfb12a3f9f9eb2c2989",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "10B",
+      "method": "main_old",
+      "path": "tables/by_method/10B_main_old_periods.csv",
+      "rows": 1000,
+      "bytes": 413109,
+      "sha256": "d4bc700ea42b91fd9310ad471e85103deaee7c7c491b95e00f97e0b94bbe0a5d",
+      "source_path": "tables/10B_periods.csv",
+      "source_sha256": "8f4b1b8f368b4ab0f96e64d1e520609e60bef01e2eb02cfb12a3f9f9eb2c2989",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "10B",
+      "method": "no_refine",
+      "path": "tables/by_method/10B_no_refine_periods.csv",
+      "rows": 1000,
+      "bytes": 405653,
+      "sha256": "73a15c66973bde91c60a7b0790107108a0b9a495124313b904f1567decaa6dc0",
+      "source_path": "tables/10B_periods.csv",
+      "source_sha256": "8f4b1b8f368b4ab0f96e64d1e520609e60bef01e2eb02cfb12a3f9f9eb2c2989",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "10B",
+      "method": "reference",
+      "path": "tables/by_method/10B_reference_periods.csv",
+      "rows": 1000,
+      "bytes": 407019,
+      "sha256": "b7c66de43309f5e7ad180b40f842cb6f43ac96b455d206a5cb8c73ad077eafa5",
+      "source_path": "tables/10B_periods.csv",
+      "source_sha256": "8f4b1b8f368b4ab0f96e64d1e520609e60bef01e2eb02cfb12a3f9f9eb2c2989",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "10B",
+      "method": "same_topo_new",
+      "path": "tables/by_method/10B_same_topo_new_periods.csv",
+      "rows": 1000,
+      "bytes": 504921,
+      "sha256": "0918376c42bd306c44c619878b254308e64096f0f1ef68998ffc5bc4ac8c0b95",
+      "source_path": "tables/10B_periods.csv",
+      "source_sha256": "8f4b1b8f368b4ab0f96e64d1e520609e60bef01e2eb02cfb12a3f9f9eb2c2989",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "10B",
+      "method": "same_topo_old",
+      "path": "tables/by_method/10B_same_topo_old_periods.csv",
+      "rows": 1000,
+      "bytes": 419144,
+      "sha256": "0337d79cdaaff07aeaf20151f993beb01afffb1318836cb133bb700438f65b2c",
+      "source_path": "tables/10B_periods.csv",
+      "source_sha256": "8f4b1b8f368b4ab0f96e64d1e520609e60bef01e2eb02cfb12a3f9f9eb2c2989",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "10B",
+      "method": "zappone_mmee_fp_fixed",
+      "path": "tables/by_method/10B_zappone_mmee_fp_fixed_periods.csv",
+      "rows": 1000,
+      "bytes": 429256,
+      "sha256": "df0e69eb2a038d2021d43fc176fe3e41a7d5e41b5273d519268ece999501ec46",
+      "source_path": "tables/10B_periods.csv",
+      "source_sha256": "8f4b1b8f368b4ab0f96e64d1e520609e60bef01e2eb02cfb12a3f9f9eb2c2989",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "50B",
+      "method": "aboagye_matching_qt",
+      "path": "tables/by_method/50B_aboagye_matching_qt_periods.csv",
+      "rows": 1000,
+      "bytes": 414173,
+      "sha256": "b508816f8b864441089cd9f4bf65071d53b8362ed33c7a95bf58f44c7cacd7f1",
+      "source_path": "tables/50B_periods.csv",
+      "source_sha256": "833eb57f79de215b6e14108bd6f0653f9589599e325f98d542e62a0695dfad03",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "50B",
+      "method": "main_new",
+      "path": "tables/by_method/50B_main_new_periods.csv",
+      "rows": 1000,
+      "bytes": 501804,
+      "sha256": "3d80e8c928287d5933f8e1fe1c96b1520b36ef7ed0b6eb567df676bb59489e32",
+      "source_path": "tables/50B_periods.csv",
+      "source_sha256": "833eb57f79de215b6e14108bd6f0653f9589599e325f98d542e62a0695dfad03",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "50B",
+      "method": "main_old",
+      "path": "tables/by_method/50B_main_old_periods.csv",
+      "rows": 1000,
+      "bytes": 432566,
+      "sha256": "80de38c6a3afa35adf6288af5f8b7083d3638510530636f2439fee26a9fc8ee6",
+      "source_path": "tables/50B_periods.csv",
+      "source_sha256": "833eb57f79de215b6e14108bd6f0653f9589599e325f98d542e62a0695dfad03",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "50B",
+      "method": "no_refine",
+      "path": "tables/by_method/50B_no_refine_periods.csv",
+      "rows": 1000,
+      "bytes": 417376,
+      "sha256": "eb633411ce93e4aba257150f4448477f3e68d16c5a9b12f5cac5d8ccc78e7832",
+      "source_path": "tables/50B_periods.csv",
+      "source_sha256": "833eb57f79de215b6e14108bd6f0653f9589599e325f98d542e62a0695dfad03",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "50B",
+      "method": "reference",
+      "path": "tables/by_method/50B_reference_periods.csv",
+      "rows": 1000,
+      "bytes": 418009,
+      "sha256": "1adf4a27e5184dfeef9638dc0688613188deb59bb6d3fc496ef0c1b3dd671e52",
+      "source_path": "tables/50B_periods.csv",
+      "source_sha256": "833eb57f79de215b6e14108bd6f0653f9589599e325f98d542e62a0695dfad03",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "50B",
+      "method": "same_topo_new",
+      "path": "tables/by_method/50B_same_topo_new_periods.csv",
+      "rows": 1000,
+      "bytes": 527704,
+      "sha256": "14b34002cbd4e8f00e29d39c7d20258f982d59e204d9a0e80c2926334ef4c1ef",
+      "source_path": "tables/50B_periods.csv",
+      "source_sha256": "833eb57f79de215b6e14108bd6f0653f9589599e325f98d542e62a0695dfad03",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "50B",
+      "method": "same_topo_old",
+      "path": "tables/by_method/50B_same_topo_old_periods.csv",
+      "rows": 1000,
+      "bytes": 437511,
+      "sha256": "b24c75815146ea265be8011690fdfedcb298dbbaaeacf642b781d8ded9d0c041",
+      "source_path": "tables/50B_periods.csv",
+      "source_sha256": "833eb57f79de215b6e14108bd6f0653f9589599e325f98d542e62a0695dfad03",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    },
+    {
+      "group": "50B",
+      "method": "zappone_mmee_fp_fixed",
+      "path": "tables/by_method/50B_zappone_mmee_fp_fixed_periods.csv",
+      "rows": 1000,
+      "bytes": 440939,
+      "sha256": "dfece4407f781cfee02e74c8601a90f6a3e488ea87fda0b8556b5d712f77ce9c",
+      "source_path": "tables/50B_periods.csv",
+      "source_sha256": "833eb57f79de215b6e14108bd6f0653f9589599e325f98d542e62a0695dfad03",
+      "transform": "Exact CSV header and string-cell rows filtered by method; original order retained; no numeric parsing or rewriting"
+    }
+  ],
+  "validation": "All split headers and all string cells equal the original table; disjoint complete row partition"
+}

@@ -1,0 +1,51 @@
+{
+  "scope": "Posthoc deterministic physics check on saved true channels; double all RF action powers in a block, keep VLC unchanged. Not a new algorithm, prediction check, or formal performance result. No optimization or new channels.",
+  "datasets": {
+    "10B": {
+      "periods": 999,
+      "rf_link_periods": 3825,
+      "skipped_due_power_cap": [],
+      "max_original_rate_relative_error": 1.182746862458872e-15,
+      "rf_mean_rate_Mbps_before_after": [
+        61.94169804294932,
+        66.82447828018955
+      ],
+      "rf_rate_change_pct": 7.882864680032564,
+      "rf_mean_EE_MbitJ_before_after": [
+        445.68312499462917,
+        419.9340129188689
+      ],
+      "rf_EE_change_pct": -5.777448288191689,
+      "rf_link_EE_increased_pct": 17.124183006535947,
+      "network_mean_and_min_EE_MbitJ_before_after": [
+        387.27059406137874,
+        367.5528055348954,
+        98.8781587973666,
+        87.67894398186583
+      ]
+    },
+    "50B": {
+      "periods": 999,
+      "rf_link_periods": 8666,
+      "skipped_due_power_cap": [],
+      "max_original_rate_relative_error": 1.2949517004682463e-15,
+      "rf_mean_rate_Mbps_before_after": [
+        49.35004106411271,
+        51.21452523017151
+      ],
+      "rf_rate_change_pct": 3.7780802727936713,
+      "rf_mean_EE_MbitJ_before_after": [
+        358.30138160502537,
+        324.9472115836958
+      ],
+      "rf_EE_change_pct": -9.308970529758309,
+      "rf_link_EE_increased_pct": 4.904223401800138,
+      "network_mean_and_min_EE_MbitJ_before_after": [
+        280.50698309111385,
+        268.93352013196153,
+        37.045379852138524,
+        33.800974734172165
+      ]
+    }
+  }
+}

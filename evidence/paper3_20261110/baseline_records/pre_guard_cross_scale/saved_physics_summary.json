@@ -1,0 +1,84 @@
+{
+  "selected_main_weakest_links": [
+    {
+      "mode": "RF",
+      "count": 755,
+      "power_ratio_median": 2.4512748509010645,
+      "power_ratio_p10": 0.8110399731462519,
+      "power_ratio_p90": 9.148768115022486,
+      "signal_ratio_median": 2.451274850901069,
+      "signal_ratio_p10": 0.8110399731462525,
+      "signal_ratio_p90": 9.148768115022492,
+      "interference_ratio_median": 0.946864905154626,
+      "interference_ratio_p10": 0.45594375005260707,
+      "interference_ratio_p90": 1.4351101249753924,
+      "noise_ratio_median": 1.0,
+      "noise_ratio_p10": 1.0,
+      "noise_ratio_p90": 1.0,
+      "sinr_ratio_median": 3.0047672881689715,
+      "sinr_ratio_p10": 0.8040757294923279,
+      "sinr_ratio_p90": 8.968656359452789,
+      "interference_decreased_count": 452,
+      "sinr_increased_count": 628
+    },
+    {
+      "mode": "VLC",
+      "count": 244,
+      "power_ratio_median": 1.0,
+      "power_ratio_p10": 0.8094510688606127,
+      "power_ratio_p90": 1.2092855885009495,
+      "signal_ratio_median": 1.0,
+      "signal_ratio_p10": 0.6558176268294887,
+      "signal_ratio_p90": 1.4624434647464302,
+      "interference_ratio_median": 1.0000000000009477,
+      "interference_ratio_p10": 0.32060484439786907,
+      "interference_ratio_p90": 1.0658483984074834,
+      "noise_ratio_median": 1.0,
+      "noise_ratio_p10": 0.9999445737097244,
+      "noise_ratio_p90": 1.0000719588926965,
+      "sinr_ratio_median": 1.0,
+      "sinr_ratio_p10": 0.6974379998149155,
+      "sinr_ratio_p90": 1.4653365325204957,
+      "interference_decreased_count": 26,
+      "sinr_increased_count": 118
+    }
+  ],
+  "all_link_interference_to_noise": [
+    {
+      "method": "main",
+      "mode": "RF",
+      "n": 8666,
+      "in_ratio_median": 41.302091199680525,
+      "in_ratio_p10": 3.022175445924414,
+      "in_ratio_p90": 235.92879065077534,
+      "i_greater_n_pct": 93.26102007846757
+    },
+    {
+      "method": "main",
+      "mode": "VLC",
+      "n": 16309,
+      "in_ratio_median": 0.0,
+      "in_ratio_p10": 0.0,
+      "in_ratio_p90": 2.4765098428136778e-30,
+      "i_greater_n_pct": 1.0239744926114414
+    },
+    {
+      "method": "z",
+      "mode": "RF",
+      "n": 8666,
+      "in_ratio_median": 45.27069855808952,
+      "in_ratio_p10": 3.1313954924529024,
+      "in_ratio_p90": 295.92396435333126,
+      "i_greater_n_pct": 93.82644818832217
+    },
+    {
+      "method": "z",
+      "mode": "VLC",
+      "n": 16309,
+      "in_ratio_median": 0.0,
+      "in_ratio_p10": 0.0,
+      "in_ratio_p90": 2.9634170025679036e-30,
+      "i_greater_n_pct": 0.8277638113924827
+    }
+  ]
+}

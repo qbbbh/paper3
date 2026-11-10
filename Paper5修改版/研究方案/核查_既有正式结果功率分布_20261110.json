@@ -1,0 +1,299 @@
+{
+  "date": "2026-11-10",
+  "scope": "Read-only aggregation of saved successful link rows; no simulation or optimization rerun. Quantiles pool same-mode link-block observations; counts include only reference and maxmin.",
+  "power_unit": "data electrical input W, excluding Pc",
+  "bound_atol_w": 1e-08,
+  "bound_rtol": 0,
+  "sources": {
+    "n10A": {
+      "path": "E:\\博士\\课题论文\\第3篇-修改版\\代码\\对比算法安全运行_20261106\\runs\\n10_A_100s_1000blocks\\results.csv",
+      "sha256": "d58953b01e358fc441edb751a5434bdcb3df895ca09aa40a7e9e15262a225a78"
+    },
+    "n10B": {
+      "path": "E:\\博士\\课题论文\\第3篇-修改版\\代码\\对比算法安全运行_20261106\\runs\\n10_B_100s_1000blocks\\results.csv",
+      "sha256": "9d1405b4281f1e0359fb64f0b357e01c79c7853b7fcdffe764f61a4ee5a18856"
+    },
+    "n50B": {
+      "path": "E:\\博士\\课题论文\\第3篇-修改版\\代码\\长跑保存修复_20261105\\runs\\R2_n50_d010_full100s_1000blocks\\results.csv",
+      "sha256": "6e503fc1a09b6ab780e893f7c550e31d714000742d477fd4c16e820d9c683953"
+    }
+  },
+  "statistics": [
+    {
+      "run": "n10A",
+      "method": "maxmin",
+      "mode": "RF",
+      "success_blocks": 1000,
+      "link_block_count": 3712,
+      "q_w": {
+        "min": 0.01,
+        "p10": 0.01,
+        "median": 0.0175912078525,
+        "p90": 0.06941687762580002,
+        "p99": 0.5507720877295592,
+        "max": 2.005865887681
+      },
+      "mean_w": 0.04329340907772504,
+      "lower_count": 1189,
+      "lower_percent": 32.03125,
+      "upper_count": 0,
+      "upper_percent": 0.0,
+      "lower_actual_qos_below_1mbps_count": 0,
+      "over_2w_count": 1,
+      "over_10w_count": 0
+    },
+    {
+      "run": "n10A",
+      "method": "maxmin",
+      "mode": "VLC",
+      "success_blocks": 1000,
+      "link_block_count": 1288,
+      "q_w": {
+        "min": 0.1,
+        "p10": 0.2543009066626,
+        "median": 0.6665020987225,
+        "p90": 3.474193037471799,
+        "p99": 11.553076055190616,
+        "max": 30.0
+      },
+      "mean_w": 1.4305361170336943,
+      "lower_count": 20,
+      "lower_percent": 1.5527950310559007,
+      "upper_count": 7,
+      "upper_percent": 0.5434782608695652,
+      "lower_actual_qos_below_1mbps_count": 0,
+      "over_2w_count": 231,
+      "over_10w_count": 16
+    },
+    {
+      "run": "n10A",
+      "method": "reference",
+      "mode": "RF",
+      "success_blocks": 1000,
+      "link_block_count": 3641,
+      "q_w": {
+        "min": 0.01,
+        "p10": 0.01,
+        "median": 0.02150965931638313,
+        "p90": 0.05400261584338285,
+        "p99": 0.5948237479144498,
+        "max": 2.942527757776307
+      },
+      "mean_w": 0.044276474892158926,
+      "lower_count": 1146,
+      "lower_percent": 31.474869541334797,
+      "upper_count": 0,
+      "upper_percent": 0.0,
+      "lower_actual_qos_below_1mbps_count": 3,
+      "over_2w_count": 7,
+      "over_10w_count": 0
+    },
+    {
+      "run": "n10A",
+      "method": "reference",
+      "mode": "VLC",
+      "success_blocks": 1000,
+      "link_block_count": 1359,
+      "q_w": {
+        "min": 0.3938422314654854,
+        "p10": 0.42887907795015756,
+        "median": 0.6490437931881832,
+        "p90": 3.3962023906226775,
+        "p99": 13.803270352644596,
+        "max": 30.0
+      },
+      "mean_w": 1.4185074552384642,
+      "lower_count": 0,
+      "lower_percent": 0.0,
+      "upper_count": 10,
+      "upper_percent": 0.7358351729212657,
+      "lower_actual_qos_below_1mbps_count": 0,
+      "over_2w_count": 227,
+      "over_10w_count": 16
+    },
+    {
+      "run": "n10B",
+      "method": "maxmin",
+      "mode": "RF",
+      "success_blocks": 999,
+      "link_block_count": 3825,
+      "q_w": {
+        "min": 0.01,
+        "p10": 0.01,
+        "median": 0.018157854241,
+        "p90": 0.0700135585416,
+        "p99": 0.5775207108061159,
+        "max": 5.952491178004
+      },
+      "mean_w": 0.04593375644173987,
+      "lower_count": 1205,
+      "lower_percent": 31.503267973856207,
+      "upper_count": 0,
+      "upper_percent": 0.0,
+      "lower_actual_qos_below_1mbps_count": 1,
+      "over_2w_count": 5,
+      "over_10w_count": 0
+    },
+    {
+      "run": "n10B",
+      "method": "maxmin",
+      "mode": "VLC",
+      "success_blocks": 999,
+      "link_block_count": 1170,
+      "q_w": {
+        "min": 0.1,
+        "p10": 0.2559179231986,
+        "median": 0.7260977815945,
+        "p90": 3.4693316593876005,
+        "p99": 9.763289256680121,
+        "max": 30.0
+      },
+      "mean_w": 1.4253062807829968,
+      "lower_count": 9,
+      "lower_percent": 0.7692307692307693,
+      "upper_count": 4,
+      "upper_percent": 0.3418803418803419,
+      "lower_actual_qos_below_1mbps_count": 0,
+      "over_2w_count": 225,
+      "over_10w_count": 12
+    },
+    {
+      "run": "n10B",
+      "method": "reference",
+      "mode": "RF",
+      "success_blocks": 999,
+      "link_block_count": 3749,
+      "q_w": {
+        "min": 0.01,
+        "p10": 0.01,
+        "median": 0.021463278839850476,
+        "p90": 0.052076757723862346,
+        "p99": 0.6456321494566907,
+        "max": 11.321693994119553
+      },
+      "mean_w": 0.0513798846408512,
+      "lower_count": 1159,
+      "lower_percent": 30.914910642838088,
+      "upper_count": 0,
+      "upper_percent": 0.0,
+      "lower_actual_qos_below_1mbps_count": 0,
+      "over_2w_count": 11,
+      "over_10w_count": 1
+    },
+    {
+      "run": "n10B",
+      "method": "reference",
+      "mode": "VLC",
+      "success_blocks": 999,
+      "link_block_count": 1246,
+      "q_w": {
+        "min": 0.38707602872886154,
+        "p10": 0.4334027240804578,
+        "median": 0.6903974931791799,
+        "p90": 3.4336065235733004,
+        "p99": 9.118149787210047,
+        "max": 30.0
+      },
+      "mean_w": 1.4067538038456429,
+      "lower_count": 0,
+      "lower_percent": 0.0,
+      "upper_count": 2,
+      "upper_percent": 0.16051364365971107,
+      "lower_actual_qos_below_1mbps_count": 0,
+      "over_2w_count": 220,
+      "over_10w_count": 12
+    },
+    {
+      "run": "n50B",
+      "method": "maxmin",
+      "mode": "RF",
+      "success_blocks": 999,
+      "link_block_count": 8666,
+      "q_w": {
+        "min": 0.01,
+        "p10": 0.01,
+        "median": 0.015575114122000001,
+        "p90": 0.0441421290515,
+        "p99": 0.19073609470685024,
+        "max": 5.532805068983
+      },
+      "mean_w": 0.032775570978389075,
+      "lower_count": 2182,
+      "lower_percent": 25.178859912300943,
+      "upper_count": 0,
+      "upper_percent": 0.0,
+      "lower_actual_qos_below_1mbps_count": 4,
+      "over_2w_count": 11,
+      "over_10w_count": 0
+    },
+    {
+      "run": "n50B",
+      "method": "maxmin",
+      "mode": "VLC",
+      "success_blocks": 999,
+      "link_block_count": 16309,
+      "q_w": {
+        "min": 0.1,
+        "p10": 0.4164352742558,
+        "median": 0.586404155662,
+        "p90": 1.2605339504576003,
+        "p99": 3.9066639649613206,
+        "max": 30.0
+      },
+      "mean_w": 0.8305933541075722,
+      "lower_count": 14,
+      "lower_percent": 0.0858421730332945,
+      "upper_count": 26,
+      "upper_percent": 0.15942117849040408,
+      "lower_actual_qos_below_1mbps_count": 0,
+      "over_2w_count": 587,
+      "over_10w_count": 54
+    },
+    {
+      "run": "n50B",
+      "method": "reference",
+      "mode": "RF",
+      "success_blocks": 999,
+      "link_block_count": 8666,
+      "q_w": {
+        "min": 0.01,
+        "p10": 0.01,
+        "median": 0.013069331830949379,
+        "p90": 0.04016715574161829,
+        "p99": 0.1474830315432962,
+        "max": 5.836110923128355
+      },
+      "mean_w": 0.03079657832990035,
+      "lower_count": 3717,
+      "lower_percent": 42.89176090468498,
+      "upper_count": 0,
+      "upper_percent": 0.0,
+      "lower_actual_qos_below_1mbps_count": 12,
+      "over_2w_count": 11,
+      "over_10w_count": 0
+    },
+    {
+      "run": "n50B",
+      "method": "reference",
+      "mode": "VLC",
+      "success_blocks": 999,
+      "link_block_count": 16309,
+      "q_w": {
+        "min": 0.3169991820970657,
+        "p10": 0.4281980507621526,
+        "median": 0.5558328221776933,
+        "p90": 0.9468702581666454,
+        "p99": 3.7559862546773206,
+        "max": 30.0
+      },
+      "mean_w": 0.7633976551954095,
+      "lower_count": 0,
+      "lower_percent": 0.0,
+      "upper_count": 24,
+      "upper_percent": 0.14715801091421915,
+      "lower_actual_qos_below_1mbps_count": 0,
+      "over_2w_count": 397,
+      "over_10w_count": 54
+    }
+  ]
+}

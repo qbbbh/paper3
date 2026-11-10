@@ -1,0 +1,165 @@
+{
+  "scope": "Original formal result files, BEFORE 20261110 guarded power refinement",
+  "runs": [
+    {
+      "group": "10A",
+      "name": "10A",
+      "local_source": "E:\\博士\\课题论文\\第3篇-修改版\\代码\\对比算法安全运行_20261106\\runs\\n10_A_100s_1000blocks",
+      "files": [
+        {
+          "path": "baseline_records/10A/results.csv.gz",
+          "source_id": "S00021",
+          "uncompressed_sha256": "d58953b01e358fc441edb751a5434bdcb3df895ca09aa40a7e9e15262a225a78",
+          "compressed_sha256": "22bd7f333ebb2368279f43f51b0c3c54baaddf808343450f3bb66b7052704a2a"
+        },
+        {
+          "path": "baseline_records/10A/summary.json.gz",
+          "source_id": "S00020",
+          "uncompressed_sha256": "42fa186223943649a8d9dc55cc62c333362b78c998141282b00211eaa0330357",
+          "compressed_sha256": "0660c49f02f99b00c3ac2be347f947230f055e43ae4393f372feebfe56892061"
+        }
+      ],
+      "methods": {
+        "aboagye_matching_qt": {
+          "planned": 1000,
+          "success": 976
+        },
+        "maxmin": {
+          "planned": 1000,
+          "success": 1000
+        },
+        "no_refine": {
+          "planned": 1000,
+          "success": 1000
+        },
+        "reference": {
+          "planned": 1000,
+          "success": 1000
+        },
+        "same_topo_maxmin": {
+          "planned": 1000,
+          "success": 1000
+        },
+        "zappone_mmee_fp_fixed": {
+          "planned": 1000,
+          "success": 1000
+        }
+      }
+    },
+    {
+      "group": "10B",
+      "name": "10B",
+      "local_source": "E:\\博士\\课题论文\\第3篇-修改版\\代码\\对比算法安全运行_20261106\\runs\\n10_B_100s_1000blocks",
+      "files": [
+        {
+          "path": "baseline_records/10B/results.csv.gz",
+          "source_id": "S04193",
+          "uncompressed_sha256": "9d1405b4281f1e0359fb64f0b357e01c79c7853b7fcdffe764f61a4ee5a18856",
+          "compressed_sha256": "56c614327ad924bf26bcd39160ac4ecd10e38e1cd5078bf2ae0ece76675e3338"
+        },
+        {
+          "path": "baseline_records/10B/summary.json.gz",
+          "source_id": "S04192",
+          "uncompressed_sha256": "cd9f7854b77ebd20d9a9d7d3be82f91e9c10dca7fdcdfb787a2788d8fd1187c6",
+          "compressed_sha256": "95c808d29aeb5e873eb94b86c3fb34cce7fc8e8c5e02c5a3e1a37b5cfc103502"
+        }
+      ],
+      "methods": {
+        "aboagye_matching_qt": {
+          "planned": 1000,
+          "success": 981
+        },
+        "maxmin": {
+          "planned": 1000,
+          "success": 999
+        },
+        "no_refine": {
+          "planned": 1000,
+          "success": 999
+        },
+        "reference": {
+          "planned": 1000,
+          "success": 999
+        },
+        "same_topo_maxmin": {
+          "planned": 1000,
+          "success": 999
+        },
+        "zappone_mmee_fp_fixed": {
+          "planned": 1000,
+          "success": 999
+        }
+      }
+    },
+    {
+      "group": "50B",
+      "name": "50B_main",
+      "local_source": "E:\\博士\\课题论文\\第3篇-修改版\\代码\\长跑保存修复_20261105\\runs\\R2_n50_d010_full100s_1000blocks",
+      "files": [
+        {
+          "path": "baseline_records/50B_main/results.csv.gz",
+          "source_id": "S08368",
+          "uncompressed_sha256": "6e503fc1a09b6ab780e893f7c550e31d714000742d477fd4c16e820d9c683953",
+          "compressed_sha256": "54af664aa2a822f99c432865b27b4a4b013b6a95a1e7e3d2e04e6e272354869a"
+        },
+        {
+          "path": "baseline_records/50B_main/summary.json.gz",
+          "source_id": "S08367",
+          "uncompressed_sha256": "f4be5b93093554a897b4934616475b0107d16614159c5059389adfd386496e11",
+          "compressed_sha256": "2fc73567c5238add9d70652a35598af7e69d8efe26889c4c00c0abd2b8817060"
+        }
+      ],
+      "methods": {
+        "maxmin": {
+          "planned": 1000,
+          "success": 999
+        },
+        "reference": {
+          "planned": 1000,
+          "success": 999
+        },
+        "same_topo_maxmin": {
+          "planned": 1000,
+          "success": 999
+        }
+      }
+    },
+    {
+      "group": "50B",
+      "name": "50B_supplement",
+      "local_source": "E:\\博士\\课题论文\\第3篇-修改版\\代码\\50车补跑_20261108\\runs\\n50_B_missing_100s_1000blocks",
+      "files": [
+        {
+          "path": "baseline_records/50B_supplement/results.csv.gz",
+          "source_id": "S08370",
+          "uncompressed_sha256": "ebcb7651fe2324297468f608baec28989045bf35715f9ca88fbfc86ee3a2f71a",
+          "compressed_sha256": "b2397b1274f12104c3140380e87096fa8baa5c1c53debad23916107a9659d581"
+        },
+        {
+          "path": "baseline_records/50B_supplement/summary.json.gz",
+          "source_id": "S08369",
+          "uncompressed_sha256": "6258c2c06ec0ede8e2ea33c8f0080541c03d4c936cfd6f0f53b2317306dcdf18",
+          "compressed_sha256": "23b77590de9920be9d37ea0ad0ac0053efb353256c68d85282fe6ef2bda7a814"
+        }
+      ],
+      "methods": {
+        "aboagye_matching_qt": {
+          "planned": 1000,
+          "success": 876
+        },
+        "no_refine": {
+          "planned": 1000,
+          "success": 999
+        },
+        "reference": {
+          "planned": 1000,
+          "success": 999
+        },
+        "zappone_mmee_fp_fixed": {
+          "planned": 1000,
+          "success": 999
+        }
+      }
+    }
+  ]
+}

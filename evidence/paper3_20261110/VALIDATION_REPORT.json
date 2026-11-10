@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "groups": {
+    "10A": {
+      "period_rows": 8000,
+      "link_rows": 39880,
+      "methods": 8
+    },
+    "10B": {
+      "period_rows": 8000,
+      "link_rows": 39870,
+      "methods": 8
+    },
+    "50B": {
+      "period_rows": 8000,
+      "link_rows": 196725,
+      "methods": 8
+    }
+  },
+  "sample_actions_checked": 162,
+  "baseline_gzip_files_checked": 8,
+  "limitations": "Verifies saved selected-action arithmetic, consistency, completeness and provenance; does not prove global optimality, generalization, or arbitrary-action forecast reconstruction.",
+  "browser_period_partitions": {
+    "status": "passed",
+    "source_table_count": 3,
+    "split_file_count": 24,
+    "rows_checked": 24000,
+    "headers_and_string_cells_equal": true,
+    "complete_nonoverlapping": true,
+    "source_table_sha256": {
+      "tables/10A_periods.csv": "d5ec4814b24a0a67d5736abc03f52196a64e5a38603ff63357c3df4d339f5386",
+      "tables/10B_periods.csv": "8f4b1b8f368b4ab0f96e64d1e520609e60bef01e2eb02cfb12a3f9f9eb2c2989",
+      "tables/50B_periods.csv": "833eb57f79de215b6e14108bd6f0653f9589599e325f98d542e62a0695dfad03"
+    },
+    "index_path": "tables/by_method/INDEX.json",
+    "index_sha256": "3bdd3f669af6f27ba91d33c8e27455725d4c47114e607d89fc5f8c4bd0f252e5",
+    "numerical_recalculation": "Not repeated: original full tables and numerical evidence unchanged"
+  }
+}

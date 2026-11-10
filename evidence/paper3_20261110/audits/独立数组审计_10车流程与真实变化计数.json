@@ -1,0 +1,102 @@
+{
+  "10A": {
+    "committed": 1000,
+    "evaluated": 1000,
+    "statuses": {
+      "evaluated": 1000
+    },
+    "changed": 2,
+    "retained": 998,
+    "initial_mean_fallback": 15,
+    "reference": {
+      "predicted_budget_fail": 0,
+      "final_quantile_fail": 15,
+      "actual_all_service_pass": 988,
+      "actual_violating_links": 12,
+      "actual_mean_loss_exceeds_10pct": 0
+    },
+    "old": {
+      "predicted_budget_fail": 0,
+      "final_quantile_fail": 4,
+      "actual_all_service_pass": 996,
+      "actual_violating_links": 4,
+      "actual_mean_loss_exceeds_10pct": 209,
+      "returned_initial": 11
+    },
+    "new": {
+      "predicted_budget_fail": 0,
+      "final_quantile_fail": 4,
+      "actual_all_service_pass": 996,
+      "actual_violating_links": 4,
+      "actual_mean_loss_exceeds_10pct": 209,
+      "returned_initial": 11
+    },
+    "new_vs_old_actual_mean_pair_ee_bit_per_j": {
+      "wins": 0,
+      "losses": 2,
+      "ties": 998,
+      "loss_blocks": [
+        511,
+        715
+      ],
+      "tolerance": "max(1e-6 bit/J, abs(old)*1e-11)"
+    },
+    "new_vs_old_actual_min_pair_ee_bit_per_j": {
+      "wins": 2,
+      "losses": 0,
+      "ties": 998,
+      "loss_blocks": [],
+      "tolerance": "max(1e-6 bit/J, abs(old)*1e-11)"
+    },
+    "new_vs_old_predicted_min_decreases": 0
+  },
+  "10B": {
+    "committed": 1000,
+    "evaluated": 999,
+    "statuses": {
+      "evaluated": 999,
+      "original_failure_preserved": 1
+    },
+    "changed": 0,
+    "retained": 999,
+    "initial_mean_fallback": 13,
+    "reference": {
+      "predicted_budget_fail": 0,
+      "final_quantile_fail": 13,
+      "actual_all_service_pass": 996,
+      "actual_violating_links": 3,
+      "actual_mean_loss_exceeds_10pct": 0
+    },
+    "old": {
+      "predicted_budget_fail": 0,
+      "final_quantile_fail": 3,
+      "actual_all_service_pass": 995,
+      "actual_violating_links": 4,
+      "actual_mean_loss_exceeds_10pct": 246,
+      "returned_initial": 5
+    },
+    "new": {
+      "predicted_budget_fail": 0,
+      "final_quantile_fail": 3,
+      "actual_all_service_pass": 995,
+      "actual_violating_links": 4,
+      "actual_mean_loss_exceeds_10pct": 246,
+      "returned_initial": 5
+    },
+    "new_vs_old_actual_mean_pair_ee_bit_per_j": {
+      "wins": 0,
+      "losses": 0,
+      "ties": 999,
+      "loss_blocks": [],
+      "tolerance": "max(1e-6 bit/J, abs(old)*1e-11)"
+    },
+    "new_vs_old_actual_min_pair_ee_bit_per_j": {
+      "wins": 0,
+      "losses": 0,
+      "ties": 999,
+      "loss_blocks": [],
+      "tolerance": "max(1e-6 bit/J, abs(old)*1e-11)"
+    },
+    "new_vs_old_predicted_min_decreases": 0
+  }
+}

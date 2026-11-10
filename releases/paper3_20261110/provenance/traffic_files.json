@@ -1,0 +1,36 @@
+{
+  "repository_root_relative_to_release": "../..",
+  "scenarios": {
+    "10": {
+      "repository_relative_directory": "resource_allocation/n10/data",
+      "files": {
+        "mobility.npz": "80b894480c5cec6d4b04d6bb5ba9eac0da4f1ac27afb88006f4148f8ffb6f010",
+        "buildings.npz": "ad5a0881a990965cfaf4a8f532eaa8977c4e4c5a30d24f752eab6b02df48da69",
+        "scenario.json": "14105896f24cedb06d4181d1885399f16aa3b565fb41da2114bb754131a6af37",
+        "audit.json": "0960fda0c52f54aea661d7e984fd549a4e337b1ce1231f0d0f61a1410f2646a0"
+      },
+      "role": "formal numerical scenarios"
+    },
+    "50": {
+      "repository_relative_directory": "resource_allocation/n50/data",
+      "files": {
+        "mobility.npz": "26018d5b1d82faee71adc1830635d38c3ef6ed405ec8c7e1ae8823101de1c1bb",
+        "buildings.npz": "b0c3e25ae59789d25f3a2c3dc691ee085880ceee9ad179a13bf3b4c8f66b8f02",
+        "scenario.json": "0555817d8720ee08ce24e559894c1c4dff5112f3658c6bc79ccbf7481471e62b",
+        "audit.json": "b351219ed2a0b8ba1815dba23c176550afb28e36c7395aa7ae987da13a42f554"
+      },
+      "role": "formal numerical scenarios"
+    },
+    "100": {
+      "repository_relative_directory": "resource_allocation/n100/data",
+      "files": {
+        "mobility.npz": "b8bee5d05d45c80e25e79ced4bd1784efb0db34656af4bcad1be5963ca2e0ae6",
+        "buildings.npz": "b8babd8fa57d837539acf6366536deb672610b2b57c2e7a8a9825a2a0f0c748c",
+        "scenario.json": "e5e8c533217ada3c660613637713a61fe6f2b2bdaf809c80c071ef81e53d3462",
+        "audit.json": "7489a35c4bd5bab8e4b37c7625f99697e1a256a76d0c156aae25705318852359"
+      },
+      "role": "legacy geometry test fixture only; no new 100-vehicle result"
+    }
+  },
+  "note": "No traffic files copied. Same repository bytes are reused; n100 is only a legacy geometry test input."
+}

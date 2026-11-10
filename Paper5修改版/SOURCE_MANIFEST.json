@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "created_beijing": "2026-11-11T01:01:59.944124+08:00",
+  "source_project": "第5篇-修改版",
+  "destination_repository_path": "Paper5修改版",
+  "scope": "Author-written current specifications, review notes, historical proposals, and existing research statistics. No legacy trainer imported from other projects.",
+  "copy_policy": "All included source files retain exact original bytes. New navigation and audit files are separate.",
+  "current_specification": "研究方案/Paper5第一阶段_系统模型信息结构与约束定稿_v1_20261110.md",
+  "source_inventory": {
+    "file_count": 16,
+    "bytes": 427064,
+    "source_code_files": 0
+  },
+  "copied_source_file_count": 13,
+  "copied_source_bytes": 197348,
+  "excluded_source_file_count": 3,
+  "excluded_source_bytes": 229716,
+  "files": [
+    {
+      "source_relative_path": "00_Paper5研究入口.md",
+      "bytes": 1229,
+      "sha256": "3e9ff85d24f41e3f1458c8766a5a4209c12288ea5d6b0b1b0dccad87f21fcf2b",
+      "destination_relative_path": "00_Paper5研究入口.md",
+      "category": "source_navigation",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "50-100车_干扰受限机制与学习实测记录_20261029.md",
+      "bytes": 18489,
+      "sha256": "94cd30fd0f5345e1c9997d4094d4086dd11168d519639eddbe4623039815d045",
+      "destination_relative_path": "50-100车_干扰受限机制与学习实测记录_20261029.md",
+      "category": "historical_development_evidence",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "Paper3_后续50_100车论文_独立创新与研究实施方案_20261029.md",
+      "bytes": 21302,
+      "sha256": "f41b7db746e2ec750444d2cfc9b5c9bc520c97bc9a609df693047f13c088a0f9",
+      "destination_relative_path": "Paper3_后续50_100车论文_独立创新与研究实施方案_20261029.md",
+      "category": "historical_proposal",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "Paper5修改版_研究定位与理论框架冻结_20261104.md",
+      "bytes": 13384,
+      "sha256": "d4b86e769acac78212dad83cdfc57425e48e3c52f7ec75c77ab6eadeea27c53b",
+      "destination_relative_path": "Paper5修改版_研究定位与理论框架冻结_20261104.md",
+      "category": "historical_superseded_proposal",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "研究方案/Paper5功率通信规则与共同目标_复核意见_20261110.md",
+      "bytes": 15451,
+      "sha256": "f93dc7323f7b27de81ed9590045e829d0f3594d2fb4c7c49bbea1ad8360f0f8f",
+      "destination_relative_path": "研究方案/Paper5功率通信规则与共同目标_复核意见_20261110.md",
+      "category": "review_and_recommendations",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "研究方案/Paper5第一阶段_系统模型信息结构与约束定稿_v1_20261110.md",
+      "bytes": 33976,
+      "sha256": "982adebb9738df7ae681a57320ebd0643e40f3dd6efaac5acaf706922766cffe",
+      "destination_relative_path": "研究方案/Paper5第一阶段_系统模型信息结构与约束定稿_v1_20261110.md",
+      "category": "current_stage1_specification",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "研究方案/复核_RF与VLC功率的文献依据_20261110.md",
+      "bytes": 10350,
+      "sha256": "67bc43465ef77c7bae9eea375decb90fa7e8f44163e498399e37d2e39c8a8eb7",
+      "destination_relative_path": "研究方案/复核_RF与VLC功率的文献依据_20261110.md",
+      "category": "author_written_evidence_review",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "研究方案/复核_现行功率范围与既有结果_20261110.md",
+      "bytes": 14399,
+      "sha256": "a1bd6acaabbf532fdf56d3662785cc3787166a232c475102e99a34a3261395eb",
+      "destination_relative_path": "研究方案/复核_现行功率范围与既有结果_20261110.md",
+      "category": "author_written_evidence_review",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "研究方案/复核_车辆通信规则的文献依据_20261110.md",
+      "bytes": 11805,
+      "sha256": "b82416939e50ba0a7855eb252706280908888b84562b847f0532c0a403a1b5f8",
+      "destination_relative_path": "研究方案/复核_车辆通信规则的文献依据_20261110.md",
+      "category": "author_written_evidence_review",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "研究方案/文献核查_信息与学习决策_20261110.md",
+      "bytes": 15018,
+      "sha256": "2242434ea056299342df441b78e33c97e838c9673a1cfd8595921f0b742090aa",
+      "destination_relative_path": "研究方案/文献核查_信息与学习决策_20261110.md",
+      "category": "author_written_evidence_review",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "研究方案/核查_Paper3继承_20261110.md",
+      "bytes": 19667,
+      "sha256": "8080f633b59662c299cee77f7ad4f53f11ed1184366baac7ec08d98189863858",
+      "destination_relative_path": "研究方案/核查_Paper3继承_20261110.md",
+      "category": "author_written_evidence_review",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "研究方案/核查_历史决策与Paper5信息结构_20261110.md",
+      "bytes": 13502,
+      "sha256": "014a1f88238635b87b690dfcd967200907c2bb56c435ab9b7c526e850e84bf9b",
+      "destination_relative_path": "研究方案/核查_历史决策与Paper5信息结构_20261110.md",
+      "category": "author_written_evidence_review",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "研究方案/核查_既有正式结果功率分布_20261110.json",
+      "bytes": 8776,
+      "sha256": "13136dc10d6358f8d7e5a66d71023307ec4c676b1bbd455b9378a2b3fcd6f2a2",
+      "destination_relative_path": "研究方案/核查_既有正式结果功率分布_20261110.json",
+      "category": "historical_paper3_power_statistics",
+      "byte_identical": true
+    }
+  ],
+  "excluded_files": [
+    {
+      "source_relative_path": "研究方案/证据摘录_20261110/Aboagye.txt",
+      "bytes": 92171,
+      "sha256": "daf0ff6dfde6e3bc9b7257a332bb93516993473cf6f84c4837194ecf7128ae1f",
+      "reason": "Third-party journal-paper full/long extracted text; excluded from public review package. Author-written literature checks and original-source links remain included.",
+      "category": "third_party_paper_text"
+    },
+    {
+      "source_relative_path": "研究方案/证据摘录_20261110/Bechadergue2019.txt",
+      "bytes": 84712,
+      "sha256": "1e098718428ce76c6a07db6fe1468eaeea8b710b53fe7e36a90b49bb17c655f6",
+      "reason": "Third-party journal-paper full/long extracted text; excluded from public review package. Author-written literature checks and original-source links remain included.",
+      "category": "third_party_paper_text"
+    },
+    {
+      "source_relative_path": "研究方案/证据摘录_20261110/Karbalayghareh.txt",
+      "bytes": 52833,
+      "sha256": "4d15b0873911cf6531e7a672a88c70a8869a46dab312d99da6b5fbbbd7123b8d",
+      "reason": "Third-party journal-paper full/long extracted text; excluded from public review package. Author-written literature checks and original-source links remain included.",
+      "category": "third_party_paper_text"
+    }
+  ],
+  "publication_check": {
+    "checked_included_files": 13,
+    "explicit_secret_assignments": 0,
+    "known_token_patterns": 0,
+    "email_addresses": 0,
+    "china_mobile_phone_patterns": 0,
+    "sensitive_chinese_labels": 0,
+    "identity_number_pattern_matches": 6,
+    "identity_number_match_review": "All 6 are fractional digits of numeric power-statistics float values (mean_w, median, p90), not identity data.",
+    "original_absolute_drive_path_occurrences": 67,
+    "path_policy": "Retained inside byte-identical source documents; newly generated manifest and navigation use project-relative paths."
+  },
+  "generated_files": [
+    {
+      "path": "README.md",
+      "bytes": 8096,
+      "sha256": "a841329871fc7b3a2971ba4690093cf6568bdb4adf0492c497a81424fe3cbcdf",
+      "category": "new_review_navigation_not_copied_source"
+    },
+    {
+      "path": "LINK_INDEX.md",
+      "bytes": 3373,
+      "sha256": "3ad298d537e854bc34830befdf027cfdc3c6b87b2f5c37e7c5300b0c1837bc68",
+      "category": "new_review_navigation_not_copied_source"
+    },
+    {
+      "path": "EXCLUSIONS.md",
+      "bytes": 1742,
+      "sha256": "c136c2ed4eeb2df023b07f0284ee7bb842953791bc11da4da37fbde0837de99e",
+      "category": "new_review_navigation_not_copied_source"
+    }
+  ],
+  "verification": {
+    "all_copied_files_byte_identical": true,
+    "all_excluded_files_absent": true,
+    "copied_source_file_count": 13,
+    "source_directory_unchanged_against_snapshot": true,
+    "implementation_code_imported_from_other_projects": false,
+    "training_or_simulation_started": false
+  }
+}

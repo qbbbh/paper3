@@ -1,0 +1,16 @@
+{
+  "changed_common_files": [
+    "code/p3learn/allocation.py",
+    "code/p3learn/bottleneck_power.py",
+    "code/run_allocation.py"
+  ],
+  "new_files": [
+    "code/p3learn/guarded_refine.py",
+    "code/replay_saved.py",
+    "code/summarize_guarded_replay.py",
+    "code/tests/test_bottleneck_gradients.py",
+    "code/tests/test_guarded_refine.py",
+    "code/tests/test_replay_saved.py"
+  ],
+  "removed_files": []
+}

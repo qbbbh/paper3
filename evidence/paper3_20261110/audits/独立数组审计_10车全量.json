@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "partial": false,
+  "planned_blocks": 2000,
+  "verified_blocks": 2000,
+  "missing_count": 0,
+  "failures": [],
+  "maximum_relative_errors": {
+    "reference_saved_predictions": 0.0,
+    "reference_saved_true_rates": 0.0,
+    "old_saved_predictions": 0.0,
+    "old_saved_true_rates": 0.0,
+    "old_sinr": 0.0,
+    "old_rates_from_sinr": 0.0,
+    "old_individual_ee": 0.0,
+    "old_mean_ee": 0.0,
+    "old_min_ee": 0.0,
+    "old_total_cost": 0.0,
+    "new_sinr": 0.0,
+    "new_rates_from_sinr": 0.0,
+    "new_individual_ee": 0.0,
+    "new_mean_ee": 0.0,
+    "new_min_ee": 0.0,
+    "new_total_cost": 0.0,
+    "reference_sinr": 0.0,
+    "reference_rates_from_sinr": 0.0,
+    "reference_individual_ee": 0.0,
+    "reference_mean_ee": 0.0,
+    "reference_min_ee": 0.0,
+    "reference_total_cost": 0.0,
+    "old_predicted_mean_ee": 0.0,
+    "old_predicted_min_ee": 0.0,
+    "old_calibrated_quantile": 0.0,
+    "new_predicted_mean_ee": 0.0,
+    "new_predicted_min_ee": 0.0,
+    "new_calibrated_quantile": 0.0,
+    "reference_predicted_mean_ee": 0.0,
+    "reference_predicted_min_ee": 0.0,
+    "reference_calibrated_quantile": 0.0,
+    "old_timing": 0.0,
+    "estimated_timing": 0.0
+  },
+  "groups": {
+    "10A": {
+      "committed_blocks": 1000,
+      "original_failed": 0,
+      "evaluated_blocks": 1000,
+      "old": {
+        "mean_EE_MbitJ": 374.67809617928566,
+        "min_EE_MbitJ": 94.49058907431201,
+        "all_link_service_pass": 996,
+        "violating_links": 4
+      },
+      "new": {
+        "mean_EE_MbitJ": 374.676084188765,
+        "min_EE_MbitJ": 94.49375859043319,
+        "all_link_service_pass": 996,
+        "violating_links": 4
+      },
+      "reference": {
+        "mean_EE_MbitJ": 395.5875907168798,
+        "min_EE_MbitJ": 65.11183453620814,
+        "all_link_service_pass": 988,
+        "violating_links": 12
+      }
+    },
+    "10B": {
+      "committed_blocks": 1000,
+      "original_failed": 1,
+      "evaluated_blocks": 999,
+      "old": {
+        "mean_EE_MbitJ": 387.2705940613792,
+        "min_EE_MbitJ": 98.87815879736661,
+        "all_link_service_pass": 995,
+        "violating_links": 4
+      },
+      "new": {
+        "mean_EE_MbitJ": 387.2705940613792,
+        "min_EE_MbitJ": 98.87815879736661,
+        "all_link_service_pass": 995,
+        "violating_links": 4
+      },
+      "reference": {
+        "mean_EE_MbitJ": 410.2300204103002,
+        "min_EE_MbitJ": 65.2316185720629,
+        "all_link_service_pass": 996,
+        "violating_links": 3
+      }
+    }
+  },
+  "inputs": [
+    "代码\\公平功率求解改进_20261110\\runs\\full_10A",
+    "代码\\公平功率求解改进_20261110\\runs\\full_10B"
+  ]
+}

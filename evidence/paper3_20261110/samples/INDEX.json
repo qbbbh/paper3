@@ -1,0 +1,503 @@
+{
+  "selection": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+  ],
+  "selection_rule": "Fixed validation set declared before optimization; all 9 blocks in all 3 groups and both logical methods",
+  "raw_npz_bytes": 6537809,
+  "items": [
+    {
+      "group": "10A",
+      "block": 100,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/10A/main/block_000100/arrays.npz",
+      "source_id": "S00416",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10A",
+      "block": 100,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/10A/same_topo/block_000100/arrays.npz",
+      "source_id": "S00416",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10A",
+      "block": 200,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/10A/main/block_000200/arrays.npz",
+      "source_id": "S00884",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10A",
+      "block": 200,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/10A/same_topo/block_000200/arrays.npz",
+      "source_id": "S00884",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10A",
+      "block": 300,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/10A/main/block_000300/arrays.npz",
+      "source_id": "S01280",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10A",
+      "block": 300,
+      "family": "same_topo",
+      "input_origin": "separate_same_topology_optimization",
+      "path": "samples/10A/same_topo/block_000300/arrays.npz",
+      "source_id": "S01283",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10A",
+      "block": 400,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/10A/main/block_000400/arrays.npz",
+      "source_id": "S01652",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10A",
+      "block": 400,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/10A/same_topo/block_000400/arrays.npz",
+      "source_id": "S01652",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10A",
+      "block": 500,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/10A/main/block_000500/arrays.npz",
+      "source_id": "S02036",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10A",
+      "block": 500,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/10A/same_topo/block_000500/arrays.npz",
+      "source_id": "S02036",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10A",
+      "block": 600,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/10A/main/block_000600/arrays.npz",
+      "source_id": "S02486",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10A",
+      "block": 600,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/10A/same_topo/block_000600/arrays.npz",
+      "source_id": "S02486",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10A",
+      "block": 700,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/10A/main/block_000700/arrays.npz",
+      "source_id": "S02891",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10A",
+      "block": 700,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/10A/same_topo/block_000700/arrays.npz",
+      "source_id": "S02891",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10A",
+      "block": 800,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/10A/main/block_000800/arrays.npz",
+      "source_id": "S03269",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10A",
+      "block": 800,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/10A/same_topo/block_000800/arrays.npz",
+      "source_id": "S03269",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10A",
+      "block": 900,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/10A/main/block_000900/arrays.npz",
+      "source_id": "S03731",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10A",
+      "block": 900,
+      "family": "same_topo",
+      "input_origin": "separate_same_topology_optimization",
+      "path": "samples/10A/same_topo/block_000900/arrays.npz",
+      "source_id": "S03734",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10B",
+      "block": 100,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/10B/main/block_000100/arrays.npz",
+      "source_id": "S04579",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10B",
+      "block": 100,
+      "family": "same_topo",
+      "input_origin": "separate_same_topology_optimization",
+      "path": "samples/10B/same_topo/block_000100/arrays.npz",
+      "source_id": "S04582",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10B",
+      "block": 200,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/10B/main/block_000200/arrays.npz",
+      "source_id": "S05050",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10B",
+      "block": 200,
+      "family": "same_topo",
+      "input_origin": "separate_same_topology_optimization",
+      "path": "samples/10B/same_topo/block_000200/arrays.npz",
+      "source_id": "S05053",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10B",
+      "block": 300,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/10B/main/block_000300/arrays.npz",
+      "source_id": "S05434",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10B",
+      "block": 300,
+      "family": "same_topo",
+      "input_origin": "separate_same_topology_optimization",
+      "path": "samples/10B/same_topo/block_000300/arrays.npz",
+      "source_id": "S05437",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10B",
+      "block": 400,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/10B/main/block_000400/arrays.npz",
+      "source_id": "S05869",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10B",
+      "block": 400,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/10B/same_topo/block_000400/arrays.npz",
+      "source_id": "S05869",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10B",
+      "block": 500,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/10B/main/block_000500/arrays.npz",
+      "source_id": "S06268",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10B",
+      "block": 500,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/10B/same_topo/block_000500/arrays.npz",
+      "source_id": "S06268",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10B",
+      "block": 600,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/10B/main/block_000600/arrays.npz",
+      "source_id": "S06694",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10B",
+      "block": 600,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/10B/same_topo/block_000600/arrays.npz",
+      "source_id": "S06694",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10B",
+      "block": 700,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/10B/main/block_000700/arrays.npz",
+      "source_id": "S07093",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10B",
+      "block": 700,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/10B/same_topo/block_000700/arrays.npz",
+      "source_id": "S07093",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10B",
+      "block": 800,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/10B/main/block_000800/arrays.npz",
+      "source_id": "S07465",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10B",
+      "block": 800,
+      "family": "same_topo",
+      "input_origin": "separate_same_topology_optimization",
+      "path": "samples/10B/same_topo/block_000800/arrays.npz",
+      "source_id": "S07468",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10B",
+      "block": 900,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/10B/main/block_000900/arrays.npz",
+      "source_id": "S07930",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "10B",
+      "block": 900,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/10B/same_topo/block_000900/arrays.npz",
+      "source_id": "S07930",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "50B",
+      "block": 100,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/50B/main/block_000100/arrays.npz",
+      "source_id": "S08684",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "50B",
+      "block": 100,
+      "family": "same_topo",
+      "input_origin": "separate_same_topology_optimization",
+      "path": "samples/50B/same_topo/block_000100/arrays.npz",
+      "source_id": "S08687",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "50B",
+      "block": 200,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/50B/main/block_000200/arrays.npz",
+      "source_id": "S08996",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "50B",
+      "block": 200,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/50B/same_topo/block_000200/arrays.npz",
+      "source_id": "S08996",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "50B",
+      "block": 300,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/50B/main/block_000300/arrays.npz",
+      "source_id": "S09335",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "50B",
+      "block": 300,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/50B/same_topo/block_000300/arrays.npz",
+      "source_id": "S09335",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "50B",
+      "block": 400,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/50B/main/block_000400/arrays.npz",
+      "source_id": "S09641",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "50B",
+      "block": 400,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/50B/same_topo/block_000400/arrays.npz",
+      "source_id": "S09641",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "50B",
+      "block": 500,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/50B/main/block_000500/arrays.npz",
+      "source_id": "S09950",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "50B",
+      "block": 500,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/50B/same_topo/block_000500/arrays.npz",
+      "source_id": "S09950",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "50B",
+      "block": 600,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/50B/main/block_000600/arrays.npz",
+      "source_id": "S10250",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "50B",
+      "block": 600,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/50B/same_topo/block_000600/arrays.npz",
+      "source_id": "S10250",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "50B",
+      "block": 700,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/50B/main/block_000700/arrays.npz",
+      "source_id": "S10553",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "50B",
+      "block": 700,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/50B/same_topo/block_000700/arrays.npz",
+      "source_id": "S10553",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "50B",
+      "block": 800,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/50B/main/block_000800/arrays.npz",
+      "source_id": "S10862",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "50B",
+      "block": 800,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/50B/same_topo/block_000800/arrays.npz",
+      "source_id": "S10862",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "50B",
+      "block": 900,
+      "family": "main",
+      "input_origin": "separate_main_optimization",
+      "path": "samples/50B/main/block_000900/arrays.npz",
+      "source_id": "S11171",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    },
+    {
+      "group": "50B",
+      "block": 900,
+      "family": "same_topo",
+      "input_origin": "reuse_identical_primary_input",
+      "path": "samples/50B/same_topo/block_000900/arrays.npz",
+      "source_id": "S11171",
+      "note": "The reference action topology/power is in tables/*_links.csv.gz method=reference; arrays tx/rx/mode apply to old/new only"
+    }
+  ]
+}

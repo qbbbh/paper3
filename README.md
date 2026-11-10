@@ -1,30 +1,30 @@
-# Paper3：研究设定、实现与证据库
+# Paper3 当前实现、论文材料与审核证据
 
-先看 [START_HERE.md](START_HERE.md)，再看 [MODEL_SPEC.md](MODEL_SPEC.md)。仓库为用户批准的公开仓库 https://github.com/qbbbh/paper3 。
+更新：2026-11-11。先读 [START_HERE](START_HERE.md) 与 [独立审核提纲](REVIEW_BRIEF.md)。当前数值版本为 **paper3_20261110**；旧 `95960f5a` 快照及历史结果保留，用途与当前版本分开说明。
 
-当前整理的是源码 `95960f5a…` 对应的开发快照。**10车已有连续功率＋1 Mbit/s约束及mean/chance对照；50/100车尚未按这套设定完成调整和验收。** 这不是“所有方法已完成”的发布。
+Paper3 的10车A、10车B、50车B各1000个计划周期已经完成核查。新增功率协调主要改善50车：每周期最低链路EE均值37.045→48.470 Mbit/J，平均EE下降2.40%，全链路实际服务991→994/1000；10车基本保持。相对Zappone，50车最低EE均值仍低0.43%。实际损失和少数退化周期完整保留，见[全量证据入口](evidence/paper3_20261110/README.md)。
 
-|目录|内容与状态|
+| 内容 | 入口 |
 |---|---|
-|[channel_estimation](channel_estimation/README.md)|信道、观测、估计、预测库、CRLB与估计曲线|
-|[resource_allocation/n10](resource_allocation/n10/README.md)|10车数值优化源码、数据、四组100块结果、原始配置|
-|[resource_allocation/n50](resource_allocation/n50/README.md)|50车数据、已有诊断代码和历史学习结果；当前模型待适配|
-|[resource_allocation/n100](resource_allocation/n100/README.md)|100车数据、图模型代码入口及历史学习结果；当前模型待适配|
-|[resource_allocation/shared](resource_allocation/shared/README.md)|共用运行入口、数据读取；不重复维护三套实现|
-|[resource_allocation/learning_shared](resource_allocation/learning_shared/README.md)|50/100共享MASAC、编码器、特征、信用诊断源码；开发状态|
-|[references](references/INDEX.md)|文献目录、既有BibTeX、参数来源、阅读笔记与核实边界|
-|[research_history](research_history/README.md)|研究演变、已犯错误与更正、原始文档；不能覆盖当前规格|
-|[reviews](reviews/README.md)|复核结果、代码路径映射、来源及校验记录|
-|[plans](plans/RESEARCH_PROPOSALS.md)|待审研究建议，包括三图一表布局；不是执行指令|
-|[tests](tests/README.md)|原始单测、独立审计器和固定夹具|
-|[tools](tools/README.md)|数据还原、CSV导出、校验和启动工具；不是优化算法|
+| 当前业务、物理模型、目标和指标 | [MODEL_SPEC](MODEL_SPEC.md) |
+| 当前源码、原11月6日对照源码、固定配置与测试 | [releases/paper3_20261110](releases/paper3_20261110/README.md) |
+| 完整逐周期/逐链路表、原比较方法、原始数组样例与审计 | [evidence/paper3_20261110](evidence/paper3_20261110/README.md) |
+| 当前引言、系统模型、论证对应、写作经验与两轮历史理论 | [manuscripts/paper3_20261111](manuscripts/paper3_20261111/README.md) |
+| Paper5修改版：共同模型、新研究方案及复核 | [Paper5修改版](Paper5修改版/README.md) |
+| 具体完成状态、统计对象与未完成写作 | [PROJECT_STATUS](PROJECT_STATUS.md) |
+| 安装、检查、运行与历史入口 | [RUNBOOK](RUNBOOK.md) |
 
-## 开始阅读与运行
+准备当前环境：`python -m pip install -r requirements.txt`。只做小型验证：
 
-Chat可直接读Markdown、源码与CSV。NPZ为机器计算原件；每种规模的 `data/README.md`、`data/csv/mobility_preview.csv` 和完整分段CSV供在线审查。
+```bash
+python releases/paper3_20261110/tools/check_release.py --tests
+python releases/paper3_20261110/tools/run_case.py --case 50B
+```
 
-首次准备：`python tools/run.py prepare`。快照验证：`python tools/verify_snapshot.py`。单测：`python tools/run.py test -q`。详细步骤见 [RUNBOOK.md](RUNBOOK.md)。
+第二条仅预览配置；实际仿真需显式 `--execute --out <新目录>`。当前方法使用显式 `--maxmin-refine-solver guarded`，省略该选项仍执行旧NM。环境安装/打开仓库不应自动启动1000周期实验。
 
-为了保留历史源码哈希，源码按用途展示，准备工具在 `.runtime/frozen_95960f5a/` 还原原导入布局；**科学源码内容不变**。运行缓存不提交。较大的二进制数据在 `data_parts/` 无损分段保存，准备时验证并还原。CSV和摘要可直接阅读。
+仓库提供代码、固定输入、全部紧凑结果与预定样例。现存大体积逐周期恢复状态保留在本地，未装成普通Git文件；完整历史replay仍需要相应原文件。不同历史批次的恢复点保留数量不同，以来源清单为准。当前代码及数据可独立审阅，样例可检查速率/EE公式；不能把有限样例称为全部真实轨迹已上传。
 
-GitHub记录版本，不能强制助手遵守模型；正式执行仍应固定commit并审查源码、配置、数据。当前没有自动实验工作流，不会因下载仓库而启动仿真。
+Paper5修改版目前是研究方案和复核材料，尚无对应新训练代码或已完成训练结果。旧50/100车学习代码位于历史目录，不代表新Paper5已经实现。
+
+原根入口文档保存于 [archive/docs_before_20261111](archive/docs_before_20261111/ARCHIVE_README.md)。旧 `tools/run.py`、`source_layout_map` 和 `95960f5a` 仍服务历史复现；根清单中的旧科学哈希不会被追认给新版本。

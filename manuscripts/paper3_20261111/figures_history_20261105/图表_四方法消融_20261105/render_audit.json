@@ -1,0 +1,16 @@
+{
+  "backend": "Python / matplotlib",
+  "reason": "R package-load exit access violation on this Windows host",
+  "source": "R-trial extraction; independently verified EE and matched reference actions",
+  "no_simulation_run": true,
+  "all_scatter_points_inside_axes": true,
+  "no_smoothing": true,
+  "confidence_intervals": false,
+  "quantitative_plots": 4,
+  "formats": [
+    "png",
+    "pdf",
+    "svg"
+  ],
+  "matplotlib": "3.9.2"
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "path": "00_交付检查记录.md",
+    "bytes": 1515,
+    "sha256": "4848fc40005240a68746e0cc7f639d1c2e5b62c728d4470a48461a1c54bb02ac"
+  },
+  {
+    "path": "00_符号与命题证据核查表.md",
+    "bytes": 15852,
+    "sha256": "c34d9afe123912a935f7c38bc12f8a321694959037effaf8cf6250c6c87998cd"
+  },
+  {
+    "path": "00_阅读入口与六章大纲.md",
+    "bytes": 3870,
+    "sha256": "134c1c35f7785ea2e288e499de17a8c851581fac4f629bce0d4cb564e821f42e"
+  },
+  {
+    "path": "01_引言思路与文献论证.md",
+    "bytes": 17743,
+    "sha256": "fc616f3a25b18e37d6f56ad47af930235919aeffbd6133e2d0dce560f3e16a46"
+  },
+  {
+    "path": "02_系统模型与问题建立_中文正文.md",
+    "bytes": 21212,
+    "sha256": "1341a03f035e1c43e49638c89a33faaeb55be0062832073a357b4a316df5d926"
+  },
+  {
+    "path": "03_估计精度界与可靠服务资源代价_中文正文.md",
+    "bytes": 38735,
+    "sha256": "a89a3133283f124941226a95f0a7cb9f2dc64e9fee57a18da2cb213b6965ecce"
+  },
+  {
+    "path": "04_资源代价引导联合优化_中文正文.md",
+    "bytes": 10708,
+    "sha256": "ff9f69c543c55b280574817e9bd79c8914d049edb56f9be4c3dfbab533e8f02f"
+  },
+  {
+    "path": "05_仿真设置与结果分析_占位.md",
+    "bytes": 1474,
+    "sha256": "9f95157fe0efdc0bcdea51e579770d77ba9296350dcf64e3d45bd0c9cd9cc9df"
+  },
+  {
+    "path": "Paper3_中文主体初稿_合并阅读版.md",
+    "bytes": 96308,
+    "sha256": "47972edee05185bfdc06c29fc8230a088d2c371db5ec76679024f3db2afc3e9b"
+  },
+  {
+    "path": "参考文献_本轮引用.md",
+    "bytes": 4825,
+    "sha256": "9de987b08b8f72f5bb7881dbded915f47e3df7ee32652cfb963be6f100c7c21c"
+  },
+  {
+    "path": "文献补充/Jain1984_author.pdf",
+    "bytes": 717547,
+    "sha256": "c6c1a9dd466e1d52170d44393b4c48adae882d5ff817742bab1bbd84b6b078b0"
+  },
+  {
+    "path": "文献补充/来源与核查说明.md",
+    "bytes": 716,
+    "sha256": "ad79f0962cc2ffa4ab258a53aa197b9c02037ac51917bd951eba204ab01f3ce3"
+  },
+  {
+    "path": "资料核查_文献.md",
+    "bytes": 19754,
+    "sha256": "e2a2c94f0da94fec2f29bba2a60d3d1077de09c6339a964ce926f41a90f1abb5"
+  },
+  {
+    "path": "资料核查_第三章.md",
+    "bytes": 7267,
+    "sha256": "312bc9feec45c5f1035d2035c80cb1c92a9c905a63f7c9baba7a70b220b740cc"
+  },
+  {
+    "path": "资料核查_第二章.md",
+    "bytes": 11111,
+    "sha256": "b027cb02628cddd2096c7a4b305f25d97adc9ea19f1034232ffc58bfd3c64d2f"
+  }
+]

@@ -1,6 +1,2 @@
-numpy==1.24.3
-scipy==1.10.1
-torch==2.0.0
-networkx==3.4.2
-matplotlib==3.10.0
-pytest==7.4.4
+# Current release; legacy dependency versions remain recorded in the archive.
+-r releases/paper3_20261110/requirements.txt

@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-11",
+  "parent_commit": "6358a7f73b565fa2445402cb9bfef3822f4a2a85",
+  "areas": {
+    "releases/paper3_20261110/": {
+      "files": 168,
+      "bytes": 2136112
+    },
+    "evidence/paper3_20261110/": {
+      "files": 265,
+      "bytes": 107745365
+    },
+    "manuscripts/paper3_20261111/": {
+      "files": 146,
+      "bytes": 11721689
+    },
+    "Paper5修改版/": {
+      "files": 17,
+      "bytes": 219609
+    },
+    "archive/docs_before_20261111/": {
+      "files": 10,
+      "bytes": 107993
+    }
+  },
+  "secret_pattern_scan": "no matches",
+  "paper5_source_files_verified": 13,
+  "scientific_source_policy": "original bytes retained; publish wrappers are separate",
+  "source_manifests": [
+    "releases/paper3_20261110/provenance/source_files.json",
+    "releases/paper3_20261110/provenance/baseline_source_files.json",
+    "evidence/paper3_20261110/PACKAGE_MANIFEST.json",
+    "manuscripts/paper3_20261111/SOURCE_MANIFEST.json",
+    "Paper5修改版/SOURCE_MANIFEST.json"
+  ]
+}

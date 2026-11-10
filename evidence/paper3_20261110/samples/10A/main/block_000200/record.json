@@ -1,0 +1,453 @@
+{
+  "group": "10A",
+  "block": 200,
+  "method": "maxmin",
+  "status": "evaluated",
+  "restore": {
+    "kind": "sequential_observation_replay_without_allocation",
+    "elapsed_s": 0.621608199988259,
+    "forecast_build_s": 0.3011694000160787
+  },
+  "checks": {
+    "reference_prediction": {
+      "shape": [
+        32,
+        5
+      ],
+      "bitwise_equal": true,
+      "max_abs_bps": 0.0,
+      "max_relative": 0.0,
+      "rtol": 1e-11,
+      "atol_bps": 1e-06
+    },
+    "old_maxmin_prediction": {
+      "shape": [
+        32,
+        5
+      ],
+      "bitwise_equal": true,
+      "max_abs_bps": 0.0,
+      "max_relative": 0.0,
+      "rtol": 1e-11,
+      "atol_bps": 1e-06
+    },
+    "new_prediction_self_check": {
+      "shape": [
+        32,
+        5
+      ],
+      "bitwise_equal": true,
+      "max_abs_bps": 0.0,
+      "max_relative": 0.0,
+      "rtol": 1e-11,
+      "atol_bps": 1e-06
+    },
+    "reference_actual": {
+      "shape": [
+        100,
+        5
+      ],
+      "bitwise_equal": true,
+      "max_abs_bps": 0.0,
+      "max_relative": 0.0,
+      "rtol": 1e-11,
+      "atol_bps": 1e-06
+    },
+    "old_maxmin_actual": {
+      "shape": [
+        100,
+        5
+      ],
+      "bitwise_equal": true,
+      "max_abs_bps": 0.0,
+      "max_relative": 0.0,
+      "rtol": 1e-11,
+      "atol_bps": 1e-06
+    }
+  },
+  "delta": 0.1,
+  "reference_prediction": {
+    "mean_ee": 344580530.22993946,
+    "min_ee": 21338758.30371544,
+    "budget": 310122477.20694554,
+    "budget_pass": true,
+    "quantile_min_rate": 1185512.0256013942,
+    "quantile_pass": true
+  },
+  "old_prediction": {
+    "mean_ee": 314754066.6012546,
+    "min_ee": 38270444.116542935,
+    "budget": 310122477.20694554,
+    "budget_pass": true,
+    "quantile_min_rate": 3559680.9329669266,
+    "quantile_pass": true
+  },
+  "original_complete_decision_s": 12.003018900169991,
+  "reused_initial_solve_s": 9.912933900021017,
+  "old_returned_initial_action": false,
+  "original_initial_mean_fallback_flag": false,
+  "new_prediction": {
+    "mean_ee": 314754066.6012546,
+    "min_ee": 38270444.116542935,
+    "budget": 310122477.20694554,
+    "budget_pass": true,
+    "quantile_min_rate": 3559680.9329669266,
+    "quantile_pass": true
+  },
+  "unchanged": true,
+  "new_returned_initial_action": false,
+  "diagnostics": {
+    "version": "guarded-bottleneck-sca-v1",
+    "evaluator_calls": 5,
+    "evaluations": [
+      {
+        "proposal": "sca_step_1",
+        "accepted": false,
+        "mean_ee": 288188946.689587,
+        "min_ee": 37999788.56693669,
+        "min_service_bps": 7671293.112464124,
+        "budget_ok": false,
+        "service_ok": true,
+        "feasible": false
+      },
+      {
+        "proposal": "sca_step_0.75",
+        "accepted": false,
+        "mean_ee": 295345235.2910272,
+        "min_ee": 38119154.66304856,
+        "min_service_bps": 6395991.614867034,
+        "budget_ok": false,
+        "service_ok": true,
+        "feasible": false
+      },
+      {
+        "proposal": "sca_step_0.5",
+        "accepted": false,
+        "mean_ee": 302207122.12884015,
+        "min_ee": 38203661.79593253,
+        "min_service_bps": 5295669.566762818,
+        "budget_ok": false,
+        "service_ok": true,
+        "feasible": false
+      },
+      {
+        "proposal": "sca_step_0.25",
+        "accepted": false,
+        "mean_ee": 308706788.7056355,
+        "min_ee": 38253873.33198982,
+        "min_service_bps": 4355460.568122841,
+        "budget_ok": false,
+        "service_ok": true,
+        "feasible": false
+      },
+      {
+        "proposal": "sca_step_0.125",
+        "accepted": false,
+        "mean_ee": 311793388.87165403,
+        "min_ee": 38266319.52455376,
+        "min_service_bps": 3940516.1500320006,
+        "budget_ok": true,
+        "service_ok": true,
+        "feasible": true
+      }
+    ],
+    "original": {
+      "mean_ee": 314754066.6012546,
+      "min_ee": 38270444.116542935,
+      "min_service_bps": 3559680.9329669266,
+      "budget_ok": true,
+      "service_ok": true,
+      "feasible": true
+    },
+    "final": {
+      "mean_ee": 314754066.6012546,
+      "min_ee": 38270444.116542935,
+      "min_service_bps": 3559680.9329669266,
+      "budget_ok": true,
+      "service_ok": true,
+      "feasible": true
+    },
+    "budget": 310122477.20694554,
+    "q_min_bps": 1000000.0,
+    "metric": "chance",
+    "inflation": 1.35,
+    "solver": {
+      "status": "bisection_budget",
+      "feasible": true,
+      "bisections": 6,
+      "sca_rounds": 53,
+      "start_min_ee": 22173140.3683033,
+      "final_min_ee": 39144138.422636166,
+      "t_lo": 39144138.422636166,
+      "t_hi": 40047860.346435495,
+      "log": [
+        {
+          "t": 79923757.84815483,
+          "feasible": false,
+          "sca_rounds": 8,
+          "reason": "no_progress"
+        },
+        {
+          "t": 42886149.54812055,
+          "feasible": false,
+          "sca_rounds": 10,
+          "reason": "no_progress"
+        },
+        {
+          "t": 31415041.362282135,
+          "feasible": true,
+          "sca_rounds": 1,
+          "reason": "ok"
+        },
+        {
+          "t": 38968672.41586934,
+          "feasible": true,
+          "sca_rounds": 2,
+          "reason": "ok"
+        },
+        {
+          "t": 40972446.52599484,
+          "feasible": false,
+          "sca_rounds": 10,
+          "reason": "step_then_stall"
+        },
+        {
+          "t": 40047860.346435495,
+          "feasible": false,
+          "sca_rounds": 10,
+          "reason": "step_then_stall"
+        }
+      ],
+      "per_link_upper": [
+        277583453.4622422,
+        2840889376.505324,
+        3233628732.7166367,
+        2079175084.7481406,
+        2761062198.9673867
+      ],
+      "per_link_start_ee": [
+        39337127.600255914,
+        886933885.9216089,
+        328321816.91605216,
+        22173140.3683033,
+        489593801.74985135
+      ]
+    },
+    "errors": [],
+    "accepted": false,
+    "retained_incumbent": true,
+    "final_original_constraints_passed": true,
+    "elapsed_s": 1.0917393999989145
+  },
+  "refine_time_s": 1.091762900003232,
+  "actual_evaluation_s": 0.5786014999903273,
+  "estimated_complete_decision_s": 13.094781800173223,
+  "reconstructed_time_note": "historical complete incumbent decision time plus current incremental refinement; not a freshly timed full run",
+  "actual": {
+    "reference": {
+      "duration_s": 0.1,
+      "mean_rate_bps": [
+        209108431.78239757,
+        102058721.59313013,
+        81292497.48713386,
+        2291688.2981404094,
+        64013211.24282048
+      ],
+      "link_energy_j": [
+        0.3447503627192183,
+        0.001343127574858778,
+        0.0025390439249718794,
+        0.001,
+        0.005630025467486935
+      ],
+      "link_delivered_bits": [
+        20910843.17823976,
+        10205872.159313014,
+        8129249.748713386,
+        229168.82981404095,
+        6401321.124282048
+      ],
+      "pair_ee_bit_per_j": [
+        40271215.35117189,
+        789126381.0891818,
+        575357383.8315861,
+        18202448.7540938,
+        371737030.0275315
+      ],
+      "pair_ee_tx_only_bit_per_j": [
+        60655028.79621503,
+        7598587319.887392,
+        3201697169.8523965,
+        229168829.81404093,
+        1136996832.651877
+      ],
+      "network_ee_bit_per_j": 129133942.74038084,
+      "mean_pair_ee_bit_per_j": 358938891.810713,
+      "min_pair_ee_bit_per_j": 18202448.7540938,
+      "mean_pair_ee_tx_only_bit_per_j": 2445421036.200384,
+      "jain_pair_ee": 0.5888899978563348,
+      "participation_rate_bps": [
+        209108431.78239757,
+        102058721.59313013,
+        209108431.78239757,
+        81292497.48713386,
+        2291688.2981404094,
+        64013211.24282048,
+        64013211.24282048,
+        102058721.59313013,
+        81292497.48713386,
+        2291688.2981404094
+      ],
+      "vlc_link_fraction": 0.2,
+      "mean_data_power_w": 0.7105251193730716,
+      "total_data_power_w": 3.552625596865358,
+      "total_electrical_power_w": 5.761225596865359,
+      "vlc_rate_fraction": 0.45580773753862047,
+      "pair_qos_met": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "all_pairs_qos_met": true
+    },
+    "old": {
+      "duration_s": 0.1,
+      "mean_rate_bps": [
+        212417278.49053374,
+        93243040.491903,
+        52652457.461659916,
+        6331673.105486649,
+        68921913.4801287
+      ],
+      "link_energy_j": [
+        0.3532140858148,
+        0.001,
+        0.0018408642228,
+        0.0023977306134,
+        0.0052807648553
+      ],
+      "link_delivered_bits": [
+        21241727.849053375,
+        9324304.049190301,
+        5265245.746165992,
+        633167.310548665,
+        6892191.348012871
+      ],
+      "pair_ee_bit_per_j": [
+        40252341.97843282,
+        740611918.1247259,
+        392025833.8423079,
+        45265906.81851577,
+        408528683.02812415
+      ],
+      "pair_ee_tx_only_bit_per_j": [
+        60138393.97161246,
+        9324304049.1903,
+        2860203202.905113,
+        264069410.88800168,
+        1305150207.7574189
+      ],
+      "network_ee_bit_per_j": 119198926.68275471,
+      "mean_pair_ee_bit_per_j": 325336936.7584213,
+      "min_pair_ee_bit_per_j": 40252341.97843282,
+      "mean_pair_ee_tx_only_bit_per_j": 2762773052.9424896,
+      "jain_pair_ee": 0.6063792098075668,
+      "participation_rate_bps": [
+        212417278.49053374,
+        93243040.491903,
+        212417278.49053374,
+        52652457.461659916,
+        6331673.105486649,
+        68921913.4801287,
+        68921913.4801287,
+        93243040.491903,
+        52652457.461659916,
+        6331673.105486649
+      ],
+      "vlc_link_fraction": 0.2,
+      "mean_data_power_w": 0.7274668910125999,
+      "total_data_power_w": 3.6373344550629993,
+      "total_electrical_power_w": 5.845934455063,
+      "vlc_rate_fraction": 0.4899302542895306,
+      "pair_qos_met": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "all_pairs_qos_met": true
+    },
+    "new": {
+      "duration_s": 0.1,
+      "mean_rate_bps": [
+        212417278.49053374,
+        93243040.491903,
+        52652457.461659916,
+        6331673.105486649,
+        68921913.4801287
+      ],
+      "link_energy_j": [
+        0.3532140858148,
+        0.001,
+        0.0018408642228,
+        0.0023977306134,
+        0.0052807648553
+      ],
+      "link_delivered_bits": [
+        21241727.849053375,
+        9324304.049190301,
+        5265245.746165992,
+        633167.310548665,
+        6892191.348012871
+      ],
+      "pair_ee_bit_per_j": [
+        40252341.97843282,
+        740611918.1247259,
+        392025833.8423079,
+        45265906.81851577,
+        408528683.02812415
+      ],
+      "pair_ee_tx_only_bit_per_j": [
+        60138393.97161246,
+        9324304049.1903,
+        2860203202.905113,
+        264069410.88800168,
+        1305150207.7574189
+      ],
+      "network_ee_bit_per_j": 119198926.68275471,
+      "mean_pair_ee_bit_per_j": 325336936.7584213,
+      "min_pair_ee_bit_per_j": 40252341.97843282,
+      "mean_pair_ee_tx_only_bit_per_j": 2762773052.9424896,
+      "jain_pair_ee": 0.6063792098075668,
+      "participation_rate_bps": [
+        212417278.49053374,
+        93243040.491903,
+        212417278.49053374,
+        52652457.461659916,
+        6331673.105486649,
+        68921913.4801287,
+        68921913.4801287,
+        93243040.491903,
+        52652457.461659916,
+        6331673.105486649
+      ],
+      "vlc_link_fraction": 0.2,
+      "mean_data_power_w": 0.7274668910125999,
+      "total_data_power_w": 3.6373344550629993,
+      "total_electrical_power_w": 5.845934455063,
+      "vlc_rate_fraction": 0.4899302542895306,
+      "pair_qos_met": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "all_pairs_qos_met": true
+    }
+  },
+  "replay_wall_s": 2.3671489999978803
+}

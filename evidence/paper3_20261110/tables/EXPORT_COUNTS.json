@@ -1,0 +1,434 @@
+{
+  "10A": {
+    "period_rows": 8000,
+    "link_rows": 39880,
+    "methods": {
+      "aboagye_matching_qt": {
+        "planned": 1000,
+        "success": 976,
+        "failure": 24,
+        "failure_blocks": [
+          86,
+          92,
+          167,
+          171,
+          438,
+          475,
+          558,
+          559,
+          619,
+          632,
+          636,
+          737,
+          747,
+          749,
+          755,
+          808,
+          809,
+          815,
+          827,
+          840,
+          894,
+          908,
+          965,
+          972
+        ],
+        "service_pass_count": 900,
+        "mean_link_ee_bit_per_j": 346658425.8115792,
+        "per_period_min_link_ee_bit_per_j": 40826981.0189115
+      },
+      "main_new": {
+        "planned": 1000,
+        "success": 1000,
+        "failure": 0,
+        "failure_blocks": [],
+        "service_pass_count": 996,
+        "mean_link_ee_bit_per_j": 374676084.188765,
+        "per_period_min_link_ee_bit_per_j": 94493758.5904332
+      },
+      "main_old": {
+        "planned": 1000,
+        "success": 1000,
+        "failure": 0,
+        "failure_blocks": [],
+        "service_pass_count": 996,
+        "mean_link_ee_bit_per_j": 374678096.17928565,
+        "per_period_min_link_ee_bit_per_j": 94490589.07431202
+      },
+      "no_refine": {
+        "planned": 1000,
+        "success": 1000,
+        "failure": 0,
+        "failure_blocks": [],
+        "service_pass_count": 992,
+        "mean_link_ee_bit_per_j": 388334118.98462874,
+        "per_period_min_link_ee_bit_per_j": 72218902.98788673
+      },
+      "reference": {
+        "planned": 1000,
+        "success": 1000,
+        "failure": 0,
+        "failure_blocks": [],
+        "service_pass_count": 988,
+        "mean_link_ee_bit_per_j": 395587590.7168798,
+        "per_period_min_link_ee_bit_per_j": 65111834.53620814
+      },
+      "same_topo_new": {
+        "planned": 1000,
+        "success": 1000,
+        "failure": 0,
+        "failure_blocks": [],
+        "service_pass_count": 996,
+        "mean_link_ee_bit_per_j": 373674850.6202779,
+        "per_period_min_link_ee_bit_per_j": 93408133.50867717
+      },
+      "same_topo_old": {
+        "planned": 1000,
+        "success": 1000,
+        "failure": 0,
+        "failure_blocks": [],
+        "service_pass_count": 996,
+        "mean_link_ee_bit_per_j": 373671635.1969001,
+        "per_period_min_link_ee_bit_per_j": 93406427.20279571
+      },
+      "zappone_mmee_fp_fixed": {
+        "planned": 1000,
+        "success": 1000,
+        "failure": 0,
+        "failure_blocks": [],
+        "service_pass_count": 994,
+        "mean_link_ee_bit_per_j": 355685231.9178816,
+        "per_period_min_link_ee_bit_per_j": 90711703.09081623
+      }
+    }
+  },
+  "10B": {
+    "period_rows": 8000,
+    "link_rows": 39870,
+    "methods": {
+      "aboagye_matching_qt": {
+        "planned": 1000,
+        "success": 981,
+        "failure": 19,
+        "failure_blocks": [
+          367,
+          384,
+          390,
+          434,
+          439,
+          467,
+          737,
+          743,
+          747,
+          764,
+          765,
+          770,
+          794,
+          814,
+          815,
+          902,
+          905,
+          946,
+          950
+        ],
+        "service_pass_count": 915,
+        "mean_link_ee_bit_per_j": 359871906.5619505,
+        "per_period_min_link_ee_bit_per_j": 45500073.66953191
+      },
+      "main_new": {
+        "planned": 1000,
+        "success": 999,
+        "failure": 1,
+        "failure_blocks": [
+          588
+        ],
+        "service_pass_count": 995,
+        "mean_link_ee_bit_per_j": 387270594.0613792,
+        "per_period_min_link_ee_bit_per_j": 98878158.7973666
+      },
+      "main_old": {
+        "planned": 1000,
+        "success": 999,
+        "failure": 1,
+        "failure_blocks": [
+          588
+        ],
+        "service_pass_count": 995,
+        "mean_link_ee_bit_per_j": 387270594.0613792,
+        "per_period_min_link_ee_bit_per_j": 98878158.7973666
+      },
+      "no_refine": {
+        "planned": 1000,
+        "success": 999,
+        "failure": 1,
+        "failure_blocks": [
+          588
+        ],
+        "service_pass_count": 996,
+        "mean_link_ee_bit_per_j": 402282463.49893254,
+        "per_period_min_link_ee_bit_per_j": 73630204.93989839
+      },
+      "reference": {
+        "planned": 1000,
+        "success": 999,
+        "failure": 1,
+        "failure_blocks": [
+          588
+        ],
+        "service_pass_count": 996,
+        "mean_link_ee_bit_per_j": 410230020.4103002,
+        "per_period_min_link_ee_bit_per_j": 65231618.572062895
+      },
+      "same_topo_new": {
+        "planned": 1000,
+        "success": 999,
+        "failure": 1,
+        "failure_blocks": [
+          588
+        ],
+        "service_pass_count": 995,
+        "mean_link_ee_bit_per_j": 386802659.51808375,
+        "per_period_min_link_ee_bit_per_j": 96831262.77162358
+      },
+      "same_topo_old": {
+        "planned": 1000,
+        "success": 999,
+        "failure": 1,
+        "failure_blocks": [
+          588
+        ],
+        "service_pass_count": 995,
+        "mean_link_ee_bit_per_j": 386808201.476769,
+        "per_period_min_link_ee_bit_per_j": 96831062.42268458
+      },
+      "zappone_mmee_fp_fixed": {
+        "planned": 1000,
+        "success": 999,
+        "failure": 1,
+        "failure_blocks": [
+          588
+        ],
+        "service_pass_count": 999,
+        "mean_link_ee_bit_per_j": 370737813.6417461,
+        "per_period_min_link_ee_bit_per_j": 95059146.40169781
+      }
+    }
+  },
+  "50B": {
+    "period_rows": 8000,
+    "link_rows": 196725,
+    "methods": {
+      "aboagye_matching_qt": {
+        "planned": 1000,
+        "success": 876,
+        "failure": 124,
+        "failure_blocks": [
+          5,
+          21,
+          22,
+          42,
+          47,
+          52,
+          61,
+          63,
+          134,
+          141,
+          163,
+          165,
+          170,
+          175,
+          181,
+          186,
+          195,
+          224,
+          230,
+          231,
+          255,
+          256,
+          271,
+          293,
+          305,
+          316,
+          317,
+          320,
+          340,
+          347,
+          364,
+          365,
+          370,
+          371,
+          381,
+          400,
+          425,
+          428,
+          440,
+          459,
+          460,
+          461,
+          466,
+          472,
+          484,
+          506,
+          513,
+          515,
+          516,
+          523,
+          527,
+          528,
+          532,
+          537,
+          538,
+          540,
+          541,
+          545,
+          546,
+          548,
+          552,
+          556,
+          557,
+          566,
+          570,
+          573,
+          574,
+          579,
+          581,
+          582,
+          583,
+          586,
+          594,
+          597,
+          612,
+          613,
+          615,
+          619,
+          624,
+          652,
+          660,
+          661,
+          695,
+          706,
+          716,
+          717,
+          719,
+          726,
+          728,
+          732,
+          733,
+          739,
+          752,
+          757,
+          758,
+          769,
+          772,
+          805,
+          833,
+          834,
+          838,
+          841,
+          842,
+          845,
+          846,
+          850,
+          859,
+          862,
+          864,
+          870,
+          908,
+          918,
+          923,
+          934,
+          937,
+          938,
+          949,
+          950,
+          951,
+          967,
+          972,
+          981,
+          982,
+          985
+        ],
+        "service_pass_count": 661,
+        "mean_link_ee_bit_per_j": 236033699.61369842,
+        "per_period_min_link_ee_bit_per_j": 12460777.644519836
+      },
+      "main_new": {
+        "planned": 1000,
+        "success": 999,
+        "failure": 1,
+        "failure_blocks": [
+          443
+        ],
+        "service_pass_count": 994,
+        "mean_link_ee_bit_per_j": 273784981.0632455,
+        "per_period_min_link_ee_bit_per_j": 48470149.746877685
+      },
+      "main_old": {
+        "planned": 1000,
+        "success": 999,
+        "failure": 1,
+        "failure_blocks": [
+          443
+        ],
+        "service_pass_count": 991,
+        "mean_link_ee_bit_per_j": 280506983.09111416,
+        "per_period_min_link_ee_bit_per_j": 37045379.852138564
+      },
+      "no_refine": {
+        "planned": 1000,
+        "success": 999,
+        "failure": 1,
+        "failure_blocks": [
+          443
+        ],
+        "service_pass_count": 973,
+        "mean_link_ee_bit_per_j": 287145871.2676126,
+        "per_period_min_link_ee_bit_per_j": 27278419.81726528
+      },
+      "reference": {
+        "planned": 1000,
+        "success": 999,
+        "failure": 1,
+        "failure_blocks": [
+          443
+        ],
+        "service_pass_count": 973,
+        "mean_link_ee_bit_per_j": 287944614.67632926,
+        "per_period_min_link_ee_bit_per_j": 27110051.410504896
+      },
+      "same_topo_new": {
+        "planned": 1000,
+        "success": 999,
+        "failure": 1,
+        "failure_blocks": [
+          443
+        ],
+        "service_pass_count": 994,
+        "mean_link_ee_bit_per_j": 273949553.8511213,
+        "per_period_min_link_ee_bit_per_j": 48703337.255452536
+      },
+      "same_topo_old": {
+        "planned": 1000,
+        "success": 999,
+        "failure": 1,
+        "failure_blocks": [
+          443
+        ],
+        "service_pass_count": 991,
+        "mean_link_ee_bit_per_j": 281010083.3296458,
+        "per_period_min_link_ee_bit_per_j": 37211389.23614548
+      },
+      "zappone_mmee_fp_fixed": {
+        "planned": 1000,
+        "success": 999,
+        "failure": 1,
+        "failure_blocks": [
+          443
+        ],
+        "service_pass_count": 994,
+        "mean_link_ee_bit_per_j": 271332103.14738977,
+        "per_period_min_link_ee_bit_per_j": 48678381.94675561
+      }
+    }
+  }
+}
