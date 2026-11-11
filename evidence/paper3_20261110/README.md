@@ -11,3 +11,5 @@
 - [验证记录](VALIDATION_REPORT.json)、[来源清单](SOURCE_MANIFEST.json)、[发布文件清单](PACKAGE_MANIFEST.json)
 
 原完整周期表、全部逐链路表、原始对比结果与固定验证数组仍保留。完整恢复数据留在本地，未随本包上传；其用途与复算边界见DATA_CATALOG。
+
+本包只保留当前只读核查入口`verify_package.py`。历史审计脚本和一次性导出工具已从当前目录移除，原来源与哈希保留在来源清单中；需要追溯实现时，可查[固定历史提交中的证据包](https://github.com/qbbbh/paper3/tree/6ae23c04c091edee70e228cae39d72efb2af04a8/evidence/paper3_20261110)。[改进前诊断与研究转变](baseline_records/pre_guard_cross_scale/README.md)仍完整保留。

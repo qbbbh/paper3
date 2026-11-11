@@ -2,21 +2,6 @@
   "description": "Publication file inventory; excludes this self-referential manifest only",
   "files": [
     {
-      "path": "add_baselines.py",
-      "bytes": 2902,
-      "sha256": "263988d4054788c1de0708786a6103ae5a329fba11530e238024f0bcc9a24224"
-    },
-    {
-      "path": "audits/audit_saved_arrays.py",
-      "bytes": 13259,
-      "sha256": "7c54ceda12e01c6d4fef2a509edde2f150eb7482ef04e61988a5bb6930cc5b65"
-    },
-    {
-      "path": "audits/inspect_original_action_equivalence.py",
-      "bytes": 8815,
-      "sha256": "0b054f021cec38992e92c52a78d1758b0534be591b55f0fd3ee44f038657bdc6"
-    },
-    {
       "path": "audits/功率下限原始依据与通信规则复核_20261110.md",
       "bytes": 8349,
       "sha256": "58ffa651980240a1f77d6e871171067dc5b9b84d89b2a5ac80689f92b272d805"
@@ -122,16 +107,6 @@
       "sha256": "6a9bbbc6042a8402d395c92cacc390316819286c2f97f50e64a7265b3a9c4062"
     },
     {
-      "path": "baseline_records/pre_guard_cross_scale/analyze_scales.py",
-      "bytes": 11102,
-      "sha256": "c5dfe70962cc8738bc0280db2c1cfa26ada1837c63d627cdef9f6f3dbab3cd94"
-    },
-    {
-      "path": "baseline_records/pre_guard_cross_scale/inspect_saved_physics.py",
-      "bytes": 3083,
-      "sha256": "7d405f38395a3cdf843d25b161643855f0a3910560875eed991213639ac873a6"
-    },
-    {
       "path": "baseline_records/pre_guard_cross_scale/mode_power.csv",
       "bytes": 10171,
       "sha256": "8b1202464ef1e9921529c3ab8b2888eb087161f6d3b3020c06d82a0c564dc5a5"
@@ -145,6 +120,11 @@
       "path": "baseline_records/pre_guard_cross_scale/performance.csv",
       "bytes": 8422,
       "sha256": "cb37c641bb60b5e2e137dc7b6d29da380431313874c0ad5451ecaf0fc31181a9"
+    },
+    {
+      "path": "baseline_records/pre_guard_cross_scale/README.md",
+      "bytes": 1696,
+      "sha256": "7eb5bbd479e709ade8f78725b092a700a486fe4f70f45533221590ad53d7b139"
     },
     {
       "path": "baseline_records/pre_guard_cross_scale/results.json",
@@ -172,19 +152,9 @@
       "sha256": "10f1075977e419468700344b026a9a2aa838653809259dc6266051b41e0a8829"
     },
     {
-      "path": "baseline_records/pre_guard_cross_scale/write_report.py",
-      "bytes": 15512,
-      "sha256": "9cd2097e6d4face5e70053a97de5b278724e134f074cfb6653c9c2e9557a0ce8"
-    },
-    {
-      "path": "build_package.py",
-      "bytes": 22129,
-      "sha256": "f949d9b538928275a032c100088cdd6c750fe0ac9d7902ec3a37010584780fbd"
-    },
-    {
       "path": "DATA_CATALOG.md",
-      "bytes": 6439,
-      "sha256": "f788dc4e6445098fd294509eb0d4c92188721e2f48cef8091507d4485e5ea036"
+      "bytes": 6850,
+      "sha256": "6a1383b0dc5dd85268e5fc34ce5f03ae2dd27fa71ad1e89d5973fe0337eaf417"
     },
     {
       "path": "manifests/full_10A_manifest.json",
@@ -233,8 +203,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 982,
-      "sha256": "54fb12b2066644e0511460ac882aa1c2270bdb6f115d3abcf7088b6e2b606b61"
+      "bytes": 1431,
+      "sha256": "a0a1e4436b28845a577d0dcd13303cfb5303f0e634325111ab225790358a9f76"
     },
     {
       "path": "reports/10车与50车_功率改进全量核查_20261110.md",
@@ -278,8 +248,8 @@
     },
     {
       "path": "REVIEW_QUESTIONS.md",
-      "bytes": 3236,
-      "sha256": "d355fbf14a7b6832050ea6f02b073c3eff29044b50ed84eb6d2bfdc37fb798ca"
+      "bytes": 3586,
+      "sha256": "ddcea1113f890e8953da5fc717f1370b191b5b65f0bf1986b1899f4a364c0929"
     },
     {
       "path": "samples/10A/main/block_000100/arrays.npz",
@@ -1098,13 +1068,8 @@
     },
     {
       "path": "SOURCE_MANIFEST.json",
-      "bytes": 4127621,
-      "sha256": "9785392c53179d9b7fb871dc5432d03c70f3024c4223a4eb6bf519ac6cde88c0"
-    },
-    {
-      "path": "split_period_tables.py",
-      "bytes": 5802,
-      "sha256": "f4953c5c68113724ea20410d30a379e157a4739bf7ca3d2f6aadebe37302f660"
+      "bytes": 4134024,
+      "sha256": "579eac5c96cf16804da6eb7c187ecf318ed7ed5e3860c8118e2c6ea470ab14f4"
     },
     {
       "path": "tables/10A_links.csv.gz",
@@ -1313,8 +1278,8 @@
     },
     {
       "path": "VALIDATION_REPORT.json",
-      "bytes": 1428,
-      "sha256": "731a9b862cbb06c92efb4905fa22070e8964c96c90bcd24d83cb2b107cb64503"
+      "bytes": 1016,
+      "sha256": "0ca9d6db550d2f86543632e5a0fb53b80e7942fe4999d82b23ba81ce0ad7331e"
     },
     {
       "path": "verify_package.py",
@@ -1322,6 +1287,6 @@
       "sha256": "996be226076ba6af1aa377894c41f1cd7d9ae7f8128e1188d2e24cb9c6172d14"
     }
   ],
-  "file_count": 264,
-  "total_bytes": 107696897
+  "file_count": 257,
+  "total_bytes": 107623190
 }

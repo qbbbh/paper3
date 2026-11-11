@@ -1,0 +1,92 @@
+{
+  "checked_at": "2026-11-11T01:05:18.461329+08:00",
+  "platform": "Windows-10-10.0.19044-SP0",
+  "python": "3.10.19 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 16:41:31) [MSC v.1929 64 bit (AMD64)]",
+  "dependencies": {
+    "numpy": "1.24.3",
+    "scipy": "1.10.1",
+    "torch": "2.0.0",
+    "networkx": "3.4.2",
+    "matplotlib": "3.10.0",
+    "pytest": "7.4.4",
+    "threadpoolctl": "3.1.0"
+  },
+  "integrity": {
+    "source_files": 78,
+    "source_bytes": 894314,
+    "baseline_files": 72,
+    "baseline_bytes": 798950,
+    "cases": [
+      "10A",
+      "10B",
+      "50B"
+    ],
+    "status": "verified"
+  },
+  "original_to_release_byte_comparison": "all 78 current Python files identical after validation",
+  "previews": {
+    "10A": {
+      "preview_success": true,
+      "n": 10,
+      "draws": 32,
+      "channel_seed": 2026102401,
+      "forecast_seed": 2026102501,
+      "blocks": 1000,
+      "phase": "evaluate",
+      "methods": [
+        "reference",
+        "maxmin",
+        "no_refine",
+        "same_topo_maxmin",
+        "aboagye_matching_qt",
+        "zappone_mmee_fp_fixed"
+      ]
+    },
+    "10B": {
+      "preview_success": true,
+      "n": 10,
+      "draws": 32,
+      "channel_seed": 2026102801,
+      "forecast_seed": 2026102501,
+      "blocks": 1000,
+      "phase": "evaluate",
+      "methods": [
+        "reference",
+        "maxmin",
+        "no_refine",
+        "same_topo_maxmin",
+        "aboagye_matching_qt",
+        "zappone_mmee_fp_fixed"
+      ]
+    },
+    "50B": {
+      "preview_success": true,
+      "n": 50,
+      "draws": 16,
+      "channel_seed": 2026102801,
+      "forecast_seed": 2026102501,
+      "blocks": 1000,
+      "phase": "evaluate",
+      "methods": [
+        "reference",
+        "same_topo_maxmin",
+        "maxmin"
+      ]
+    }
+  },
+  "small_tests": {
+    "command": "python tools/check_release.py --tests",
+    "passed": 39,
+    "failed": 0,
+    "warnings": 1,
+    "pytest_elapsed_s": 6.8,
+    "warning": "Existing SLSQP trial step clipping to bounds"
+  },
+  "linux_execution": "not performed: no configured Linux runtime on this host",
+  "simulation": "not run; previews and existing small tests only",
+  "known_limitations": [
+    "Full replay needs original saved run checkpoints and path mapping; traffic alone is insufficient.",
+    "Three existing CLI error-message matching tests outside the selected suite already failed in the original snapshot.",
+    "No policy training or new independent seed evaluation performed."
+  ]
+}

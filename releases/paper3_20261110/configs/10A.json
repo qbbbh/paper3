@@ -151,7 +151,7 @@
     "maxmin_refine_solver": "guarded"
   },
   "traffic": {
-    "repository_relative_directory": "resource_allocation/n10/data",
+    "repository_relative_directory": "data/n10",
     "files": {
       "mobility.npz": "80b894480c5cec6d4b04d6bb5ba9eac0da4f1ac27afb88006f4148f8ffb6f010",
       "buildings.npz": "ad5a0881a990965cfaf4a8f532eaa8977c4e4c5a30d24f752eab6b02df48da69",

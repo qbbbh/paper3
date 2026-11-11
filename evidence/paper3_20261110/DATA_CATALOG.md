@@ -14,7 +14,7 @@
 | 目录/文件 | 内容与用途 |
 |---|---|
 | `reports/` | 主方法和同拓扑完整报告、原聚合JSON、同拓扑逐周期表、全部3000周期复用溯源 |
-| `audits/` | 原独立审计报告、数组机器审计、原主方法/同拓扑输入等同性核查；历史审计脚本作为源证据保留 |
+| `audits/` | 原独立审计报告、数组机器审计、原主方法/同拓扑输入等同性核查；历史脚本仅保留来源、哈希及固定提交地址 |
 | `tables/{10A,10B,50B}_periods.csv` | 每组8000行：8个方法各1000个计划周期，包含失败；无动作时EE留空 |
 | `tables/{10A,10B,50B}_links.csv.gz` | 全部成功动作的逐链路配置、输入功率、辐射/光功率、预测均值与下分位、实际周期均值速率、EE和检查结果 |
 | `tables/*_links_preview.csv` | 固定周期100的可直接阅读预览；不是全量结果的替代品 |
@@ -22,7 +22,7 @@
 | `samples/` | 固定100、200、…、900周期，三组、主方法和同拓扑两个逻辑方法的原始NPZ/record/commit；54份NPZ合计不足10MB |
 | `manifests/` | 本次主方法6个运行分片及同拓扑3个运行的原始manifest，保存配置、代码和输入哈希 |
 | `baseline_records/` | 原10A、10B、50B主批、50B补跑的完整原始results.csv和summary.json，无损gzip；含所有现存方法 |
-| `baseline_records/pre_guard_cross_scale/` | **新增功率协调阶段之前**的跨规模分析，数值未改；不能作为新版主方法结果 |
+| `baseline_records/pre_guard_cross_scale/` | **新增功率协调阶段之前**的跨规模报告、诊断与统计，数值未改；说明改进动机，不能作为新版主方法结果 |
 | `SOURCE_MANIFEST.json` | 本地来源、原文件哈希、发布路径及发布文件哈希；本地绝对路径用于追溯，不表示GitHub可直接访问 |
 | `verify_package.py` | 仅依赖本包与NumPy的只读核查：哈希、全部周期与逐链路公式、固定数组的SINR/速率/EE、原始gzip内容 |
 
@@ -61,6 +61,6 @@ with gzip.open(root / 'baseline_records/50B_main/summary.json.gz', 'rt', encodin
     original_summary = json.load(f)
 ```
 
-在仓库根目录运行`python evidence/paper3_20261110/verify_package.py`即可只读核查，不会训练或仿真。原始审计脚本和构建脚本可能引用本地源数据，不能当成仅凭本包即可重新进行全部优化的承诺。
+在仓库根目录运行`python evidence/paper3_20261110/verify_package.py`即可只读核查，不会训练或仿真。这是证据包当前唯一的Python入口；它仅依赖标准库、NumPy和包内数据。旧审计、旧报告生成器与一次性导出工具已从当前目录移除，原脚本哈希及移除记录仍在SOURCE_MANIFEST中，并可从[固定历史提交](https://github.com/qbbbh/paper3/tree/6ae23c04c091edee70e228cae39d72efb2af04a8/evidence/paper3_20261110)追溯。此项清理不改变原审计结论和任何数值证据，也不表示仅凭本包即可重做全部优化。
 
 Markdown报告只改写发布链接并增加来源注记，原文哈希与发布文本哈希分别记录。原JSON、CSV和样例数组保持原数值；压缩原始文件解压后字节与来源完全一致。

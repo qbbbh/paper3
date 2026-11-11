@@ -1,2 +1,2 @@
-# Current release; legacy dependency versions remain recorded in the archive.
+# Current Paper3 release.
 -r releases/paper3_20261110/requirements.txt

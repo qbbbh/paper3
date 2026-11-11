@@ -2,7 +2,7 @@
   "repository_root_relative_to_release": "../..",
   "scenarios": {
     "10": {
-      "repository_relative_directory": "resource_allocation/n10/data",
+      "repository_relative_directory": "data/n10",
       "files": {
         "mobility.npz": "80b894480c5cec6d4b04d6bb5ba9eac0da4f1ac27afb88006f4148f8ffb6f010",
         "buildings.npz": "ad5a0881a990965cfaf4a8f532eaa8977c4e4c5a30d24f752eab6b02df48da69",
@@ -12,7 +12,7 @@
       "role": "formal numerical scenarios"
     },
     "50": {
-      "repository_relative_directory": "resource_allocation/n50/data",
+      "repository_relative_directory": "data/n50",
       "files": {
         "mobility.npz": "26018d5b1d82faee71adc1830635d38c3ef6ed405ec8c7e1ae8823101de1c1bb",
         "buildings.npz": "b0c3e25ae59789d25f3a2c3dc691ee085880ceee9ad179a13bf3b4c8f66b8f02",
@@ -22,7 +22,7 @@
       "role": "formal numerical scenarios"
     },
     "100": {
-      "repository_relative_directory": "resource_allocation/n100/data",
+      "repository_relative_directory": "data/n100",
       "files": {
         "mobility.npz": "b8bee5d05d45c80e25e79ced4bd1784efb0db34656af4bcad1be5963ca2e0ae6",
         "buildings.npz": "b8babd8fa57d837539acf6366536deb672610b2b57c2e7a8a9825a2a0f0c748c",
@@ -32,5 +32,5 @@
       "role": "legacy geometry test fixture only; no new 100-vehicle result"
     }
   },
-  "note": "No traffic files copied. Same repository bytes are reused; n100 is only a legacy geometry test input."
+  "note": "Twelve original input files copied byte-identically to data/. n50/n100 mobility is directly tracked in Git; no historical data_parts reconstruction required. n100 is only for the geometry compatibility test."
 }

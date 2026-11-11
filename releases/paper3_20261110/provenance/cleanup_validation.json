@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-11-11T12:33:59.674115+08:00",
+  "platform": "Windows-10-10.0.19044-SP0",
+  "mode": "isolated checkout containing only current release and data; no old tree or restored data",
+  "source_files_retained": 69,
+  "scientific_file_bytes_unchanged": true,
+  "original_manifests_unchanged": [
+    "source_files.json",
+    "replay_manifest_10A.json",
+    "replay_manifest_10B.json",
+    "replay_manifest_50B.json",
+    "baseline_source_files.json"
+  ],
+  "historical_git_commit": "6ae23c04c091edee70e228cae39d72efb2af04a8",
+  "distribution_aggregate_sha256": "db61bbcd8be6ddb78c8fda1db9bd53961d89a909735c23e4653266ff5eaa333d",
+  "data_files": 12,
+  "tests": {
+    "passed": 39,
+    "failed": 0,
+    "warnings": 1,
+    "wall_seconds": 8.644057900004555,
+    "stdout": "{\"source_files\": 69, \"source_bytes\": 790028, \"frozen_source_files\": 78, \"omitted_development_files\": 9, \"traffic_files\": 12, \"distribution_sha256\": \"db61bbcd8be6ddb78c8fda1db9bd53961d89a909735c23e4653266ff5eaa333d\", \"cases\": [\"10A\", \"10B\", \"50B\"], \"status\": \"verified\"}\n.......................................                                  [100%]\n============================== warnings summary ===============================\nreleases/paper3_20261110/code/tests/test_bottleneck_power.py::test_bottleneck_sca_not_worse_than_grid[1]\n  D:\\anaconda\\envs\\pymarl\\lib\\site-packages\\scipy\\optimize\\_optimize.py:353: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds\n    warnings.warn(\"Values in x were outside bounds during a \"\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n39 passed, 1 warning in 6.94s\n",
+    "stderr": ""
+  },
+  "previews": {
+    "10A": {
+      "passed": true,
+      "scene_inside_isolated_data": true,
+      "draws": 32,
+      "channel_seed": 2026102401,
+      "forecast_seed": 2026102501
+    },
+    "10B": {
+      "passed": true,
+      "scene_inside_isolated_data": true,
+      "draws": 32,
+      "channel_seed": 2026102801,
+      "forecast_seed": 2026102501
+    },
+    "50B": {
+      "passed": true,
+      "scene_inside_isolated_data": true,
+      "draws": 16,
+      "channel_seed": 2026102801,
+      "forecast_seed": 2026102501
+    }
+  },
+  "linux_execution": "not performed; validated with Windows Python 3.10",
+  "simulation": "none; existing small tests and configuration previews only"
+}

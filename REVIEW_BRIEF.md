@@ -5,11 +5,11 @@
 ## 阅读顺序
 
 1. 根MODEL_SPEC、PROJECT_STATUS。
-2. releases/paper3_20261110/README、configs与provenance；比较当前code和baseline_20261106/code。
+2. releases/paper3_20261110/README、configs 与 provenance。需要比对旧方法的实现时，读取[原11月6日对照源码](https://github.com/qbbbh/paper3/tree/6ae23c04c091edee70e228cae39d72efb2af04a8/releases/paper3_20261110/baseline_20261106/code)。
 3. evidence/paper3_20261110/README、完整周期/链路表、独立审计与固定验证样例。
 4. manuscripts/paper3_20261111/current中的引言v12、系统模型v1、研究问题—公式—算法—证据对应，以及新增功率阶段说明。
-5. 需要核对证明来源时，再读该包theory_history的两轮理论；旧参数与旧目标不覆盖当前模型。
-6. Paper5修改版/README与作者当前方案；该目录没有新训练结果。
+5. [研究思路演变](RESEARCH_EVOLUTION.md)记录模型、目标和算法选择的先后关系，并提供历史推导出处。
+6. [Paper5修改版独立仓库](https://github.com/qbbbh/paper5-revision)提供当前研究规格。
 
 重点原文：[当前引言v12](manuscripts/paper3_20261111/current/Paper3_引言_中文稿_v12_20261109.md)、[系统模型v1](manuscripts/paper3_20261111/current/Paper3_系统模型_中文稿_v1_20261109.md)、[问题—公式—算法—证据对应](manuscripts/paper3_20261111/current/Paper3_研究问题_公式_算法_证据对应_20261109.md)、[新增功率阶段与正文衔接](evidence/paper3_20261110/audits/新增功率协调阶段_算法与正文衔接.md)。
 
@@ -32,4 +32,3 @@
 
 先列影响结论的实质问题，再列必要文字修正，最后给仍可保留的结论。不要仅堆术语或抽象风险，也不要把合理简化一概定性为模型不可用。正文中的旧版本数字与实际新结果冲突时，明确应同步的位置，而不是改动原始实验数据。
 
-历史REVIEW_BRIEF原文保留在archive/docs_before_20261111；其“待完成”仅反映当时状态。

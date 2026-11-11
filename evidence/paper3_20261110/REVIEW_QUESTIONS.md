@@ -13,4 +13,4 @@
 9. **统计外推是否适当？** 1000个连续周期不等于1000个独立交通场景；10A/B是不同信道种子，50B只有本轮固定场景/种子。固定验证集既用于开发后的验证又被包含在最终全量汇总，不能将后者称作完全独立测试集。
 10. **引用与参数依据是否充分？** 相关依据审计随包，但第三方PDF/截图不上传。模型适用条件、VLC增益/噪声、电路功率出处仍应按正文逐项核对，不因数值审计通过就宣布模型或创新性全部成立。
 
-审核入口为当前`releases/paper3_20261110/code/`；旧科学源码对比为`releases/paper3_20261110/baseline_20261106/code/`。最终路径以仓库目录为准。旧跨规模报告在`baseline_records/pre_guard_cross_scale/`，不能拿其旧主方法数字与当前报告混排。
+审核入口为[当前正式源码](../../releases/paper3_20261110/code/)。旧科学源码仅从[固定历史提交中的20261106版本](https://github.com/qbbbh/paper3/tree/6ae23c04c091edee70e228cae39d72efb2af04a8/releases/paper3_20261110/baseline_20261106/code)追溯，不作为当前执行入口。旧跨规模报告与诊断保留在[改进前证据目录](baseline_records/pre_guard_cross_scale/README.md)，用于理解功率搜索改进的动机，不能拿其旧主方法数字与当前报告混排。证据包当前唯一Python入口是`verify_package.py`；历史脚本的移除不影响保存结果的读取和公式核查。

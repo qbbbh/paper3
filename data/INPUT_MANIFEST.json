@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "scope": "fixed Paper3 numerical input data; n100 only supports the historical geometry test",
+  "files": [
+    {
+      "path": "data/n10/mobility.npz",
+      "bytes": 394435,
+      "sha256": "80b894480c5cec6d4b04d6bb5ba9eac0da4f1ac27afb88006f4148f8ffb6f010",
+      "previous_repository_path": "resource_allocation/n10/data/mobility.npz"
+    },
+    {
+      "path": "data/n10/buildings.npz",
+      "bytes": 250,
+      "sha256": "ad5a0881a990965cfaf4a8f532eaa8977c4e4c5a30d24f752eab6b02df48da69",
+      "previous_repository_path": "resource_allocation/n10/data/buildings.npz"
+    },
+    {
+      "path": "data/n10/scenario.json",
+      "bytes": 585,
+      "sha256": "14105896f24cedb06d4181d1885399f16aa3b565fb41da2114bb754131a6af37",
+      "previous_repository_path": "resource_allocation/n10/data/scenario.json"
+    },
+    {
+      "path": "data/n10/audit.json",
+      "bytes": 1587,
+      "sha256": "0960fda0c52f54aea661d7e984fd549a4e337b1ce1231f0d0f61a1410f2646a0",
+      "previous_repository_path": "resource_allocation/n10/data/audit.json"
+    },
+    {
+      "path": "data/n50/mobility.npz",
+      "bytes": 2197344,
+      "sha256": "26018d5b1d82faee71adc1830635d38c3ef6ed405ec8c7e1ae8823101de1c1bb",
+      "previous_repository_path": "resource_allocation/n50/data/mobility.npz"
+    },
+    {
+      "path": "data/n50/buildings.npz",
+      "bytes": 277,
+      "sha256": "b0c3e25ae59789d25f3a2c3dc691ee085880ceee9ad179a13bf3b4c8f66b8f02",
+      "previous_repository_path": "resource_allocation/n50/data/buildings.npz"
+    },
+    {
+      "path": "data/n50/scenario.json",
+      "bytes": 621,
+      "sha256": "0555817d8720ee08ce24e559894c1c4dff5112f3658c6bc79ccbf7481471e62b",
+      "previous_repository_path": "resource_allocation/n50/data/scenario.json"
+    },
+    {
+      "path": "data/n50/audit.json",
+      "bytes": 1599,
+      "sha256": "b351219ed2a0b8ba1815dba23c176550afb28e36c7395aa7ae987da13a42f554",
+      "previous_repository_path": "resource_allocation/n50/data/audit.json"
+    },
+    {
+      "path": "data/n100/mobility.npz",
+      "bytes": 4513664,
+      "sha256": "b8bee5d05d45c80e25e79ced4bd1784efb0db34656af4bcad1be5963ca2e0ae6",
+      "previous_repository_path": "resource_allocation/n100/data/mobility.npz"
+    },
+    {
+      "path": "data/n100/buildings.npz",
+      "bytes": 291,
+      "sha256": "b8babd8fa57d837539acf6366536deb672610b2b57c2e7a8a9825a2a0f0c748c",
+      "previous_repository_path": "resource_allocation/n100/data/buildings.npz"
+    },
+    {
+      "path": "data/n100/scenario.json",
+      "bytes": 622,
+      "sha256": "e5e8c533217ada3c660613637713a61fe6f2b2bdaf809c80c071ef81e53d3462",
+      "previous_repository_path": "resource_allocation/n100/data/scenario.json"
+    },
+    {
+      "path": "data/n100/audit.json",
+      "bytes": 1597,
+      "sha256": "7489a35c4bd5bab8e4b37c7625f99697e1a256a76d0c156aae25705318852359",
+      "previous_repository_path": "resource_allocation/n100/data/audit.json"
+    }
+  ]
+}

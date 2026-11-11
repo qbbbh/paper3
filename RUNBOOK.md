@@ -1,6 +1,6 @@
 # 当前发布版本的准备与验证
 
-当前入口为releases/paper3_20261110；历史95960还原流程仍保留，但不是新结果的运行入口。
+当前入口位于 `releases/paper3_20261110`。新克隆直接读取 `data/` 中的输入文件。
 
 ```bash
 python -m pip install -r requirements.txt
@@ -19,6 +19,4 @@ case预览不执行仿真。确实要执行时，在case命令上加 `--execute 
 
 在Windows原环境验证了发布校验、配置预览及39个小测试。没有配置Linux实跑环境，不宣称已完成Linux端到端安装或全程仿真。环境配置若失败，应记录具体安装/命令错误；不能据此修改科学模型让脚本通过。
 
-## 历史快照
-
-旧命令 `python tools/run.py prepare` 还原 `.runtime/frozen_95960f5a/`，仅用于旧快照。旧科学源码映射和其哈希保持；旧根文档原样存archive/docs_before_20261111。根SNAPSHOT清单按本次发布重新生成，current_release字段与旧source_sha256分别标注。
+需要复核历史源码或历史运行方法时，可检出[上一版固定提交](https://github.com/qbbbh/paper3/tree/6ae23c04c091edee70e228cae39d72efb2af04a8)并使用该提交的说明。

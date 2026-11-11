@@ -95,23 +95,27 @@
       "id": "S00008",
       "local_path": "E:\\博士\\课题论文\\第3篇-修改版\\代码\\公平功率求解改进_20261110\\evidence\\audit_saved_arrays.py",
       "exists": true,
-      "included": true,
+      "included": false,
       "bytes": 13259,
       "sha256": "7c54ceda12e01c6d4fef2a509edde2f150eb7482ef04e61988a5bb6930cc5b65",
-      "published_path": "audits/audit_saved_arrays.py",
-      "published_sha256": "7c54ceda12e01c6d4fef2a509edde2f150eb7482ef04e61988a5bb6930cc5b65",
-      "transformation": "none"
+      "transformation": "none",
+      "former_published_path": "audits/audit_saved_arrays.py",
+      "former_published_sha256": "7c54ceda12e01c6d4fef2a509edde2f150eb7482ef04e61988a5bb6930cc5b65",
+      "publication_status": "historical_script_removed_from_current_package",
+      "archive_url": "https://github.com/qbbbh/paper3/blob/6ae23c04c091edee70e228cae39d72efb2af04a8/evidence/paper3_20261110/audits/audit_saved_arrays.py"
     },
     {
       "id": "S00009",
       "local_path": "E:\\博士\\课题论文\\第3篇-修改版\\代码\\公平功率求解改进_20261110\\evidence\\inspect_original_action_equivalence.py",
       "exists": true,
-      "included": true,
+      "included": false,
       "bytes": 8815,
       "sha256": "0b054f021cec38992e92c52a78d1758b0534be591b55f0fd3ee44f038657bdc6",
-      "published_path": "audits/inspect_original_action_equivalence.py",
-      "published_sha256": "0b054f021cec38992e92c52a78d1758b0534be591b55f0fd3ee44f038657bdc6",
-      "transformation": "none"
+      "transformation": "none",
+      "former_published_path": "audits/inspect_original_action_equivalence.py",
+      "former_published_sha256": "0b054f021cec38992e92c52a78d1758b0534be591b55f0fd3ee44f038657bdc6",
+      "publication_status": "historical_script_removed_from_current_package",
+      "archive_url": "https://github.com/qbbbh/paper3/blob/6ae23c04c091edee70e228cae39d72efb2af04a8/evidence/paper3_20261110/audits/inspect_original_action_equivalence.py"
     },
     {
       "id": "S00010",
@@ -92302,23 +92306,27 @@
       "id": "S11484",
       "local_path": "E:\\博士\\课题论文\\第3篇-修改版\\代码\\跨规模结果分析_20261110\\analyze_scales.py",
       "exists": true,
-      "included": true,
+      "included": false,
       "bytes": 11102,
       "sha256": "c5dfe70962cc8738bc0280db2c1cfa26ada1837c63d627cdef9f6f3dbab3cd94",
-      "published_path": "baseline_records/pre_guard_cross_scale/analyze_scales.py",
-      "published_sha256": "c5dfe70962cc8738bc0280db2c1cfa26ada1837c63d627cdef9f6f3dbab3cd94",
-      "transformation": "none"
+      "transformation": "none",
+      "former_published_path": "baseline_records/pre_guard_cross_scale/analyze_scales.py",
+      "former_published_sha256": "c5dfe70962cc8738bc0280db2c1cfa26ada1837c63d627cdef9f6f3dbab3cd94",
+      "publication_status": "historical_script_removed_from_current_package",
+      "archive_url": "https://github.com/qbbbh/paper3/blob/6ae23c04c091edee70e228cae39d72efb2af04a8/evidence/paper3_20261110/baseline_records/pre_guard_cross_scale/analyze_scales.py"
     },
     {
       "id": "S11485",
       "local_path": "E:\\博士\\课题论文\\第3篇-修改版\\代码\\跨规模结果分析_20261110\\inspect_saved_physics.py",
       "exists": true,
-      "included": true,
+      "included": false,
       "bytes": 3083,
       "sha256": "7d405f38395a3cdf843d25b161643855f0a3910560875eed991213639ac873a6",
-      "published_path": "baseline_records/pre_guard_cross_scale/inspect_saved_physics.py",
-      "published_sha256": "7d405f38395a3cdf843d25b161643855f0a3910560875eed991213639ac873a6",
-      "transformation": "none"
+      "transformation": "none",
+      "former_published_path": "baseline_records/pre_guard_cross_scale/inspect_saved_physics.py",
+      "former_published_sha256": "7d405f38395a3cdf843d25b161643855f0a3910560875eed991213639ac873a6",
+      "publication_status": "historical_script_removed_from_current_package",
+      "archive_url": "https://github.com/qbbbh/paper3/blob/6ae23c04c091edee70e228cae39d72efb2af04a8/evidence/paper3_20261110/baseline_records/pre_guard_cross_scale/inspect_saved_physics.py"
     },
     {
       "id": "S11486",
@@ -92412,12 +92420,14 @@
       "id": "S11494",
       "local_path": "E:\\博士\\课题论文\\第3篇-修改版\\代码\\跨规模结果分析_20261110\\write_report.py",
       "exists": true,
-      "included": true,
+      "included": false,
       "bytes": 15512,
       "sha256": "9cd2097e6d4face5e70053a97de5b278724e134f074cfb6653c9c2e9557a0ce8",
-      "published_path": "baseline_records/pre_guard_cross_scale/write_report.py",
-      "published_sha256": "9cd2097e6d4face5e70053a97de5b278724e134f074cfb6653c9c2e9557a0ce8",
-      "transformation": "none"
+      "transformation": "none",
+      "former_published_path": "baseline_records/pre_guard_cross_scale/write_report.py",
+      "former_published_sha256": "9cd2097e6d4face5e70053a97de5b278724e134f074cfb6653c9c2e9557a0ce8",
+      "publication_status": "historical_script_removed_from_current_package",
+      "archive_url": "https://github.com/qbbbh/paper3/blob/6ae23c04c091edee70e228cae39d72efb2af04a8/evidence/paper3_20261110/baseline_records/pre_guard_cross_scale/write_report.py"
     }
   ],
   "transformations": [
@@ -92722,5 +92732,81 @@
     800,
     900
   ],
-  "excluded": "Full restart states, full runs, third-party PDFs/PNGs remain local and are not included"
+  "excluded": "Full restart states, full runs, third-party PDFs/PNGs remain local and are not included",
+  "removed_publication_files": [
+    {
+      "former_published_path": "add_baselines.py",
+      "former_published_sha256": "263988d4054788c1de0708786a6103ae5a329fba11530e238024f0bcc9a24224",
+      "bytes": 2902,
+      "included": false,
+      "archive_url": "https://github.com/qbbbh/paper3/blob/6ae23c04c091edee70e228cae39d72efb2af04a8/evidence/paper3_20261110/add_baselines.py",
+      "reason": "Removed historical or one-time script from current review package; numerical evidence and original provenance retained"
+    },
+    {
+      "former_published_path": "build_package.py",
+      "former_published_sha256": "f949d9b538928275a032c100088cdd6c750fe0ac9d7902ec3a37010584780fbd",
+      "bytes": 22129,
+      "included": false,
+      "archive_url": "https://github.com/qbbbh/paper3/blob/6ae23c04c091edee70e228cae39d72efb2af04a8/evidence/paper3_20261110/build_package.py",
+      "reason": "Removed historical or one-time script from current review package; numerical evidence and original provenance retained"
+    },
+    {
+      "former_published_path": "split_period_tables.py",
+      "former_published_sha256": "f4953c5c68113724ea20410d30a379e157a4739bf7ca3d2f6aadebe37302f660",
+      "bytes": 5802,
+      "included": false,
+      "archive_url": "https://github.com/qbbbh/paper3/blob/6ae23c04c091edee70e228cae39d72efb2af04a8/evidence/paper3_20261110/split_period_tables.py",
+      "reason": "Removed historical or one-time script from current review package; numerical evidence and original provenance retained"
+    },
+    {
+      "former_published_path": "audits/audit_saved_arrays.py",
+      "former_published_sha256": "7c54ceda12e01c6d4fef2a509edde2f150eb7482ef04e61988a5bb6930cc5b65",
+      "bytes": 13259,
+      "included": false,
+      "archive_url": "https://github.com/qbbbh/paper3/blob/6ae23c04c091edee70e228cae39d72efb2af04a8/evidence/paper3_20261110/audits/audit_saved_arrays.py",
+      "reason": "Removed historical or one-time script from current review package; numerical evidence and original provenance retained",
+      "source_id": "S00008",
+      "original_source_sha256": "7c54ceda12e01c6d4fef2a509edde2f150eb7482ef04e61988a5bb6930cc5b65"
+    },
+    {
+      "former_published_path": "audits/inspect_original_action_equivalence.py",
+      "former_published_sha256": "0b054f021cec38992e92c52a78d1758b0534be591b55f0fd3ee44f038657bdc6",
+      "bytes": 8815,
+      "included": false,
+      "archive_url": "https://github.com/qbbbh/paper3/blob/6ae23c04c091edee70e228cae39d72efb2af04a8/evidence/paper3_20261110/audits/inspect_original_action_equivalence.py",
+      "reason": "Removed historical or one-time script from current review package; numerical evidence and original provenance retained",
+      "source_id": "S00009",
+      "original_source_sha256": "0b054f021cec38992e92c52a78d1758b0534be591b55f0fd3ee44f038657bdc6"
+    },
+    {
+      "former_published_path": "baseline_records/pre_guard_cross_scale/analyze_scales.py",
+      "former_published_sha256": "c5dfe70962cc8738bc0280db2c1cfa26ada1837c63d627cdef9f6f3dbab3cd94",
+      "bytes": 11102,
+      "included": false,
+      "archive_url": "https://github.com/qbbbh/paper3/blob/6ae23c04c091edee70e228cae39d72efb2af04a8/evidence/paper3_20261110/baseline_records/pre_guard_cross_scale/analyze_scales.py",
+      "reason": "Removed historical or one-time script from current review package; numerical evidence and original provenance retained",
+      "source_id": "S11484",
+      "original_source_sha256": "c5dfe70962cc8738bc0280db2c1cfa26ada1837c63d627cdef9f6f3dbab3cd94"
+    },
+    {
+      "former_published_path": "baseline_records/pre_guard_cross_scale/inspect_saved_physics.py",
+      "former_published_sha256": "7d405f38395a3cdf843d25b161643855f0a3910560875eed991213639ac873a6",
+      "bytes": 3083,
+      "included": false,
+      "archive_url": "https://github.com/qbbbh/paper3/blob/6ae23c04c091edee70e228cae39d72efb2af04a8/evidence/paper3_20261110/baseline_records/pre_guard_cross_scale/inspect_saved_physics.py",
+      "reason": "Removed historical or one-time script from current review package; numerical evidence and original provenance retained",
+      "source_id": "S11485",
+      "original_source_sha256": "7d405f38395a3cdf843d25b161643855f0a3910560875eed991213639ac873a6"
+    },
+    {
+      "former_published_path": "baseline_records/pre_guard_cross_scale/write_report.py",
+      "former_published_sha256": "9cd2097e6d4face5e70053a97de5b278724e134f074cfb6653c9c2e9557a0ce8",
+      "bytes": 15512,
+      "included": false,
+      "archive_url": "https://github.com/qbbbh/paper3/blob/6ae23c04c091edee70e228cae39d72efb2af04a8/evidence/paper3_20261110/baseline_records/pre_guard_cross_scale/write_report.py",
+      "reason": "Removed historical or one-time script from current review package; numerical evidence and original provenance retained",
+      "source_id": "S11494",
+      "original_source_sha256": "9cd2097e6d4face5e70053a97de5b278724e134f074cfb6653c9c2e9557a0ce8"
+    }
+  ]
 }
