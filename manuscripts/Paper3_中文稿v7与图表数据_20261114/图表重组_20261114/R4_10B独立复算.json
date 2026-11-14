@@ -1,0 +1,148 @@
+{
+  "source": "E:\\博士\\课题论文\\第3篇-修改版\\代码\\信息与预算专项_20261114\\delta\\runs\\10B\\full\\periods.csv",
+  "source_sha256": "22ed9dceef4e1c4204d2b20778b5d78c6fdc87d831e60cb05fff0ede99bc3f68",
+  "quantile_method": "numpy linear (Hyndman-Fan type 7)",
+  "arms": {
+    "0.05": {
+      "n": 200,
+      "L_p25_median_p75": [
+        0.38277815669842674,
+        3.7050906564430717,
+        5.190126056123933
+      ],
+      "G_p25_median_p75": [
+        0.009521115455619789,
+        10.801601497448344,
+        47.60225468400507
+      ],
+      "avg_ee_mean": 400.69280735365044,
+      "min_ee_mean": 93.5338909551463,
+      "avg_loss_ratio_means_pct": 2.423402539218178,
+      "min_gain_ratio_means_pct": 41.784420864191276,
+      "L_mean": 1.245821956730847,
+      "G_mean": 27.5648018372819,
+      "ref_avg_mean": 410.64437352890656,
+      "ref_min_mean": 65.96908911786443,
+      "actual_service_count": 199,
+      "pred_budget_fail_count": 0,
+      "final_quantile_fail_count": 1,
+      "own_delta_loss_exceed_count": 58,
+      "same_10pct_exceed_count": 3
+    },
+    "0.1": {
+      "n": 200,
+      "L_p25_median_p75": [
+        0.4916881243487242,
+        6.812961150544378,
+        9.865694520720607
+      ],
+      "G_p25_median_p75": [
+        0.02090877183949935,
+        17.212715153097374,
+        63.76879867227846
+      ],
+      "avg_ee_mean": 389.4057768094367,
+      "min_ee_mean": 100.9472998872499,
+      "avg_loss_ratio_means_pct": 5.172016978329497,
+      "min_gain_ratio_means_pct": 53.02212178023444,
+      "L_mean": 4.123041789080082,
+      "G_mean": 34.9782107693855,
+      "ref_avg_mean": 410.64437352890656,
+      "ref_min_mean": 65.96908911786443,
+      "actual_service_count": 199,
+      "pred_budget_fail_count": 0,
+      "final_quantile_fail_count": 1,
+      "own_delta_loss_exceed_count": 49,
+      "same_10pct_exceed_count": 49
+    },
+    "0.2": {
+      "n": 200,
+      "L_p25_median_p75": [
+        1.7698037331230347,
+        10.891189794051403,
+        17.55699822439385
+      ],
+      "G_p25_median_p75": [
+        0.02818747984964165,
+        24.751298959315065,
+        73.63963047063487
+      ],
+      "avg_ee_mean": 372.10657979621357,
+      "min_ee_mean": 108.89375295080596,
+      "avg_loss_ratio_means_pct": 9.384712470675115,
+      "min_gain_ratio_means_pct": 65.06784375368544,
+      "L_mean": 8.4976117321346,
+      "G_mean": 42.92466383294153,
+      "ref_avg_mean": 410.64437352890656,
+      "ref_min_mean": 65.96908911786443,
+      "actual_service_count": 200,
+      "pred_budget_fail_count": 0,
+      "final_quantile_fail_count": 0,
+      "own_delta_loss_exceed_count": 33,
+      "same_10pct_exceed_count": 104
+    }
+  },
+  "paired": {
+    "0.05 to 0.1": {
+      "min_ee_change_mean": 7.413408932103595,
+      "min_ee_change_median": 0.0007883848731200516,
+      "positive": 115,
+      "near_zero": 58,
+      "negative": 27
+    },
+    "0.1 to 0.2": {
+      "min_ee_change_mean": 7.946453063556041,
+      "min_ee_change_median": 0.0,
+      "positive": 92,
+      "near_zero": 80,
+      "negative": 28
+    }
+  },
+  "prediction_budget_use": {
+    "0.05": {
+      "pred_loss_p25_median_p75": [
+        0.42773973611387184,
+        4.936351517570797,
+        4.999993308669106
+      ],
+      "pred_loss_mean": 1.5342489046501737,
+      "budget_slack_pct_p25_median_p75": [
+        6.691330893371372e-06,
+        0.06364848242920296,
+        4.572260263886128
+      ],
+      "within_0_01pct_point_of_budget": 97,
+      "within_0_1pct_point_of_budget": 102
+    },
+    "0.1": {
+      "pred_loss_p25_median_p75": [
+        0.48239192133146536,
+        7.701939372838518,
+        9.999923019113725
+      ],
+      "pred_loss_mean": 4.299897665353434,
+      "budget_slack_pct_p25_median_p75": [
+        7.698088627572375e-05,
+        2.2980606271614823,
+        9.517608078668534
+      ],
+      "within_0_01pct_point_of_budget": 72,
+      "within_0_1pct_point_of_budget": 78
+    },
+    "0.2": {
+      "pred_loss_p25_median_p75": [
+        2.6388957786395273,
+        10.163329471206854,
+        18.14012152940452
+      ],
+      "pred_loss_mean": 8.466408759125079,
+      "budget_slack_pct_p25_median_p75": [
+        1.8598784705954783,
+        9.836670528793146,
+        17.36110422136047
+      ],
+      "within_0_01pct_point_of_budget": 35,
+      "within_0_1pct_point_of_budget": 36
+    }
+  }
+}

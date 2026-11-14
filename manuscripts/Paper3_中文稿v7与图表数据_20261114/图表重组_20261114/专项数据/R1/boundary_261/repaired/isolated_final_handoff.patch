@@ -1,0 +1,17 @@
+--- frozen
++++ same_50A_boundary_fix
+@@ -188,10 +188,10 @@
+         # 指定的功率求解器（如 dinkelbach），只在其真实均 EE 更高时采纳。
+         if power_solver != "ascent":
+             try:
+-                refined = Action(list(best[3].links),
+-                                 _power_solve(list(best[3].links), belief_gains, checked_ports,
+-                                              cfg, power_solver, solver_log=solver_log, q_min_bps=q_min_bps),
+-                                 best[3].ports)
++                refined_powers = _power_solve(list(best[3].links), belief_gains, checked_ports,
++                                              cfg, power_solver, solver_log=solver_log, q_min_bps=q_min_bps)
++                refined_powers = _strict_final_power_box(best[3].links, refined_powers, cfg)
++                refined = Action(list(best[3].links), refined_powers, best[3].ports)
+                 refined_forecast = _forecast(evaluator, refined)
+                 calls += 1
+                 network, mean_pair, weakest = _metrics(refined, refined_forecast, cfg)

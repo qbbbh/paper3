@@ -1,0 +1,39 @@
+{
+  "repair": false,
+  "events": [
+    {
+      "kind": "strict_validation_failure",
+      "offenses": [
+        {
+          "index": 2,
+          "link": [
+            2,
+            6,
+            "VLC"
+          ],
+          "power_w": 30.000000000000004,
+          "power_repr": "30.000000000000004",
+          "power_hex": "0x1.e000000000001p+4",
+          "lower_w": 0.1,
+          "upper_w": 30.0,
+          "below_lower_w": 0.0,
+          "above_upper_w": 3.552713678800501e-15
+        }
+      ],
+      "stack": [
+        "  File \"E:\\博士\\课题论文\\第3篇-修改版\\代码\\信息与预算专项_20261114\\delay\\diagnose_delay_boundary.py\", line 69, in <module>\n    if __name__=='__main__':main()\n",
+        "  File \"E:\\博士\\课题论文\\第3篇-修改版\\代码\\信息与预算专项_20261114\\delay\\diagnose_delay_boundary.py\", line 60, in main\n    r=d.calculate(case,261,5)\n",
+        "  File \"E:\\博士\\课题论文\\第3篇-修改版\\代码\\信息与预算专项_20261114\\delay\\run_delay_diagnostic.py\", line 163, in calculate\n    ref=pure_ee_reference(case.n,case.cfg,candidates,business,ports,evaluator,\n",
+        "  File \"E:\\博士\\课题论文\\第3篇-修改版\\代码\\公平功率求解改进_20261110\\code\\p3learn\\allocation.py\", line 1091, in pure_ee_reference\n    refined_forecast = _forecast(evaluator, refined)\n",
+        "  File \"E:\\博士\\课题论文\\第3篇-修改版\\代码\\公平功率求解改进_20261110\\code\\p3learn\\allocation.py\", line 325, in _forecast\n    value = evaluator(copy_action(action))\n",
+        "  File \"E:\\博士\\课题论文\\第3篇-修改版\\代码\\公平功率求解改进_20261110\\code\\p3learn\\forecast.py\", line 91, in evaluate\n    block.validate_action(action.links, action.powers, action.ports, self.n, self.cfg)\n",
+        "  File \"E:\\博士\\课题论文\\第3篇-修改版\\代码\\信息与预算专项_20261114\\delay\\diagnose_delay_boundary.py\", line 24, in validate\n    if bad:EVENTS.append({'kind':'strict_validation_failure','offenses':bad,'stack':traceback.format_stack(limit=12)})\n"
+      ]
+    }
+  ],
+  "success": false,
+  "reason": "initial_reference_power_search_failure: VLC 活动功率必须在 [0.1, 30] W",
+  "same_final_handoff": true,
+  "within_solver_tolerance": true,
+  "original_failure_reproduced": true
+}

@@ -1,0 +1,76 @@
+{
+  "protocol_sha256": "0e133caff3d622a599cbde72952cf38a84c375f96d608a9342cd57ed23bccf43",
+  "driver_sha256": "cb39eea15e09423d71b4daf79ebcd9414fcac32107cc80c76fe193315338d708",
+  "analysis_sha256": "1b7fb0b45e2d2730f2d507b71a86bc4f8121fdf63fb4a074c1bce5053410828d",
+  "package_script_sha256": "fb6a560ec8e0f69cad82ea16de6f1348515ef5e021fe25304cc8a2f63cfc3125",
+  "files": {
+    "10B_periods.csv": {
+      "bytes": 115899,
+      "sha256": "22ed9dceef4e1c4204d2b20778b5d78c6fdc87d831e60cb05fff0ede99bc3f68"
+    },
+    "50B_periods.csv": {
+      "bytes": 115496,
+      "sha256": "f0271e19ec3157ac81d563f6cd9d0c20a02011abe6d8bb2bf53ed15c865c5f77"
+    },
+    "analysis_manifest.json": {
+      "bytes": 62318,
+      "sha256": "461548d64045c37a5951b5c053a6ce0a3ba49d3575a89624536f55cdc6fd061e"
+    },
+    "independent_array_checks.json": {
+      "bytes": 118359,
+      "sha256": "973fe7fea108c3e92a948b4ae788ddea4a7aac4d04fd866f464ee3e145fe3d7a"
+    },
+    "protocol.json": {
+      "bytes": 6023,
+      "sha256": "0e133caff3d622a599cbde72952cf38a84c375f96d608a9342cd57ed23bccf43"
+    },
+    "R4_common_periods.json": {
+      "bytes": 3993,
+      "sha256": "b5927a99783bc35256d60012d9b14a2f656c7934b426daafa21b288dac439f5f"
+    },
+    "R4_planned_service.csv": {
+      "bytes": 523,
+      "sha256": "c40972af50f355b70b3b5e8521e2bb6d0f05e7a4c715098cb92dc8597b9f087d"
+    },
+    "R4_plot_summary.csv": {
+      "bytes": 864,
+      "sha256": "2dbf100cc22b04537353197f70fac905d17708c236c3a20994fea1f05a2b6b40"
+    },
+    "README.md": {
+      "bytes": 3273,
+      "sha256": "36881ee108e82c4615f638ba5d41af8033c7db4e0ecbe7d56b6ccebee5972541"
+    },
+    "restart_50B_after.json": {
+      "bytes": 43064,
+      "sha256": "1f22dc8b29b788da5b2226ad83c7c6883a4554448a7193a920cba4c7fb5ebe3d"
+    },
+    "restart_50B_before.json": {
+      "bytes": 43064,
+      "sha256": "1f22dc8b29b788da5b2226ad83c7c6883a4554448a7193a920cba4c7fb5ebe3d"
+    },
+    "runtime_execution.json": {
+      "bytes": 892,
+      "sha256": "0e47ddf0d21ab49fc74dc9acf2bc47e82deace9fa0690f10d2a8e8b330ce71d3"
+    },
+    "takeover_50B.json": {
+      "bytes": 773,
+      "sha256": "47d236945f28e43a335f6f6087f0db036db7ee0c8ba7fdfb15766150eee8257e"
+    },
+    "takeover_50B_after.json": {
+      "bytes": 21389,
+      "sha256": "9cc8444bac17d366bb45c6ea35158b785f88114c7b46f874d2ec02e13fa6562d"
+    },
+    "takeover_50B_before.json": {
+      "bytes": 21389,
+      "sha256": "9cc8444bac17d366bb45c6ea35158b785f88114c7b46f874d2ec02e13fa6562d"
+    },
+    "takeover_50B_initial.json": {
+      "bytes": 896,
+      "sha256": "5b2e8d4e670784e25730e414524951e7544eb76a75541054be72293a0c118757"
+    },
+    "two_worker_restart_50B.json": {
+      "bytes": 1025,
+      "sha256": "f985d954f6b854f2c2a9e31a6d486bc3c5c20417a6a437502f5b446424cac3fb"
+    }
+  }
+}

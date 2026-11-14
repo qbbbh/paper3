@@ -1,0 +1,38 @@
+{
+  "results_version": 7,
+  "introduction_version": 15,
+  "changed_paragraphs": 15,
+  "fifth_section_figures": 4,
+  "fifth_section_tables": 3,
+  "settings_unchanged": true,
+  "table_values_unchanged": true,
+  "figure_links_unchanged": true,
+  "source_data_figures_and_old_documents_unchanged": 37,
+  "references_unchanged": true,
+  "introduction_other_content_unchanged": true,
+  "only_declared_paragraph_edits": true,
+  "old_characters": 8092,
+  "new_characters": 8001,
+  "r4_50b_median_point_ratios": [
+    {
+      "budgets": [
+        0.05,
+        0.1
+      ],
+      "median_loss_diff_pp": 3.3726105127357187,
+      "median_gain_diff_mbit_j": 2.2288429852567475,
+      "ratio": 0.6608658120586847
+    },
+    {
+      "budgets": [
+        0.1,
+        0.2
+      ],
+      "median_loss_diff_pp": 5.547896475894047,
+      "median_gain_diff_mbit_j": 1.6673540616412375,
+      "ratio": 0.30053806318953386
+    }
+  ],
+  "independent_results_review": "passed",
+  "new_simulations": false
+}

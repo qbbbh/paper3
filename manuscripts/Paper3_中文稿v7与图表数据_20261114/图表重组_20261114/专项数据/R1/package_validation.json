@@ -1,0 +1,108 @@
+{
+  "copied_files": 20,
+  "all_sha256_match": true,
+  "payload_bytes": 1768060,
+  "source_manifest_sha256": "dfa70368b4d1e0443d6f5fc95e6ac5efbdc318d858ae4da20e9a4f5f213f089c",
+  "files": [
+    {
+      "path": "delay_periods.csv",
+      "sha256": "dd39f907cbbba412bf8223a979c3474081a81badfc13ab05ffc92e33c5d594f2",
+      "bytes": 276328
+    },
+    {
+      "path": "delay_summary.csv",
+      "sha256": "20d2f5b27ec22368a6bf68dd143806059ef531e4d4bc2a5a9293f176abfaa6f2",
+      "bytes": 2663
+    },
+    {
+      "path": "fixed_probe_statistics.csv",
+      "sha256": "7047095864164dbe52a154e1b3125affa89270f900cb16bdb7a937b2c7a5457e",
+      "bytes": 60325
+    },
+    {
+      "path": "fixed_probe_link_rates.csv",
+      "sha256": "1e16aaa311afebae2d2876ab131104c4e777716632106e07af4e4f66246c9565",
+      "bytes": 286417
+    },
+    {
+      "path": "executed_link_actions.csv",
+      "sha256": "47e051570053b0cc0a5eccea81935714a1932a617abdd6aa8c5cce9fd428dd2d",
+      "bytes": 625500
+    },
+    {
+      "path": "common_success_blocks.csv",
+      "sha256": "3a3138ebf6f12735dfa3725a5c1df68b4901b3a2d744103db117fc069178efd8",
+      "bytes": 988
+    },
+    {
+      "path": "summary.json",
+      "sha256": "d6fa336fad1e91e6f8d04fb69723980f4c9a1b6b13cba0eb2326f60be179cca1",
+      "bytes": 13351
+    },
+    {
+      "path": "prepare_manifest.json",
+      "sha256": "4b91a74aa4084a4c4715e82421da9bc59c2b9175af9c2775b703b7b224a72887",
+      "bytes": 444716
+    },
+    {
+      "path": "diagnostic_validation.json",
+      "sha256": "2fc43464f79dc0c00b34d3d91787f56ebfe0f15b716e5880f03c8db9750f65ab",
+      "bytes": 1871
+    },
+    {
+      "path": "README_时延专项.md",
+      "sha256": "9ac563c4ad5188c247386a0c12035536002bbcb7b67298b0c209147da1eed564",
+      "bytes": 3078
+    },
+    {
+      "path": "R1_完成核验与结果.md",
+      "sha256": "fd48360382d0d0c63253f4311891c6e8a969a660f76d878d6c7c1919ad8d44b5",
+      "bytes": 6185
+    },
+    {
+      "path": "run_delay_diagnostic.py",
+      "sha256": "1b76a57c8e8601f82f147b7017a5facf5348741e4fe02735615e3e20fe586f19",
+      "bytes": 15513
+    },
+    {
+      "path": "summarize_delay.py",
+      "sha256": "e374bdef8149006f0e260ded0def7390eba6909c3524cb505328a51a24968162",
+      "bytes": 10390
+    },
+    {
+      "path": "finalize_delay_evidence.py",
+      "sha256": "8ab163f586fad00ce3d6c203e063edfbb66bffab491328b806f07a3dfcd0f1b0",
+      "bytes": 6904
+    },
+    {
+      "path": "launch_worker.py",
+      "sha256": "73fd83dd8ac78c8fedcf8f0f77a9c26b97c9ec18a33b7c09f1c8af3d0f1bbd00",
+      "bytes": 2448
+    },
+    {
+      "path": "repairs_manifest.json",
+      "sha256": "735973a9a81095fa276d14a99bf795e3112d03dc013f50f2894fbcced041dae2",
+      "bytes": 1268
+    },
+    {
+      "path": "diagnose_delay_boundary.py",
+      "sha256": "f2485697e42aea33ceaaa19385aff6ae1658ac5d185a5781c9cd16e95c62ae2b",
+      "bytes": 4704
+    },
+    {
+      "path": "boundary_261/original/diagnostic.json",
+      "sha256": "471666ad5b81ac74ecb258b28540a24bc8c10b726bca452f7dd6a36ea24aa9e7",
+      "bytes": 2402
+    },
+    {
+      "path": "boundary_261/repaired/diagnostic.json",
+      "sha256": "44e991fa0a35231c4392e752d0c59210d1df76093346b15de36776130ba466e1",
+      "bytes": 1897
+    },
+    {
+      "path": "boundary_261/repaired/isolated_final_handoff.patch",
+      "sha256": "9e5fecb5b6695603ea7646c3b3bf513f97269d42599ae5b7686ae958956fabb8",
+      "bytes": 1112
+    }
+  ]
+}

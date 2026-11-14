@@ -1,0 +1,32 @@
+{
+  "link_count": 59970,
+  "ee_identity_max_abs_error_mbit_j": 1.3642420526593924e-12,
+  "rf_bottleneck_independent_checks": [
+    {
+      "group": "10A",
+      "rf_weakest_fraction": 0.64,
+      "rf_mean_ee": 434.1631495748004,
+      "rf_p5": 33.69850650134147
+    },
+    {
+      "group": "10B",
+      "rf_weakest_fraction": 0.6326326326326326,
+      "rf_mean_ee": 445.6831249946291,
+      "rf_p5": 41.511697089867624
+    },
+    {
+      "group": "50A",
+      "rf_weakest_fraction": 0.703,
+      "rf_mean_ee": 366.0570048349522,
+      "rf_p5": 35.564378231128174
+    },
+    {
+      "group": "50B",
+      "rf_weakest_fraction": 0.7097097097097097,
+      "rf_mean_ee": 342.98863480603217,
+      "rf_p5": 33.11642158976133
+    }
+  ],
+  "r3_pairwise_differences_checked": 7996,
+  "near_zero_max_tolerance": 1e-06
+}

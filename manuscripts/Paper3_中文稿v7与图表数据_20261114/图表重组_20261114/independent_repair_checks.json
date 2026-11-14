@@ -1,0 +1,1212 @@
+[
+  {
+    "block": 161,
+    "method": "reference",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 305231802.82798964,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 161,
+    "method": "maxmin",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 305231802.82798964,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 161,
+    "method": "no_refine",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 305231802.82798964,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 161,
+    "method": "same_topo_maxmin",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 305231802.82798964,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 161,
+    "method": "zappone_mmee_fp_fixed",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 305231802.82798964,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 161,
+    "method": "aboagye_matching_qt",
+    "action_source": "unchanged original",
+    "only_added": "comparison with repaired reference",
+    "predicted_budget_pass": false
+  },
+  {
+    "block": 216,
+    "method": "reference",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 311268178.4903106,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 216,
+    "method": "maxmin",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 311268178.4903106,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 216,
+    "method": "no_refine",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 311268178.4903106,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 216,
+    "method": "same_topo_maxmin",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 311268178.4903106,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 216,
+    "method": "zappone_mmee_fp_fixed",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 311268178.4903106,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 216,
+    "method": "aboagye_matching_qt",
+    "action_source": "unchanged original",
+    "only_added": "comparison with repaired reference",
+    "predicted_budget_pass": false
+  },
+  {
+    "block": 227,
+    "method": "reference",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 310821874.7917429,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 227,
+    "method": "maxmin",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 310821874.7917429,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 227,
+    "method": "no_refine",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 310821874.7917429,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 227,
+    "method": "same_topo_maxmin",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 310821874.7917429,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 227,
+    "method": "zappone_mmee_fp_fixed",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 310821874.7917429,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 227,
+    "method": "aboagye_matching_qt",
+    "action_source": "unchanged original",
+    "only_added": "comparison with repaired reference",
+    "predicted_budget_pass": false
+  },
+  {
+    "block": 651,
+    "method": "reference",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 288711735.0117226,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 651,
+    "method": "maxmin",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 288711735.0117226,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 651,
+    "method": "no_refine",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 288711735.0117226,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 651,
+    "method": "same_topo_maxmin",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 288711735.0117226,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 651,
+    "method": "zappone_mmee_fp_fixed",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 288711735.0117226,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 651,
+    "method": "aboagye_matching_qt",
+    "action_source": "unchanged original",
+    "only_added": "comparison with repaired reference",
+    "predicted_budget_pass": false
+  },
+  {
+    "block": 747,
+    "method": "reference",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 224598188.02549925,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 747,
+    "method": "maxmin",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 224598188.02549925,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 747,
+    "method": "no_refine",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 224598188.02549925,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 747,
+    "method": "same_topo_maxmin",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 224598188.02549925,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 747,
+    "method": "zappone_mmee_fp_fixed",
+    "checks": [
+      {
+        "label": "actual rates",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "saved actual link EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual average EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "actual weakest EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean rate",
+        "max_abs": 0.0
+      },
+      {
+        "label": "calibrated lower quantile",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted mean EE",
+        "max_abs": 0.0
+      },
+      {
+        "label": "predicted weakest EE",
+        "max_abs": 0.0
+      }
+    ],
+    "strict_bounds": true,
+    "actual_service": true,
+    "predicted_budget_pass": true,
+    "reference_EE": 224598188.02549925,
+    "action_source": "repaired_dependents"
+  },
+  {
+    "block": 747,
+    "method": "aboagye_matching_qt",
+    "action_source": "unchanged original",
+    "only_added": "comparison with repaired reference",
+    "predicted_budget_pass": true
+  }
+]

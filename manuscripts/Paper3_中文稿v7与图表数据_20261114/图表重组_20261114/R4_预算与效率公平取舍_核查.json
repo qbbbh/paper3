@@ -1,0 +1,13 @@
+{
+  "center": "marginal medians",
+  "whiskers": "marginal P25-P75",
+  "delta_values": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "interval_type": "empirical interquartile range",
+  "width_mm": 182.0,
+  "height_mm": 80.0,
+  "source_sha256": "2dbf100cc22b04537353197f70fac905d17708c236c3a20994fea1f05a2b6b40"
+}

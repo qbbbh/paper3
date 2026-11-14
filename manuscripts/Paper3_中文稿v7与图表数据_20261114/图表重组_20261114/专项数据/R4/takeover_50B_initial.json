@@ -1,0 +1,17 @@
+{
+  "coordinator_pid": 34400,
+  "original_pid": 29372,
+  "created_unix": 1794597723.949564,
+  "protocol_sha256": "0e133caff3d622a599cbde72952cf38a84c375f96d608a9342cd57ed23bccf43",
+  "frozen_driver_sha256": "cb39eea15e09423d71b4daf79ebcd9414fcac32107cc80c76fe193315338d708",
+  "coordinator_sha256": "ef50e926b13e3018e77a9b8d7074570a47969d2b2ee588ddf31909457bcb9f6d",
+  "retained_periods": 74,
+  "before_sha256": "9cc8444bac17d366bb45c6ea35158b785f88114c7b46f874d2ec02e13fa6562d",
+  "after_sha256": "9cc8444bac17d366bb45c6ea35158b785f88114c7b46f874d2ec02e13fa6562d",
+  "retained_hashes_unchanged": true,
+  "initial_free_gib": 2.6673851013183594,
+  "independence": "50B per-period posterior checkpoint; forecast_seed+k; local NM rng default_rng(0); pre-period truth checkpoint",
+  "scientific_settings_changed": false,
+  "requested_workers": 2,
+  "numerical_threads_per_worker": 1
+}

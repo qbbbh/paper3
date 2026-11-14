@@ -1,0 +1,192 @@
+{
+  "10B": {
+    "0.05": {
+      "n": 200,
+      "loss_quantiles": [
+        0.38277815669842674,
+        3.7050906564430717,
+        5.190126056123933
+      ],
+      "gain_quantiles": [
+        0.009521115455619789,
+        10.801601497448344,
+        47.60225468400507
+      ],
+      "avg_mean": 400.69280735365044,
+      "min_mean": 93.5338909551463,
+      "ref_avg_mean": 410.64437352890656,
+      "ref_min_mean": 65.96908911786443,
+      "ratio_mean_loss": 2.423402539218178,
+      "ratio_mean_gain": 41.784420864191276,
+      "actual_all_service": 199,
+      "loss_over_own_delta": 58,
+      "loss_over_10pct": 3,
+      "pred_budget_fail": 0,
+      "quantile_fail": 1
+    },
+    "0.1": {
+      "n": 200,
+      "loss_quantiles": [
+        0.4916881243487242,
+        6.812961150544378,
+        9.865694520720607
+      ],
+      "gain_quantiles": [
+        0.02090877183949935,
+        17.212715153097374,
+        63.76879867227846
+      ],
+      "avg_mean": 389.4057768094367,
+      "min_mean": 100.9472998872499,
+      "ref_avg_mean": 410.64437352890656,
+      "ref_min_mean": 65.96908911786443,
+      "ratio_mean_loss": 5.172016978329497,
+      "ratio_mean_gain": 53.02212178023444,
+      "actual_all_service": 199,
+      "loss_over_own_delta": 49,
+      "loss_over_10pct": 49,
+      "pred_budget_fail": 0,
+      "quantile_fail": 1
+    },
+    "0.2": {
+      "n": 200,
+      "loss_quantiles": [
+        1.7698037331230347,
+        10.891189794051403,
+        17.55699822439385
+      ],
+      "gain_quantiles": [
+        0.02818747984964165,
+        24.751298959315065,
+        73.63963047063487
+      ],
+      "avg_mean": 372.10657979621357,
+      "min_mean": 108.89375295080596,
+      "ref_avg_mean": 410.64437352890656,
+      "ref_min_mean": 65.96908911786443,
+      "ratio_mean_loss": 9.384712470675115,
+      "ratio_mean_gain": 65.06784375368544,
+      "actual_all_service": 200,
+      "loss_over_own_delta": 33,
+      "loss_over_10pct": 104,
+      "pred_budget_fail": 0,
+      "quantile_fail": 0
+    },
+    "0.05_to_0.1": {
+      "avg_cost": 11.287030544213735,
+      "min_gain": 7.413408932103593,
+      "gain_median_change": 6.4111136556490305,
+      "loss_median_change": 3.1078704941013067,
+      "paired_min_increase": 115,
+      "paired_min_decrease": 27,
+      "paired_min_same": 58,
+      "paired_change_median": 0.0007883848731200516
+    },
+    "0.1_to_0.2": {
+      "avg_cost": 17.299197013223136,
+      "min_gain": 7.9464530635560635,
+      "gain_median_change": 7.538583806217691,
+      "loss_median_change": 4.078228643507025,
+      "paired_min_increase": 92,
+      "paired_min_decrease": 28,
+      "paired_min_same": 80,
+      "paired_change_median": 0.0
+    },
+    "csv_sha256": "22ed9dceef4e1c4204d2b20778b5d78c6fdc87d831e60cb05fff0ede99bc3f68"
+  },
+  "50B": {
+    "0.05": {
+      "n": 200,
+      "loss_quantiles": [
+        0.6588108857887603,
+        3.044211767863386,
+        3.9789402977449786
+      ],
+      "gain_quantiles": [
+        0.9790620770729119,
+        14.381614158122783,
+        28.298990837034548
+      ],
+      "avg_mean": 278.8628216590994,
+      "min_mean": 42.477312918532355,
+      "ref_avg_mean": 286.2900542304092,
+      "ref_min_mean": 24.181878317160248,
+      "ratio_mean_loss": 2.594303386219743,
+      "ratio_mean_gain": 75.65762411594419,
+      "actual_all_service": 198,
+      "loss_over_own_delta": 11,
+      "loss_over_10pct": 0,
+      "pred_budget_fail": 0,
+      "quantile_fail": 1
+    },
+    "0.1": {
+      "n": 200,
+      "loss_quantiles": [
+        0.7620823376502633,
+        6.416822280599094,
+        8.548989865603076
+      ],
+      "gain_quantiles": [
+        0.9790620770729119,
+        16.610457143379527,
+        35.26462225604958
+      ],
+      "avg_mean": 271.38126100169796,
+      "min_mean": 45.88475850506743,
+      "ref_avg_mean": 286.2900542304092,
+      "ref_min_mean": 24.181878317160248,
+      "ratio_mean_loss": 5.20758336114342,
+      "ratio_mean_gain": 89.74852947012852,
+      "actual_all_service": 198,
+      "loss_over_own_delta": 11,
+      "loss_over_10pct": 11,
+      "pred_budget_fail": 0,
+      "quantile_fail": 1
+    },
+    "0.2": {
+      "n": 200,
+      "loss_quantiles": [
+        1.1992975894530633,
+        11.964718756493152,
+        16.36076226538349
+      ],
+      "gain_quantiles": [
+        1.520819726298257,
+        18.277811205020768,
+        39.42903997047573
+      ],
+      "avg_mean": 256.7865066849503,
+      "min_mean": 48.54905954415578,
+      "ref_avg_mean": 286.2900542304092,
+      "ref_min_mean": 24.181878317160248,
+      "ratio_mean_loss": 10.305474154444127,
+      "ratio_mean_gain": 100.76628832303646,
+      "actual_all_service": 198,
+      "loss_over_own_delta": 4,
+      "loss_over_10pct": 121,
+      "pred_budget_fail": 0,
+      "quantile_fail": 1
+    },
+    "0.05_to_0.1": {
+      "avg_cost": 7.481560657401417,
+      "min_gain": 3.4074455865350757,
+      "gain_median_change": 2.228842985256744,
+      "loss_median_change": 3.372610512735708,
+      "paired_min_increase": 89,
+      "paired_min_decrease": 24,
+      "paired_min_same": 87,
+      "paired_change_median": 0.0
+    },
+    "0.1_to_0.2": {
+      "avg_cost": 14.59475431674764,
+      "min_gain": 2.6643010390883504,
+      "gain_median_change": 1.667354061641241,
+      "loss_median_change": 5.547896475894058,
+      "paired_min_increase": 84,
+      "paired_min_decrease": 50,
+      "paired_min_same": 66,
+      "paired_change_median": 0.0
+    },
+    "csv_sha256": "f0271e19ec3157ac81d563f6cd9d0c20a02011abe6d8bb2bf53ed15c865c5f77"
+  }
+}

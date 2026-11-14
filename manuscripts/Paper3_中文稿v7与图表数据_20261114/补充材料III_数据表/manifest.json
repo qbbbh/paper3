@@ -1,0 +1,18 @@
+{
+  "summary_metrics.csv": {
+    "bytes": 44052,
+    "sha256": "f367d5e2b184c6aa4ef0c90861441d9dc3307a4294cee61f87813ae0318b7209"
+  },
+  "planned_period_service.csv": {
+    "bytes": 2660,
+    "sha256": "6d2b5b55ce78ed2f47091431c1fa6acfafb30ed0fd17b6d6d133d2dcf2be5e99"
+  },
+  "main_pairwise_comparisons.csv": {
+    "bytes": 3337,
+    "sha256": "279f20802987c76cd6baf7d532240751bcd15529bd85044b575fe62c0082ee52"
+  },
+  "comparison_periods.json": {
+    "bytes": 91702,
+    "sha256": "0b32bc2012b48899e3d232e06b35ce01f5de60a594c941ddc9014c1b07b195ba"
+  }
+}

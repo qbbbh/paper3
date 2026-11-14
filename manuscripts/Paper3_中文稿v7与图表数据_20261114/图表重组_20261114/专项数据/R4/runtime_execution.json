@@ -1,0 +1,34 @@
+{
+  "retained_single_worker_periods": 74,
+  "coordinator_committed_periods": 126,
+  "coordinator_periods_by_worker_count": {
+    "1": 32,
+    "2": 94
+  },
+  "worker_pids": [
+    18384,
+    30240,
+    40100,
+    45356,
+    45804
+  ],
+  "memory_protection_events": [
+    {
+      "event": "memory_reduce_after_inflight",
+      "free_gib": 1.5380592346191406
+    }
+  ],
+  "final_job_status": {
+    "stage": "full",
+    "status": "complete",
+    "pid": 43768,
+    "elapsed_s": 979.7695293426514,
+    "updated_unix": 1794600574.8603165,
+    "orchestration": "parallel_continuation",
+    "retained_hashes_unchanged": true
+  },
+  "coordinator_log_sha256": {
+    "50B_parallel_stdout.log": "2592eaa6fffa7fb65afc5b7e41b1bac998467f5d07ed4be80f29221fb07b10bc",
+    "50B_parallel_resume_stdout.log": "e3bb7497cc56573999cb45d20dd5ff5e2416d4458afcb8c55647c30170d769f7"
+  }
+}

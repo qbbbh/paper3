@@ -1,0 +1,113 @@
+{
+  "files": [
+    {
+      "path": "delay_periods.csv",
+      "bytes": 276328,
+      "sha256": "dd39f907cbbba412bf8223a979c3474081a81badfc13ab05ffc92e33c5d594f2"
+    },
+    {
+      "path": "delay_summary.csv",
+      "bytes": 2663,
+      "sha256": "20d2f5b27ec22368a6bf68dd143806059ef531e4d4bc2a5a9293f176abfaa6f2"
+    },
+    {
+      "path": "fixed_probe_statistics.csv",
+      "bytes": 60325,
+      "sha256": "7047095864164dbe52a154e1b3125affa89270f900cb16bdb7a937b2c7a5457e"
+    },
+    {
+      "path": "fixed_probe_link_rates.csv",
+      "bytes": 286417,
+      "sha256": "1e16aaa311afebae2d2876ab131104c4e777716632106e07af4e4f66246c9565"
+    },
+    {
+      "path": "executed_link_actions.csv",
+      "bytes": 625500,
+      "sha256": "47e051570053b0cc0a5eccea81935714a1932a617abdd6aa8c5cce9fd428dd2d"
+    },
+    {
+      "path": "common_success_blocks.csv",
+      "bytes": 988,
+      "sha256": "3a3138ebf6f12735dfa3725a5c1df68b4901b3a2d744103db117fc069178efd8"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 13351,
+      "sha256": "d6fa336fad1e91e6f8d04fb69723980f4c9a1b6b13cba0eb2326f60be179cca1"
+    },
+    {
+      "path": "prepare_manifest.json",
+      "bytes": 444716,
+      "sha256": "4b91a74aa4084a4c4715e82421da9bc59c2b9175af9c2775b703b7b224a72887"
+    },
+    {
+      "path": "diagnostic_validation.json",
+      "bytes": 1871,
+      "sha256": "2fc43464f79dc0c00b34d3d91787f56ebfe0f15b716e5880f03c8db9750f65ab"
+    },
+    {
+      "path": "README_时延专项.md",
+      "bytes": 3078,
+      "sha256": "9ac563c4ad5188c247386a0c12035536002bbcb7b67298b0c209147da1eed564"
+    },
+    {
+      "path": "R1_完成核验与结果.md",
+      "bytes": 6185,
+      "sha256": "fd48360382d0d0c63253f4311891c6e8a969a660f76d878d6c7c1919ad8d44b5"
+    },
+    {
+      "path": "run_delay_diagnostic.py",
+      "bytes": 15513,
+      "sha256": "1b76a57c8e8601f82f147b7017a5facf5348741e4fe02735615e3e20fe586f19"
+    },
+    {
+      "path": "summarize_delay.py",
+      "bytes": 10390,
+      "sha256": "e374bdef8149006f0e260ded0def7390eba6909c3524cb505328a51a24968162"
+    },
+    {
+      "path": "finalize_delay_evidence.py",
+      "bytes": 6904,
+      "sha256": "8ab163f586fad00ce3d6c203e063edfbb66bffab491328b806f07a3dfcd0f1b0"
+    },
+    {
+      "path": "launch_worker.py",
+      "bytes": 2448,
+      "sha256": "73fd83dd8ac78c8fedcf8f0f77a9c26b97c9ec18a33b7c09f1c8af3d0f1bbd00"
+    },
+    {
+      "path": "repairs_manifest.json",
+      "bytes": 1268,
+      "sha256": "735973a9a81095fa276d14a99bf795e3112d03dc013f50f2894fbcced041dae2"
+    },
+    {
+      "path": "diagnose_delay_boundary.py",
+      "bytes": 4704,
+      "sha256": "f2485697e42aea33ceaaa19385aff6ae1658ac5d185a5781c9cd16e95c62ae2b"
+    },
+    {
+      "path": "boundary_261/original/diagnostic.json",
+      "bytes": 2402,
+      "sha256": "471666ad5b81ac74ecb258b28540a24bc8c10b726bca452f7dd6a36ea24aa9e7"
+    },
+    {
+      "path": "boundary_261/repaired/diagnostic.json",
+      "bytes": 1897,
+      "sha256": "44e991fa0a35231c4392e752d0c59210d1df76093346b15de36776130ba466e1"
+    },
+    {
+      "path": "boundary_261/repaired/isolated_final_handoff.patch",
+      "bytes": 1112,
+      "sha256": "9e5fecb5b6695603ea7646c3b3bf513f97269d42599ae5b7686ae958956fabb8"
+    }
+  ],
+  "portable_bytes": 1768060,
+  "diagnostic_directory_bytes": 29952107,
+  "excluded_from_portable": [
+    "inputs/",
+    "runs/",
+    "worker logs and progress"
+  ],
+  "index_scope": "All four delays use the same preselected 200 blocks; EE uses the four-arm common success set.",
+  "power_scope": "All powers in executed_link_actions.csv are electrical input W."
+}
