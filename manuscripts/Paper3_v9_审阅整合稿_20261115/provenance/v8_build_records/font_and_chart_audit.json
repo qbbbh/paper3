@@ -1,0 +1,13 @@
+{
+  "requested_font": "Times New Roman",
+  "render_font": "Tinos",
+  "exact_times_new_roman_installed": false,
+  "render_font_path": "/usr/share/fonts/truetype/croscore/Tinos-Regular.ttf",
+  "svg_text_font": "Times New Roman",
+  "pdf_exported": false,
+  "png_status": "Times-compatible layout preview only",
+  "independent_charts": 18,
+  "figure_groups": 6,
+  "new_simulations": false,
+  "font_files_distributed": false
+}

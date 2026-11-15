@@ -1,0 +1,15 @@
+{
+  "n_planned": 200,
+  "n_common": 200,
+  "nmse_aggregation": "sum squared error / sum squared truth",
+  "ee_aggregation": "mean over four-delay common-success periods",
+  "selected_delays_ms": [
+    0,
+    5,
+    10,
+    20
+  ],
+  "width_mm": 182.0,
+  "height_mm": 78.0,
+  "source_sha256": "20d2f5b27ec22368a6bf68dd143806059ef531e4d4bc2a5a9293f176abfaa6f2"
+}

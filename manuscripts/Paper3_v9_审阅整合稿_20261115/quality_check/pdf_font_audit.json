@@ -1,0 +1,80 @@
+{
+  "F1.pdf": {
+    "pages": 1,
+    "fonts": [
+      "BALFZJ+TimesNewRomanPSMT"
+    ],
+    "page_size": [
+      0.0,
+      0.0,
+      514.7999877929688,
+      370.79998779296875
+    ],
+    "text_chars": 538
+  },
+  "F2.pdf": {
+    "pages": 1,
+    "fonts": [
+      "BUEFZP+TimesNewRomanPSMT"
+    ],
+    "page_size": [
+      0.0,
+      0.0,
+      514.7999877929688,
+      374.3999938964844
+    ],
+    "text_chars": 534
+  },
+  "F3.pdf": {
+    "pages": 1,
+    "fonts": [
+      "BSORHH+TimesNewRomanPSMT"
+    ],
+    "page_size": [
+      0.0,
+      0.0,
+      514.7999877929688,
+      205.1999969482422
+    ],
+    "text_chars": 326
+  },
+  "F4.pdf": {
+    "pages": 1,
+    "fonts": [
+      "GGSBYS+TimesNewRomanPSMT"
+    ],
+    "page_size": [
+      0.0,
+      0.0,
+      514.7999877929688,
+      378.0
+    ],
+    "text_chars": 749
+  },
+  "F5.pdf": {
+    "pages": 1,
+    "fonts": [
+      "GMXSYV+TimesNewRomanPSMT"
+    ],
+    "page_size": [
+      0.0,
+      0.0,
+      514.7999877929688,
+      208.8000030517578
+    ],
+    "text_chars": 291
+  },
+  "F6.pdf": {
+    "pages": 1,
+    "fonts": [
+      "DTHUHQ+TimesNewRomanPSMT"
+    ],
+    "page_size": [
+      0.0,
+      0.0,
+      514.7999877929688,
+      306.0
+    ],
+    "text_chars": 429
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "clean": {
+    "file": "Paper3_中文全稿_v8_清洁审阅版.docx",
+    "rendered_review_pages": 21,
+    "main_scientific_parameter_tables": 2,
+    "layout_tables_used_for_unbroken_figures_and_algorithm": true,
+    "all_pages_visually_checked": true,
+    "math_is_native_editable": false,
+    "requested_latin_font": "Times New Roman",
+    "rendered_chart_font": "Tinos (preview only)",
+    "final_English_double_column_pagecount_verified": false
+  },
+  "marked": {
+    "file": "Paper3_中文全稿_v8_修改标注版.docx",
+    "rendered_review_pages": 23,
+    "main_scientific_parameter_tables": 2,
+    "layout_tables_used_for_unbroken_figures_and_algorithm": true,
+    "all_pages_visually_checked": true,
+    "math_is_native_editable": false,
+    "requested_latin_font": "Times New Roman",
+    "rendered_chart_font": "Tinos (preview only)",
+    "final_English_double_column_pagecount_verified": false
+  }
+}

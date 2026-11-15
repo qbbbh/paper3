@@ -1,0 +1,12 @@
+{
+  "source": "v7 upload and GitHub path",
+  "equation_blocks_II_III_IV_unchanged": true,
+  "section_II_subsections": 3,
+  "section_V_subsections": 3,
+  "algorithm_old_numbered_lines": 27,
+  "algorithm_new_numbered_lines": 16,
+  "new_experiments_run": false,
+  "source_csv_reanalysis": true,
+  "added_abstract_and_conclusion": "suggested text from existing results",
+  "source_refs_preserved": 28
+}

@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "R1": {
+    "arms": 4,
+    "periods_per_arm": 200,
+    "records": 800,
+    "common_success": 200,
+    "boundary_repaired_records": 1,
+    "nmse_and_means_independently_checked": true
+  },
+  "R4": {
+    "groups": 2,
+    "budgets": 3,
+    "periods_per_arm": 200,
+    "records": 1200,
+    "new_fairness_decisions": 800,
+    "reused_formal_decisions": 400,
+    "common_success_per_scale": 200,
+    "all_six_quartile_points_independently_checked": true
+  },
+  "shared_10B_zero_delay_delta_010_max_difference": 0.0
+}

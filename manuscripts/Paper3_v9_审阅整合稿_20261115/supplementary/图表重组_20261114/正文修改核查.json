@@ -1,0 +1,22 @@
+{
+  "display_formulas": {
+    "IV": {
+      "count": 14,
+      "unchanged": true
+    },
+    "suppII": {
+      "count": 6,
+      "unchanged": true
+    }
+  },
+  "parameter_tables_unchanged": true,
+  "main_tables": 3,
+  "result_figures": 4,
+  "figure_pngs_visually_checked": [
+    "R1",
+    "R2",
+    "R3",
+    "R4"
+  ],
+  "english_layout_compiled": false
+}

@@ -1,0 +1,17 @@
+{
+  "old_parent_pid": 34400,
+  "old_child_pid": 18384,
+  "new_parent_pid": 43768,
+  "retained_periods": 149,
+  "old_parent_and_child_exited": true,
+  "retained_hashes_unchanged": true,
+  "before_sha256": "1f22dc8b29b788da5b2226ad83c7c6883a4554448a7193a920cba4c7fb5ebe3d",
+  "after_sha256": "1f22dc8b29b788da5b2226ad83c7c6883a4554448a7193a920cba4c7fb5ebe3d",
+  "original_takeover_sha256": "5b2e8d4e670784e25730e414524951e7544eb76a75541054be72293a0c118757",
+  "protocol_sha256": "0e133caff3d622a599cbde72952cf38a84c375f96d608a9342cd57ed23bccf43",
+  "frozen_driver_sha256": "cb39eea15e09423d71b4daf79ebcd9414fcac32107cc80c76fe193315338d708",
+  "coordinator_sha256": "ef50e926b13e3018e77a9b8d7074570a47969d2b2ee588ddf31909457bcb9f6d",
+  "helper_sha256": "990be78c81e8cf2067558995f756ed7a22e067a992c0a29ccbb8652b90c13b90",
+  "created_unix": 1794599594.2984216,
+  "reason": "R1 finished; stable memory near 3 GiB and at least 2.8 GiB at handoff; at least 40 periods remained; last permitted return to two workers"
+}

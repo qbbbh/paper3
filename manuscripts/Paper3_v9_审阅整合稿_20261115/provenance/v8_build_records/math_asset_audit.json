@@ -1,0 +1,6 @@
+{
+  "unique_expressions": 264,
+  "rendering": "LaTeX newtxmath, 4x raster with SVG+TeX sources",
+  "original_manuscript_equations_unchanged": true,
+  "word_equation_editing": "edit original TeX in Markdown, then regenerate image"
+}
