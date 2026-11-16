@@ -1,0 +1,130 @@
+{
+  "scope": "R2/R3 derived data and provenance only; frozen inputs unchanged",
+  "files": [
+    {
+      "path": "extract_current_evidence.py",
+      "bytes": 11220,
+      "sha256": "d39652dbe7c62072e41a7e4ceabae40e4097de1a55912c34da1a79d3d7b52870"
+    },
+    {
+      "path": "all_method_periods.csv",
+      "bytes": 3562454,
+      "sha256": "d1b645b18527c7ba5f4a30994ee94fc1a952da9b35cba877c5fb4f1a03672ed0"
+    },
+    {
+      "path": "R2_periods.csv",
+      "bytes": 1268907,
+      "sha256": "9d3e4f30191579c7089c28e72ee68715ec432b3cebd4c60a199e29646499c426"
+    },
+    {
+      "path": "R3_paired_differences.csv",
+      "bytes": 754650,
+      "sha256": "8ffab2402c5fa925bb66b900ae79ce39f98a70de1193fb1ba5b88952507ea9fe"
+    },
+    {
+      "path": "pooled_ecdf.csv",
+      "bytes": 2444430,
+      "sha256": "9a567cf386c64ad003fb0d27f30a152fb09430fa006d3a92e6238b8144892091"
+    },
+    {
+      "path": "R2_distribution_statistics.csv",
+      "bytes": 2429,
+      "sha256": "528e3d5f87a6e650045efb0edc4656ec03aa5f6b981ffce22a3dc48b02c2a910"
+    },
+    {
+      "path": "R3_mechanism_statistics.csv",
+      "bytes": 2147,
+      "sha256": "b5a4ee0b6fad8f34e141ca9b7ca5a8932b6a557ed16418139c7d548e85bdb41f"
+    },
+    {
+      "path": "link_mode_statistics.csv",
+      "bytes": 20209,
+      "sha256": "fb72fb9934b4a51295039cecb470d7bbb55d54cdab0c4fa85ab77715d6535618"
+    },
+    {
+      "path": "main_link_periods.csv",
+      "bytes": 5454264,
+      "sha256": "677f0e1b3101133de7831fa30e8008bde9b4b0408f710a70d7b75e7b65e23274"
+    },
+    {
+      "path": "reference_weakness_quartiles.csv",
+      "bytes": 1503,
+      "sha256": "8c3e9dd3bdd790e5d286e327289559516368e5408c945be96c0c67b1ff206cba"
+    },
+    {
+      "path": "plot_period_indices.json",
+      "bytes": 452998,
+      "sha256": "240c55f854f2f9466089123a0433c1e6aa895dccd3a22425bccab4be9c366562"
+    },
+    {
+      "path": "frozen_group_configs.json",
+      "bytes": 17952,
+      "sha256": "db85607fcd1916faf3034d5d8d4c34ac168098cd1db5c940ae80a30dae806022"
+    },
+    {
+      "path": "mechanism_statistics.json",
+      "bytes": 106315,
+      "sha256": "b71026bec8d5058fe7a01198a9dc365d78a628d365a516b564e5544110e888e2"
+    },
+    {
+      "path": "R2_R3_逐周期证据与分析结论_20261114.md",
+      "bytes": 7367,
+      "sha256": "d68cb544567930fd9898e1e7ed154b9acbfd56c210ff59ff2fb20c10fe83d045"
+    },
+    {
+      "path": "independent_repair_checks.json",
+      "bytes": 26242,
+      "sha256": "2905d1343b57d87a2a9929626de64ce7ea4867c8c8cc3aae28b7444e5c268968"
+    },
+    {
+      "path": "原始运行清单/50A_run_manifest.json",
+      "bytes": 5299,
+      "sha256": "5e0f103d7f4e0af67da398ce67dced9d41d168ee97e3e71fdbc0e413a07af324"
+    },
+    {
+      "path": "原始运行清单/full_10A_manifest.json",
+      "bytes": 18260,
+      "sha256": "21e179f336971133fd0ac61584c9711d70f0407526eb8b2474a225199d8392e2"
+    },
+    {
+      "path": "原始运行清单/full_10B_manifest.json",
+      "bytes": 18260,
+      "sha256": "a3fb941589ba259a05fad0fbaddf0ef15f9d87051b26e580840084c5a130958f"
+    },
+    {
+      "path": "原始运行清单/full_50B_s0_manifest.json",
+      "bytes": 10681,
+      "sha256": "fca433da39e0a9639b49650a1ea2568cdc29e2101dac14087120b6be0edb4ba8"
+    },
+    {
+      "path": "原始运行清单/full_50B_s1_manifest.json",
+      "bytes": 10791,
+      "sha256": "fbfdce165f2c3c35770ccf0c0e5d6432015ed7fc5fea973125b6a11b923ca627"
+    },
+    {
+      "path": "原始运行清单/full_50B_s2_manifest.json",
+      "bytes": 10791,
+      "sha256": "c066f10e1818a4eb21fba5d5eca36915cf12b1d57bfa68426e0083fe74ba1b04"
+    },
+    {
+      "path": "原始运行清单/full_50B_s3_manifest.json",
+      "bytes": 10791,
+      "sha256": "b5dd77bf4d9355ba5324d8a76d1c14ad4b95d4c5da4b929b9c5aab965bddec3f"
+    },
+    {
+      "path": "原始运行清单/same_topo_10A_diff_manifest.json",
+      "bytes": 12250,
+      "sha256": "56fe2e08cfe278b76c04912b8640c676fd5ec332275061c8c776bb14407ca14a"
+    },
+    {
+      "path": "原始运行清单/same_topo_10B_diff_manifest.json",
+      "bytes": 12261,
+      "sha256": "75ed2a67640f6f441e785202212cc4a617a5f0607c6bf501d0ee0f6bf17cadb2"
+    },
+    {
+      "path": "原始运行清单/same_topo_50B_diff_manifest.json",
+      "bytes": 8639,
+      "sha256": "28a6e3e62f062b4d812ccef623eebf069f32be58a0bba03b7030d87adb16c029"
+    }
+  ]
+}

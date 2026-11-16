@@ -1,0 +1,7 @@
+﻿group,scale,delta,planned,solver_success_count,solver_failed_count,actual_all_service_count,actual_all_service_fraction,actual_violating_linkblocks,actual_loss_over_own_delta_count,actual_loss_over_10pct_count,pred_budget_fail_count,final_quantile_fail_count
+10B,10,0.05,200,200,0,199,0.995,1,58,3,0,1
+10B,10,0.1,200,200,0,199,0.995,1,49,49,0,1
+10B,10,0.2,200,200,0,200,1.0,0,33,104,0,0
+50B,50,0.05,200,200,0,198,0.99,2,11,0,0,1
+50B,50,0.1,200,200,0,198,0.99,2,11,11,0,1
+50B,50,0.2,200,200,0,198,0.99,2,4,121,0,1

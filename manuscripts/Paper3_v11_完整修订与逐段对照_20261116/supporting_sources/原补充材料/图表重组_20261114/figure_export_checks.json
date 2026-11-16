@@ -1,0 +1,24 @@
+{
+  "backend": "Python/matplotlib",
+  "figures": [
+    {
+      "name": "R2_主要方法能效分布",
+      "width_mm": 182.0,
+      "height_mm": 133.0
+    },
+    {
+      "name": "R3_连续功率与模式搜索",
+      "width_mm": 182.0,
+      "height_mm": 74.0
+    }
+  ],
+  "source_sha256": "9a567cf386c64ad003fb0d27f30a152fb09430fa006d3a92e6238b8144892091",
+  "aggregation": "0.5 F_A + 0.5 F_B; weighted empirical steps",
+  "all_support_retained": true,
+  "zero_and_negative_gains_retained": true,
+  "exports": [
+    "PDF vector",
+    "SVG editable text",
+    "PNG 320 dpi"
+  ]
+}

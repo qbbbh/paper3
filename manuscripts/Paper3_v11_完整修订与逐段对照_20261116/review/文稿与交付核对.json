@@ -1,0 +1,71 @@
+{
+  "source_commit": "ff45ccec7542a6967967e5664b1b0a374914a008",
+  "approved_introduction_paragraphs_preserved": 3,
+  "changed_blocks": 124,
+  "annotated_blocks": 124,
+  "references": 28,
+  "display_equations": 48,
+  "main_number_range": "1–38; 28a–28f",
+  "appendix_number_range": "A1–A5; B1–B5",
+  "word": [
+    {
+      "file": "Paper3_V11_完整审阅稿.docx",
+      "native_equations": 369,
+      "images": 6,
+      "annotation_ids": 0
+    },
+    {
+      "file": "Paper3_V11_修改标注版.docx",
+      "native_equations": 369,
+      "images": 6,
+      "annotation_ids": 124
+    }
+  ],
+  "clean_pages": 28,
+  "annotated_pages": 29,
+  "figure_groups": 6,
+  "frozen_csv": [
+    {
+      "file": "link_mode_statistics.csv",
+      "sha256": "fb72fb9934b4a51295039cecb470d7bbb55d54cdab0c4fa85ab77715d6535618",
+      "identical_to_frozen": true
+    },
+    {
+      "file": "pooled_ecdf.csv",
+      "sha256": "9a567cf386c64ad003fb0d27f30a152fb09430fa006d3a92e6238b8144892091",
+      "identical_to_frozen": true
+    },
+    {
+      "file": "R1_plot_summary.csv",
+      "sha256": "20d2f5b27ec22368a6bf68dd143806059ef531e4d4bc2a5a9293f176abfaa6f2",
+      "identical_to_frozen": true
+    },
+    {
+      "file": "R2_distribution_statistics.csv",
+      "sha256": "528e3d5f87a6e650045efb0edc4656ec03aa5f6b981ffce22a3dc48b02c2a910",
+      "identical_to_frozen": true
+    },
+    {
+      "file": "R3_mechanism_statistics.csv",
+      "sha256": "b5a4ee0b6fad8f34e141ca9b7ca5a8932b6a557ed16418139c7d548e85bdb41f",
+      "identical_to_frozen": true
+    },
+    {
+      "file": "R4_plot_summary.csv",
+      "sha256": "2dbf100cc22b04537353197f70fac905d17708c236c3a20994fea1f05a2b6b40",
+      "identical_to_frozen": true
+    },
+    {
+      "file": "reference_weakness_quartiles.csv",
+      "sha256": "8c3e9dd3bdd790e5d286e327289559516368e5408c945be96c0c67b1ff206cba",
+      "identical_to_frozen": true
+    },
+    {
+      "file": "service_runtime.csv",
+      "sha256": "404af5f7ca2cef51fa4dec91b741829fb8a4c17896b8063b5c3527f923048639",
+      "identical_to_frozen": true
+    }
+  ],
+  "new_simulations": false,
+  "mathematical_review": "reviews report; does not assert global optimality or unconditional error bounds"
+}

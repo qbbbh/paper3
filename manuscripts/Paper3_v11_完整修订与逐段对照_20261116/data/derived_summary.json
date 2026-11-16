@@ -1,0 +1,263 @@
+{
+  "strata_source": "existing v7 per-group quartile summary; equally average A/B conditional means",
+  "quartiles": [
+    {
+      "scale": 10,
+      "quartile": 1,
+      "reference_mean": 11.49450369074556,
+      "proposed_gain": 23.533627058597965,
+      "power_gain": 17.653130175220873,
+      "mode_gain": 4.674203896859144
+    },
+    {
+      "scale": 10,
+      "quartile": 2,
+      "reference_mean": 28.260172396706693,
+      "proposed_gain": 34.32847379277413,
+      "power_gain": 26.03674517270339,
+      "mode_gain": 1.37914198348702
+    },
+    {
+      "scale": 10,
+      "quartile": 3,
+      "reference_mean": 54.741756060415995,
+      "proposed_gain": 47.56416727268723,
+      "power_gain": 35.175772625116835,
+      "mode_gain": 0.6457131266167407
+    },
+    {
+      "scale": 10,
+      "quartile": 4,
+      "reference_mean": 166.11989678383122,
+      "proposed_gain": 20.6341550538186,
+      "power_gain": 16.18225474260461,
+      "mode_gain": -0.43468975979332886
+    },
+    {
+      "scale": 50,
+      "quartile": 1,
+      "reference_mean": 7.208822116210701,
+      "proposed_gain": 10.937281642725708,
+      "power_gain": 10.85248008802644,
+      "mode_gain": -0.2816700175774666
+    },
+    {
+      "scale": 50,
+      "quartile": 2,
+      "reference_mean": 16.761420455127542,
+      "proposed_gain": 24.714725226427277,
+      "power_gain": 24.519770097957213,
+      "mode_gain": -0.30584383892240874
+    },
+    {
+      "scale": 50,
+      "quartile": 3,
+      "reference_mean": 26.937845892192865,
+      "proposed_gain": 27.084214670227396,
+      "power_gain": 26.85733285831033,
+      "mode_gain": -0.42000915219030177
+    },
+    {
+      "scale": 50,
+      "quartile": 4,
+      "reference_mean": 56.24302747856045,
+      "proposed_gain": 23.13968722738003,
+      "power_gain": 22.927820281166987,
+      "mode_gain": -0.5014547510923258
+    }
+  ],
+  "service_runtime": [
+    {
+      "group": "10A",
+      "method": "reference",
+      "planned": 1000,
+      "success": 1000,
+      "service_pass": 988,
+      "no_action": 0,
+      "returned_service_failure": 12,
+      "median_seconds": 4.3673025500029325,
+      "n_time": 1000,
+      "basis": "measured"
+    },
+    {
+      "group": "10A",
+      "method": "main_new",
+      "planned": 1000,
+      "success": 1000,
+      "service_pass": 996,
+      "no_action": 0,
+      "returned_service_failure": 4,
+      "median_seconds": 8.845079550010269,
+      "n_time": 1000,
+      "basis": "sum_of_components"
+    },
+    {
+      "group": "10A",
+      "method": "zappone_mmee_fp_fixed",
+      "planned": 1000,
+      "success": 1000,
+      "service_pass": 994,
+      "no_action": 0,
+      "returned_service_failure": 6,
+      "median_seconds": 4.445051749993581,
+      "n_time": 1000,
+      "basis": "measured"
+    },
+    {
+      "group": "10A",
+      "method": "aboagye_matching_qt",
+      "planned": 1000,
+      "success": 976,
+      "service_pass": 900,
+      "no_action": 24,
+      "returned_service_failure": 76,
+      "median_seconds": 0.7121189999743365,
+      "n_time": 976,
+      "basis": "measured"
+    },
+    {
+      "group": "10B",
+      "method": "reference",
+      "planned": 1000,
+      "success": 999,
+      "service_pass": 996,
+      "no_action": 1,
+      "returned_service_failure": 3,
+      "median_seconds": 3.661462099989876,
+      "n_time": 999,
+      "basis": "measured"
+    },
+    {
+      "group": "10B",
+      "method": "main_new",
+      "planned": 1000,
+      "success": 999,
+      "service_pass": 995,
+      "no_action": 1,
+      "returned_service_failure": 4,
+      "median_seconds": 7.391485000116518,
+      "n_time": 999,
+      "basis": "sum_of_components"
+    },
+    {
+      "group": "10B",
+      "method": "zappone_mmee_fp_fixed",
+      "planned": 1000,
+      "success": 999,
+      "service_pass": 999,
+      "no_action": 1,
+      "returned_service_failure": 0,
+      "median_seconds": 3.7542196998838335,
+      "n_time": 999,
+      "basis": "measured"
+    },
+    {
+      "group": "10B",
+      "method": "aboagye_matching_qt",
+      "planned": 1000,
+      "success": 981,
+      "service_pass": 915,
+      "no_action": 19,
+      "returned_service_failure": 66,
+      "median_seconds": 0.5714280001120642,
+      "n_time": 981,
+      "basis": "measured"
+    },
+    {
+      "group": "50A",
+      "method": "reference",
+      "planned": 1000,
+      "success": 1000,
+      "service_pass": 984,
+      "no_action": 0,
+      "returned_service_failure": 16,
+      "median_seconds": 97.52759529999457,
+      "n_time": 995,
+      "basis": "measured"
+    },
+    {
+      "group": "50A",
+      "method": "main_new",
+      "planned": 1000,
+      "success": 1000,
+      "service_pass": 997,
+      "no_action": 0,
+      "returned_service_failure": 3,
+      "median_seconds": 111.0851378000225,
+      "n_time": 995,
+      "basis": "measured"
+    },
+    {
+      "group": "50A",
+      "method": "zappone_mmee_fp_fixed",
+      "planned": 1000,
+      "success": 1000,
+      "service_pass": 995,
+      "no_action": 0,
+      "returned_service_failure": 5,
+      "median_seconds": 97.68633110000519,
+      "n_time": 995,
+      "basis": "measured"
+    },
+    {
+      "group": "50A",
+      "method": "aboagye_matching_qt",
+      "planned": 1000,
+      "success": 859,
+      "service_pass": 633,
+      "no_action": 141,
+      "returned_service_failure": 226,
+      "median_seconds": 6.564804700028617,
+      "n_time": 859,
+      "basis": "measured"
+    },
+    {
+      "group": "50B",
+      "method": "reference",
+      "planned": 1000,
+      "success": 999,
+      "service_pass": 973,
+      "no_action": 1,
+      "returned_service_failure": 26,
+      "median_seconds": 91.92677299992647,
+      "n_time": 999,
+      "basis": "measured"
+    },
+    {
+      "group": "50B",
+      "method": "main_new",
+      "planned": 1000,
+      "success": 999,
+      "service_pass": 994,
+      "no_action": 1,
+      "returned_service_failure": 5,
+      "median_seconds": 107.17590829994879,
+      "n_time": 999,
+      "basis": "sum_of_components"
+    },
+    {
+      "group": "50B",
+      "method": "zappone_mmee_fp_fixed",
+      "planned": 1000,
+      "success": 999,
+      "service_pass": 994,
+      "no_action": 1,
+      "returned_service_failure": 5,
+      "median_seconds": 89.49276099997223,
+      "n_time": 999,
+      "basis": "measured"
+    },
+    {
+      "group": "50B",
+      "method": "aboagye_matching_qt",
+      "planned": 1000,
+      "success": 876,
+      "service_pass": 661,
+      "no_action": 124,
+      "returned_service_failure": 215,
+      "median_seconds": 6.456790850003017,
+      "n_time": 876,
+      "basis": "measured"
+    }
+  ]
+}

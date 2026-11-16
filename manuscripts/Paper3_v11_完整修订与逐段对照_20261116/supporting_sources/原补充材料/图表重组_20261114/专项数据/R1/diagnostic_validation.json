@@ -1,0 +1,35 @@
+{
+  "completed_units": 800,
+  "zero_delay_successes_exactly_reproduced": 200,
+  "zero_delay_max_power_difference_w": 0.0,
+  "fixed_probe_actual_bitwise_checks": 800,
+  "all_observed_vlc_information_equal": true,
+  "same_nmse_truth_and_domain_across_delays": true,
+  "independent_link_ee_recalculation": true,
+  "formal_code_hashes_unchanged": true,
+  "failed_units": [],
+  "source_driver_sha256": "1b76a57c8e8601f82f147b7017a5facf5348741e4fe02735615e3e20fe586f19",
+  "boundary_repairs": [
+    {
+      "extra_delay_ms": 5,
+      "block": 261,
+      "original_directory": "runs/delay_05ms/block_000261",
+      "original_commit_sha256": "1495b6e0cc7c39bf9ae8875e23d735e3d000aa69c0d40964f4da53f079516ff4",
+      "replacement_directory": "boundary_261/repaired/delay_05ms/block_000261",
+      "replacement_commit_sha256": "e596117394a008155a83bb6facb1a531a3496c6a1fd2c16d0a9d058db2557a00",
+      "original_failure_reason": "VLC final power 30.000000000000004 W, exactly one ULP above 30 W",
+      "upper_excess_w": 3.552713678800501e-15,
+      "tolerance_w": 1e-12,
+      "interface": "pure_ee_reference final-refinement power handoff before full forecast",
+      "patch_sha256": "9e5fecb5b6695603ea7646c3b3bf513f97269d42599ae5b7686ae958956fabb8",
+      "original_diagnostic_sha256": "471666ad5b81ac74ecb258b28540a24bc8c10b726bca452f7dd6a36ea24aa9e7",
+      "repair_diagnostic_sha256": "44e991fa0a35231c4392e752d0c59210d1df76093346b15de36776130ba466e1",
+      "same_input_sha256": "7a3be0f3371acf3aefe95a1cb626c15fd835e3bfda53ed7cd0b00eddfe17ea29"
+    }
+  ],
+  "effective_refine_solver": "guarded",
+  "source_config_refine_solver": "nm",
+  "r4_10B_delta_010_matched_periods": 200,
+  "r4_10B_delta_010_max_ee_difference_mbit_j": 0.0,
+  "r4_10B_delta_010_periods_csv_sha256": "22ed9dceef4e1c4204d2b20778b5d78c6fdc87d831e60cb05fff0ede99bc3f68"
+}

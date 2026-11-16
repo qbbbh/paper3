@@ -1,0 +1,56 @@
+{
+  "checks": {
+    "plans_only_delay_diff": true,
+    "vlc_state_arrays_equal": true,
+    "vlc_last_used_equal": true,
+    "all_metadata_counts_match_mask": true
+  },
+  "undefined_vlc_age": [
+    {
+      "block": 0,
+      "candidate_port_count": 10,
+      "never_observed_ports": 10
+    },
+    {
+      "block": 95,
+      "candidate_port_count": 6,
+      "never_observed_ports": 1
+    },
+    {
+      "block": 126,
+      "candidate_port_count": 7,
+      "never_observed_ports": 1
+    },
+    {
+      "block": 141,
+      "candidate_port_count": 9,
+      "never_observed_ports": 2
+    },
+    {
+      "block": 186,
+      "candidate_port_count": 11,
+      "never_observed_ports": 2
+    },
+    {
+      "block": 382,
+      "candidate_port_count": 10,
+      "never_observed_ports": 1
+    },
+    {
+      "block": 517,
+      "candidate_port_count": 10,
+      "never_observed_ports": 2
+    },
+    {
+      "block": 643,
+      "candidate_port_count": 11,
+      "never_observed_ports": 1
+    },
+    {
+      "block": 808,
+      "candidate_port_count": 10,
+      "never_observed_ports": 1
+    }
+  ],
+  "observation_stream_sha256": "02d656c3192d4c3a87d11e47ada472f6c032ff05a531813c7b6cb6495cf11463"
+}

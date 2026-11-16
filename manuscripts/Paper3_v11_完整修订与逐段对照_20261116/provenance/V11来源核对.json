@@ -1,0 +1,66 @@
+[
+  {
+    "name": "00_摘要.md",
+    "commit": "ff45ccec7542a6967967e5664b1b0a374914a008",
+    "identical": true,
+    "git_bytes": 1605,
+    "extracted_bytes": 1605,
+    "sha256": "024ce6292084dd22d2ceb6ea7e725e977c4773655f61e9e0e8cc9d27edcde57b"
+  },
+  {
+    "name": "01_引言.md",
+    "commit": "ff45ccec7542a6967967e5664b1b0a374914a008",
+    "identical": true,
+    "git_bytes": 8197,
+    "extracted_bytes": 8197,
+    "sha256": "801c9205f40fd3f4fbec54c2fa99bc17297ee9df7573d580ea70cec902e171bd"
+  },
+  {
+    "name": "02_系统模型.md",
+    "commit": "ff45ccec7542a6967967e5664b1b0a374914a008",
+    "identical": true,
+    "git_bytes": 8801,
+    "extracted_bytes": 8801,
+    "sha256": "84476195958273990056418518a54df576ffa6dce5e26013e07ed6f5f6c7eef0"
+  },
+  {
+    "name": "03_信道估计.md",
+    "commit": "ff45ccec7542a6967967e5664b1b0a374914a008",
+    "identical": true,
+    "git_bytes": 6403,
+    "extracted_bytes": 6403,
+    "sha256": "edbc08dec980c1bfc9005da1ae5d9039c75c8d8b3fab2e3bc238b91de8ef6efc"
+  },
+  {
+    "name": "04_资源分配.md",
+    "commit": "ff45ccec7542a6967967e5664b1b0a374914a008",
+    "identical": true,
+    "git_bytes": 12601,
+    "extracted_bytes": 12601,
+    "sha256": "0fa74b55c00f7514f5e181530f295468ab9f3113cf3bcb1e46eb58441a1fbde4"
+  },
+  {
+    "name": "05_仿真分析.md",
+    "commit": "ff45ccec7542a6967967e5664b1b0a374914a008",
+    "identical": true,
+    "git_bytes": 12814,
+    "extracted_bytes": 12814,
+    "sha256": "cf8662578a3a165ea787ac00f0fb2185d987fbb728d10f08d3112cf612461cc5"
+  },
+  {
+    "name": "06_结论.md",
+    "commit": "ff45ccec7542a6967967e5664b1b0a374914a008",
+    "identical": true,
+    "git_bytes": 1077,
+    "extracted_bytes": 1077,
+    "sha256": "c46d6520ae190e651fe822258ef8c6805c77b0ecc3dc81dd9eb6c83f95fce1bb"
+  },
+  {
+    "name": "07_附录.md",
+    "commit": "ff45ccec7542a6967967e5664b1b0a374914a008",
+    "identical": true,
+    "git_bytes": 10628,
+    "extracted_bytes": 10628,
+    "sha256": "7ac1a7bb11fe84929ac3940fee50e7b057b79d14e61df54e98d33c186fa42a44"
+  }
+]
