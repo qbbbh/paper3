@@ -1,0 +1,22 @@
+{
+  "checked_on": "2026-11-17",
+  "base": "V12",
+  "base_commit": "e97312ebde2ac607aa1d394a04dff55f932a44a0",
+  "changes": 4,
+  "pages": 30,
+  "RF_candidate_range_m": 100,
+  "RF_decision": "用户确认本轮只改文字，保留100 m及现有结果",
+  "all_display_equations_unchanged": true,
+  "references_unchanged": true,
+  "figures_and_data_unchanged": true,
+  "new_simulations": false,
+  "native_math_objects": 381,
+  "inline_figures": 6,
+  "visual_review": "全部30页已逐页检查；Microsoft Word导出PDF后转为PNG审阅",
+  "rendering": "通用渲染器因未安装LibreOffice无法运行，使用现有Microsoft Word原生导出并核查",
+  "changed_page_numbers": [
+    9,
+    21,
+    22
+  ]
+}
