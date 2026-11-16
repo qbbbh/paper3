@@ -1,0 +1,42 @@
+{
+  "base": "E:\\博士\\课题论文\\第3篇-修改版\\论文\\Paper3_v11_完整修订与逐段对照_20261116",
+  "base_commit": "d199bc63c068aff6688acd444538f433475acb07",
+  "base_sha256": "7e33011f5f86d2c686dda1f4a31762c3b796a01a2b950eb92c12524dfd2fb8dc",
+  "unchanged_assets": {
+    "figures": {
+      "F1.pdf": "6858dad0413751564c87a5c6aa12944be19f11315f65909f408ce4d49848ac5e",
+      "F1.png": "5b548dae9f74e1ccb5b870ed23534c29f1f5749883ffbe7eca2e0623c24306a6",
+      "F1.svg": "010ee39a1f66547b0821811bd6f0b74357600341aace0e4bf8e2ced837a3cdbc",
+      "F2.pdf": "ec918c2f4c42b1c885f65919be89fe134cae10dc168f87b59c9a6d705b85409d",
+      "F2.png": "7b333984919a786e1d97e4e0c04c8ea24f88a10e6d78e35bc4580e51159a5fe3",
+      "F2.svg": "2f646d94240d293d56589cabb71163cc5c8c0697dfcf20f1cdd44f7f90745bec",
+      "F3.pdf": "2742c4486a479fa3459afb0c261862d3ff230eb2b01a91346634a4845077f627",
+      "F3.png": "b55c16bad67aafb1a480aa6f7455a6206eaa57513cedb7a3fef1021400519e9e",
+      "F3.svg": "18fc4b0335c563b7428e89fe76d46af28838e51ab4185cbc9a0b6fb117d2182f",
+      "F4.pdf": "80cf2556836fa3c63649a7e794c8093dcc75eb6929d8fde3ade1c307fd542887",
+      "F4.png": "740cc120c590bd3bc13dca9ee31fe6a849d4704d5f430883463858c4206bd45a",
+      "F4.svg": "8c60307967992206ec0c058ea149dc73c05af3a07bba13957df737b011cabad7",
+      "F5.pdf": "29d586e69b24bb63bb4fdff312644f0e3c8f31169272bd00bdf96ca9ca30ceb0",
+      "F5.png": "aae079ea7e676d6729f1ced02b8b85c53bf179604a669be26cf42b5c2f9beace",
+      "F5.svg": "361c3da06a8a57f03034702c0ad15021a9cc2a670e142a0efcfebf43b46a6923",
+      "F6.pdf": "dbd2eb5127ae1e8f72842f2dd7d8453a821e16a91eb590bc5ae91e1c22a6e707",
+      "F6.png": "15d36317faeb470d30f3388976d779d2e1442ab0c01ae6151c7fe67f6d790354",
+      "F6.svg": "be4b1e4d973068edb137bee1cfa2c3e9227d97d776887b9481dc3781d7c7a845",
+      "figure_audit.json": "1ff8de8a942f96b416d192986ab04cf53c3ebf0fcdc8f8e0c5348c4412cace7b",
+      "pdf_font_audit.json": "c490f51daa3719bebc1ab760ea52c2de631a507c09decd7af1a7148386dea993"
+    },
+    "data": {
+      "derived_summary.json": "ba89e24aa87d17100c95921fd48b0e83e1ccd4d3856701a61d6d0da55fbe56c2",
+      "link_mode_statistics.csv": "fb72fb9934b4a51295039cecb470d7bbb55d54cdab0c4fa85ab77715d6535618",
+      "pooled_ecdf.csv": "9a567cf386c64ad003fb0d27f30a152fb09430fa006d3a92e6238b8144892091",
+      "R1_plot_summary.csv": "20d2f5b27ec22368a6bf68dd143806059ef531e4d4bc2a5a9293f176abfaa6f2",
+      "R2_distribution_statistics.csv": "528e3d5f87a6e650045efb0edc4656ec03aa5f6b981ffce22a3dc48b02c2a910",
+      "R3_mechanism_statistics.csv": "b5a4ee0b6fad8f34e141ca9b7ca5a8932b6a557ed16418139c7d548e85bdb41f",
+      "R4_plot_summary.csv": "2dbf100cc22b04537353197f70fac905d17708c236c3a20994fea1f05a2b6b40",
+      "README.md": "cba7d31caa55c26e0cde48bd54d924deb8f9766bae843829f4a38fc267cf56ed",
+      "reference_weakness_quartiles.csv": "8c3e9dd3bdd790e5d286e327289559516368e5408c945be96c0c67b1ff206cba",
+      "service_runtime.csv": "404af5f7ca2cef51fa4dec91b741829fb8a4c17896b8063b5c3527f923048639",
+      "stratification_check.json": "1a4cfa27dcf64c9dec7fff2b531e62b8701bf5778c331caf3ae7b2025685e219"
+    }
+  }
+}

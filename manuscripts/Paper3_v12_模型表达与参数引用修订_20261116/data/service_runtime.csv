@@ -1,0 +1,17 @@
+﻿group,method,planned,success,service_pass,no_action,returned_service_failure,median_seconds,n_time,basis
+10A,reference,1000,1000,988,0,12,4.3673025500029325,1000,measured
+10A,main_new,1000,1000,996,0,4,8.845079550010269,1000,sum_of_components
+10A,zappone_mmee_fp_fixed,1000,1000,994,0,6,4.445051749993581,1000,measured
+10A,aboagye_matching_qt,1000,976,900,24,76,0.7121189999743365,976,measured
+10B,reference,1000,999,996,1,3,3.661462099989876,999,measured
+10B,main_new,1000,999,995,1,4,7.391485000116518,999,sum_of_components
+10B,zappone_mmee_fp_fixed,1000,999,999,1,0,3.7542196998838335,999,measured
+10B,aboagye_matching_qt,1000,981,915,19,66,0.5714280001120642,981,measured
+50A,reference,1000,1000,984,0,16,97.52759529999457,995,measured
+50A,main_new,1000,1000,997,0,3,111.0851378000225,995,measured
+50A,zappone_mmee_fp_fixed,1000,1000,995,0,5,97.68633110000519,995,measured
+50A,aboagye_matching_qt,1000,859,633,141,226,6.564804700028617,859,measured
+50B,reference,1000,999,973,1,26,91.92677299992647,999,measured
+50B,main_new,1000,999,994,1,5,107.17590829994879,999,sum_of_components
+50B,zappone_mmee_fp_fixed,1000,999,994,1,5,89.49276099997223,999,measured
+50B,aboagye_matching_qt,1000,876,661,124,215,6.456790850003017,876,measured

@@ -1,0 +1,6 @@
+{
+  "source": "all_method_periods.csv vs reference_weakness_quartiles.csv",
+  "grouping": "np.digitize(reference_min_EE,np.quantile(reference_min_EE,[.25,.5,.75]),right=False)",
+  "max_abs_difference_mbit_j": 3.552713678800501e-15,
+  "all_match": true
+}

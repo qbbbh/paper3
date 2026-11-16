@@ -1,0 +1,34 @@
+{
+  "font": "Times New Roman",
+  "font_file": "C:\\Windows\\Fonts\\times.ttf",
+  "new_simulations": false,
+  "figure_groups": 6,
+  "panel_counts": [
+    4,
+    4,
+    2,
+    4,
+    2,
+    4
+  ],
+  "data_sha256": {
+    "R1_plot_summary.csv": "20d2f5b27ec22368a6bf68dd143806059ef531e4d4bc2a5a9293f176abfaa6f2",
+    "pooled_ecdf.csv": "9a567cf386c64ad003fb0d27f30a152fb09430fa006d3a92e6238b8144892091",
+    "link_mode_statistics.csv": "fb72fb9934b4a51295039cecb470d7bbb55d54cdab0c4fa85ab77715d6535618",
+    "reference_weakness_quartiles.csv": "8c3e9dd3bdd790e5d286e327289559516368e5408c945be96c0c67b1ff206cba",
+    "R4_plot_summary.csv": "2dbf100cc22b04537353197f70fac905d17708c236c3a20994fea1f05a2b6b40",
+    "service_runtime.csv": "404af5f7ca2cef51fa4dec91b741829fb8a4c17896b8063b5c3527f923048639",
+    "R3_mechanism_statistics.csv": "b5a4ee0b6fad8f34e141ca9b7ca5a8932b6a557ed16418139c7d548e85bdb41f"
+  },
+  "format": [
+    "PDF",
+    "SVG",
+    "PNG"
+  ],
+  "png_dpi": 360,
+  "source_data_unchanged": true,
+  "figure_6_timing_provenance": "solid measured; open summed per-period components",
+  "figure_4_similar_tolerance_mbit_j": 1e-06,
+  "text_outside_canvas": [],
+  "figure_4_strata": "per-realization initial-minimum-EE quartiles; A/B conditional means equally weighted"
+}
