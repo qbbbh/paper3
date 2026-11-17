@@ -124,7 +124,7 @@ fig,axs=plt.subplots(1,2,figsize=(7.15,3.05))
 fig.subplots_adjust(left=.095,right=.985,bottom=.24,top=.79,wspace=.35)
 ax=axs[0]; setup(ax,'(a) RF use and minimum-EE occurrence')
 mr=[next(z for z in mode if z['group']==g and z['method']=='main_new' and z['scope']=='own_success' and z['mode']=='RF') for g in groups]
-for offset,key,label,color,hatch in [(-.18,'fraction','RF share of active links',BLUE,'//'),(.18,'weakest_mode_fraction','Periods with minimum EE on RF',RED,'')]:
+for offset,key,label,color,hatch in [(-.18,'fraction','Vehicle pairs using RF',BLUE,'//'),(.18,'weakest_mode_fraction','Periods with minimum EE on RF',RED,'')]:
     yy=vals(mr,key)*100
     ax.bar(x+offset,yy,width=.32,color=color,label=label,hatch=hatch,edgecolor='white',lw=.5)
     for xx,y in zip(x+offset,yy):ax.text(xx,y+1.4,f'{y:.1f}',ha='center',va='bottom',fontsize=7.4)

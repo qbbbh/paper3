@@ -19,6 +19,8 @@ annotated='--annotated' in sys.argv
 inputfile=source/('02_中文全文_V12_2_修改标注稿.md' if annotated else '01_中文全文_V12_2_修订稿.md')
 output=source/('Paper3_V12_2_修改标注版.docx' if annotated else 'Paper3_V12_2_完整审阅稿.docx')
 md=inputfile.read_text(encoding='utf-8-sig')
+if annotated:
+    md=re.sub(r'^\[\*\*〔M\d+〕\*\*\]\(03_逐段修改前后与理由\.md#m\d+\)\s*$', '', md, flags=re.M)
 md=re.sub(r'<!-- CHANGE (M\d+) -->',r'CHANGEFLAG\1\n',md)
 md=re.sub(r'!\[图(\d+)\]\(figures/F(\d+)\.svg\)\{width=100%\}',r'![](figures/F\2.png)',md)
 md=re.sub(r'<sup>(\[\d+\])</sup>',lambda m: 'SUPCITE'+m[1][1:-1]+'ENDSUP',md)

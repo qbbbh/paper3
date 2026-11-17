@@ -1,33 +1,138 @@
 {
-  "checked_on": "2026-11-17",
-  "base": "V12.1",
-  "base_commit": "fd9c5fe7fd88e40b92daa37b33b4178d3846e8cd",
-  "changed_blocks": 50,
-  "pages": 31,
-  "RF_candidate_range_m": 100,
-  "new_simulations": false,
-  "original_48_display_equations_preserved_except_numbering": true,
-  "new_definitions": [
-    "30: RF signal and interference plus noise",
-    "31: VLC signal and interference plus noise"
+  "checked_on": "2026-11-18",
+  "base_commit": "f2226eb0b676ed613a09e911d7f21a3f0fb3494f",
+  "comparison_base": "2026-11-17 的 V12.2 正文",
+  "changes": 54,
+  "review_items": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14",
+    "R15",
+    "R16",
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08"
   ],
-  "all_50_formula_leadins_checked": true,
-  "references_unchanged": true,
-  "figures_and_data_unchanged": true,
-  "native_math_objects": 411,
-  "inline_figures": 6,
-  "visual_review": "全部31页已逐页查看；Microsoft Word导出PDF后转为PNG审阅",
-  "rendering": "通用渲染器因未安装LibreOffice无法运行，改用Microsoft Word原生导出并核查",
-  "key_pages": [
-    9,
-    11,
-    12,
-    13,
-    15,
-    18,
+  "chapters_joined": 9,
+  "display_equation_groups": 50,
+  "equation_bodies_compared_to_base": "50组逐字符一致，式（28）含六个子编号",
+  "reference_entries": 31,
+  "citation_order": "首次引用依次为1至31，参考文献表与底稿逐字节一致",
+  "introduction_author_paragraphs": "引言第二、三自然段逐字一致",
+  "native_math_objects": 422,
+  "content_tables": 3,
+  "figures": 6,
+  "pages": 31,
+  "figure_caption_pages": [
+    19,
     20,
     21,
     22,
+    23,
     24
-  ]
+  ],
+  "page_geometry": "A4单栏，小四宋体与Times New Roman。Microsoft Word原生导出后逐页查看，正文与公式均在页内。",
+  "figure_update": "图3(a)图例采用 Vehicle pairs using RF。检查六张图的印刷PDF均嵌入Times New Roman。",
+  "data_files_byte_identical": 11,
+  "other_five_figures": "PDF、PNG、SVG与底稿逐字节相同",
+  "simulation_rerun": false,
+  "figure2_by_realization_actual_mean_ee_change_and_mean_min_ee_change_pct": {
+    "10A": [
+      -5.25,
+      44.65
+    ],
+    "10B": [
+      -5.62,
+      50.94
+    ],
+    "50A": [
+      -5.04,
+      80.59
+    ],
+    "50B": [
+      -4.95,
+      77.42
+    ]
+  },
+  "figure2_actual_min_ee_median_and_p25": {
+    "10": {
+      "reference": [
+        36.94,
+        20.66
+      ],
+      "main_new": [
+        82.29,
+        36.84
+      ]
+    },
+    "50": {
+      "reference": [
+        21.22,
+        12.93
+      ],
+      "main_new": [
+        42.88,
+        26.48
+      ]
+    }
+  },
+  "figure3_rf_pair_share_pct_minimum_on_rf_pct_reference_and_proposed_p05_mbit_per_j": {
+    "50A": [
+      34.04,
+      70.3,
+      18.57,
+      35.56
+    ],
+    "50B": [
+      34.7,
+      70.97,
+      17.35,
+      33.12
+    ]
+  },
+  "figure4_higher_vs_no_fair_power_and_similar_vs_fixed_mode_pct": {
+    "10": [
+      80.84,
+      62.88
+    ],
+    "50": [
+      87.74,
+      96.45
+    ]
+  },
+  "figure1_mode_changes_20ms": [
+    131,
+    200
+  ],
+  "figure5_50_vehicle_increment_mbit_per_j_per_percentage_point": [
+    0.66,
+    0.3
+  ],
+  "figure6_service_pass_out_of_1000": {
+    "10A": 996,
+    "10B": 995,
+    "50A": 997,
+    "50B": 994
+  },
+  "paper_sha256": {
+    "01_中文全文_V12_2_修订稿.md": "23732ded5b8d7549f1858c970731e01be099fcecf0871b4d339e4e5f5c9e5370",
+    "Paper3_V12_2_完整审阅稿.docx": "c7e903c69b3becff46de14982d9d91dcfd4a6a33119706ec53e3a3b9900d18cc",
+    "Paper3_V12_2_完整审阅稿.pdf": "fe53c2e9ad8443451f403e5a192d66869d98e2544caf65a76aca58dddfc0317e"
+  }
 }
