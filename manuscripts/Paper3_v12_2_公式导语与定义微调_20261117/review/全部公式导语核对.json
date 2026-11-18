@@ -65,7 +65,7 @@
   },
   {
     "equation": "17",
-    "lead_in": "$h^{\\mathrm{RF}}$表示阴影和快衰落共同产生的复幅度，与式（4）的功率增益满足$g^{\\mathrm{RF}}=10^{-\\mathrm{PL}/10}|h^{\\mathrm{RF}}|^2$。复噪声方差为$\\mathbb E|n|^2=\\nu^{\\mathrm{RF}}$。对于VLC导频，由式（7）可得几何光增益、随机光强因子与接收光功率的关系："
+    "lead_in": "式（16）中，$h^{\\mathrm{RF}}$为去除路径损耗后的RF信道系数，包含阴影衰落和快衰落。RF导频观测该系数的实部和虚部，式（4）则用其模平方计算功率增益，即$g^{\\mathrm{RF}}=10^{-\\mathrm{PL}/10}|h^{\\mathrm{RF}}|^2$。对于VLC导频，由式（7）得到接收光功率与几何光增益的关系："
   },
   {
     "equation": "18",
@@ -85,7 +85,7 @@
   },
   {
     "equation": "22",
-    "lead_in": "对于RF，待估量为归一化复信道幅度$h^{\\mathrm{RF}}$，其实部和虚部组成参数向量$\\boldsymbol\\vartheta=[\\operatorname{Re}h^{\\mathrm{RF}},\\operatorname{Im}h^{\\mathrm{RF}}]^T$。根据式（16）的复高斯导频观测模型，可得RF信道复幅度$h^{\\mathrm{RF}}$的Fisher信息矩阵及其无偏估计的均方误差下界："
+    "lead_in": "对RF导频，以信道系数$h^{\\mathrm{RF}}$的实部和虚部组成待估参数向量$\\boldsymbol\\vartheta=[\\operatorname{Re}h^{\\mathrm{RF}},\\operatorname{Im}h^{\\mathrm{RF}}]^T$。由式（16）可得这两个分量的Fisher信息矩阵，以及$h^{\\mathrm{RF}}$无偏估计的均方误差下界："
   },
   {
     "equation": "23",
@@ -93,7 +93,7 @@
   },
   {
     "equation": "24",
-    "lead_in": "最近一次可用导频的观测时刻$t_o$早于或等于当前决策时刻$t_k$，两者间隔为$\\tau_o=t_k-t_o$。估计器利用式（19）将观测时刻的状态估计推进至决策时刻。在无新观测的区间内，若平稳方差$\\Sigma$固定且$Q_n=(1-|\\rho_n|^2)\\Sigma$，令$c(\\tau_o)$为该区间各步$|\\rho_n|$的乘积，决策时刻的信道状态预测方差为："
+    "lead_in": "在决策时刻$t_k$已经收到的有效导频观测中，记最晚的采样时刻为$t_o$。从该次采样到决策经过的时间为$\\tau_o=t_k-t_o$。估计器利用式（19）将观测时刻的状态估计推进至决策时刻。在无新观测的区间内，若平稳方差$\\Sigma$固定且$Q_n=(1-|\\rho_n|^2)\\Sigma$，令$c(\\tau_o)$为该区间各步$|\\rho_n|$的乘积，决策时刻的信道状态预测方差为："
   },
   {
     "equation": "25",

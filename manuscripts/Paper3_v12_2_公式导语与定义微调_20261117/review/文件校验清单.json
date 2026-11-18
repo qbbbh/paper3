@@ -3,23 +3,23 @@
   "files": [
     {
       "path": "01_中文全文_V12_2_修订稿.md",
-      "bytes": 81481,
-      "sha256": "23732ded5b8d7549f1858c970731e01be099fcecf0871b4d339e4e5f5c9e5370"
+      "bytes": 81919,
+      "sha256": "506e9228563935c906b318e89390d5c2c1d1561104c2aaf7588f2812027df49f"
     },
     {
       "path": "02_中文全文_V12_2_修改标注稿.md",
-      "bytes": 86017,
-      "sha256": "3c0b6d9e9661bd0ff1a1a38b64aed86f07da5676ffe6a48b81cf41d9ae9573c7"
+      "bytes": 86875,
+      "sha256": "a5d90e3f6416e019596f0f8cb65daab44b45edc27d549e8ac10d9ef772b2b4c9"
     },
     {
       "path": "03_逐段修改前后与理由.md",
-      "bytes": 64257,
-      "sha256": "abf1b7f3a39871103fa263e32330a2933306d562f6cb52762f2290f3e2fb6414"
+      "bytes": 70075,
+      "sha256": "2b1c8a41fe1c8bf8e704710ba894ad0eb07ecf967c8e8feecd097c19a36aabce"
     },
     {
       "path": "04_V12_1至V12_2逐行对照.html",
-      "bytes": 289924,
-      "sha256": "a3df96003feb9b04abad6dffa91ee33f1bdb9bf168c514a12f2a91ef08f37c34"
+      "bytes": 302052,
+      "sha256": "d9696bec37c86c621eed0b9354795a1790fbfc6f1c1667139cd6f563b33675b1"
     },
     {
       "path": "05_公式编号对照.md",
@@ -28,8 +28,8 @@
     },
     {
       "path": "06_本轮问题答复.md",
-      "bytes": 4207,
-      "sha256": "3b77715b919db6eedc08ce38457a0014cff4d2f790dcf3d385aeb1ac13861d8c"
+      "bytes": 6114,
+      "sha256": "0bfcfd60dd5f50e413a0db193efa520cdd67d687713f9814d66e915538a0f035"
     },
     {
       "path": "07_V12_全文细节审查与待确认方案_20261117.md",
@@ -43,18 +43,18 @@
     },
     {
       "path": "Paper3_V12_2_完整审阅稿.docx",
-      "bytes": 1547975,
-      "sha256": "c7e903c69b3becff46de14982d9d91dcfd4a6a33119706ec53e3a3b9900d18cc"
+      "bytes": 1374132,
+      "sha256": "2567218148db337be807a8cea28057ddae8d318682160c500d7fa83bc6b52a55"
     },
     {
       "path": "Paper3_V12_2_完整审阅稿.pdf",
-      "bytes": 1264005,
-      "sha256": "fe53c2e9ad8443451f403e5a192d66869d98e2544caf65a76aca58dddfc0317e"
+      "bytes": 1204573,
+      "sha256": "7ccfddfba5fb530ba0bad83329ed2b1f62b65d198c145b8794433051869c9037"
     },
     {
       "path": "README.md",
-      "bytes": 1564,
-      "sha256": "d538fbff1a5ac8c76fc97bb7ba9cb115800f9d0279b0482096100893422f88ca"
+      "bytes": 1347,
+      "sha256": "7b412740044309af77f7bb7ce248281a47fdc117ea5ab36972e1cc7639c143e6"
     },
     {
       "path": "chapters/00_摘要.md",
@@ -68,13 +68,13 @@
     },
     {
       "path": "chapters/02_系统模型.md",
-      "bytes": 9590,
-      "sha256": "f3668ff47ff5690cdcc539664fcc5ad19e54cb554c756ec684c48bb1072e8a51"
+      "bytes": 9714,
+      "sha256": "f99c45f6111d8c599331562915f4e1e11a73bdb0f9fa8c16902a9a05ce6e7927"
     },
     {
       "path": "chapters/03_信道估计.md",
-      "bytes": 8145,
-      "sha256": "0268e6966cf581bb48c6d74bf3d89fda070182a07022fe4e40af7bd418e50a30"
+      "bytes": 8435,
+      "sha256": "01f829b6d36a9c57dcfd4d779faca9ce7f8206193fb9dd0c5a80cdfa30a57bc6"
     },
     {
       "path": "chapters/04_资源分配.md",
@@ -83,8 +83,8 @@
     },
     {
       "path": "chapters/05_仿真分析.md",
-      "bytes": 14080,
-      "sha256": "85234e8fe67ebcae3383277e94b4ecbd406e2e18ab6b38227692b3bc6b87e909"
+      "bytes": 14106,
+      "sha256": "9dd082994fa183dd91ea69f236d3c22feb125b7aeae55d809221bd4b353b0c5e"
     },
     {
       "path": "chapters/06_结论.md",
@@ -263,43 +263,43 @@
     },
     {
       "path": "review/visual_01_10.md",
-      "bytes": 655,
-      "sha256": "a78cc9322461cf1d163595171da53cd061b91cde06fa322d6064fb5456675e7e"
+      "bytes": 669,
+      "sha256": "edd4b8cb394a48955484e9b6f38e02c36c6ad4b733d27513968f152c42db158a"
     },
     {
       "path": "review/visual_11_20.md",
-      "bytes": 609,
-      "sha256": "fffa4595981ba0a5aa54171df6b2e1e650d0173f412e8a94db86dcf4c84b2153"
+      "bytes": 525,
+      "sha256": "81e89c983d121ea36de971f13378eab238790bdfe956b21f77214dbb73db8469"
     },
     {
       "path": "review/visual_21_24.md",
-      "bytes": 442,
-      "sha256": "1b680f310e406622e2d53977d1b965c506cfe13018f653b4551e45993f2cd336"
+      "bytes": 368,
+      "sha256": "2ad51d800feeba51fe77dc578606ee93b169a1ec07f93374a80dd2aed04c7ec2"
     },
     {
       "path": "review/visual_25_31.md",
-      "bytes": 517,
-      "sha256": "15e4e0f83046c2f70bf59b954c77c5f79f53f0708fecbc28b3d3c3d82b53bdd7"
+      "bytes": 344,
+      "sha256": "4f01ae28f84cf5417ed75e7742497f8329134ada728272b361574b458f1432d5"
     },
     {
       "path": "review/修改记录.json",
-      "bytes": 62462,
-      "sha256": "3d7f00b22cca1d310292d9f3106ded03a9dada9472df587bd3ef9fcb2965d533"
+      "bytes": 68196,
+      "sha256": "597f4c7ab9f20802bb954cbae918797f5285f5dce0ed212b5d1ba3d9ab61443b"
     },
     {
       "path": "review/全部公式导语核对.json",
-      "bytes": 16433,
-      "sha256": "20c8a8b574adecdd78d578227ac144fd57f768f6b4a0037e4cb0d41c6a24bbeb"
+      "bytes": 16445,
+      "sha256": "3671cebe31bdbfce6ec012e2f8e2e310c2ea6c1d04891c2a568b83df58f6ae39"
     },
     {
       "path": "review/内容与排版核对.json",
-      "bytes": 3077,
-      "sha256": "d4abcdb1abf6c6ac15de3bb05e3bee98ac61723e70f9c33a5b21de49c1c57811"
+      "bytes": 4532,
+      "sha256": "53a1d41bc90b1c9aa90f021074034999c698ba8aafd7498f1de5cd28c55958b7"
     },
     {
       "path": "scripts/build_word.py",
-      "bytes": 19867,
-      "sha256": "11a8ae14aa24dd709f9e2f6ce92dbf2a5423a5f2f87aa516599b52a39df1d964"
+      "bytes": 22426,
+      "sha256": "84b51ce4836494120e61b0b913baa0fa96a80cbfabfc3a7aed6d03f0fd7e3036"
     },
     {
       "path": "scripts/redraw_figures.py",
