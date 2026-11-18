@@ -36,4 +36,4 @@ PF-EERA采用预测平均EE约束。四次实现中，实际平均EE损失超过
 
 ## 重绘
 
-运行 `scripts/redraw_figures.py`，需要Python、NumPy、Matplotlib和实际Times New Roman字体。程序默认读取本目录并导出PDF、SVG和360 dpi PNG至figures；字体文件、数据摘要和文字边界检查记录在figures/figure_audit.json。
+在本包运行 `python scripts/redraw_figures.py` 可从上述数据生成六组图。只需更新图2、图3的小图时，可运行 `python scripts/draw_review_panels.py`。Word中的八张独立子图对应 figures/panels 内的 PNG，同名 PDF 为矢量图。绘图需要 NumPy、Matplotlib 和 Times New Roman。

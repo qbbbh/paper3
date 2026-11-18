@@ -12,6 +12,8 @@ from docx.opc.constants import RELATIONSHIP_TYPE as RT
 
 import sys
 import tempfile
+from review_flow import finish_pagination
+from review_layout import extract_panels, put_panels, embed_png, prepare_review, single_group
 scratch=tempfile.TemporaryDirectory(prefix='Paper3_V12_Word_')
 stage=Path(scratch.name)
 source=Path(__file__).resolve().parent.parent
@@ -19,6 +21,7 @@ annotated='--annotated' in sys.argv
 inputfile=source/('02_中文全文_V12_2_修改标注稿.md' if annotated else '01_中文全文_V12_2_修订稿.md')
 output=source/('Paper3_V12_2_修改标注版.docx' if annotated else 'Paper3_V12_2_完整审阅稿.docx')
 md=inputfile.read_text(encoding='utf-8-sig')
+md, panel_tables=extract_panels(md)
 if annotated:
     md=re.sub(r'^\[\*\*〔M\d+〕\*\*\]\(03_逐段修改前后与理由\.md#m\d+\)\s*$', '', md, flags=re.M)
 md=re.sub(r'<!-- CHANGE (M\d+) -->',r'CHANGEFLAG\1\n',md)
@@ -120,7 +123,7 @@ for style in d.styles:
             border.getparent().remove(border)
 normal=d.styles['Normal']
 normal.paragraph_format.alignment=WD_ALIGN_PARAGRAPH.JUSTIFY
-normal.paragraph_format.line_spacing=1.18
+normal.paragraph_format.line_spacing=283/240
 normal.paragraph_format.space_after=Pt(4)
 normal.paragraph_format.widow_control=True
 for n in range(1,7):
@@ -138,7 +141,7 @@ for rpr in d.styles.element.xpath('./w:docDefaults/w:rPrDefault/w:rPr'):
 from copy import deepcopy
 from docx.text.paragraph import Paragraph
 
-group_insets={'3': 65, '5': 97, '7': 72, '15': 158, '16': 79, '18': 132, '21': 109, '25': 115, '28': 92, '29': 141, '30': 130, '31': 95, '34': 7, '35': 84, '38': 71, '40': 145, 'A1': 103, 'A2': 17, 'A3': 85, 'A4': 61, 'B2': 93, 'B4': 113}
+bookmark_ids=[10000]
 
 n_equations=0
 
@@ -166,50 +169,7 @@ def put_equation(parent,number):
     expression=parent.xpath('./m:oMathPara/m:oMath')[0]
     outer=expression.find(qn('m:eqArr'))
     rows=outer.findall(qn('m:e')) if outer is not None else [expression]
-    operator_problem=number in ('28','29','36','38','A1','A4')
-    for index,row in enumerate(rows):
-        math=OxmlElement('m:oMath')
-        for child in row:
-            if child.tag!=qn('m:argPr'): math.append(deepcopy(child))
-        for r in math.iter(qn('m:r')):
-            p=r.find(qn('w:rPr'))
-            if p is None:
-                p=OxmlElement('w:rPr'); r.insert(1 if r.find(qn('m:rPr')) is not None else 0,p)
-            for name in ('sz','szCs'):
-                size=p.find(qn('w:'+name))
-                if size is None:size=OxmlElement('w:'+name);p.append(size)
-                size.set(qn('w:val'),'24')
-        # Word shows the ampersand alignment anchor as a vertical bar in editing view.
-        for text in list(math.iter(qn('m:t'))):
-            text.text=(text.text or '').replace('&','')
-            if not text.text: text.getparent().remove(text)
-        label=None
-        if number=='28':
-            label='28'+chr(ord('a')+index)
-            suffix='('+label+')'
-            text=list(math.iter(qn('m:t')))[-1]
-            assert (text.text or '').endswith(suffix),label
-            text.text=text.text[:-len(suffix)]
-        elif index==(len(rows)-1)//2:
-            label=number
-        el=OxmlElement('w:p'); parent.addprevious(el)
-        para=Paragraph(el,d); para.style='Normal'
-        para.alignment=WD_ALIGN_PARAGRAPH.LEFT
-        fmt=para.paragraph_format
-        fmt.left_indent=Pt(0);fmt.first_line_indent=Pt(0)
-        fmt.space_before=Pt(4 if index==0 else 1.5);fmt.space_after=Pt(5 if index+1==len(rows) else 1.5)
-        fmt.line_spacing=1.10
-        fmt.keep_with_next=(len(rows)>1 and len(rows)<=3 and index+1<len(rows))
-        fmt.keep_together=False
-        if len(rows)==1:
-            fmt.tab_stops.add_tab_stop(Pt(page_width/40),WD_TAB_ALIGNMENT.CENTER)
-        else:
-            inset=group_insets.get(number,35)
-            fmt.tab_stops.add_tab_stop(Pt(inset+(10 if operator_problem and index>0 else 0)),WD_TAB_ALIGNMENT.LEFT)
-        fmt.tab_stops.add_tab_stop(Pt(page_width/20-1),WD_TAB_ALIGNMENT.RIGHT)
-        para.add_run(chr(9))
-        el.append(math)
-        if label:para.add_run(chr(9)+'('+label+')')
+    single_group(parent,number,rows,d,page_width,bookmark_ids)
 
 for index,p in enumerate(d.paragraphs):
     value=p.text.strip(); fmt=p.paragraph_format
@@ -387,11 +347,19 @@ for p in list(d.paragraphs):
             algorithm_started=False
 
 for sh in d.inline_shapes:
+    embed=sh._inline.graphic.graphicData.pic.blipFill.blip.embed
+    part=d.part.related_parts[embed]
+    from io import BytesIO
+    part._blob=embed_png(BytesIO(part.blob),1455)
     # Use the existing raster at its native aspect ratio.
-    width=Mm(154)
+    paragraph=sh._inline.xpath('ancestor::w:p')[0]
+    cap=paragraph.getnext()
+    caption=''.join(t.text or '' for t in cap.iter(qn('w:t'))) if cap is not None else ''
+    width=Mm(151 if caption.startswith('图6　') else 154)
     if sh.width!=width:
         sh.height=round(sh.height*width/sh.width); sh.width=width
 
+put_panels(d,source,panel_tables)
 foot=sec.footer.paragraphs[0]; foot.alignment=WD_ALIGN_PARAGRAPH.CENTER
 foot.paragraph_format.space_after=Pt(0)
 field=OxmlElement('w:fldSimple'); field.set(qn('w:instr'),'PAGE'); foot._p.append(field)
@@ -411,11 +379,13 @@ mathPr=settings.find(qn('m:mathPr'))
 if mathPr is not None:
     mf=mathPr.find(qn('m:mathFont'))
     if mf is not None:mf.set(qn('m:val'),'Cambria Math')
+converted_symbols=prepare_review(d)
+finish_pagination(d)
 d.save(output)
 with zipfile.ZipFile(output) as z:
     assert z.testzip() is None
     xml=z.read('word/document.xml').decode('utf-8')
     assert all(marker not in xml for marker in ['ALGORITHMLINEFLAG','EQNUMBERFLAG','SUPCITE','ENDSUP','CHANGEFLAG'])
     assert 'word/footnotes.xml' not in z.namelist() or '<w:footnote w:id="1">' not in z.read('word/footnotes.xml').decode()
-    assert len(re.findall(r'<m:oMath(?: |>)',xml))>=250
-print(json.dumps({'output':str(output),'tables':len(d.tables),'images':len(d.inline_shapes),'native_equations':len(re.findall(r'<m:oMath(?: |>)',xml)),'numbered_displays':n_equations},ensure_ascii=False))
+    assert len(re.findall(r'<m:oMath(?: |>)',xml))>=55
+print(json.dumps({'output':str(output),'tables':len(d.tables),'images':len(d.inline_shapes),'native_equations':len(re.findall(r'<m:oMath(?: |>)',xml)),'numbered_displays':n_equations,'simple_inline_symbols':converted_symbols},ensure_ascii=False))

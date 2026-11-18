@@ -220,12 +220,15 @@ finish(fig,'F6')
 inputs=['R1_plot_summary.csv','pooled_ecdf.csv','link_mode_statistics.csv',
         'reference_weakness_quartiles.csv','R4_plot_summary.csv','service_runtime.csv','R3_mechanism_statistics.csv']
 audit={'font':'Times New Roman','font_file':font_path,'new_simulations':False,
-       'figure_groups':6,'panel_counts':[4,4,2,4,2,4],
+       'figure_groups':6,'panel_counts':[4,4,4,4,2,4],
        'data_sha256':{name:hashlib.sha256((D/name).read_bytes()).hexdigest() for name in inputs},
        'format':['PDF','SVG','PNG'],'png_dpi':360,'source_data_unchanged':True,
        'figure_6_timing_provenance':'solid measured; open summed per-period components',
        'figure_4_similar_tolerance_mbit_j':1e-6,
        'text_outside_canvas':text_bounds,
        'figure_4_strata':'per-realization initial-minimum-EE quartiles; A/B conditional means equally weighted'}
+from draw_review_panels import draw as draw_panels
+draw_panels(D,F/'panels')
+audit['independent_panels']={'F2': 'panels/F2a–F2d', 'F3': 'panels/F3a–F3d', 'formats': ['PNG', 'PDF'], 'composite_F2_F3': '上轮合成图留作历史对照，现稿使用独立子图。'}
 (F/'figure_audit.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2),encoding='utf-8')
 print('Six figure groups exported using',font_path)

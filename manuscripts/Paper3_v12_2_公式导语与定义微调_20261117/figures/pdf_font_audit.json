@@ -17,5 +17,29 @@
   "F6.pdf": [
     "HKZAFR+TimesNewRomanPSMT"
   ],
-  "all_source_csv_byte_identical": true
+  "all_source_csv_byte_identical": true,
+  "panels/F2a.pdf": [
+    "DMOOMY+TimesNewRomanPSMT"
+  ],
+  "panels/F2b.pdf": [
+    "DMOOMY+TimesNewRomanPSMT"
+  ],
+  "panels/F2c.pdf": [
+    "DMOOMY+TimesNewRomanPSMT"
+  ],
+  "panels/F2d.pdf": [
+    "DMOOMY+TimesNewRomanPSMT"
+  ],
+  "panels/F3a.pdf": [
+    "DMOOMY+TimesNewRomanPSMT"
+  ],
+  "panels/F3b.pdf": [
+    "DMOOMY+TimesNewRomanPSMT"
+  ],
+  "panels/F3c.pdf": [
+    "DMOOMY+TimesNewRomanPSMT"
+  ],
+  "panels/F3d.pdf": [
+    "DMOOMY+TimesNewRomanPSMT"
+  ]
 }

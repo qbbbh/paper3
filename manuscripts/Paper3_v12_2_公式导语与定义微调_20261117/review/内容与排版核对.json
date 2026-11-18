@@ -2,7 +2,7 @@
   "checked_on": "2026-11-18",
   "base_commit": "f2226eb0b676ed613a09e911d7f21a3f0fb3494f",
   "comparison_base": "2026-11-17 的 V12.2 正文",
-  "changes": 59,
+  "changes": 62,
   "review_items": [
     "R01",
     "R02",
@@ -35,7 +35,7 @@
   "reference_entries": 31,
   "citation_order": "首次引用依次为1至31，参考文献表与底稿逐字节一致",
   "introduction_author_paragraphs": "引言第二、三自然段逐字一致",
-  "native_math_objects": 476,
+  "native_math_objects": 309,
   "content_tables": 3,
   "figures": 6,
   "pages": 27,
@@ -44,13 +44,11 @@
     17,
     18,
     19,
-    19,
+    20,
     20
   ],
-  "page_geometry": "A4单栏，小四宋体及Times New Roman。式号统一靠右，六幅图各自与图题同页。额外页底留白逐页测量。",
-  "figure_update": "六幅图的PNG、SVG与PDF均与上次V12交付逐字节一致。图在本文相关讨论段落间顺排。",
-  "data_files_byte_identical": 11,
-  "other_five_figures": "PDF、PNG、SVG与底稿逐字节相同",
+  "page_geometry": "Word导出A4单栏PDF，按实际墨迹测量每个编号公式，正文有三张数据表，两张无边框表分别排图2、图3的小图和图题。",
+  "data_files_byte_identical": 8,
   "simulation_rerun": false,
   "figure2_by_realization_actual_mean_ee_change_and_mean_min_ee_change_pct": {
     "10A": [
@@ -131,12 +129,42 @@
     "50B": 994
   },
   "paper_sha256": {
-    "01_中文全文_V12_2_修订稿.md": "506e9228563935c906b318e89390d5c2c1d1561104c2aaf7588f2812027df49f",
-    "Paper3_V12_2_完整审阅稿.docx": "2567218148db337be807a8cea28057ddae8d318682160c500d7fa83bc6b52a55",
-    "Paper3_V12_2_完整审阅稿.pdf": "7ccfddfba5fb530ba0bad83329ed2b1f62b65d198c145b8794433051869c9037"
+    "01_中文全文_V12_2_修订稿.md": "c569e1a015d1c75a0584e70377f18ff9dc6bf0110dc5be2050458ae07925d314",
+    "Paper3_V12_2_完整审阅稿.docx": "24747241308cc0a70871121993eb69e62e7cf335a0aea596134db58df5f34087",
+    "Paper3_V12_2_完整审阅稿.pdf": "bde258606ad7eb2ff79501211fbb1adbab5e042816a6f6f1db26eb0f4d785717"
   },
-  "layout_revision_baseline": "38b1552adee557bf3e35cebc0d51f3111451d6b3",
+  "layout_revision_baseline": "611db25a5ea437118c46bee40da5fbd899b502bf",
   "layout_bottom_gap_mm": [
+    6.4,
+    10.9,
+    11.3,
+    16.8,
+    9.0,
+    22.4,
+    8.9,
+    9.2,
+    7.1,
+    18.5,
+    10.8,
+    12.8,
+    5.8,
+    8.4,
+    0.7,
+    5.7,
+    3.9,
+    6.2,
+    7.1,
+    15.5,
+    6.7,
+    0.9,
+    18.7,
+    1.1,
+    7.3,
+    12.1,
+    72.0
+  ],
+  "gap_definition": "A4页面正常23毫米下边距以上，末行或图件下缘至正文版心底部的垂直距离。末页也计入。",
+  "preceding_pdf_bottom_gap_mm": [
     6.4,
     4.4,
     11.3,
@@ -165,54 +193,472 @@
     12.1,
     72.0
   ],
-  "gap_definition": "A4页面正常23毫米下边距以上，末行或图件下缘至正文版心底部的垂直距离。末页也计入。",
-  "preceding_pdf_bottom_gap_mm": [
-    2.3,
-    2.9,
-    9.6,
-    39.8,
-    30.3,
-    2.8,
-    57.3,
-    31.2,
-    1.1,
-    17.5,
-    41.3,
-    4.2,
-    1.1,
-    57.2,
-    70.8,
-    0.4,
-    84.7,
-    1.4,
-    32.7,
-    9.0,
-    57.4,
-    12.8,
-    76.1,
-    16.4,
-    22.2,
-    35.2,
-    13.4,
-    2.2,
-    14.0,
-    12.1,
-    14.2
-  ],
-  "word_interaction": {
-    "measured_in": "Microsoft Word 16.0",
-    "pages_with_successful_text_selection_and_scroll": 27,
-    "native_math_selected": true,
-    "edit_and_undo": true,
-    "vertical_scroll_positions": [
-      4,
-      33,
-      67,
-      89,
-      15
+  "panel_layout_tables": 2,
+  "figure_update": "图2、图3分别按四张独立子图编排。两图分别使用原有的pooled_ecdf.csv和link_mode_statistics.csv。",
+  "numbered_equation_geometry": {
+    "1": {
+      "page": 4,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 185.33,
+      "right_pt": 409.67,
+      "number_right_pt": 532.5
+    },
+    "2": {
+      "page": 4,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 177.0,
+      "right_pt": 418.0,
+      "number_right_pt": 532.5
+    },
+    "3": {
+      "page": 4,
+      "ink_center_offset_pt": 0.17,
+      "left_pt": 151.67,
+      "right_pt": 444.0,
+      "number_right_pt": 532.5
+    },
+    "4": {
+      "page": 4,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 210.0,
+      "right_pt": 385.0,
+      "number_right_pt": 532.5
+    },
+    "5": {
+      "page": 5,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 180.67,
+      "right_pt": 414.67,
+      "number_right_pt": 532.5
+    },
+    "6": {
+      "page": 5,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 196.0,
+      "right_pt": 399.0,
+      "number_right_pt": 532.5
+    },
+    "7": {
+      "page": 5,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 157.33,
+      "right_pt": 438.0,
+      "number_right_pt": 532.5
+    },
+    "8": {
+      "page": 5,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 218.67,
+      "right_pt": 376.33,
+      "number_right_pt": 532.5
+    },
+    "9": {
+      "page": 5,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 199.33,
+      "right_pt": 395.67,
+      "number_right_pt": 532.5
+    },
+    "10": {
+      "page": 5,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 241.67,
+      "right_pt": 353.67,
+      "number_right_pt": 532.5
+    },
+    "11": {
+      "page": 6,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 213.0,
+      "right_pt": 382.33,
+      "number_right_pt": 532.5
+    },
+    "12": {
+      "page": 6,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 180.0,
+      "right_pt": 415.33,
+      "number_right_pt": 532.5
+    },
+    "13": {
+      "page": 6,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 154.33,
+      "right_pt": 441.0,
+      "number_right_pt": 532.5
+    },
+    "14": {
+      "page": 6,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 174.0,
+      "right_pt": 421.33,
+      "number_right_pt": 532.5
+    },
+    "15": {
+      "page": 6,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 234.33,
+      "right_pt": 360.67,
+      "number_right_pt": 532.5
+    },
+    "16": {
+      "page": 7,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 163.33,
+      "right_pt": 431.67,
+      "number_right_pt": 532.5
+    },
+    "17": {
+      "page": 7,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 224.0,
+      "right_pt": 371.33,
+      "number_right_pt": 532.5
+    },
+    "18": {
+      "page": 7,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 212.0,
+      "right_pt": 383.0,
+      "number_right_pt": 532.5
+    },
+    "19": {
+      "page": 7,
+      "ink_center_offset_pt": -0.33,
+      "left_pt": 166.33,
+      "right_pt": 428.33,
+      "number_right_pt": 532.5
+    },
+    "20": {
+      "page": 7,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 129.0,
+      "right_pt": 466.33,
+      "number_right_pt": 532.5
+    },
+    "21": {
+      "page": 7,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 190.67,
+      "right_pt": 404.33,
+      "number_right_pt": 532.5
+    },
+    "22": {
+      "page": 8,
+      "ink_center_offset_pt": -0.83,
+      "left_pt": 173.0,
+      "right_pt": 420.67,
+      "number_right_pt": 532.5
+    },
+    "23": {
+      "page": 8,
+      "ink_center_offset_pt": -0.83,
+      "left_pt": 197.67,
+      "right_pt": 396.0,
+      "number_right_pt": 532.5
+    },
+    "24": {
+      "page": 8,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 202.67,
+      "right_pt": 392.33,
+      "number_right_pt": 532.5
+    },
+    "25": {
+      "page": 9,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 197.0,
+      "right_pt": 398.0,
+      "number_right_pt": 532.5
+    },
+    "26": {
+      "page": 9,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 173.67,
+      "right_pt": 421.67,
+      "number_right_pt": 532.5
+    },
+    "27": {
+      "page": 9,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 155.67,
+      "right_pt": 439.67,
+      "number_right_pt": 532.5
+    },
+    "28a": {
+      "page": 10,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 257.33,
+      "right_pt": 337.67,
+      "number_right_pt": 532.5
+    },
+    "28b": {
+      "page": 10,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 181.67,
+      "right_pt": 413.67,
+      "number_right_pt": 532.5
+    },
+    "28c": {
+      "page": 10,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 209.33,
+      "right_pt": 385.67,
+      "number_right_pt": 532.5
+    },
+    "28d": {
+      "page": 10,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 238.0,
+      "right_pt": 357.0,
+      "number_right_pt": 532.5
+    },
+    "28e": {
+      "page": 10,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 217.33,
+      "right_pt": 378.0,
+      "number_right_pt": 532.5
+    },
+    "28f": {
+      "page": 10,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 233.33,
+      "right_pt": 362.0,
+      "number_right_pt": 532.5
+    },
+    "29": {
+      "page": 10,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 226.33,
+      "right_pt": 369.0,
+      "number_right_pt": 532.5
+    },
+    "30": {
+      "page": 10,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 210.67,
+      "right_pt": 384.67,
+      "number_right_pt": 532.5
+    },
+    "31": {
+      "page": 11,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 178.67,
+      "right_pt": 416.67,
+      "number_right_pt": 532.5
+    },
+    "32": {
+      "page": 11,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 220.0,
+      "right_pt": 375.0,
+      "number_right_pt": 532.5
+    },
+    "33": {
+      "page": 11,
+      "ink_center_offset_pt": -0.33,
+      "left_pt": 189.33,
+      "right_pt": 405.33,
+      "number_right_pt": 532.5
+    },
+    "34": {
+      "page": 11,
+      "ink_center_offset_pt": -0.33,
+      "left_pt": 192.33,
+      "right_pt": 402.33,
+      "number_right_pt": 532.5
+    },
+    "35": {
+      "page": 11,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 168.67,
+      "right_pt": 426.33,
+      "number_right_pt": 532.5
+    },
+    "36": {
+      "page": 12,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 175.0,
+      "right_pt": 420.33,
+      "number_right_pt": 532.5
+    },
+    "37": {
+      "page": 12,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 162.33,
+      "right_pt": 432.67,
+      "number_right_pt": 532.5
+    },
+    "38": {
+      "page": 12,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 162.0,
+      "right_pt": 433.0,
+      "number_right_pt": 532.5
+    },
+    "39": {
+      "page": 13,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 169.33,
+      "right_pt": 425.67,
+      "number_right_pt": 532.5
+    },
+    "40": {
+      "page": 13,
+      "ink_center_offset_pt": -0.33,
+      "left_pt": 224.33,
+      "right_pt": 370.33,
+      "number_right_pt": 532.5
+    },
+    "A1": {
+      "page": 22,
+      "ink_center_offset_pt": 0.17,
+      "left_pt": 191.67,
+      "right_pt": 404.0,
+      "number_right_pt": 532.5
+    },
+    "A2": {
+      "page": 22,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 186.33,
+      "right_pt": 409.0,
+      "number_right_pt": 532.5
+    },
+    "A3": {
+      "page": 22,
+      "ink_center_offset_pt": 0.17,
+      "left_pt": 170.33,
+      "right_pt": 425.33,
+      "number_right_pt": 532.5
+    },
+    "A4": {
+      "page": 23,
+      "ink_center_offset_pt": 0.01,
+      "left_pt": 154.0,
+      "right_pt": 441.33,
+      "number_right_pt": 532.5
+    },
+    "A5": {
+      "page": 23,
+      "ink_center_offset_pt": 0.17,
+      "left_pt": 184.0,
+      "right_pt": 411.67,
+      "number_right_pt": 532.5
+    },
+    "B1": {
+      "page": 24,
+      "ink_center_offset_pt": -0.33,
+      "left_pt": 194.33,
+      "right_pt": 400.33,
+      "number_right_pt": 532.5
+    },
+    "B2": {
+      "page": 24,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 176.67,
+      "right_pt": 418.33,
+      "number_right_pt": 532.5
+    },
+    "B3": {
+      "page": 24,
+      "ink_center_offset_pt": 0.34,
+      "left_pt": 184.33,
+      "right_pt": 411.67,
+      "number_right_pt": 532.5
+    },
+    "B4": {
+      "page": 24,
+      "ink_center_offset_pt": -0.16,
+      "left_pt": 194.67,
+      "right_pt": 400.33,
+      "number_right_pt": 532.5
+    },
+    "B5": {
+      "page": 25,
+      "ink_center_offset_pt": 0.34,
+      "left_pt": 194.33,
+      "right_pt": 401.67,
+      "number_right_pt": 532.5
+    }
+  },
+  "largest_center_deviation_pt": 0.83,
+  "flags_with_positive_values": {
+    "word/document.xml": {
+      "keepNext": 0,
+      "keepLines": 0,
+      "pageBreakBefore": 0,
+      "suppressLineNumbers": 0
+    },
+    "word/styles.xml": {
+      "keepNext": 0,
+      "keepLines": 0,
+      "pageBreakBefore": 0,
+      "suppressLineNumbers": 0
+    },
+    "word/settings.xml": {
+      "keepNext": 0,
+      "keepLines": 0,
+      "pageBreakBefore": 0,
+      "suppressLineNumbers": 0
+    },
+    "word/numbering.xml": {
+      "keepNext": 0,
+      "keepLines": 0,
+      "pageBreakBefore": 0,
+      "suppressLineNumbers": 0
+    }
+  },
+  "panel_layout": {
+    "Figure 2": [
+      "(a) 10车最低链路EE",
+      "(b) 50车最低链路EE",
+      "(c) 10车平均链路EE",
+      "(d) 50车平均链路EE"
     ],
-    "original_body_tables": 52,
-    "current_body_tables": 3,
-    "author_indent_left_and_hanging_twips": 482
-  }
+    "Figure 3": [
+      "(a) 10车：全体车对和最低EE车对的RF使用率",
+      "(b) 50车：全体车对和最低EE车对的RF使用率",
+      "(c) 10车RF链路EE的第5百分位",
+      "(d) 50车RF链路EE的第5百分位"
+    ]
+  },
+  "current_display_math": {
+    "identical_display_characters": 3032,
+    "identical_structures": {
+      "nary": 16,
+      "d": 29,
+      "sSubSup": 136,
+      "sSub": 313,
+      "f": 41,
+      "sSup": 72,
+      "rad": 9,
+      "bar": 6,
+      "limLow": 10,
+      "acc": 44
+    },
+    "source_equation_groups": 50,
+    "unchanged_csv_files": 8
+  },
+  "word_interaction": {
+    "application": "Microsoft Word 16",
+    "tested_with_show_all": true,
+    "pages_with_exact_selected_text": 27,
+    "comment_insert_delete": true,
+    "edit_and_undo": true,
+    "native_math_selected": true,
+    "before": {
+      "bytes": 1374132,
+      "compatibility_mode": 12,
+      "open_s": 0.899,
+      "median_navigate_select_scroll_ms": 269.5
+    },
+    "after": {
+      "bytes": 502396,
+      "compatibility_mode": 15,
+      "open_s": 0.619,
+      "median_navigate_select_scroll_ms": 207.2
+    }
+  },
+  "all_tables_in_word": 5
 }
